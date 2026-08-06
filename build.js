@@ -6,7 +6,6 @@ const SECTIONS = [
     "sections/02_who_this_is_for.html",
     "sections/03_why_students_improve.html",
     "sections/03b_soft_cta_1.html",
-    "sections/04_method_intro.html",
     "sections/05_vsl.html",
     "sections/06_student_results_summary.html",
     "sections/06b_soft_cta_2.html",
