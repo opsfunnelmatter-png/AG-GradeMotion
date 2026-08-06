@@ -324,11 +324,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }, 300); // matches CSS transition time
     }
 
-    // --- BOOKING EVENT LISTENERS ---
-    // Intercept clicks on ONLY pricing/bottom CTA buttons or forms.gle links to open modal
+    // Intercept clicks on all Diagnostic buttons and forms.gle links to open modal coherently
     document.body.addEventListener("click", (e) => {
         const target = e.target.closest(
-            'a[href*="forms.gle"], .btn-cta-action'
+            'a[href*="forms.gle"], a[href*="diagnostic"], .btn-apply, .btn-cta-action, .btn-inline-cta, .btn-explore-lessons, .btn-pedagogy-apply, .btn-card-embedded-apply'
         );
 
         if (target && modal) {
