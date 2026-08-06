@@ -2445,107 +2445,39 @@ if (document.readyState === 'loading') {
 
                         <!-- Contact Number -->
                         <div class="form-group">
-                            <label for="student-phone">Contact Number *</label>
+                            <label for="student-phone">WhatsApp / Phone Number *</label>
                             <div class="phone-input-group">
                                 <select id="country-code" name="country_code" aria-label="Country Code" required>
-                                    <option value="+60">Malaysia (+60)</option>
-                                    <option value="+65">Singapore (+65)</option>
-                                    <option value="+44">UK (+44)</option>
-                                    <option value="+1">US/Canada (+1)</option>
-                                    <option value="+61">Australia (+61)</option>
-                                    <option value="+971">UAE (+971)</option>
+                                    <option value="+60">🇲🇾 +60</option>
+                                    <option value="+65">🇸🇬 +65</option>
+                                    <option value="+44">🇬🇧 +44</option>
+                                    <option value="+1">🇺🇸 +1</option>
+                                    <option value="+61">🇦🇺 +61</option>
+                                    <option value="+971">🇦🇪 +971</option>
                                     <option value="Other">Other</option>
                                 </select>
-                                <input type="tel" id="student-phone" name="phone" placeholder="Phone number" required>
+                                <input type="tel" id="student-phone" name="phone" placeholder="WhatsApp / Phone number" required>
                             </div>
-                        </div>
-
-                        <!-- Country -->
-                        <div class="form-group">
-                            <label for="student-country">Country of Residence *</label>
-                            <input type="text" id="student-country" name="country" placeholder="e.g. Malaysia, UK, Singapore" required>
                         </div>
 
                         <!-- Exam Board -->
                         <div class="form-group">
                             <label for="exam-board">Exam Board *</label>
                             <select id="exam-board" name="exam_board" required>
-                                <option value="" disabled selected>Choose Board</option>
-                                <option value="CIE">CIE</option>
+                                <option value="" disabled selected>Select Exam Board</option>
+                                <option value="CIE">CIE (Cambridge)</option>
                                 <option value="Edexcel IAL">Edexcel IAL</option>
-                                <option value="Edexcel GCE">Edexcel GCE</option>
+                                <option value="Edexcel GCE">Edexcel GCE (UK)</option>
                                 <option value="AQA">AQA</option>
                                 <option value="OCR">OCR</option>
                                 <option value="Other">Other</option>
                             </select>
                         </div>
 
-                        <!-- Paper Name & Exam Session -->
-                        <div class="form-group">
-                            <label for="paper-session">Paper Name & Exam Session *</label>
-                            <input type="text" id="paper-session" name="paper_session" placeholder="e.g. FP1 & FS - May 2027" required>
-                        </div>
-
-                        <!-- Current & Target Grade -->
+                        <!-- Target Grade & Exam Date (Optional) -->
                         <div class="form-group full-width">
-                            <div class="form-row-2col">
-                                <div>
-                                    <label for="current-grade">Current Grade *</label>
-                                    <select id="current-grade" name="current_grade" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="C">C</option>
-                                        <option value="D">D</option>
-                                        <option value="E">E</option>
-                                        <option value="n/a">n/a</option>
-                                    </select>
-                                </div>
-                                <div>
-                                    <label for="target-grade">Target Grade *</label>
-                                    <select id="target-grade" name="target_grade" required>
-                                        <option value="" disabled selected>Select</option>
-                                        <option value="A">A</option>
-                                        <option value="B">B</option>
-                                        <option value="C">C</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Challenges -->
-                        <div class="form-group full-width">
-                            <label for="challenges">What are your main challenges in Further Math? *</label>
-                            <textarea id="challenges" name="challenges" rows="3" placeholder="Explain your main struggles/topics here..." required></textarea>
-                        </div>
-
-                        <!-- When to start -->
-                        <div class="form-group">
-                            <label>When would you like to start? *</label>
-                            <div class="radio-group">
-                                <label class="radio-label">
-                                    <input type="radio" name="start_time" value="Immediately" checked> Immediately
-                                </label>
-                                <label class="radio-label">
-                                    <input type="radio" name="start_time" value="Within 1-2 weeks"> Within 1-2 weeks
-                                </label>
-                            </div>
-                        </div>
-
-                        <!-- Preferred communication method -->
-                        <div class="form-group">
-                            <label>Preferred communication method *</label>
-                            <div class="radio-group">
-                                <label class="radio-label">
-                                    <input type="radio" name="comm_method" value="WhatsApp" checked> WhatsApp
-                                </label>
-                                <label class="radio-label">
-                                    <input type="radio" name="comm_method" value="Telegram"> Telegram
-                                </label>
-                                <label class="radio-label">
-                                    <input type="radio" name="comm_method" value="Email"> Email
-                                </label>
-                            </div>
+                            <label for="paper-session">Target Grade & Exam Date (Optional)</label>
+                            <input type="text" id="paper-session" name="paper_session" placeholder="e.g. Target A* in May/June 2025">
                         </div>
                     </div>
 
