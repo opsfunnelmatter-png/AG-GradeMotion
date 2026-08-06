@@ -3,14 +3,18 @@ const path = require('path');
 
 const SECTIONS = [
     "sections/01_hero.html",
+    "sections/02_who_this_is_for.html",
     "sections/03_why_students_improve.html",
+    "sections/03b_soft_cta_1.html",
+    "sections/04_method_intro.html",
     "sections/05_vsl.html",
     "sections/06_student_results_summary.html",
-    "sections/03b_soft_cta_1.html",
-    "sections/08_framework.html",
-    "sections/10_pedagogy.html",
-    "sections/02_who_this_is_for.html",
     "sections/06b_soft_cta_2.html",
+    "sections/07_how_it_works.html",
+    "sections/08_framework.html",
+    "sections/09_telegram_community.html",
+    "sections/09b_telegram_lead_capture.html",
+    "sections/10_pedagogy.html",
     "sections/11_subjects_and_curriculum.html",
     "sections/11b_soft_cta_3.html",
     "sections/12_case_studies.html",
@@ -18,7 +22,6 @@ const SECTIONS = [
     "sections/13b_hard_cta_4.html",
     "sections/14_tutoring_details.html",
     "sections/15_pricing.html",
-    "sections/07_how_it_works.html",
     "sections/16_faq.html",
     "sections/17_cta.html"
 ];
