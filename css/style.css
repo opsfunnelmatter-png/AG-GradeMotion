@@ -52,6 +52,21 @@ body {
     padding-top: 112px; /* nav ~74px + ticker ~38px */
 }
 
+/* STANDARDIZED 2-COLOR HEADER HIGHLIGHTS */
+.gradient-highlight {
+    background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
+.gradient-highlight-pink {
+    background: linear-gradient(135deg, #FF4A95 0%, #FF84B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline;
+}
+
 /* STICKY TICKER BANNER */
 .ticker-banner-outer {
     position: fixed;
