@@ -3,10 +3,10 @@ const path = require('path');
 
 const SECTIONS = [
     "sections/01_hero.html",
-    "sections/02_who_this_is_for.html",
     "sections/03_why_students_improve.html",
     "sections/05_vsl.html",
     "sections/03b_soft_cta_1.html",
+    "sections/02_who_this_is_for.html",
     "sections/06_student_results_summary.html",
     "sections/07_how_it_works.html",
     "sections/08_framework.html",
