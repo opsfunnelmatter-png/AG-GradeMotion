@@ -19,11 +19,14 @@ function toggleFaq(triggerElement) {
 }
 
 // Global Video Switcher (Framework Section)
-function switchVideo(videoSrc, activeTabId) {
+function switchVideo(videoSrc, activeTabId, posterSrc) {
     const player = document.getElementById('carouselPlayer');
     const source = document.getElementById('videoSource');
     
     if (player && source) {
+        if (posterSrc) {
+            player.poster = posterSrc;
+        }
         source.src = videoSrc;
         player.load();
     }
