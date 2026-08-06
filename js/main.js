@@ -415,45 +415,46 @@ document.addEventListener("DOMContentLoaded", () => {
             // Format phone with country code for delivery clarity
             const fullPhone = `${object.country_code} ${object.phone}`;
 
-            // Prepare payload for Google Apps Script
-            const payload = {
-                name: object.name,
-                email: object.email,
-                phone: fullPhone,
-                country: object.country,
-                exam_board: object.exam_board,
-                paper_session: object.paper_session,
-                current_grade: object.current_grade,
-                target_grade: object.target_grade,
-                start_time: object.start_time,
-                preferred_contact: object.comm_method,
-                challenges: object.challenges
-            };
+            // --- TELEGRAM BOT DIRECT NOTIFICATION ---
+            // Telegram Bot Token & Chat ID (Replace with your actual Telegram Bot Token & Chat ID)
+            const TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
+            const TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";
 
-            const googleAppScriptUrl = "https://script.google.com/macros/s/AKfycbyJ-telwndzLS7fgeodjWtovELGcIlDipV6mCXFnSlsEmwR0kGsWBQgkWHOsw4Fa8kj/exec";
+            // Format message for Telegram Bot Notification
+            const telegramMessage = 
+`🚨 <b>NEW DIAGNOSTIC BOOKING</b> 🚨
 
-            // Send via AJAX to Google Apps Script
-            fetch(googleAppScriptUrl, {
-                method: "POST",
-                mode: "no-cors",
-                headers: {
-                    "Content-Type": "application/json"
-                },
-                body: JSON.stringify(payload)
-            })
-            .then(() => {
-                // Redirect to thank-you.html immediately
+👤 <b>Name:</b> ${object.name || 'N/A'}
+📱 <b>WhatsApp/Phone:</b> <code>${fullPhone}</code>
+📧 <b>Email:</b> ${object.email || 'N/A'}
+📚 <b>Exam Board:</b> ${object.exam_board || 'N/A'}
+🎯 <b>Target & Exam Date:</b> ${object.paper_session || 'N/A'}
+
+⏰ <i>Time Sent: ${new Date().toLocaleString()}</i>`;
+
+            // If Telegram Bot Token is configured, send directly to Telegram API
+            if (TELEGRAM_BOT_TOKEN !== "YOUR_TELEGRAM_BOT_TOKEN" && TELEGRAM_CHAT_ID !== "YOUR_TELEGRAM_CHAT_ID") {
+                const telegramApiUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
+                
+                fetch(telegramApiUrl, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({
+                        chat_id: TELEGRAM_CHAT_ID,
+                        text: telegramMessage,
+                        parse_mode: "HTML"
+                    })
+                })
+                .then(() => { window.location.href = "thank-you.html"; })
+                .catch(err => {
+                    console.error("Telegram notification error:", err);
+                    window.location.href = "thank-you.html";
+                });
+            } else {
+                // Default redirect to thank-you page
+                console.log("Form submitted locally:", payload);
                 window.location.href = "thank-you.html";
-            })
-            .catch(error => {
-                console.error("Error submitting form:", error);
-                // Fallback redirect so conversion is tracked even on network failure
-                window.location.href = "thank-you.html";
-            })
-            .finally(() => {
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = originalBtnText;
-            });
+            }
         });
     }
 
