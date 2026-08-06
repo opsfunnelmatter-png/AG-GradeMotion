@@ -1,8 +1,9 @@
 {
   "version": 2,
-  "name": "grademotion-malaysia",
   "cleanUrls": true,
   "trailingSlash": false,
+  "buildCommand": "node build.js",
+  "outputDirectory": ".",
   "routes": [
     { "src": "/thank-you", "dest": "/thank-you.html" },
     { "src": "/(.*)", "dest": "/$1" }
