@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      // Delay Google Tag loading to window.onload and idle state to eliminate CPU/TBT blocking
+      window.addEventListener('load', function() {
+        var loadGtag = function() {
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18235392399';
+          script.async = true;
+          document.head.appendChild(script);
+          
+          gtag('js', new Date());
+          gtag('config', 'AW-18235392399');
+        };
+        
+        if (window.requestIdleCallback) {
+          window.requestIdleCallback(loadGtag);
+        } else {
+          setTimeout(loadGtag, 1000);
+        }
+      });
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Application Received | Grade Motion</title>
+    <meta name="description" content="Tempahan sesi diagnostik A-Level Further Maths anda telah diterima. Tutor Sheefa akan menghubungi anda dalam masa 24 jam!">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <style>
+        /* Specific page adjustments to style thank you card */
+        .thank-you-wrapper {
+            max-width: 650px;
+            margin: 80px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .thank-you-card {
+            background: var(--surface-white);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 50px 40px;
+            box-shadow: var(--card-shadow);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+
+        .thank-you-card::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            left: -100px;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(255, 74, 149, 0.08) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .thank-you-card::after {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            right: -100px;
+            width: 250px;
+            height: 250px;
+            background: radial-gradient(circle, rgba(123, 44, 191, 0.08) 0%, transparent 70%);
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .success-icon-wrap {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #eef7ee 0%, #d4eed4 100%);
+            border: 1px solid #a3e0a3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 36px;
+            color: #2e7d32;
+            box-shadow: 0 8px 20px rgba(46, 125, 50, 0.1);
+            animation: scaleIn 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+            position: relative;
+            z-index: 1;
+        }
+
+        @keyframes scaleIn {
+            0% { transform: scale(0); opacity: 0; }
+            100% { transform: scale(1); opacity: 1; }
+        }
+
+        .thank-you-title {
+            font-size: 32px;
+            font-weight: 800;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
+            line-height: 1.2;
+            position: relative;
+            z-index: 1;
+        }
+
+        .thank-you-subtitle {
+            font-size: 16px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .next-steps-container {
+            width: 100%;
+            background: rgba(123, 44, 191, 0.02);
+            border: 1px solid var(--line-subtle);
+            border-radius: 16px;
+            padding: 24px;
+            text-align: left;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 12px;
+        }
+
+        .next-steps-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--dark-purple);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .step-item {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 14px;
+            font-size: 13.5px;
+            line-height: 1.5;
+            color: var(--text-muted);
+        }
+
+        .step-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .step-number {
+            font-weight: 700;
+            color: var(--purple);
+            background: rgba(123, 44, 191, 0.08);
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            flex-shrink: 0;
+            margin-top: 1px;
+        }
+
+        .btn-home {
+            background: var(--gradient-primary);
+            color: white !important;
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-weight: 700;
+            font-size: 13px;
+            text-decoration: none;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            box-shadow: 0 4px 15px rgba(123, 44, 191, 0.2);
+            border: none;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .btn-home:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(123, 44, 191, 0.35);
+        }
+
+        .btn-youtube {
+            background: #FF0000;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            margin-top: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-youtube:hover {
+            background: #CC0000;
+        }
+        
+        @media (max-width: 580px) {
+            .thank-you-card {
+                padding: 40px 24px;
+            }
+            .thank-you-title {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header-outer">
+        <header>
+            <a href="index.html" class="logo-container" aria-label="Go to home page">
+                <img src="gm1.webp" alt="Grade Motion Banner" class="logo-img" onerror="this.style.backgroundColor='rgba(123,44,191,0.05)';">
+            </a>
+            <nav id="main-nav">
+                <a href="index.html#hero">Home</a>
+                <a href="index.html#framework">Framework</a>
+                <a href="index.html#pedagogy">The Method</a>
+                <a href="index.html#pricing">Pricing</a>
+                <a href="index.html#pricing" class="btn-apply">Secure Your Slot</a>
+            </nav>
+        </header>
+    </div>
+
+    <!-- Main Content -->
+    <main class="thank-you-wrapper">
+        <div class="thank-you-card">
+            <div class="success-icon-wrap">
+                <span>✓</span>
+            </div>
+            
+            <h1 class="thank-you-title">Application Received!</h1>
+            <p class="thank-you-subtitle">
+                Thank you for booking your Further Math Diagnostic Session. We will reach out to you shortly.
+            </p>
+
+            <div class="next-steps-container">
+                <div class="next-steps-title">
+                    <span>📋</span> What happens next?
+                </div>
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div>
+                        <strong>WhatsApp Contact:</strong> Tutor Sheefa will message you directly on WhatsApp (or your preferred method) within 24 hours to coordinate your diagnostic session.
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div>
+                        <strong>Prepare Your Materials:</strong> Have your recent Further Maths test scripts, exam papers, or target topic lists ready so we can diagnose your gaps faster.
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div>
+                        <strong>Join Free Telegram Community:</strong> In the meantime, you can explore solved past paper questions & video walkthroughs in our Telegram group.<br>
+                        <a href="https://t.me/grademotion_furthermaths" target="_blank" class="btn-home" style="display: inline-block; margin-top: 8px; font-size: 13.5px; padding: 8px 18px;">
+                            💬 Join Telegram VIP Group
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="index.html" class="btn-home">
+                &larr; Return to Home Page
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" id="colophon">
+        <div class="footer-primary-wrap">
+            <div class="footer-container">
+                <div class="footer-grid">
+                    <div class="footer-column">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#hero">Home</a></li>
+                            <li><a href="index.html#framework">Framework</a></li>
+                            <li><a href="index.html#pedagogy">The Method</a></li>
+                            <li><a href="index.html#pricing">Pricing</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Guidance</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#framework">Grade Shift Framework</a></li>
+                            <li><a href="index.html#tutoring-details">Online Session Setup</a></li>
+                            <li><a href="index.html#case-studies">Reviews & Results</a></li>
+                            <li><a href="index.html#faq">Student FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Syllabuses</h3>
+                        <ul class="footer-links-list">
+                            <li><a href="index.html#telegram-community">CIE Further Math</a></li>
+                            <li><a href="index.html#telegram-community">Edexcel IAL Further Math</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <div class="footer-contact-info">
+                            <p><a href="index.html?contact=true">Contact Us &rarr;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below-wrap">
+            <div class="footer-container below-container">
+                <p class="copyright-txt">Copyright &copy; 2026 Grade Motion</p>
+                <div class="footer-below-links">
+                    <a href="#" class="footer-privacy-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple mobile menu toggle functionality for consistency -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const menuToggle = document.getElementById("mobile-menu-toggle");
+            const mainNav = document.getElementById("main-nav");
+            if (menuToggle && mainNav) {
+                menuToggle.addEventListener("click", () => {
+                    menuToggle.classList.toggle("active");
+                    mainNav.classList.toggle("active");
+                });
+            }
+        });
+    </script>
+</body>
+</html>
