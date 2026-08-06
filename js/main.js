@@ -141,7 +141,7 @@ window.addEventListener('scroll', () => {
             header.classList.remove('header-scrolled');
         }
     }
-});
+}, { passive: true });
 
 // Active Navigation highlighting on Scroll
 function initActiveNavOnScroll() {
