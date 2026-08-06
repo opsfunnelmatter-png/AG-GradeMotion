@@ -1352,7 +1352,7 @@ function switchTelegramTab(tab) {
     }
 }
 
-// Form Submission
+// Form Submission (Send to Google Sheet + Auto Redirect to Telegram)
 function handleTelegramOptIn(event) {
     event.preventDefault();
     const name = document.getElementById('tg-name').value;
@@ -1361,12 +1361,53 @@ function handleTelegramOptIn(event) {
 
     if (!name || !phone) return;
 
-    const leads = JSON.parse(localStorage.getItem('telegram_leads') || '[]');
-    leads.push({ name, phone: country + phone, date: new Date().toISOString() });
-    localStorage.setItem('telegram_leads', JSON.stringify(leads));
+    const fullPhone = `${country} ${phone}`;
+    const submitBtn = event.target.querySelector('button[type="submit"]');
+    const originalText = submitBtn ? submitBtn.innerHTML : '';
 
-    document.getElementById('telegram-optin-form').style.display = 'none';
-    document.getElementById('telegram-success-box').style.display = 'block';
+    if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = "⌛ Accessing Telegram Group...";
+    }
+
+    const payload = {
+        name: name,
+        email: "telegram_lead@grademotion.com",
+        phone: fullPhone,
+        country: country,
+        exam_board: "Telegram Lead",
+        paper_session: "",
+        current_grade: "",
+        target_grade: "",
+        start_time: "Free Telegram Opt-in",
+        preferred_contact: "WhatsApp",
+        challenges: "Joined Free Telegram Community VIP Group"
+    };
+
+    const googleAppScriptUrl = "https://script.google.com/macros/s/AKfycbyJ-telwndzLS7fgeodjWtovELGcIlDipV6mCXFnSlsEmwR0kGsWBQgkWHOsw4Fa8kj/exec";
+    const telegramGroupUrl = "https://t.me/grademotion_furthermaths";
+
+    fetch(googleAppScriptUrl, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(payload)
+    })
+    .then(() => {
+        window.open(telegramGroupUrl, "_blank");
+    })
+    .catch(err => {
+        console.error("Error submitting Telegram lead:", err);
+        window.open(telegramGroupUrl, "_blank");
+    })
+    .finally(() => {
+        const formEl = document.getElementById('telegram-optin-form');
+        const successBox = document.getElementById('telegram-success-box');
+        if (formEl) formEl.style.display = 'none';
+        if (successBox) successBox.style.display = 'block';
+    });
 }
 
 function openMediaModal(src, title) {
