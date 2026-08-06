@@ -533,5 +533,43 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         });
     }
+
+    // Auto Play when video enters viewport / Auto Pause when exiting
+    initVideoAutoplayObserver();
 });
+
+function initVideoAutoplayObserver() {
+    const videos = document.querySelectorAll('video');
+    if (!videos.length || !('IntersectionObserver' in window)) return;
+
+    const videoObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const video = entry.target;
+            if (entry.isIntersecting) {
+                video.muted = true;
+                video.playsInline = true;
+                const playPromise = video.play();
+                if (playPromise !== undefined) {
+                    playPromise.catch(() => {
+                        // Autoplay policy fallback
+                    });
+                }
+            } else {
+                if (!video.paused) {
+                    video.pause();
+                }
+            }
+        });
+    }, {
+        threshold: 0.35 // Trigger when 35% of video is visible
+    });
+
+    videos.forEach(video => {
+        video.muted = true;
+        video.setAttribute('muted', '');
+        video.setAttribute('playsinline', '');
+        videoObserver.observe(video);
+    });
+}
+
 
