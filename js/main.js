@@ -416,9 +416,8 @@ document.addEventListener("DOMContentLoaded", () => {
             const fullPhone = `${object.country_code} ${object.phone}`;
 
             // --- TELEGRAM BOT DIRECT NOTIFICATION ---
-            // Telegram Bot Token & Chat ID (Replace with your actual Telegram Bot Token & Chat ID)
-            const TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
-            const TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID";
+            const TELEGRAM_BOT_TOKEN = "8603480467:AAFeMl80jeciaK0aWWn_EHQtLvgpjEDsxJs";
+            const TELEGRAM_CHAT_ID = "56529712";
 
             // Format message for Telegram Bot Notification
             const telegramMessage = 

@@ -1349,30 +1349,26 @@ function handleTelegramOptIn(event) {
         submitBtn.innerHTML = "⌛ Accessing Telegram Group...";
     }
 
-    const payload = {
-        name: name,
-        email: "telegram_lead@grademotion.com",
-        phone: fullPhone,
-        country: country,
-        exam_board: "Telegram Lead",
-        paper_session: "",
-        current_grade: "",
-        target_grade: "",
-        start_time: "Free Telegram Opt-in",
-        preferred_contact: "WhatsApp",
-        challenges: "Joined Free Telegram Community VIP Group"
-    };
-
-    const googleAppScriptUrl = "https://script.google.com/macros/s/AKfycbyJ-telwndzLS7fgeodjWtovELGcIlDipV6mCXFnSlsEmwR0kGsWBQgkWHOsw4Fa8kj/exec";
+    const TELEGRAM_BOT_TOKEN = "8603480467:AAFeMl80jeciaK0aWWn_EHQtLvgpjEDsxJs";
+    const TELEGRAM_CHAT_ID = "56529712";
     const telegramGroupUrl = "https://t.me/grademotion_furthermaths";
 
-    fetch(googleAppScriptUrl, {
+    const telegramMessage = 
+`💬 <b>NEW FREE TELEGRAM GROUP LEAD</b> 💬
+
+👤 <b>Name:</b> ${name}
+📱 <b>WhatsApp/Phone:</b> <code>${fullPhone}</code>
+
+⏰ <i>Time Sent: ${new Date().toLocaleString()}</i>`;
+
+    fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
         method: "POST",
-        mode: "no-cors",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(payload)
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: telegramMessage,
+            parse_mode: "HTML"
+        })
     })
     .then(() => {
         window.open(telegramGroupUrl, "_blank");
