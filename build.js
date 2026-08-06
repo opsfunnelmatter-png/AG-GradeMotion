@@ -12,7 +12,6 @@ const SECTIONS = [
     "sections/08_framework.html",
     "sections/09_telegram_community.html",
     "sections/10_pedagogy.html",
-    "sections/11_subjects_and_curriculum.html",
     "sections/11b_soft_cta_3.html",
     "sections/12_case_studies.html",
     "sections/13_detailed_reviews.html",
