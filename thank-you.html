@@ -5,25 +5,23 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      
-      // Delay Google Tag loading to window.onload and idle state to eliminate CPU/TBT blocking
-      window.addEventListener('load', function() {
-        var loadGtag = function() {
+      (function() {
+        var gtmLoaded = false;
+        function loadGtag() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
           var script = document.createElement('script');
           script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18235392399';
           script.async = true;
           document.head.appendChild(script);
-          
           gtag('js', new Date());
           gtag('config', 'AW-18235392399');
-        };
-        
-        if (window.requestIdleCallback) {
-          window.requestIdleCallback(loadGtag);
-        } else {
-          setTimeout(loadGtag, 1000);
         }
-      });
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(e) {
+          window.addEventListener(e, loadGtag, { once: true, passive: true });
+        });
+        setTimeout(loadGtag, 3500);
+      })();
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">

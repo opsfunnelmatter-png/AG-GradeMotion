@@ -5,25 +5,23 @@
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-      
-      // Delay Google Tag loading to window.onload and idle state to eliminate CPU/TBT blocking
-      window.addEventListener('load', function() {
-        var loadGtag = function() {
+      (function() {
+        var gtmLoaded = false;
+        function loadGtag() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
           var script = document.createElement('script');
           script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18235392399';
           script.async = true;
           document.head.appendChild(script);
-          
           gtag('js', new Date());
           gtag('config', 'AW-18235392399');
-        };
-        
-        if (window.requestIdleCallback) {
-          window.requestIdleCallback(loadGtag);
-        } else {
-          setTimeout(loadGtag, 1000);
         }
-      });
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(e) {
+          window.addEventListener(e, loadGtag, { once: true, passive: true });
+        });
+        setTimeout(loadGtag, 3500);
+      })();
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -1004,13 +1002,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p13_9231_s20_1.1_q1.jpg" alt="Question 1" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 1')">
+                                <img src="telegram-sample/p13_9231_s20_1.1_q1.jpg" alt="Question 1" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 1')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p13_9231_s20_1.1_a1.jpg" alt="Solution 1" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 1')">
+                                <img src="telegram-sample/p13_9231_s20_1.1_a1.jpg" alt="Solution 1" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 1')">
                             </div>
                         </div>
 
@@ -1024,13 +1022,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p11_9231_s20_1.6_q2.jpg" alt="Question 2" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 2')">
+                                <img src="telegram-sample/p11_9231_s20_1.6_q2.jpg" alt="Question 2" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 2')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p11_9231_s20_1.6_a2.jpg" alt="Solution 2" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 2')">
+                                <img src="telegram-sample/p11_9231_s20_1.6_a2.jpg" alt="Solution 2" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 2')">
                             </div>
                         </div>
 
@@ -1044,13 +1042,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p11_9231_w20_1.4_q4.jpg" alt="Question 3" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 3')">
+                                <img src="telegram-sample/p11_9231_w20_1.4_q4.jpg" alt="Question 3" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 3')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p11_9231_w20_1.3_a4.jpg" alt="Solution 3" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 3')">
+                                <img src="telegram-sample/p11_9231_w20_1.3_a4.jpg" alt="Solution 3" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 3')">
                             </div>
                         </div>
 
@@ -1064,13 +1062,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p13_9231_s21_1.2_q6.jpg" alt="Question 4" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 4')">
+                                <img src="telegram-sample/p13_9231_s21_1.2_q6.jpg" alt="Question 4" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 4')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p13_9231_s21_1.2_a6.jpg" alt="Solution 4" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 4')">
+                                <img src="telegram-sample/p13_9231_s21_1.2_a6.jpg" alt="Solution 4" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 4')">
                             </div>
                         </div>
 
@@ -1084,13 +1082,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p11_9231_w21_1.5_q8.jpg" alt="Question 5" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 5')">
+                                <img src="telegram-sample/p11_9231_w21_1.5_q8.jpg" alt="Question 5" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 5')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p11_9231_w21_1.5_a8.jpg" alt="Solution 5" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 5')">
+                                <img src="telegram-sample/p11_9231_w21_1.5_a8.jpg" alt="Solution 5" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 5')">
                             </div>
                         </div>
 
@@ -1104,13 +1102,13 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
                             <!-- Question Image (Top) -->
                             <div style="margin-bottom: 14px;">
                                 <div style="font-size: 11px; font-weight: 700; color: #FF84B7; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">📌 QUESTION</div>
-                                <img src="telegram-sample/p13_9231_s22_1.4_q11.jpg" alt="Question 6" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 6')">
+                                <img src="telegram-sample/p13_9231_s22_1.4_q11.jpg" alt="Question 6" width="400" height="220" loading="lazy" decoding="async" style="width: 100%; max-height: 220px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; cursor: pointer;" onclick="openMediaModal(this.src, 'Question 6')">
                             </div>
 
                             <!-- Worked Solution Image (Below) -->
                             <div>
                                 <div style="font-size: 11px; font-weight: 700; color: #4ade80; letter-spacing: 0.5px; margin-bottom: 6px; text-transform: uppercase;">✅ WORKED SOLUTION</div>
-                                <img src="telegram-sample/p13_9231_s22_1.4_a11.jpg" alt="Solution 6" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 6')">
+                                <img src="telegram-sample/p13_9231_s22_1.4_a11.jpg" alt="Solution 6" width="400" height="320" loading="lazy" decoding="async" style="width: 100%; max-height: 320px; object-fit: contain; border-radius: 10px; background: #ffffff; padding: 6px; box-sizing: border-box; border: 2px solid rgba(74, 222, 128, 0.4); cursor: pointer;" onclick="openMediaModal(this.src, 'Worked Solution 6')">
                             </div>
                         </div>
 
@@ -2560,7 +2558,7 @@ if (document.readyState === 'loading') {
         </div>
     </div>
 
-    <script src="js/main.js"></script>
-    <script src="js/page.js"></script>
+    <script src="js/main.min.js" defer></script>
+    <script src="js/page.js" defer></script>
 </body>
 </html>
