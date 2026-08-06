@@ -29,6 +29,14 @@ function switchVideo(videoSrc, activeTabId, posterSrc) {
         }
         source.src = videoSrc;
         player.load();
+        
+        // Auto play newly selected video immediately
+        player.muted = true;
+        player.playsInline = true;
+        const playPromise = player.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(() => {});
+        }
     }
     
     document.querySelectorAll('.video-tab-btn').forEach(btn => {

@@ -413,6 +413,13 @@ function selectVideoTab(num) {
         }
         videoEl.src = videoSources[num];
         videoEl.load();
+        
+        videoEl.muted = true;
+        videoEl.playsInline = true;
+        const playPromise = videoEl.play();
+        if (playPromise !== undefined) {
+            playPromise.catch(() => {});
+        }
     }
 
     if (titleEl && videoTitles[num]) {
