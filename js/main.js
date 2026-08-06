@@ -262,7 +262,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (subjectEl) subjectEl.value = "New Further Math Intensive Plan Application";
         } else if (packageType === "retainer") {
             if (titleEl) titleEl.innerText = "Apply for the Full Term Retainer";
-            if (submitBtnEl) submitBtnEl.innerHTML = "Secure Your Slot ($2,600) &rarr;";
+            if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Full Term Retainer ($2,600) &rarr;";
             if (subjectEl) subjectEl.value = "New Further Math Full Term Retainer Application";
         } else {
             // Default to diagnostic
