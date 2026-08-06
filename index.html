@@ -927,19 +927,31 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
             <div style="background: rgba(23, 10, 44, 0.75); border: 1px solid rgba(123, 44, 191, 0.3); border-radius: 24px; padding: 32px 20px; backdrop-filter: blur(10px); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);">
             
             <!-- Section Header inside Showcase -->
-            <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 28px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 16px;">
-                <div>
-                    <h3 style="font-size: 22px; font-weight: 800; color: #ffffff; margin: 0 0 6px 0;">Sample Resources Inside The Group</h3>
-                    <p style="font-size: 14px; color: rgba(255, 255, 255, 0.7); margin: 0;">Preview the solved questions and video walkthroughs shared with group members.</p>
+            <div style="margin-bottom: 28px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 20px;">
+                <div style="margin-bottom: 16px;">
+                    <h3 style="font-size: 24px; font-weight: 800; color: #ffffff; margin: 0 0 6px 0;">What's Inside The VIP Group?</h3>
+                    <p style="font-size: 14.5px; color: rgba(255, 255, 255, 0.75); margin: 0;">Explore the exclusive solved exam questions and video walkthroughs shared with group members below:</p>
                 </div>
 
-                <!-- Tab Navigation Buttons -->
-                <div style="display: flex; gap: 10px; background: rgba(0, 0, 0, 0.35); padding: 4px; border-radius: 12px;">
-                    <button type="button" id="tab-btn-questions" onclick="switchTelegramTab('questions')" style="background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%); color: white; border: none; padding: 10px 20px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; transition: all 0.2s ease; box-shadow: 0 4px 12px rgba(255, 74, 149, 0.25);">
-                        📄 Solved Questions
+                <!-- 2 Clear Segmented Content Selector Buttons -->
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; background: rgba(0, 0, 0, 0.4); padding: 8px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.12);">
+                    
+                    <!-- Content Button 1: Solved Questions -->
+                    <button type="button" id="tab-btn-questions" onclick="switchTelegramTab('questions')" style="background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%); color: #ffffff; border: 2px solid #FF4A95; padding: 14px 18px; border-radius: 12px; font-weight: 800; font-size: 14.5px; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 6px 20px rgba(255, 74, 149, 0.3);">
+                        <span style="font-size: 20px;">📄</span>
+                        <div style="text-align: left;">
+                            <div style="font-size: 14px; font-weight: 800; line-height: 1.2;">1. Worked Exam Solutions</div>
+                            <div style="font-size: 11.5px; opacity: 0.85; font-weight: 600;">(Step-by-step past paper solutions)</div>
+                        </div>
                     </button>
-                    <button type="button" id="tab-btn-videos" onclick="switchTelegramTab('videos')" style="background: transparent; color: rgba(255,255,255,0.7); border: none; padding: 10px 20px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; transition: all 0.2s ease;">
-                        🎬 Videos (Walkthroughs & Calculator Hacks)
+
+                    <!-- Content Button 2: Video Lessons -->
+                    <button type="button" id="tab-btn-videos" onclick="switchTelegramTab('videos')" style="background: rgba(255, 255, 255, 0.05); color: rgba(255,255,255,0.7); border: 1.5px solid rgba(255, 255, 255, 0.15); padding: 14px 18px; border-radius: 12px; font-weight: 800; font-size: 14.5px; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; justify-content: center; gap: 10px;">
+                        <span style="font-size: 20px;">🎬</span>
+                        <div style="text-align: left;">
+                            <div style="font-size: 14px; font-weight: 800; line-height: 1.2;">2. Video Lessons</div>
+                            <div style="font-size: 11.5px; opacity: 0.85; font-weight: 600;">(Walkthroughs & Calculator Hacks)</div>
+                        </div>
                     </button>
                 </div>
             </div>
@@ -1268,20 +1280,28 @@ function switchTelegramTab(tab) {
     if (tab === 'questions') {
         qTab.style.display = 'block';
         vTab.style.display = 'none';
+        
         qBtn.style.background = 'linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%)';
         qBtn.style.color = '#ffffff';
-        qBtn.style.boxShadow = '0 4px 12px rgba(255, 74, 149, 0.25)';
-        vBtn.style.background = 'transparent';
+        qBtn.style.border = '2px solid #FF4A95';
+        qBtn.style.boxShadow = '0 6px 20px rgba(255, 74, 149, 0.3)';
+
+        vBtn.style.background = 'rgba(255, 255, 255, 0.05)';
         vBtn.style.color = 'rgba(255,255,255,0.7)';
+        vBtn.style.border = '1.5px solid rgba(255, 255, 255, 0.15)';
         vBtn.style.boxShadow = 'none';
     } else {
         qTab.style.display = 'none';
         vTab.style.display = 'block';
+
         vBtn.style.background = 'linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%)';
         vBtn.style.color = '#ffffff';
-        vBtn.style.boxShadow = '0 4px 12px rgba(255, 74, 149, 0.25)';
-        qBtn.style.background = 'transparent';
+        vBtn.style.border = '2px solid #FF4A95';
+        vBtn.style.boxShadow = '0 6px 20px rgba(255, 74, 149, 0.3)';
+
+        qBtn.style.background = 'rgba(255, 255, 255, 0.05)';
         qBtn.style.color = 'rgba(255,255,255,0.7)';
+        qBtn.style.border = '1.5px solid rgba(255, 255, 255, 0.15)';
         qBtn.style.boxShadow = 'none';
     }
 }
