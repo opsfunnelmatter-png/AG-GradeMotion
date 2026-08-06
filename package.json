@@ -1,0 +1,13 @@
+{
+  "name": "ag-grademotion",
+  "version": "1.0.0",
+  "description": "AG-GradeMotion Web Application",
+  "main": "build.js",
+  "scripts": {
+    "dev": "powershell -ExecutionPolicy Bypass -File .\\server.ps1",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
