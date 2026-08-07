@@ -5,7 +5,7 @@ export default async function handler(req, res) {
 
     try {
         const { type, data } = req.body || {};
-        const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8603480467:AAFeMl80jeciaK0aWWn_EHQtLvgpjEDsxJs";
+        const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN || "8603480467:AAHBWm3x3Ah2gsAxCztUWYslSSO-Vt8haGk";
         const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "56529712";
 
         let text = "";
