@@ -416,44 +416,26 @@ document.addEventListener("DOMContentLoaded", () => {
             const fullPhone = `${object.country_code} ${object.phone}`;
 
             // --- TELEGRAM BOT DIRECT NOTIFICATION ---
-            const TELEGRAM_BOT_TOKEN = "8603480467:AAFeMl80jeciaK0aWWn_EHQtLvgpjEDsxJs";
-            const TELEGRAM_CHAT_ID = "56529712";
-
-            // Format message for Telegram Bot Notification
-            const telegramMessage = 
-`🚨 <b>NEW DIAGNOSTIC BOOKING</b> 🚨
-
-👤 <b>Name:</b> ${object.name || 'N/A'}
-📱 <b>WhatsApp/Phone:</b> <code>${fullPhone}</code>
-📧 <b>Email:</b> ${object.email || 'N/A'}
-📚 <b>Exam Board:</b> ${object.exam_board || 'N/A'}
-🎯 <b>Target & Exam Date:</b> ${object.paper_session || 'N/A'}
-
-⏰ <i>Time Sent: ${new Date().toLocaleString()}</i>`;
-
-            // If Telegram Bot Token is configured, send directly to Telegram API
-            if (TELEGRAM_BOT_TOKEN !== "YOUR_TELEGRAM_BOT_TOKEN" && TELEGRAM_CHAT_ID !== "YOUR_TELEGRAM_CHAT_ID") {
-                const telegramApiUrl = `https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`;
-                
-                fetch(telegramApiUrl, {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({
-                        chat_id: TELEGRAM_CHAT_ID,
-                        text: telegramMessage,
-                        parse_mode: "HTML"
-                    })
+            // Send securely via Vercel Serverless API Route /api/send-telegram
+            fetch("/api/send-telegram", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    type: "booking",
+                    data: {
+                        name: object.name || 'N/A',
+                        phone: fullPhone,
+                        email: object.email || 'N/A',
+                        examBoard: object.exam_board || 'N/A',
+                        examDate: object.paper_session || 'N/A'
+                    }
                 })
-                .then(() => { window.location.href = "thank-you.html"; })
-                .catch(err => {
-                    console.error("Telegram notification error:", err);
-                    window.location.href = "thank-you.html";
-                });
-            } else {
-                // Default redirect to thank-you page
-                console.log("Form submitted locally:", payload);
+            })
+            .then(() => { window.location.href = "thank-you.html"; })
+            .catch(err => {
+                console.error("Telegram notification error:", err);
                 window.location.href = "thank-you.html";
-            }
+            });
         });
     }
 

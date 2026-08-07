@@ -2281,25 +2281,14 @@ function handleTelegramOptIn(event) {
         submitBtn.innerHTML = "⌛ Accessing Telegram Group...";
     }
 
-    const TELEGRAM_BOT_TOKEN = "8603480467:AAFeMl80jeciaK0aWWn_EHQtLvgpjEDsxJs";
-    const TELEGRAM_CHAT_ID = "56529712";
     const telegramGroupUrl = "https://t.me/grademotion_furthermaths";
 
-    const telegramMessage = 
-`💬 <b>NEW FREE TELEGRAM GROUP LEAD</b> 💬
-
-👤 <b>Name:</b> ${name}
-📱 <b>WhatsApp/Phone:</b> <code>${fullPhone}</code>
-
-⏰ <i>Time Sent: ${new Date().toLocaleString()}</i>`;
-
-    fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+    fetch('/api/send-telegram', {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-            chat_id: TELEGRAM_CHAT_ID,
-            text: telegramMessage,
-            parse_mode: "HTML"
+            type: "telegram",
+            data: { name: name, phone: fullPhone }
         })
     })
     .then(() => {
