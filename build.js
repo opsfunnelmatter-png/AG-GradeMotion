@@ -10,13 +10,13 @@ const SECTIONS = [
     "sections/06_student_results_summary.html",
     "sections/07_how_it_works.html",
     "sections/08_framework.html",
-    "sections/09_telegram_community.html",
     "sections/10_pedagogy.html",
     "sections/11b_soft_cta_3.html",
     "sections/12_case_studies.html",
     "sections/14_tutoring_details.html",
     "sections/15_pricing.html",
     "sections/16_faq.html",
+    "sections/09_telegram_community.html",
     "sections/17_cta.html"
 ];
 
