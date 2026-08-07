@@ -14,7 +14,6 @@ const SECTIONS = [
     "sections/10_pedagogy.html",
     "sections/11b_soft_cta_3.html",
     "sections/12_case_studies.html",
-    "sections/13_detailed_reviews.html",
     "sections/14_tutoring_details.html",
     "sections/15_pricing.html",
     "sections/16_faq.html",
