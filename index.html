@@ -1187,8 +1187,52 @@ if (document.readyState === 'complete' || document.readyState === 'interactive')
 
         </div> <!-- /telegram-showcase-split-grid -->
 
-    </div>
-</section>
+        <!-- Large High-Converting Join Telegram CTA Card -->
+        <div style="background: linear-gradient(135deg, rgba(123, 44, 191, 0.35) 0%, rgba(255, 74, 149, 0.25) 100%); border: 1.5px solid rgba(255, 74, 149, 0.45); border-radius: 24px; padding: 36px 24px; text-align: center; max-width: 880px; margin: 0 auto; box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35); backdrop-filter: blur(10px); box-sizing: border-box;">
+            <h3 style="font-size: clamp(22px, 3.2vw, 32px); font-weight: 800; color: #ffffff; margin-bottom: 12px; line-height: 1.25;">
+                Ready to Join The VIP Telegram Community?
+            </h3>
+            <p style="font-size: 16px; color: rgba(255, 255, 255, 0.9); margin-bottom: 24px; line-height: 1.5; max-width: 680px; margin-left: auto; margin-right: auto;">
+                Enter your details below for instant access to free solved past paper questions, video walkthroughs, calculator speed tricks, and direct support from Tutor Sheefa.
+            </p>
+
+            <form id="telegram-optin-form" onsubmit="handleTelegramOptIn(event)" style="display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; max-width: 720px; margin: 0 auto;">
+                <input type="text" id="tg-name" name="name" placeholder="Your Full Name" required style="flex: 1 1 180px; padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.4); color: #ffffff; font-size: 14.5px; outline: none; box-sizing: border-box;">
+                
+                <div style="display: flex; flex: 1 1 240px; gap: 8px; box-sizing: border-box;">
+                    <select id="tg-country-code" style="padding: 14px 10px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.6); color: #ffffff; font-size: 14px; outline: none; cursor: pointer; max-width: 105px;">
+                        <option value="+60">🇲🇾 +60</option>
+                        <option value="+65">🇸🇬 +65</option>
+                        <option value="+44">🇬🇧 +44</option>
+                        <option value="+86">🇨🇳 +86</option>
+                        <option value="+852">🇭KB +852</option>
+                        <option value="+971">🇦🇪 +971</option>
+                        <option value="+61">🇦🇺 +61</option>
+                        <option value="+1">🇺🇸 +1</option>
+                    </select>
+                    <input type="tel" id="tg-phone" name="phone" placeholder="WhatsApp Number" required style="flex: 1; padding: 14px 18px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.3); background: rgba(0,0,0,0.4); color: #ffffff; font-size: 14.5px; outline: none; box-sizing: border-box;">
+                </div>
+
+                <button type="submit" style="background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%); color: #ffffff; font-weight: 800; font-size: 15.5px; padding: 14px 28px; border: none; border-radius: 12px; cursor: pointer; transition: all 0.25s ease; box-shadow: 0 6px 20px rgba(255, 74, 149, 0.4); display: flex; align-items: center; justify-content: center; gap: 8px; flex: 1 1 220px;">
+                    <span>💬 Join Free Telegram Group</span>
+                    <span>&rarr;</span>
+                </button>
+            </form>
+
+            <div id="telegram-success-box" style="display: none; background: rgba(16, 185, 129, 0.2); border: 1.5px solid #10B981; border-radius: 16px; padding: 20px; text-align: center; margin-top: 15px;">
+                <div style="font-size: 28px; margin-bottom: 6px;">🎉</div>
+                <h4 style="font-size: 18px; font-weight: 800; color: #4ade80; margin: 0 0 6px 0;">Redirecting to Telegram Group...</h4>
+                <p style="font-size: 14px; color: rgba(255,255,255,0.85); margin: 0;">If the Telegram app did not open automatically, <a href="https://t.me/grademotion_furthermaths" target="_blank" style="color: #4ade80; font-weight: 700; text-decoration: underline;">click here to join directly &rarr;</a></p>
+            </div>
+
+            <div style="margin-top: 18px; font-size: 13px; color: rgba(255, 255, 255, 0.75); display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap;">
+                <span>🔒 100% Free VIP Access</span>
+                <span>•</span>
+                <span>⚡ Instant Telegram Invite</span>
+                <span>•</span>
+                <span>📱 Direct Tutor Sheefa Access</span>
+            </div>
+        </div>
 
     </div>
 </section>
