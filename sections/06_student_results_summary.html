@@ -314,7 +314,6 @@ function updateReviewTrack() {
     const cardWidth = firstCard.getBoundingClientRect().width;
     const shiftAmount = currentRIndex * (cardWidth + gap);
     track.style.transform = `translateX(-${shiftAmount}px)`;
-    }
 
     const dots = document.querySelectorAll('.rc-dot');
     dots.forEach((dot, idx) => {
