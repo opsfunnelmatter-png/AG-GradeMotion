@@ -104,11 +104,25 @@ All student/parent communications are conducted in **100% polished English**, re
   - 2-Hour Evaluation Session ($210 USD / RM 380 MYR) created with 100% rollover guarantee.
   - Internal Unindexed Closer Desk Portal created at `/desk` (aliases `/sheefa`, `/hub`) with live personalization inputs and 1-click copy for Tutor Sheefa.
   - Vercel routes configured and deployed to production.
-- [x] **Phase 4: Cal.com Live Calendar & Dynamic Timezone Scheduling**
+- [x] **Phase 4: Cal.com Live Calendar, Dynamic Timezone Scheduling & Brand Alignment**
   - Cal.com MCP configured in `~/.gemini/config/mcp_config.json`.
   - Cal.com API v2 connected to `grademotion.edu@gmail.com` (`grademotion-education-e3u8yd`).
-  - Event types created: 2-Hour Evaluation (`evaluation`), Diagnostic (`diagnostic`), and Sprint Lesson (`sprint-lesson`).
-  - Dedicated scheduling portal deployed at `/schedule` and `/book` with browser-based automatic timezone detection for students and Malaysia Time (UTC+8) for Tutor Sheefa.
+  - Event types streamlined: Free Diagnostic Session (60 mins, slug `diagnostic`) and 1-on-1 Regular Class (120 mins, slug `class`).
+  - Dedicated scheduling portal deployed at `/schedule` and `/book` with browser-based automatic timezone detection for international students and Malaysia Time (UTC+8) for Tutor Sheefa.
+  - Interactive "Change Date" reset control and smooth vertical scrolling for seamless date/slot re-selection on desktop and mobile.
+  - 100% polished English copy across all public booking interfaces.
+  - Full brand uniformity synchronized across `/schedule`, `/book`, `/desk`, `/sheefa`, and `/hub`:
+    - Official GradeMotion banner logo (`gm1.webp` with fallback `gm1.png`).
+    - Authentic GradeMotion **A+** favicon suite (`favicon.png` 512px, `apple-touch-icon.png` 180px, `favicon-32x32.png`, `favicon-16x16.png`, and multi-resolution `favicon.ico`).
   - 1-click booking links & dashboard button integrated into Closer Desk at `/desk`.
-- [ ] **Phase 5: Automated Post-Payment Workflows & Webhooks**
+- [x] **Phase 5: Programmatic SEO (pSEO) & YouTube Video Transcript Engine**
+  - YouTube automated transcript extractor (`scripts/extract-transcripts.py`) pulls spoken audio text for all 22 videos from `@tutorsheefa` (26,000+ words).
+  - Curriculum databases compiled in `data/topics.json` and `data/questions.json`.
+  - 2-Layer evergreen taxonomy built:
+    - 6 Evergreen Topic Hubs (`/topics/*`): Matrices, Complex Numbers, Differential Equations, Hyperbolic Functions, Polar Coordinates, Series & Vectors.
+    - 22 Past Paper Question Walkthroughs (`/solutions/*`): Edexcel May 2025 CP1 & CP2 with responsive embeds, LaTeX formulas (KaTeX), examiner traps, unedited audio transcripts, and cross-board Cambridge CIE 9231 notes.
+    - Directory master hubs at `/solutions` and `/topics`.
+  - Dynamic `sitemap.xml` with Google Video Sitemap tags (`<video:video>`).
+  - Integrated into static build pipeline (`generate-pseo.js`).
+- [ ] **Phase 6: Automated Post-Payment Workflows & Webhooks**
   - Automated welcome email / WhatsApp onboarding notification upon Stripe webhook receipt.
