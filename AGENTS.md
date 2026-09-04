@@ -102,6 +102,7 @@ All student/parent communications are conducted in **100% polished English**, re
   - Products, prices, and payment links generated for all tiers.
   - Isolated branded checkout pages created under `/pay/usd/*` and `/pay/my/*`.
   - 2-Hour Evaluation Session ($210 USD / RM 380 MYR) created with 100% rollover guarantee.
+  - Internal Unindexed Closer Desk Portal created at `/desk` (aliases `/sheefa`, `/hub`) with live personalization inputs and 1-click copy for Tutor Sheefa.
   - Vercel routes configured and deployed to production.
 - [ ] **Phase 4: Post-Payment Automation & Scheduling (Next Steps)**
   - Automated Cal.com / Calendly schedule redirect upon Stripe successful payment (`thank-you.html`).
