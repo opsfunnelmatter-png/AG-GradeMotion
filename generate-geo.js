@@ -192,7 +192,7 @@ function getHead(title, description, canonicalPath, schemaJson) {
             <li><a href="/solutions">Past Papers</a></li>
             <li><a href="/topics">Topic Guides</a></li>
             <li><a href="/schedule">1-on-1 Schedule</a></li>
-            <li><a href="https://forms.gle/grademotion-free-diagnostic" target="_blank" class="nav-btn">Free Diagnostic &rarr;</a></li>
+            <li><a href="/schedule?type=diagnostic" class="nav-btn">Free Diagnostic &rarr;</a></li>
         </ul>
     </div>
 </header>
