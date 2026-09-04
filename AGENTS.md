@@ -11,11 +11,12 @@ Last Updated: 04 September 2026
 ### Key Value Proposition
 - High-touch 1-on-1 tutoring focused on deep conceptual clarity, mark-scheme precision, and exam technique.
 - Target Audience: High-performing or struggling students in top international schools (UK, Singapore, Dubai, Hong Kong, and Malaysia).
-- Sales Funnel:
-  1. Student/Parent books a free or low-friction **Diagnostic Assessment Session**.
-  2. Post-diagnostic consultation led by Tutor Sheefa / operations.
-  3. Private distribution of targeted checkout links (Evaluation session or Full Sprint).
-  4. Instant enrollment confirmation, onboarding pack dispatch, and recurring schedule lock-in.
+- Architectural Sales Funnel:
+  1. **Top-of-Funnel Discovery (pSEO & GEO Hubs)**: Organic traffic lands on past paper walkthroughs (`/solutions/*`), topic hubs (`/topics/*`), and geo pages (`/tutor/*`). All CTAs strictly route visitors back to the core Sales Page (`/#cta` or `/#pricing`) so they experience the full sales copywriting before applying.
+  2. **Conversion Engine (Homepage Sales Page)**: Delivers deep copywriting persuasion — VSL video, 15-year background, IB 42 points proof, 4-step Grade Shift Framework, student grade transformations (80% A/A*), and pricing tiers.
+  3. **High-Intent Lead Capture (Interactive Modal Form)**: Clicking any diagnostic CTA opens the form modal (Name, Email, WhatsApp Phone with country picker, Exam Board, Target Grade/Date). Submissions trigger an instant real-time Telegram alert to Tutor Sheefa and operations via `/api/send-telegram`.
+  4. **Post-Application Scheduling & Community Enrolment (`thank-you.html`)**: Instant redirection to the thank-you portal where applicants can immediately lock in their live 1-on-1 slot on the Cal.com calendar (`/schedule?type=diagnostic`) and join the Free Telegram VIP group.
+  5. **Post-Diagnostic Consultation & Closing**: Tutor Sheefa assesses syllabus gaps, conducts the 1-on-1 session, and presents targeted checkout links via the Closer Desk (`/desk`) for a 2-Hour Evaluation Session (with 100% Rollover Upgrade Guarantee) or Full Sprints (Topic Surgery, Exam Readiness, Intensive Bootcamp).
 
 ---
 
@@ -127,5 +128,6 @@ All student/parent communications are conducted in **100% polished English**, re
   - 8 High-Ticket Geo-Targeted Landing Pages (`/tutor/*`): Dubai, Abu Dhabi, Riyadh, Jeddah, Singapore, Hong Kong, London, and Malaysia.
   - Generative Engine Optimization (GEO) architecture: Schema.org `EducationalOrganization`, `Person`, and `FAQPage` paired with strict currency isolation (100% USD for international vs 100% MYR for Malaysia).
   - Directory master hub at `/tutor`.
+  - **Funnel & Copywriting Alignment**: Synchronized all CTA buttons across all pSEO & GEO pages to strictly route visitors back to the core Sales Page (`/#cta` and `/#pricing`) to ensure prospects absorb Tutor Sheefa's high-converting copywriting before booking via the interactive Diagnostic Modal form.
 - [ ] **Phase 6: Automated Post-Payment Workflows & Webhooks**
   - Automated welcome email / WhatsApp onboarding notification upon Stripe webhook receipt.
