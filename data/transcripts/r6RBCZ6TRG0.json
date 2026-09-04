@@ -1,0 +1,1129 @@
+{
+  "id": "r6RBCZ6TRG0",
+  "paper": "CP2",
+  "question": "Q7a",
+  "title": "Polar Coordinates (Vertical Tangents)",
+  "full_text": "Take a look at question seven. We have a polar coordinates question. Curve C shown in figure one has polar equation R equal to A open bracket A plus sign theta where A is a constant. The tangents to C at point A and B are perpendicular to the initial line. Use calculus to determine the polar coordinates of A and B. What does it means by okay tangents to C at point A and B? So let's draw the tangent lines first. So it will just cross point A and B. Okay, so let me just shift it a bit so that we can see that it is a tangent line. Next, they say that this point must be perpendicular to the initial line. That means it would be like that. So we are looking at vertical lines. So we have two vertical lines. And we want to find polar coordinates for both A and B. Moving on to part B and C. The curve C models the perimeter of the surface of a swimming pool. Given that according to the model, the distance across the pool from A to B is 10. Show that A is equal to 20 root 3 over 9. And use algebraic integration to determine the surface area of the swimming pool. So what does it means by distance across the pool from A to B is 10? So that means from here to here that would be 10 m. Now we can begin with part A. So because we're looking at vertical lines, right? We cannot find our dy dx because dy dx for vertical lines is essentially undefined. But what do we know for vertical lines? Our dx d theta would be equal to zero. So we can find our polar coordinates for A and B using this equation dx d theta equal to zero. So let's begin. The equation that we have here is r equal to a open bracket 1 + sin theta. Because we have to find dx d theta, so let's use the definition of x in polar coordinates. X is equal to r cos theta. Okay, so let's define this. This is equation one and this is equation two. We will substitute one into two. So substitute one into two. So we will get x is equal to a 1 + sin theta multiply with cos theta. Let's begin by expanding the first bracket, so we will get a + a sin theta and this one would be cos theta. Expand it again and we will get a cos theta plus a sin theta cos theta. Let's recap our identities. So we know that sin 2 theta is equal to 2 sin theta cos theta. So here would be 2 sin theta cos theta. And out here, what we can do, we can multiply this with a over two in order for us to get the coefficient a. Let's copy a cos theta back over here. Now, let's substitute with the identity, so we will get a cos theta plus a over two sin two theta. That is our x. Now, we can proceed with our differentiation. dx d theta is equal to negative a sin theta plus a over two cos two theta. Now, let's differentiate two theta. That means we have to multiply by two. Simplify this, we will get negative a sin theta plus a cos two theta. We will equate this. So, equate dx d theta with zero. So, we will get negative a sin theta plus a cos two theta equal to zero. Let's use another identity. We want to make sure that we have our equation solely in sin. So, cos two theta is equal to 1 minus 2 sin squared theta. This is what will be substituted into our equation. So, negative a sin theta plus a This one will be open bracket 1 minus 2 sin squared theta close bracket equal to zero. Let's expand and simplify this. Negative a sin theta plus a minus 2 a sin squared theta equal to zero. Let's rearrange. We will get 2 a sin squared theta plus a sin theta minus a equal to zero. So essentially what I did was I bring everything to the right hand side to make my coefficients for sin squared and sin to be positive. Okay, now I can divide my equation with a. And I [clears throat] will get 2 sin squared theta plus sin theta minus 1 equal to zero. So we have a quadratic equation. We can use our calculator to find the values. Let's see. Okay. Menu equation function polynomial degree 2 and key in the coefficient 2 1 and negative 1. So the first value, give it some space. So sin theta equals to 1 over 2. And the other one is sin theta equals to negative 1. Let's work our way up so that we can show our working. So let's make both equation equal to zero. So here will be 2 sin theta minus 1 equal to zero. Here we will get sine theta plus one equal to zero. So, these two would be our factors. So, write down our factor. Two sine theta minus one and sine theta plus one equal to zero. Now, we would like to find the value of theta for each category. Okay. So, let's first begin by sketching our sine graph. Let's take a look at our domain first. Uh theta is in between negative pi until pi. So, theta is in between negative pi and pi. Is it inclusive? It is inclusive only pi. So, let's sketch now. Okay, there we go. Because we want to consider only from negative pi until pi, so it would look like this. There we go. So, that is our graph. Okay, so here would be that's pi, that is negative pi, and here would be negative one, and here would be one. So, where is it do we have negative one? Okay, so we have negative one when it is pi over two. Theta is equal to negative pi over two. That is the only value within this domain when your sine theta is equal to negative one. Now, let's [snorts] take a look at our other equation. Sine theta equals to half. That means we are looking at this part. So, we know that we will get two answers. One here and another one here. So, this is quadrant number one and this is quadrant number two. So, let's start by finding our quadrant one. So, for Q1 it would be theta equal to inverse sine half. So, this is equal to Okay, make sure that your calculator is in radian mode. My calculator is currently in degree mode, so I'm going to change it to radian first. So, inverse sine half is equal to 1/6 pi. Now, for our second quadrant, it would be theta equals to pi minus 1/6 pi, which is equal to 5/6 pi. Okay, let's zoom out and take a look at our figure. Okay, so the drawing. We have a theta equals to negative pi over two. So, that means Okay, we are looking at this point because negative direction by pi over two. So, that's not point A or B. Another one is Okay, theta equal to 1/6 pi. So, it would be here. So, we This is for point B. Now, quadrant number two, 5/6 pi. So, that would be for point A. Okay, so this would be rejected. Okay, in order to give the answer in polar coordinates, what do we need? We now need to find our So let's key in back into one. Sub sign theta equal to 1 over 2 into equation one. So R is equal to A open bracket 1 plus 1 over 2. This is equal to 3 over 2 A. So that is our R. So what is our coordinate? So A is equal to 3 over 2 A 5 over 6 pi and for point B it would be 3 over 2 A 1 over 6 pi. That's it. We are done with part A. For B and C it will be the next video.",
+  "snippets": [
+    {
+      "text": "Take a look at question seven. We have a",
+      "start": 2.48,
+      "duration": 5.28
+    },
+    {
+      "text": "polar coordinates question. Curve C",
+      "start": 4.52,
+      "duration": 6.56
+    },
+    {
+      "text": "shown in figure one has polar equation R",
+      "start": 7.76,
+      "duration": 6.12
+    },
+    {
+      "text": "equal to A open bracket A plus sign",
+      "start": 11.08,
+      "duration": 5.72
+    },
+    {
+      "text": "theta where A is a constant. The",
+      "start": 13.88,
+      "duration": 5.4
+    },
+    {
+      "text": "tangents to C",
+      "start": 16.8,
+      "duration": 5.16
+    },
+    {
+      "text": "at point A and B are perpendicular to",
+      "start": 19.28,
+      "duration": 5.32
+    },
+    {
+      "text": "the initial line. Use calculus to",
+      "start": 21.96,
+      "duration": 5.12
+    },
+    {
+      "text": "determine the polar coordinates of A and",
+      "start": 24.6,
+      "duration": 5.8
+    },
+    {
+      "text": "B. What does it means by okay tangents",
+      "start": 27.08,
+      "duration": 6.24
+    },
+    {
+      "text": "to C at point A and B? So let's draw the",
+      "start": 30.4,
+      "duration": 5.72
+    },
+    {
+      "text": "tangent lines first. So it will just",
+      "start": 33.32,
+      "duration": 5.52
+    },
+    {
+      "text": "cross point A and B.",
+      "start": 36.12,
+      "duration": 4.84
+    },
+    {
+      "text": "Okay, so let me just shift it a bit so",
+      "start": 38.84,
+      "duration": 4.76
+    },
+    {
+      "text": "that we can see that it is a tangent",
+      "start": 40.96,
+      "duration": 4.88
+    },
+    {
+      "text": "line.",
+      "start": 43.6,
+      "duration": 7.04
+    },
+    {
+      "text": "Next, they say that this point must be",
+      "start": 45.84,
+      "duration": 7.2
+    },
+    {
+      "text": "perpendicular to the initial line. That",
+      "start": 50.64,
+      "duration": 5.56
+    },
+    {
+      "text": "means it would be like that. So we are",
+      "start": 53.04,
+      "duration": 7.24
+    },
+    {
+      "text": "looking at vertical lines. So we have",
+      "start": 56.2,
+      "duration": 6.48
+    },
+    {
+      "text": "two vertical lines.",
+      "start": 60.28,
+      "duration": 4.919
+    },
+    {
+      "text": "And we want to find",
+      "start": 62.68,
+      "duration": 5.76
+    },
+    {
+      "text": "polar coordinates for both A and B.",
+      "start": 65.199,
+      "duration": 6.001
+    },
+    {
+      "text": "Moving on to",
+      "start": 68.44,
+      "duration": 4.56
+    },
+    {
+      "text": "part B and C.",
+      "start": 71.2,
+      "duration": 4.92
+    },
+    {
+      "text": "The curve C models the perimeter of the",
+      "start": 73.0,
+      "duration": 5.36
+    },
+    {
+      "text": "surface of a swimming pool.",
+      "start": 76.12,
+      "duration": 4.48
+    },
+    {
+      "text": "Given that according to the model, the",
+      "start": 78.36,
+      "duration": 5.08
+    },
+    {
+      "text": "distance across the pool from A to B is",
+      "start": 80.6,
+      "duration": 7.32
+    },
+    {
+      "text": "10. Show that A is equal to 20 root 3",
+      "start": 83.44,
+      "duration": 5.96
+    },
+    {
+      "text": "over 9.",
+      "start": 87.92,
+      "duration": 3.72
+    },
+    {
+      "text": "And use algebraic integration to",
+      "start": 89.4,
+      "duration": 5.08
+    },
+    {
+      "text": "determine the surface area of the",
+      "start": 91.64,
+      "duration": 4.76
+    },
+    {
+      "text": "swimming pool.",
+      "start": 94.48,
+      "duration": 4.4
+    },
+    {
+      "text": "So what does it means by",
+      "start": 96.4,
+      "duration": 5.0
+    },
+    {
+      "text": "distance across the pool from A to B is",
+      "start": 98.88,
+      "duration": 6.64
+    },
+    {
+      "text": "10? So that means from here to here",
+      "start": 101.4,
+      "duration": 5.6
+    },
+    {
+      "text": "that would be",
+      "start": 105.52,
+      "duration": 4.24
+    },
+    {
+      "text": "10 m.",
+      "start": 107.0,
+      "duration": 6.72
+    },
+    {
+      "text": "Now we can begin with part A.",
+      "start": 109.76,
+      "duration": 5.68
+    },
+    {
+      "text": "So because we're looking at vertical",
+      "start": 113.72,
+      "duration": 5.68
+    },
+    {
+      "text": "lines, right? We cannot find our dy dx",
+      "start": 115.44,
+      "duration": 7.24
+    },
+    {
+      "text": "because dy dx for vertical lines is",
+      "start": 119.4,
+      "duration": 7.12
+    },
+    {
+      "text": "essentially undefined.",
+      "start": 122.68,
+      "duration": 3.84
+    },
+    {
+      "text": "But what do we know for vertical lines?",
+      "start": 126.92,
+      "duration": 7.16
+    },
+    {
+      "text": "Our dx d theta would be equal to zero.",
+      "start": 129.119,
+      "duration": 7.761
+    },
+    {
+      "text": "So we can find our polar coordinates for",
+      "start": 134.08,
+      "duration": 5.48
+    },
+    {
+      "text": "A and B using this",
+      "start": 136.88,
+      "duration": 6.28
+    },
+    {
+      "text": "equation dx d theta equal to zero. So",
+      "start": 139.56,
+      "duration": 5.04
+    },
+    {
+      "text": "let's begin.",
+      "start": 143.16,
+      "duration": 3.76
+    },
+    {
+      "text": "The equation that we have here is r",
+      "start": 144.6,
+      "duration": 7.2
+    },
+    {
+      "text": "equal to a open bracket 1 + sin theta.",
+      "start": 146.92,
+      "duration": 7.08
+    },
+    {
+      "text": "Because we have to find dx d theta, so",
+      "start": 151.8,
+      "duration": 4.48
+    },
+    {
+      "text": "let's use the definition of x in polar",
+      "start": 154.0,
+      "duration": 7.72
+    },
+    {
+      "text": "coordinates. X is equal to r cos theta.",
+      "start": 156.28,
+      "duration": 9.48
+    },
+    {
+      "text": "Okay, so let's define this. This is",
+      "start": 161.72,
+      "duration": 8.64
+    },
+    {
+      "text": "equation one and this is equation two.",
+      "start": 165.76,
+      "duration": 7.56
+    },
+    {
+      "text": "We will substitute one into two. So",
+      "start": 170.36,
+      "duration": 5.0
+    },
+    {
+      "text": "substitute",
+      "start": 173.32,
+      "duration": 6.44
+    },
+    {
+      "text": "one into two.",
+      "start": 175.36,
+      "duration": 4.4
+    },
+    {
+      "text": "So we will get",
+      "start": 180.239,
+      "duration": 3.401
+    },
+    {
+      "text": "x is equal to a 1 + sin theta multiply",
+      "start": 183.88,
+      "duration": 10.639
+    },
+    {
+      "text": "with cos theta. Let's begin by expanding",
+      "start": 190.56,
+      "duration": 7.679
+    },
+    {
+      "text": "the first bracket, so we will get a + a",
+      "start": 194.519,
+      "duration": 7.601
+    },
+    {
+      "text": "sin theta and this one would be cos",
+      "start": 198.239,
+      "duration": 7.761
+    },
+    {
+      "text": "theta. Expand it again and we will get a",
+      "start": 202.12,
+      "duration": 6.119
+    },
+    {
+      "text": "cos theta",
+      "start": 206.0,
+      "duration": 5.6
+    },
+    {
+      "text": "plus a sin theta",
+      "start": 208.239,
+      "duration": 6.401
+    },
+    {
+      "text": "cos theta.",
+      "start": 211.6,
+      "duration": 6.6
+    },
+    {
+      "text": "Let's recap our identities. So we know",
+      "start": 214.64,
+      "duration": 4.84
+    },
+    {
+      "text": "that",
+      "start": 218.2,
+      "duration": 7.84
+    },
+    {
+      "text": "sin 2 theta is equal to 2 sin theta cos",
+      "start": 219.48,
+      "duration": 7.84
+    },
+    {
+      "text": "theta.",
+      "start": 226.04,
+      "duration": 3.12
+    },
+    {
+      "text": "So here would be",
+      "start": 227.32,
+      "duration": 5.639
+    },
+    {
+      "text": "2 sin theta cos theta.",
+      "start": 229.16,
+      "duration": 6.28
+    },
+    {
+      "text": "And out here, what we can do, we can",
+      "start": 232.959,
+      "duration": 6.481
+    },
+    {
+      "text": "multiply this with a over two in order",
+      "start": 235.44,
+      "duration": 7.32
+    },
+    {
+      "text": "for us to get the coefficient a.",
+      "start": 239.44,
+      "duration": 8.48
+    },
+    {
+      "text": "Let's copy a cos theta back over here.",
+      "start": 242.76,
+      "duration": 5.16
+    },
+    {
+      "text": "Now, let's substitute with the identity,",
+      "start": 248.0,
+      "duration": 7.36
+    },
+    {
+      "text": "so we will get a cos theta plus",
+      "start": 250.92,
+      "duration": 9.52
+    },
+    {
+      "text": "a over two sin two theta.",
+      "start": 255.36,
+      "duration": 7.4
+    },
+    {
+      "text": "That is our x.",
+      "start": 260.44,
+      "duration": 5.44
+    },
+    {
+      "text": "Now, we can proceed with our",
+      "start": 262.76,
+      "duration": 4.88
+    },
+    {
+      "text": "differentiation.",
+      "start": 265.88,
+      "duration": 7.44
+    },
+    {
+      "text": "dx d theta is equal to",
+      "start": 267.64,
+      "duration": 5.68
+    },
+    {
+      "text": "negative a sin theta",
+      "start": 274.72,
+      "duration": 5.32
+    },
+    {
+      "text": "plus",
+      "start": 278.96,
+      "duration": 4.959
+    },
+    {
+      "text": "a over two cos two theta.",
+      "start": 280.04,
+      "duration": 6.2
+    },
+    {
+      "text": "Now, let's differentiate two theta. That",
+      "start": 283.919,
+      "duration": 6.121
+    },
+    {
+      "text": "means we have to multiply by two.",
+      "start": 286.24,
+      "duration": 6.36
+    },
+    {
+      "text": "Simplify this, we will get",
+      "start": 290.04,
+      "duration": 5.72
+    },
+    {
+      "text": "negative a sin theta",
+      "start": 292.6,
+      "duration": 7.64
+    },
+    {
+      "text": "plus a cos two theta.",
+      "start": 295.76,
+      "duration": 7.56
+    },
+    {
+      "text": "We will equate this.",
+      "start": 300.24,
+      "duration": 6.48
+    },
+    {
+      "text": "So, equate",
+      "start": 303.32,
+      "duration": 6.44
+    },
+    {
+      "text": "dx d theta",
+      "start": 306.72,
+      "duration": 6.08
+    },
+    {
+      "text": "with zero.",
+      "start": 309.76,
+      "duration": 6.08
+    },
+    {
+      "text": "So, we will get",
+      "start": 312.8,
+      "duration": 7.84
+    },
+    {
+      "text": "negative a sin theta plus a cos two",
+      "start": 315.84,
+      "duration": 8.0
+    },
+    {
+      "text": "theta equal to zero.",
+      "start": 320.64,
+      "duration": 6.88
+    },
+    {
+      "text": "Let's use another identity.",
+      "start": 323.84,
+      "duration": 5.84
+    },
+    {
+      "text": "We want to make sure that we have our",
+      "start": 327.52,
+      "duration": 6.399
+    },
+    {
+      "text": "equation solely in sin. So, cos two",
+      "start": 329.68,
+      "duration": 9.36
+    },
+    {
+      "text": "theta is equal to 1 minus 2 sin squared",
+      "start": 333.919,
+      "duration": 7.881
+    },
+    {
+      "text": "theta. This is what will be substituted",
+      "start": 339.04,
+      "duration": 4.2
+    },
+    {
+      "text": "into our",
+      "start": 341.8,
+      "duration": 6.8
+    },
+    {
+      "text": "equation. So, negative a sin theta plus",
+      "start": 343.24,
+      "duration": 7.08
+    },
+    {
+      "text": "a",
+      "start": 348.6,
+      "duration": 5.52
+    },
+    {
+      "text": "This one will be open bracket 1 minus 2",
+      "start": 350.32,
+      "duration": 7.36
+    },
+    {
+      "text": "sin squared theta close bracket",
+      "start": 354.12,
+      "duration": 7.36
+    },
+    {
+      "text": "equal to zero. Let's expand and simplify",
+      "start": 357.68,
+      "duration": 7.76
+    },
+    {
+      "text": "this. Negative a sin theta",
+      "start": 361.48,
+      "duration": 9.44
+    },
+    {
+      "text": "plus a minus 2 a sin squared theta equal",
+      "start": 365.44,
+      "duration": 9.28
+    },
+    {
+      "text": "to zero. Let's rearrange. We will get",
+      "start": 370.92,
+      "duration": 7.8
+    },
+    {
+      "text": "2 a sin squared theta",
+      "start": 374.72,
+      "duration": 10.199
+    },
+    {
+      "text": "plus a sin theta minus a equal to zero.",
+      "start": 378.72,
+      "duration": 9.08
+    },
+    {
+      "text": "So essentially what I did was I bring",
+      "start": 384.919,
+      "duration": 4.841
+    },
+    {
+      "text": "everything to the right hand side to",
+      "start": 387.8,
+      "duration": 5.36
+    },
+    {
+      "text": "make my coefficients for sin squared and",
+      "start": 389.76,
+      "duration": 6.28
+    },
+    {
+      "text": "sin to be positive.",
+      "start": 393.16,
+      "duration": 6.16
+    },
+    {
+      "text": "Okay, now I can divide my equation with",
+      "start": 396.04,
+      "duration": 5.84
+    },
+    {
+      "text": "a.",
+      "start": 399.32,
+      "duration": 2.56
+    },
+    {
+      "text": "And I [clears throat] will get",
+      "start": 402.6,
+      "duration": 3.28
+    },
+    {
+      "text": "2 sin squared",
+      "start": 406.08,
+      "duration": 7.64
+    },
+    {
+      "text": "theta plus sin theta minus 1 equal to",
+      "start": 408.24,
+      "duration": 9.4
+    },
+    {
+      "text": "zero. So we have a quadratic equation.",
+      "start": 413.72,
+      "duration": 6.04
+    },
+    {
+      "text": "We can use our calculator to find the",
+      "start": 417.64,
+      "duration": 3.52
+    },
+    {
+      "text": "values.",
+      "start": 419.76,
+      "duration": 5.08
+    },
+    {
+      "text": "Let's see. Okay. Menu equation function",
+      "start": 421.16,
+      "duration": 6.36
+    },
+    {
+      "text": "polynomial degree 2 and key in the",
+      "start": 424.84,
+      "duration": 10.0
+    },
+    {
+      "text": "coefficient 2 1 and negative 1.",
+      "start": 427.52,
+      "duration": 7.32
+    },
+    {
+      "text": "So the first value, give it some space.",
+      "start": 436.36,
+      "duration": 6.96
+    },
+    {
+      "text": "So sin theta equals to 1 over 2.",
+      "start": 438.88,
+      "duration": 9.6
+    },
+    {
+      "text": "And the other one is sin theta equals to",
+      "start": 443.32,
+      "duration": 8.64
+    },
+    {
+      "text": "negative 1. Let's work our way up so",
+      "start": 448.48,
+      "duration": 6.4
+    },
+    {
+      "text": "that we can show our working.",
+      "start": 451.96,
+      "duration": 5.16
+    },
+    {
+      "text": "So let's make both equation equal to",
+      "start": 454.88,
+      "duration": 6.36
+    },
+    {
+      "text": "zero. So here will be 2 sin theta minus",
+      "start": 457.12,
+      "duration": 8.04
+    },
+    {
+      "text": "1 equal to zero. Here we will get sine",
+      "start": 461.24,
+      "duration": 8.24
+    },
+    {
+      "text": "theta plus one equal to zero. So, these",
+      "start": 465.16,
+      "duration": 7.48
+    },
+    {
+      "text": "two would be our factors. So, write down",
+      "start": 469.48,
+      "duration": 7.52
+    },
+    {
+      "text": "our factor. Two sine theta minus one and",
+      "start": 472.64,
+      "duration": 9.52
+    },
+    {
+      "text": "sine theta plus one equal to zero.",
+      "start": 477.0,
+      "duration": 7.36
+    },
+    {
+      "text": "Now, we would like to find the value of",
+      "start": 482.16,
+      "duration": 6.24
+    },
+    {
+      "text": "theta for each category. Okay. So, let's",
+      "start": 484.36,
+      "duration": 8.88
+    },
+    {
+      "text": "first begin by sketching our sine graph.",
+      "start": 488.4,
+      "duration": 6.68
+    },
+    {
+      "text": "Let's take a look at our",
+      "start": 493.24,
+      "duration": 4.72
+    },
+    {
+      "text": "domain first. Uh theta is in between",
+      "start": 495.08,
+      "duration": 6.839
+    },
+    {
+      "text": "negative pi until pi. So, theta is in",
+      "start": 497.96,
+      "duration": 8.08
+    },
+    {
+      "text": "between negative pi and pi. Is it",
+      "start": 501.919,
+      "duration": 7.721
+    },
+    {
+      "text": "inclusive? It is inclusive only pi.",
+      "start": 506.04,
+      "duration": 7.2
+    },
+    {
+      "text": "So, let's sketch now.",
+      "start": 509.64,
+      "duration": 3.6
+    },
+    {
+      "text": "Okay, there we go. Because we want to",
+      "start": 514.96,
+      "duration": 6.88
+    },
+    {
+      "text": "consider only from negative pi until pi,",
+      "start": 518.2,
+      "duration": 7.96
+    },
+    {
+      "text": "so it would look like this.",
+      "start": 521.84,
+      "duration": 4.32
+    },
+    {
+      "text": "There we go. So, that is our",
+      "start": 527.76,
+      "duration": 7.12
+    },
+    {
+      "text": "graph. Okay, so here",
+      "start": 531.52,
+      "duration": 7.28
+    },
+    {
+      "text": "would be that's pi, that is negative pi,",
+      "start": 534.88,
+      "duration": 6.2
+    },
+    {
+      "text": "and here would be negative one, and here",
+      "start": 538.8,
+      "duration": 4.4
+    },
+    {
+      "text": "would be one.",
+      "start": 541.08,
+      "duration": 5.84
+    },
+    {
+      "text": "So, where is it do we have negative one?",
+      "start": 543.2,
+      "duration": 6.92
+    },
+    {
+      "text": "Okay, so we have negative one",
+      "start": 546.92,
+      "duration": 8.2
+    },
+    {
+      "text": "when it is pi over two. Theta is equal",
+      "start": 550.12,
+      "duration": 9.32
+    },
+    {
+      "text": "to negative pi over two. That is the",
+      "start": 555.12,
+      "duration": 6.28
+    },
+    {
+      "text": "only value",
+      "start": 559.44,
+      "duration": 6.2
+    },
+    {
+      "text": "within this domain when your sine theta",
+      "start": 561.4,
+      "duration": 8.16
+    },
+    {
+      "text": "is equal to negative one.",
+      "start": 565.64,
+      "duration": 7.0
+    },
+    {
+      "text": "Now, let's [snorts] take a look at our",
+      "start": 569.56,
+      "duration": 5.64
+    },
+    {
+      "text": "other equation. Sine theta equals to",
+      "start": 572.64,
+      "duration": 5.52
+    },
+    {
+      "text": "half. That means we are looking at this",
+      "start": 575.2,
+      "duration": 6.24
+    },
+    {
+      "text": "part. So, we know that we will get two",
+      "start": 578.16,
+      "duration": 6.64
+    },
+    {
+      "text": "answers. One here and another one here.",
+      "start": 581.44,
+      "duration": 5.8
+    },
+    {
+      "text": "So, this is quadrant number one and this",
+      "start": 584.8,
+      "duration": 5.48
+    },
+    {
+      "text": "is quadrant number two.",
+      "start": 587.24,
+      "duration": 6.48
+    },
+    {
+      "text": "So, let's start by finding our quadrant",
+      "start": 590.28,
+      "duration": 6.16
+    },
+    {
+      "text": "one. So, for Q1",
+      "start": 593.72,
+      "duration": 6.8
+    },
+    {
+      "text": "it would be theta equal to inverse",
+      "start": 596.44,
+      "duration": 7.28
+    },
+    {
+      "text": "sine half.",
+      "start": 600.52,
+      "duration": 6.12
+    },
+    {
+      "text": "So, this is equal to Okay, make sure",
+      "start": 603.72,
+      "duration": 5.0
+    },
+    {
+      "text": "that your calculator is in radian mode.",
+      "start": 606.64,
+      "duration": 4.8
+    },
+    {
+      "text": "My calculator is currently in degree",
+      "start": 608.72,
+      "duration": 3.92
+    },
+    {
+      "text": "mode, so I'm going to change it to",
+      "start": 611.44,
+      "duration": 5.68
+    },
+    {
+      "text": "radian first. So, inverse sine half is",
+      "start": 612.64,
+      "duration": 7.36
+    },
+    {
+      "text": "equal to 1/6",
+      "start": 617.12,
+      "duration": 5.0
+    },
+    {
+      "text": "pi.",
+      "start": 620.0,
+      "duration": 5.32
+    },
+    {
+      "text": "Now, for our second quadrant, it would",
+      "start": 622.12,
+      "duration": 8.48
+    },
+    {
+      "text": "be theta equals to pi minus 1/6 pi,",
+      "start": 625.32,
+      "duration": 8.56
+    },
+    {
+      "text": "which is equal to 5/6",
+      "start": 630.6,
+      "duration": 5.76
+    },
+    {
+      "text": "pi.",
+      "start": 633.88,
+      "duration": 2.48
+    },
+    {
+      "text": "Okay, let's zoom out and take a look at",
+      "start": 636.44,
+      "duration": 3.36
+    },
+    {
+      "text": "our",
+      "start": 638.52,
+      "duration": 4.12
+    },
+    {
+      "text": "figure. Okay, so the drawing. We have a",
+      "start": 639.8,
+      "duration": 7.2
+    },
+    {
+      "text": "theta equals to negative pi over two.",
+      "start": 642.64,
+      "duration": 6.92
+    },
+    {
+      "text": "So, that means",
+      "start": 647.0,
+      "duration": 4.8
+    },
+    {
+      "text": "Okay, we are looking at this point",
+      "start": 649.56,
+      "duration": 6.24
+    },
+    {
+      "text": "because negative direction by pi over",
+      "start": 651.8,
+      "duration": 6.48
+    },
+    {
+      "text": "two. So, that's not point A or B.",
+      "start": 655.8,
+      "duration": 7.24
+    },
+    {
+      "text": "Another one is Okay, theta equal to 1/6",
+      "start": 658.28,
+      "duration": 9.96
+    },
+    {
+      "text": "pi. So, it would be here. So, we This is",
+      "start": 663.04,
+      "duration": 8.84
+    },
+    {
+      "text": "for point B.",
+      "start": 668.24,
+      "duration": 3.64
+    },
+    {
+      "text": "Now,",
+      "start": 672.0,
+      "duration": 3.92
+    },
+    {
+      "text": "quadrant number two, 5/6 pi. So, that",
+      "start": 672.92,
+      "duration": 4.64
+    },
+    {
+      "text": "would be",
+      "start": 675.92,
+      "duration": 5.0
+    },
+    {
+      "text": "for point A.",
+      "start": 677.56,
+      "duration": 7.76
+    },
+    {
+      "text": "Okay, so this would be rejected.",
+      "start": 680.92,
+      "duration": 4.4
+    },
+    {
+      "text": "Okay, in order to give the answer in",
+      "start": 686.28,
+      "duration": 4.08
+    },
+    {
+      "text": "polar coordinates, what do we need? We",
+      "start": 688.32,
+      "duration": 3.32
+    },
+    {
+      "text": "now need",
+      "start": 690.36,
+      "duration": 2.88
+    },
+    {
+      "text": "to find our",
+      "start": 691.64,
+      "duration": 5.2
+    },
+    {
+      "text": "So let's key in back into",
+      "start": 693.24,
+      "duration": 5.24
+    },
+    {
+      "text": "one.",
+      "start": 696.84,
+      "duration": 4.2
+    },
+    {
+      "text": "Sub sign",
+      "start": 698.48,
+      "duration": 5.12
+    },
+    {
+      "text": "theta equal to",
+      "start": 701.04,
+      "duration": 7.2
+    },
+    {
+      "text": "1 over 2 into equation one.",
+      "start": 703.6,
+      "duration": 10.2
+    },
+    {
+      "text": "So R is equal to A open bracket 1 plus 1",
+      "start": 708.24,
+      "duration": 11.44
+    },
+    {
+      "text": "over 2. This is equal to 3 over 2 A. So",
+      "start": 713.8,
+      "duration": 9.32
+    },
+    {
+      "text": "that is our R. So what is our",
+      "start": 719.68,
+      "duration": 7.0
+    },
+    {
+      "text": "coordinate? So A is equal to",
+      "start": 723.12,
+      "duration": 6.48
+    },
+    {
+      "text": "3 over 2 A",
+      "start": 726.68,
+      "duration": 8.12
+    },
+    {
+      "text": "5 over 6 pi and for point B it would be",
+      "start": 729.6,
+      "duration": 11.16
+    },
+    {
+      "text": "3 over 2 A 1 over 6 pi. That's it. We",
+      "start": 734.8,
+      "duration": 9.52
+    },
+    {
+      "text": "are done with part A.",
+      "start": 740.76,
+      "duration": 8.64
+    },
+    {
+      "text": "For B and C it will be the next video.",
+      "start": 744.32,
+      "duration": 5.08
+    }
+  ]
+}

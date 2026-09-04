@@ -1,0 +1,874 @@
+{
+  "id": "tfTDvCVdSnk",
+  "paper": "CP1",
+  "question": "Q7b",
+  "title": "Definite Integration & Natural Logs",
+  "full_text": "Question seven, they give us a polynomial fraction and they want us to express it in partial fraction. For part B, they want us to use the answer to solve the integration. We have solved part A in the previous video, so let's now solve part B. Part B, what we want to do is we want to integrate this from 0 to 1. So, what we will integrating is our partial fraction here. So, copy and paste. Okay, dx. Before we proceed with the integration, right? What I would like to do is to separate the last fraction into two parts. So, integration 0 to 1. Okay, so 2 plus 4 over x plus 2. Okay, the next part would be plus 2x over x squared plus 3 and then the last part would be minus 1 over x squared plus 3 dx. Okay, let's do these three integrations separately. Let's start with the blue part. Okay, so we'll name it B1. This is the most straightforward integration. So, 2 plus 4 over x plus 2 dx. We will get 2x plus 4 ln x + 2 We need to substitute 0 and 1. So, that would be 2 * 1 Okay, 2 * 1 + 4 ln 1 + 2 2 * 0 - 4 ln 0 + 2 So, this would be 2 + 4 ln 3 + oh ln 4 ln 2 So, this Okay, how can we simplify or combine the ln expression? Let's first bring 4 up. Okay, as the power. Okay, we're just going to write it down. So, we will get + ln 3 to the power of 4 ln 2 to the power of 4. We can also combine this. Okay, the next step would be to combine ln a - ln b is equal to ln a over b. So, it would be 2 + ln 81 over 2 * 4 that would be 16. Okay. We are done with our first part. Let's do our second part. For the second part, right? We want to integrate from 0 to 1. 2 x over x squared + 3 dx. How can we solve this? Let's perform, okay? Um substitution. So, let u equal to x squared plus 3. du dx is equal to 2x. If we rearrange, we'll get du over 2x is equal to dx. Next step, we also have to change the limit. Before this, our limit is in x. Now, we want to change it in u. So, we have to substitute our x value into that equation. So, u is equal to 0 squared plus 3. So, u is 3. So, u is equals to 1 squared plus 3. So, 4. Let's substitute that here. So, this is equal to We will change the limit now to from 3 to 4. And then, your 2x maintain. We're not changing that. So, 2x over But, this one, x squared plus 3 is actually u. So, u. And then, dx is equal to du over dx. Okay, we can cancel Oh, du over 2x. We can now cancel the 2x. So, we're going to left with from 3 to 4 1 over u du. So, this is equal to ln u. Okay, that we need to evaluate from 3 to 4. Okay, so this is equal to ln 4 - ln 3. We're going to combine it just like what we did before, so it'll become ln 4 over 3. Moving on to the third part. Okay, the third part is in gray. Okay. So, the third integration will be from zero to one 1 over x squared + 3 dx. Okay, to solve this one, right? You have to refer to your formula booklet. Okay, and you'll see this in your formula booklet. So, what we're going to do is we would like to express our integral so that it would be in that form. So, zero to one one over x squared plus we want something squared. So, that would be Okay, square root three. dx. So, the answer would be 1 over a, which is 1 over square root 3 arc tangent x over square root 3. We will evaluate this from zero to one. Okay. So, 1 over arc tangent, so tangent inverse 1 over square root 3 - 1 over square root 3 tangent inverse zero. Let's put it into our calculator. So, this would be equal to 1 over square root 3 shift tangent inverse 1 over square root 3. Okay, so we'll got we'll get pi over 6. Now, tangent inverse 0, that will just be 0. Now, what we can do is we can combine all of the integral. So, integral is equal to the first part 2 + ln 81/16. Okay, plus the second part ln 4/3 minus Why is it minus? Because notice here is minus. The third part pi over 6 root 3. What we need to do is just combine the the ln together. So, 2 + ln 81/16 * 4/3. Minus pi 6 root 3. So, that's what we have here. 81/16 multiplied by 4/3 and we will have 27/ 4. So, this is equal to 2 + ln 27/4 minus pi over 6 root 3. Let's check that is exactly what they want us to find over here. Okay. Let's just mark our answer. For the first part, this is our answer. And for the second part, this is our answer. With that, we are done.",
+  "snippets": [
+    {
+      "text": "Question seven, they give us a",
+      "start": 0.64,
+      "duration": 4.32
+    },
+    {
+      "text": "polynomial fraction and they want us to",
+      "start": 2.68,
+      "duration": 5.8
+    },
+    {
+      "text": "express it in partial fraction. For part",
+      "start": 4.96,
+      "duration": 5.68
+    },
+    {
+      "text": "B, they want us to use the answer to",
+      "start": 8.48,
+      "duration": 6.16
+    },
+    {
+      "text": "solve the integration.",
+      "start": 10.64,
+      "duration": 6.76
+    },
+    {
+      "text": "We have solved part A in the previous",
+      "start": 14.64,
+      "duration": 6.2
+    },
+    {
+      "text": "video, so let's now solve part B.",
+      "start": 17.4,
+      "duration": 6.72
+    },
+    {
+      "text": "Part B, what we want to do is we want to",
+      "start": 20.84,
+      "duration": 7.0
+    },
+    {
+      "text": "integrate this from 0 to 1. So, what we",
+      "start": 24.12,
+      "duration": 7.92
+    },
+    {
+      "text": "will integrating is our partial fraction",
+      "start": 27.84,
+      "duration": 5.96
+    },
+    {
+      "text": "here.",
+      "start": 32.04,
+      "duration": 5.16
+    },
+    {
+      "text": "So, copy",
+      "start": 33.8,
+      "duration": 3.4
+    },
+    {
+      "text": "and paste.",
+      "start": 38.8,
+      "duration": 2.92
+    },
+    {
+      "text": "Okay, dx.",
+      "start": 42.36,
+      "duration": 3.88
+    },
+    {
+      "text": "Before we proceed with the integration,",
+      "start": 48.52,
+      "duration": 4.56
+    },
+    {
+      "text": "right? What I would like to do is",
+      "start": 50.6,
+      "duration": 5.92
+    },
+    {
+      "text": "to separate the last fraction into two",
+      "start": 53.08,
+      "duration": 5.16
+    },
+    {
+      "text": "parts.",
+      "start": 56.52,
+      "duration": 5.44
+    },
+    {
+      "text": "So, integration 0 to 1.",
+      "start": 58.24,
+      "duration": 6.84
+    },
+    {
+      "text": "Okay, so 2 plus",
+      "start": 61.96,
+      "duration": 5.08
+    },
+    {
+      "text": "4 over",
+      "start": 65.08,
+      "duration": 4.4
+    },
+    {
+      "text": "x plus 2.",
+      "start": 67.04,
+      "duration": 5.4
+    },
+    {
+      "text": "Okay, the next part would be",
+      "start": 69.48,
+      "duration": 6.08
+    },
+    {
+      "text": "plus 2x over",
+      "start": 72.44,
+      "duration": 5.88
+    },
+    {
+      "text": "x squared plus 3",
+      "start": 75.56,
+      "duration": 4.6
+    },
+    {
+      "text": "and then",
+      "start": 78.32,
+      "duration": 5.0
+    },
+    {
+      "text": "the last part would be",
+      "start": 80.16,
+      "duration": 6.08
+    },
+    {
+      "text": "minus 1 over",
+      "start": 83.32,
+      "duration": 5.52
+    },
+    {
+      "text": "x squared plus 3",
+      "start": 86.24,
+      "duration": 5.6
+    },
+    {
+      "text": "dx.",
+      "start": 88.84,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay, let's do these three integrations",
+      "start": 92.04,
+      "duration": 5.44
+    },
+    {
+      "text": "separately. Let's start with the blue",
+      "start": 95.32,
+      "duration": 5.36
+    },
+    {
+      "text": "part. Okay, so we'll name it B1. This is",
+      "start": 97.48,
+      "duration": 5.36
+    },
+    {
+      "text": "the most straightforward integration.",
+      "start": 100.68,
+      "duration": 3.84
+    },
+    {
+      "text": "So, 2 plus",
+      "start": 102.84,
+      "duration": 5.04
+    },
+    {
+      "text": "4 over x plus 2",
+      "start": 104.52,
+      "duration": 5.32
+    },
+    {
+      "text": "dx.",
+      "start": 107.88,
+      "duration": 3.92
+    },
+    {
+      "text": "We will get",
+      "start": 109.84,
+      "duration": 5.28
+    },
+    {
+      "text": "2x plus 4",
+      "start": 111.8,
+      "duration": 4.88
+    },
+    {
+      "text": "ln",
+      "start": 115.12,
+      "duration": 4.52
+    },
+    {
+      "text": "x + 2",
+      "start": 116.68,
+      "duration": 4.28
+    },
+    {
+      "text": "We need to",
+      "start": 119.64,
+      "duration": 6.12
+    },
+    {
+      "text": "substitute 0 and 1. So, that would be 2",
+      "start": 120.96,
+      "duration": 8.08
+    },
+    {
+      "text": "* 1",
+      "start": 125.76,
+      "duration": 3.28
+    },
+    {
+      "text": "Okay, 2 * 1",
+      "start": 130.44,
+      "duration": 4.96
+    },
+    {
+      "text": "+ 4",
+      "start": 133.72,
+      "duration": 5.84
+    },
+    {
+      "text": "ln 1 + 2",
+      "start": 135.4,
+      "duration": 10.0
+    },
+    {
+      "text": "2 * 0 - 4 ln 0 + 2",
+      "start": 139.56,
+      "duration": 9.12
+    },
+    {
+      "text": "So, this would be 2 +",
+      "start": 145.4,
+      "duration": 8.6
+    },
+    {
+      "text": "4 ln 3 + oh",
+      "start": 148.68,
+      "duration": 5.32
+    },
+    {
+      "text": "ln",
+      "start": 154.64,
+      "duration": 5.319
+    },
+    {
+      "text": "4 ln 2",
+      "start": 157.24,
+      "duration": 5.48
+    },
+    {
+      "text": "So, this Okay, how can we simplify or",
+      "start": 159.959,
+      "duration": 5.601
+    },
+    {
+      "text": "combine the ln expression? Let's first",
+      "start": 162.72,
+      "duration": 8.72
+    },
+    {
+      "text": "bring 4 up. Okay, as the power.",
+      "start": 165.56,
+      "duration": 5.88
+    },
+    {
+      "text": "Okay, we're just going to write it down.",
+      "start": 171.959,
+      "duration": 10.121
+    },
+    {
+      "text": "So, we will get + ln 3 to the power of 4",
+      "start": 174.92,
+      "duration": 10.64
+    },
+    {
+      "text": "ln 2 to the power of 4. We can also",
+      "start": 182.08,
+      "duration": 5.6
+    },
+    {
+      "text": "combine this. Okay, the next step would",
+      "start": 185.56,
+      "duration": 6.64
+    },
+    {
+      "text": "be to combine ln a - ln b is equal to ln",
+      "start": 187.68,
+      "duration": 8.839
+    },
+    {
+      "text": "a over b. So, it would be 2 +",
+      "start": 192.2,
+      "duration": 7.28
+    },
+    {
+      "text": "ln 81",
+      "start": 196.519,
+      "duration": 5.841
+    },
+    {
+      "text": "over",
+      "start": 199.48,
+      "duration": 2.88
+    },
+    {
+      "text": "2 * 4 that would be 16.",
+      "start": 202.72,
+      "duration": 5.16
+    },
+    {
+      "text": "Okay. We are done",
+      "start": 208.0,
+      "duration": 8.32
+    },
+    {
+      "text": "with our first part. Let's do our",
+      "start": 211.519,
+      "duration": 8.0
+    },
+    {
+      "text": "second part.",
+      "start": 216.32,
+      "duration": 5.24
+    },
+    {
+      "text": "For the second part, right? We want to",
+      "start": 219.519,
+      "duration": 6.0
+    },
+    {
+      "text": "integrate from 0 to 1.",
+      "start": 221.56,
+      "duration": 3.959
+    },
+    {
+      "text": "2 x over x squared + 3 dx. How can we",
+      "start": 226.48,
+      "duration": 11.04
+    },
+    {
+      "text": "solve this? Let's perform, okay?",
+      "start": 233.08,
+      "duration": 7.12
+    },
+    {
+      "text": "Um",
+      "start": 237.52,
+      "duration": 7.0
+    },
+    {
+      "text": "substitution. So, let u equal to x",
+      "start": 240.2,
+      "duration": 10.6
+    },
+    {
+      "text": "squared plus 3. du dx is equal to 2x. If",
+      "start": 244.52,
+      "duration": 10.2
+    },
+    {
+      "text": "we rearrange, we'll get du",
+      "start": 250.8,
+      "duration": 8.999
+    },
+    {
+      "text": "over 2x is equal to dx. Next step, we",
+      "start": 254.72,
+      "duration": 7.68
+    },
+    {
+      "text": "also have to",
+      "start": 259.799,
+      "duration": 5.721
+    },
+    {
+      "text": "change the limit. Before this, our limit",
+      "start": 262.4,
+      "duration": 5.2
+    },
+    {
+      "text": "is in x.",
+      "start": 265.52,
+      "duration": 5.36
+    },
+    {
+      "text": "Now, we want to change it in u. So, we",
+      "start": 267.6,
+      "duration": 6.56
+    },
+    {
+      "text": "have to substitute our x value into that",
+      "start": 270.88,
+      "duration": 6.28
+    },
+    {
+      "text": "equation. So, u is equal to 0 squared",
+      "start": 274.16,
+      "duration": 8.0
+    },
+    {
+      "text": "plus 3. So, u is 3. So, u is equals to 1",
+      "start": 277.16,
+      "duration": 8.72
+    },
+    {
+      "text": "squared plus 3. So, 4. Let's substitute",
+      "start": 282.16,
+      "duration": 6.759
+    },
+    {
+      "text": "that here.",
+      "start": 285.88,
+      "duration": 3.039
+    },
+    {
+      "text": "So, this is equal to",
+      "start": 291.04,
+      "duration": 7.24
+    },
+    {
+      "text": "We will change the limit now to from 3",
+      "start": 294.96,
+      "duration": 7.52
+    },
+    {
+      "text": "to 4. And then, your 2x maintain. We're",
+      "start": 298.28,
+      "duration": 7.68
+    },
+    {
+      "text": "not changing that. So, 2x over",
+      "start": 302.48,
+      "duration": 6.32
+    },
+    {
+      "text": "But, this one, x squared plus 3 is",
+      "start": 305.96,
+      "duration": 8.28
+    },
+    {
+      "text": "actually u. So, u. And then, dx is equal",
+      "start": 308.8,
+      "duration": 9.2
+    },
+    {
+      "text": "to du over",
+      "start": 314.24,
+      "duration": 3.76
+    },
+    {
+      "text": "dx.",
+      "start": 318.32,
+      "duration": 4.32
+    },
+    {
+      "text": "Okay, we can cancel Oh,",
+      "start": 320.0,
+      "duration": 6.84
+    },
+    {
+      "text": "du over 2x.",
+      "start": 322.64,
+      "duration": 4.2
+    },
+    {
+      "text": "We can now cancel the 2x. So, we're",
+      "start": 327.36,
+      "duration": 6.6
+    },
+    {
+      "text": "going to left with",
+      "start": 331.0,
+      "duration": 9.12
+    },
+    {
+      "text": "from 3 to 4 1 over u du. So, this is",
+      "start": 333.96,
+      "duration": 9.8
+    },
+    {
+      "text": "equal to ln u.",
+      "start": 340.12,
+      "duration": 6.56
+    },
+    {
+      "text": "Okay, that we need to evaluate from 3 to",
+      "start": 343.76,
+      "duration": 4.36
+    },
+    {
+      "text": "4.",
+      "start": 346.68,
+      "duration": 4.68
+    },
+    {
+      "text": "Okay, so this is equal to ln 4",
+      "start": 348.12,
+      "duration": 6.56
+    },
+    {
+      "text": "- ln 3. We're going to combine it just",
+      "start": 351.36,
+      "duration": 5.32
+    },
+    {
+      "text": "like what we did before, so it'll become",
+      "start": 354.68,
+      "duration": 4.72
+    },
+    {
+      "text": "ln 4 over 3.",
+      "start": 356.68,
+      "duration": 6.08
+    },
+    {
+      "text": "Moving on to the third part. Okay, the",
+      "start": 359.4,
+      "duration": 6.4
+    },
+    {
+      "text": "third part is in gray.",
+      "start": 362.76,
+      "duration": 5.8
+    },
+    {
+      "text": "Okay.",
+      "start": 365.8,
+      "duration": 2.76
+    },
+    {
+      "text": "So, the third integration will be from",
+      "start": 369.2,
+      "duration": 5.4
+    },
+    {
+      "text": "zero to one 1 over",
+      "start": 371.12,
+      "duration": 8.64
+    },
+    {
+      "text": "x squared + 3 dx.",
+      "start": 374.6,
+      "duration": 5.16
+    },
+    {
+      "text": "Okay, to solve this one, right? You have",
+      "start": 380.16,
+      "duration": 6.68
+    },
+    {
+      "text": "to refer to your formula booklet. Okay,",
+      "start": 382.56,
+      "duration": 6.8
+    },
+    {
+      "text": "and you'll see this in your formula",
+      "start": 386.84,
+      "duration": 5.64
+    },
+    {
+      "text": "booklet. So, what we're going to do is",
+      "start": 389.36,
+      "duration": 6.6
+    },
+    {
+      "text": "we would like to express our integral so",
+      "start": 392.48,
+      "duration": 6.16
+    },
+    {
+      "text": "that it would be in that form. So, zero",
+      "start": 395.96,
+      "duration": 5.16
+    },
+    {
+      "text": "to one one over",
+      "start": 398.64,
+      "duration": 4.88
+    },
+    {
+      "text": "x squared plus we want something",
+      "start": 401.12,
+      "duration": 6.92
+    },
+    {
+      "text": "squared. So, that would be",
+      "start": 403.52,
+      "duration": 8.36
+    },
+    {
+      "text": "Okay, square root three.",
+      "start": 408.04,
+      "duration": 5.32
+    },
+    {
+      "text": "dx.",
+      "start": 411.88,
+      "duration": 4.92
+    },
+    {
+      "text": "So, the answer would be 1 over a, which",
+      "start": 413.36,
+      "duration": 6.08
+    },
+    {
+      "text": "is 1 over square root 3",
+      "start": 416.8,
+      "duration": 5.8
+    },
+    {
+      "text": "arc tangent",
+      "start": 419.44,
+      "duration": 7.52
+    },
+    {
+      "text": "x over square root 3. We will evaluate",
+      "start": 422.6,
+      "duration": 5.56
+    },
+    {
+      "text": "this",
+      "start": 426.96,
+      "duration": 3.88
+    },
+    {
+      "text": "from zero to one.",
+      "start": 428.16,
+      "duration": 4.08
+    },
+    {
+      "text": "Okay.",
+      "start": 430.84,
+      "duration": 4.16
+    },
+    {
+      "text": "So, 1 over",
+      "start": 432.24,
+      "duration": 6.679
+    },
+    {
+      "text": "arc tangent, so tangent inverse",
+      "start": 435.0,
+      "duration": 6.76
+    },
+    {
+      "text": "1 over square root 3",
+      "start": 438.919,
+      "duration": 8.041
+    },
+    {
+      "text": "- 1 over square root 3 tangent inverse",
+      "start": 441.76,
+      "duration": 6.6
+    },
+    {
+      "text": "zero.",
+      "start": 446.96,
+      "duration": 2.959
+    },
+    {
+      "text": "Let's",
+      "start": 448.36,
+      "duration": 4.36
+    },
+    {
+      "text": "put it into our calculator.",
+      "start": 449.919,
+      "duration": 6.241
+    },
+    {
+      "text": "So, this would be equal to 1 over square",
+      "start": 452.72,
+      "duration": 5.4
+    },
+    {
+      "text": "root 3",
+      "start": 456.16,
+      "duration": 6.72
+    },
+    {
+      "text": "shift tangent inverse 1 over square root",
+      "start": 458.12,
+      "duration": 6.2
+    },
+    {
+      "text": "3.",
+      "start": 462.88,
+      "duration": 4.76
+    },
+    {
+      "text": "Okay, so we'll got",
+      "start": 464.32,
+      "duration": 7.32
+    },
+    {
+      "text": "we'll get pi over 6.",
+      "start": 467.64,
+      "duration": 7.64
+    },
+    {
+      "text": "Now, tangent inverse 0, that will just",
+      "start": 471.64,
+      "duration": 7.16
+    },
+    {
+      "text": "be 0.",
+      "start": 475.28,
+      "duration": 3.52
+    },
+    {
+      "text": "Now, what we can do is we can combine",
+      "start": 479.0,
+      "duration": 5.4
+    },
+    {
+      "text": "all of the integral.",
+      "start": 481.68,
+      "duration": 6.96
+    },
+    {
+      "text": "So, integral is equal to the first part",
+      "start": 484.4,
+      "duration": 9.04
+    },
+    {
+      "text": "2 + ln 81/16.",
+      "start": 488.64,
+      "duration": 4.8
+    },
+    {
+      "text": "Okay, plus the second part ln 4/3",
+      "start": 493.919,
+      "duration": 8.0
+    },
+    {
+      "text": "minus Why is it minus? Because notice",
+      "start": 499.16,
+      "duration": 4.4
+    },
+    {
+      "text": "here is minus.",
+      "start": 501.919,
+      "duration": 4.121
+    },
+    {
+      "text": "The third part",
+      "start": 503.56,
+      "duration": 6.56
+    },
+    {
+      "text": "pi over 6 root 3.",
+      "start": 506.04,
+      "duration": 8.24
+    },
+    {
+      "text": "What we need to do is just combine the",
+      "start": 510.12,
+      "duration": 8.56
+    },
+    {
+      "text": "the ln together. So, 2 + ln",
+      "start": 514.28,
+      "duration": 6.52
+    },
+    {
+      "text": "81/16",
+      "start": 518.68,
+      "duration": 5.16
+    },
+    {
+      "text": "* 4/3.",
+      "start": 520.8,
+      "duration": 5.64
+    },
+    {
+      "text": "Minus pi",
+      "start": 523.84,
+      "duration": 4.8
+    },
+    {
+      "text": "6 root 3.",
+      "start": 526.44,
+      "duration": 6.6
+    },
+    {
+      "text": "So, that's what we have here. 81/16",
+      "start": 528.64,
+      "duration": 7.52
+    },
+    {
+      "text": "multiplied by 4/3",
+      "start": 533.04,
+      "duration": 6.4
+    },
+    {
+      "text": "and we will have 27/",
+      "start": 536.16,
+      "duration": 8.88
+    },
+    {
+      "text": "4. So, this is equal to 2 + ln",
+      "start": 539.44,
+      "duration": 8.6
+    },
+    {
+      "text": "27/4",
+      "start": 545.04,
+      "duration": 3.0
+    },
+    {
+      "text": "minus",
+      "start": 548.76,
+      "duration": 6.92
+    },
+    {
+      "text": "pi over 6 root 3.",
+      "start": 551.08,
+      "duration": 7.16
+    },
+    {
+      "text": "Let's check that is exactly what they",
+      "start": 555.68,
+      "duration": 5.08
+    },
+    {
+      "text": "want us to find",
+      "start": 558.24,
+      "duration": 5.68
+    },
+    {
+      "text": "over here. Okay.",
+      "start": 560.76,
+      "duration": 5.6
+    },
+    {
+      "text": "Let's just mark our answer. For the",
+      "start": 563.92,
+      "duration": 5.84
+    },
+    {
+      "text": "first part, this is our answer. And for",
+      "start": 566.36,
+      "duration": 6.84
+    },
+    {
+      "text": "the second part, this is our answer.",
+      "start": 569.76,
+      "duration": 6.52
+    },
+    {
+      "text": "With that, we are done.",
+      "start": 573.2,
+      "duration": 3.08
+    }
+  ]
+}

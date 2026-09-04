@@ -1,0 +1,984 @@
+{
+  "id": "2La5fjgOZfw",
+  "paper": "CP1",
+  "question": "Q1",
+  "title": "Matrices (Singular & Inverse Matrix)",
+  "full_text": "Question number one. This is from May 2025 paper. We have a matrix problem. For part A, they want us to find the values of A for which the matrix M is singular. Now for part B, they give us three information. Matrix M is non-s singular. Determinant M is equals to 108. and a is negative. From there they want us to find the inverse matrix for M. Let's first begin with part A. Okay. When they say that matrix M is singular that means determinant of M is equal to zero. How do you find determinant for a 3x3 matrix? we'll begin. The first step would be to write plus minus plus to our first row. And let's write that. Oops. Let's write that here. So we have + three. Give it a bit of space. - 6. Give it a bit of space. + zero. Okay. Now let's start with three. So what we're going to do is Okay. Okay, so this is our tree. We will close its column and we will close its row. So what's left is this matrix 2x2. So that is what we have to find here. The determinant for this 2x2 matrix 31 A. We'll do the same thing for six. Okay. So here is our -6. We will close it column. We'll close it row. So we're left with A1 2 A. Make sure you follow the order and the arrangement here for zero. This is the cell. We're going to close its column. We're going to close it row. And we're left with this matrix. So here we have a 3 2 equal to zero. Okay. Now that we have this we can proceed with our computation. So here the coefficient will be three and then we'll compute our determinant. How do we compute determinant for 2x2? will multiply this diagonal first and I will minus with this diagonal. So it will be 3 a minus a. Next here it will be -6. And now let's compute our 2x 2 determinant. Multiply this diagonal minus with this diagonal. So it will be a² - 2. Now for the last part, anything multiply by 0 be zero. So we can simply skip that and make the equation equate to zero. Let's expand and simplify our equation. We'll have 9 a minus 3 a. Oh wait, actually we can simply compute this. 3 a minus a is 2 a. So 2 a * 3 is 6 a - 6 a² + 12 = 0. Let's rearrange. So we'll have - 6 a 2 + 6 a + 12. To simplify this, we can divide all of this by6. Okay. and we will get a² - a - 2 = 0. Now what we have to do is we have to find out our a values. Okay, we can use our calculator. Go to equation and function and then go to polomial degree 2 because this is quadratic. Coefficient of a² is 1. Coefficients of a is -1 and coefficient for and the constant is -2. Our first answer is two. So let's skip a bit. Okay, let's skip a bit. A is equ= to 2. Now our second answer is A is equ= to -1. Why do we have a bit of space here? Because we want to show our working. We'll weigh our way we'll work our way up. So what we're going to do is we're going to rearrange our answer a so such that it will equate to zero. So here will be a minus 2 = z. And here it will be a + 1 = 0. These two are our factors. Okay. So that would be here. A minus 2 our first factor. A + 1 our second factor. Make it equal to zero. By showing our work, we can ensure that we got all of the necessity marks. We're done with part A. Moving on to part B. Okay. Now we know that our determinant is equals to 108. So what we can do is we can start from here. Okay. determinant of m is equal to -108 instead of zero. So we'll take from this 6 a - 6 a 2 + 12 is equ= to -108. Okay, there we go. So let's rearrange and simplify our quadratic. Okay. -6 a 2 + 6 a. Okay. Here we have two oh wait menu one. Okay. We'll go back here. 12 + 108 because we bring 108 to the left hand side. So it will become 120 equal to zero. We'll do the same thing. Okay, we will divide all of this by -6. So here would be a² - 8 120 / -6. We will get -20 = 0. We'll do exactly like what we did before this. Okay. Okay. Equation and function polomial degree 2. Here is 1. Here is -1 and our constant is -20. Our first answer is a = 5 and our second answer is a = -4. We'll work our way up. Okay? Just like what we did before this we'll rearrange our equation such that it equates to zero. So here we have a - 5 = 0 and this one we'll get a + 4 = 0. These two are our factors. And then we can write it here. A minus 5 our first factor. Second one will be a + 4 = 0. Done. Next, let's take a look. Second. Okay, this point a must be less than zero. So, this one will be rejected. Why? Because a is more than zero. That is a positive number. So the a value that we'll take is this. Next what we will do is we will rewrite our m. Okay. What is our m? Our m would be three six. Okay. It would be 3 6 0 -4 31 2 -4 -4. Now because of this for this question right all okay all of the elements in our matrix or numbers we can simply use our calculator to find its inverse. Go to menu and then go to matrix. Okay we want to define the first matrix matrix A. Three rows and three columns. Let's start fill in the blanks. 3 6 0 -4 3 1 2 -4 -4 done now what we're going to do is going to press AC we're going to go up and we can see matrix press option optn button and then go to matrix H option number three and then just press here x -1 such that we can see that one with that we can straight away get our inverse matrix okay I'm just going to bring my working up here okay in exam they want us to give exact values so what we're going to do is we're going to write the value the first element will be 2 over 27. Do not write the decimal number. Let's go to the next one. -2 over 9. Next, -1 / 18. Next, 7 over 54. Next, 1 over 9. Next 1 over 36. Next -5 over 54. Next -2 over 9. Lastly -1 over 36. Okay. So this is our inverse matrix. Okay, with that we are done with our first question. We have our A values and we also have our inverse matrix.",
+  "snippets": [
+    {
+      "text": "Question number one. This is from May",
+      "start": 0.719,
+      "duration": 7.2
+    },
+    {
+      "text": "2025 paper. We have a matrix problem.",
+      "start": 3.36,
+      "duration": 7.359
+    },
+    {
+      "text": "For part A, they want us to find the",
+      "start": 7.919,
+      "duration": 6.8
+    },
+    {
+      "text": "values of A for which the matrix M is",
+      "start": 10.719,
+      "duration": 6.4
+    },
+    {
+      "text": "singular.",
+      "start": 14.719,
+      "duration": 5.521
+    },
+    {
+      "text": "Now for part B, they give us three",
+      "start": 17.119,
+      "duration": 7.601
+    },
+    {
+      "text": "information. Matrix M is non-s singular.",
+      "start": 20.24,
+      "duration": 8.08
+    },
+    {
+      "text": "Determinant M is equals to",
+      "start": 24.72,
+      "duration": 8.96
+    },
+    {
+      "text": "108. and a is negative. From there they",
+      "start": 28.32,
+      "duration": 9.52
+    },
+    {
+      "text": "want us to find the inverse matrix for",
+      "start": 33.68,
+      "duration": 10.08
+    },
+    {
+      "text": "M. Let's first begin with part A. Okay.",
+      "start": 37.84,
+      "duration": 8.879
+    },
+    {
+      "text": "When they say that matrix M is singular",
+      "start": 43.76,
+      "duration": 7.44
+    },
+    {
+      "text": "that means determinant of M is equal to",
+      "start": 46.719,
+      "duration": 9.041
+    },
+    {
+      "text": "zero. How do you find determinant for a",
+      "start": 51.2,
+      "duration": 8.4
+    },
+    {
+      "text": "3x3 matrix? we'll begin. The first step",
+      "start": 55.76,
+      "duration": 9.92
+    },
+    {
+      "text": "would be to write plus minus plus to our",
+      "start": 59.6,
+      "duration": 10.72
+    },
+    {
+      "text": "first row. And let's write that. Oops.",
+      "start": 65.68,
+      "duration": 7.28
+    },
+    {
+      "text": "Let's write that here. So we have +",
+      "start": 70.32,
+      "duration": 6.4
+    },
+    {
+      "text": "three. Give it a bit of space. - 6. Give",
+      "start": 72.96,
+      "duration": 9.199
+    },
+    {
+      "text": "it a bit of space. + zero. Okay. Now",
+      "start": 76.72,
+      "duration": 8.079
+    },
+    {
+      "text": "let's start with three. So what we're",
+      "start": 82.159,
+      "duration": 5.681
+    },
+    {
+      "text": "going to do is Okay. Okay, so this is",
+      "start": 84.799,
+      "duration": 7.28
+    },
+    {
+      "text": "our tree. We will close its column and",
+      "start": 87.84,
+      "duration": 8.4
+    },
+    {
+      "text": "we will close its row. So what's left is",
+      "start": 92.079,
+      "duration": 8.561
+    },
+    {
+      "text": "this matrix 2x2. So that is what we have",
+      "start": 96.24,
+      "duration": 7.28
+    },
+    {
+      "text": "to find here. The determinant for this",
+      "start": 100.64,
+      "duration": 8.159
+    },
+    {
+      "text": "2x2 matrix 31 A.",
+      "start": 103.52,
+      "duration": 8.72
+    },
+    {
+      "text": "We'll do the same thing for six. Okay.",
+      "start": 108.799,
+      "duration": 7.521
+    },
+    {
+      "text": "So here is our -6. We will close it",
+      "start": 112.24,
+      "duration": 7.76
+    },
+    {
+      "text": "column. We'll close it row. So we're",
+      "start": 116.32,
+      "duration": 5.759
+    },
+    {
+      "text": "left with",
+      "start": 120.0,
+      "duration": 3.759
+    },
+    {
+      "text": "A1",
+      "start": 122.079,
+      "duration": 5.441
+    },
+    {
+      "text": "2 A. Make sure you follow the order and",
+      "start": 123.759,
+      "duration": 7.28
+    },
+    {
+      "text": "the arrangement here for zero. This is",
+      "start": 127.52,
+      "duration": 6.0
+    },
+    {
+      "text": "the cell. We're going to close its",
+      "start": 131.039,
+      "duration": 7.041
+    },
+    {
+      "text": "column. We're going to close it",
+      "start": 133.52,
+      "duration": 8.16
+    },
+    {
+      "text": "row. And we're left with this matrix. So",
+      "start": 138.08,
+      "duration": 9.12
+    },
+    {
+      "text": "here we have a 3 2",
+      "start": 141.68,
+      "duration": 10.32
+    },
+    {
+      "text": "equal to zero. Okay. Now that we have",
+      "start": 147.2,
+      "duration": 7.2
+    },
+    {
+      "text": "this we can proceed with our",
+      "start": 152.0,
+      "duration": 5.28
+    },
+    {
+      "text": "computation. So here the coefficient",
+      "start": 154.4,
+      "duration": 7.04
+    },
+    {
+      "text": "will be three and then we'll compute our",
+      "start": 157.28,
+      "duration": 6.319
+    },
+    {
+      "text": "determinant. How do we compute",
+      "start": 161.44,
+      "duration": 6.079
+    },
+    {
+      "text": "determinant for 2x2? will multiply this",
+      "start": 163.599,
+      "duration": 6.801
+    },
+    {
+      "text": "diagonal first and I will minus with",
+      "start": 167.519,
+      "duration": 8.561
+    },
+    {
+      "text": "this diagonal. So it will be 3 a minus",
+      "start": 170.4,
+      "duration": 10.479
+    },
+    {
+      "text": "a. Next here it will be -6.",
+      "start": 176.08,
+      "duration": 7.84
+    },
+    {
+      "text": "And now let's compute our 2x 2",
+      "start": 180.879,
+      "duration": 4.561
+    },
+    {
+      "text": "determinant.",
+      "start": 183.92,
+      "duration": 4.8
+    },
+    {
+      "text": "Multiply this diagonal minus with this",
+      "start": 185.44,
+      "duration": 9.36
+    },
+    {
+      "text": "diagonal. So it will be a² - 2. Now for",
+      "start": 188.72,
+      "duration": 9.12
+    },
+    {
+      "text": "the last part, anything multiply by 0 be",
+      "start": 194.8,
+      "duration": 6.079
+    },
+    {
+      "text": "zero. So we can simply skip that and",
+      "start": 197.84,
+      "duration": 6.64
+    },
+    {
+      "text": "make the equation equate to zero. Let's",
+      "start": 200.879,
+      "duration": 7.921
+    },
+    {
+      "text": "expand and simplify our equation. We'll",
+      "start": 204.48,
+      "duration": 7.52
+    },
+    {
+      "text": "have 9 a minus",
+      "start": 208.8,
+      "duration": 6.64
+    },
+    {
+      "text": "3 a. Oh wait, actually we can simply",
+      "start": 212.0,
+      "duration": 6.64
+    },
+    {
+      "text": "compute this. 3 a minus",
+      "start": 215.44,
+      "duration": 12.64
+    },
+    {
+      "text": "a is 2 a. So 2 a * 3 is 6 a - 6 a²",
+      "start": 218.64,
+      "duration": 15.679
+    },
+    {
+      "text": "+ 12 = 0. Let's rearrange. So we'll have",
+      "start": 228.08,
+      "duration": 10.48
+    },
+    {
+      "text": "- 6 a 2 + 6 a",
+      "start": 234.319,
+      "duration": 6.56
+    },
+    {
+      "text": "+ 12.",
+      "start": 238.56,
+      "duration": 5.2
+    },
+    {
+      "text": "To simplify this, we can divide all of",
+      "start": 240.879,
+      "duration": 6.161
+    },
+    {
+      "text": "this by6.",
+      "start": 243.76,
+      "duration": 6.28
+    },
+    {
+      "text": "Okay.",
+      "start": 247.04,
+      "duration": 3.0
+    },
+    {
+      "text": "and we will get a²",
+      "start": 252.159,
+      "duration": 10.241
+    },
+    {
+      "text": "- a - 2 = 0.",
+      "start": 255.439,
+      "duration": 10.401
+    },
+    {
+      "text": "Now what we have to do is we have to",
+      "start": 262.4,
+      "duration": 6.64
+    },
+    {
+      "text": "find out our a values. Okay, we can use",
+      "start": 265.84,
+      "duration": 6.4
+    },
+    {
+      "text": "our calculator.",
+      "start": 269.04,
+      "duration": 6.159
+    },
+    {
+      "text": "Go to",
+      "start": 272.24,
+      "duration": 5.519
+    },
+    {
+      "text": "equation and function and then go to",
+      "start": 275.199,
+      "duration": 4.961
+    },
+    {
+      "text": "polomial degree 2 because this is",
+      "start": 277.759,
+      "duration": 7.121
+    },
+    {
+      "text": "quadratic. Coefficient of a² is 1.",
+      "start": 280.16,
+      "duration": 9.84
+    },
+    {
+      "text": "Coefficients of a is -1 and coefficient",
+      "start": 284.88,
+      "duration": 10.0
+    },
+    {
+      "text": "for and the constant is -2.",
+      "start": 290.0,
+      "duration": 8.32
+    },
+    {
+      "text": "Our first answer is two. So let's skip a",
+      "start": 294.88,
+      "duration": 8.08
+    },
+    {
+      "text": "bit. Okay, let's skip a bit. A is equ=",
+      "start": 298.32,
+      "duration": 9.599
+    },
+    {
+      "text": "to 2. Now our second answer is A is equ=",
+      "start": 302.96,
+      "duration": 8.4
+    },
+    {
+      "text": "to -1. Why do we have a bit of space",
+      "start": 307.919,
+      "duration": 6.321
+    },
+    {
+      "text": "here? Because we want to show our",
+      "start": 311.36,
+      "duration": 5.679
+    },
+    {
+      "text": "working. We'll weigh our way we'll work",
+      "start": 314.24,
+      "duration": 5.84
+    },
+    {
+      "text": "our way up. So what we're going to do is",
+      "start": 317.039,
+      "duration": 6.081
+    },
+    {
+      "text": "we're going to rearrange our answer a so",
+      "start": 320.08,
+      "duration": 6.72
+    },
+    {
+      "text": "such that it will equate to zero. So",
+      "start": 323.12,
+      "duration": 8.56
+    },
+    {
+      "text": "here will be a minus 2 = z. And here it",
+      "start": 326.8,
+      "duration": 9.119
+    },
+    {
+      "text": "will be a + 1 = 0.",
+      "start": 331.68,
+      "duration": 9.28
+    },
+    {
+      "text": "These two are our factors. Okay. So that",
+      "start": 335.919,
+      "duration": 8.801
+    },
+    {
+      "text": "would be here. A minus 2 our first",
+      "start": 340.96,
+      "duration": 8.64
+    },
+    {
+      "text": "factor. A + 1 our second factor. Make it",
+      "start": 344.72,
+      "duration": 8.64
+    },
+    {
+      "text": "equal to zero. By showing our work, we",
+      "start": 349.6,
+      "duration": 5.76
+    },
+    {
+      "text": "can ensure that we got all of the",
+      "start": 353.36,
+      "duration": 4.16
+    },
+    {
+      "text": "necessity marks.",
+      "start": 355.36,
+      "duration": 5.839
+    },
+    {
+      "text": "We're done with part A.",
+      "start": 357.52,
+      "duration": 9.32
+    },
+    {
+      "text": "Moving on to part B.",
+      "start": 361.199,
+      "duration": 5.641
+    },
+    {
+      "text": "Okay. Now we know that our determinant",
+      "start": 371.759,
+      "duration": 5.681
+    },
+    {
+      "text": "is equals to",
+      "start": 374.639,
+      "duration": 6.801
+    },
+    {
+      "text": "108. So what we can do is we can start",
+      "start": 377.44,
+      "duration": 6.0
+    },
+    {
+      "text": "from here.",
+      "start": 381.44,
+      "duration": 9.039
+    },
+    {
+      "text": "Okay. determinant of m is equal to -108",
+      "start": 383.44,
+      "duration": 11.52
+    },
+    {
+      "text": "instead of zero. So we'll take from this",
+      "start": 390.479,
+      "duration": 13.361
+    },
+    {
+      "text": "6 a - 6 a 2 + 12 is equ= to -108.",
+      "start": 394.96,
+      "duration": 11.519
+    },
+    {
+      "text": "Okay,",
+      "start": 403.84,
+      "duration": 5.52
+    },
+    {
+      "text": "there we go. So let's rearrange and",
+      "start": 406.479,
+      "duration": 6.081
+    },
+    {
+      "text": "simplify our quadratic.",
+      "start": 409.36,
+      "duration": 11.36
+    },
+    {
+      "text": "Okay. -6 a 2 + 6 a. Okay. Here we have",
+      "start": 412.56,
+      "duration": 10.88
+    },
+    {
+      "text": "two oh wait menu one. Okay. We'll go",
+      "start": 420.72,
+      "duration": 4.56
+    },
+    {
+      "text": "back here.",
+      "start": 423.44,
+      "duration": 7.599
+    },
+    {
+      "text": "12 + 108 because we bring",
+      "start": 425.28,
+      "duration": 9.28
+    },
+    {
+      "text": "108 to the left hand side. So it will",
+      "start": 431.039,
+      "duration": 5.28
+    },
+    {
+      "text": "become",
+      "start": 434.56,
+      "duration": 3.359
+    },
+    {
+      "text": "120",
+      "start": 436.319,
+      "duration": 5.44
+    },
+    {
+      "text": "equal to zero. We'll do the same thing.",
+      "start": 437.919,
+      "duration": 10.84
+    },
+    {
+      "text": "Okay, we will divide all of this by -6.",
+      "start": 441.759,
+      "duration": 7.0
+    },
+    {
+      "text": "So here would be a² - 8",
+      "start": 449.52,
+      "duration": 9.76
+    },
+    {
+      "text": "120 / -6.",
+      "start": 455.199,
+      "duration": 7.041
+    },
+    {
+      "text": "We will get -20",
+      "start": 459.28,
+      "duration": 6.639
+    },
+    {
+      "text": "= 0. We'll do exactly like what we did",
+      "start": 462.24,
+      "duration": 7.88
+    },
+    {
+      "text": "before this. Okay.",
+      "start": 465.919,
+      "duration": 4.201
+    },
+    {
+      "text": "Okay. Equation and function polomial",
+      "start": 472.88,
+      "duration": 8.64
+    },
+    {
+      "text": "degree 2. Here is 1. Here is -1 and our",
+      "start": 475.84,
+      "duration": 9.199
+    },
+    {
+      "text": "constant is -20.",
+      "start": 481.52,
+      "duration": 9.2
+    },
+    {
+      "text": "Our first answer is a = 5 and our second",
+      "start": 485.039,
+      "duration": 11.201
+    },
+    {
+      "text": "answer is a = -4. We'll work our way up.",
+      "start": 490.72,
+      "duration": 8.879
+    },
+    {
+      "text": "Okay? Just like what we did before this",
+      "start": 496.24,
+      "duration": 5.28
+    },
+    {
+      "text": "we'll rearrange",
+      "start": 499.599,
+      "duration": 6.401
+    },
+    {
+      "text": "our equation such that it equates to",
+      "start": 501.52,
+      "duration": 9.519
+    },
+    {
+      "text": "zero. So here we have a - 5 = 0 and this",
+      "start": 506.0,
+      "duration": 10.64
+    },
+    {
+      "text": "one we'll get a + 4 = 0. These two are",
+      "start": 511.039,
+      "duration": 8.0
+    },
+    {
+      "text": "our factors.",
+      "start": 516.64,
+      "duration": 6.16
+    },
+    {
+      "text": "And then we can write it here. A minus 5",
+      "start": 519.039,
+      "duration": 7.281
+    },
+    {
+      "text": "our first factor. Second one will be a +",
+      "start": 522.8,
+      "duration": 5.52
+    },
+    {
+      "text": "4",
+      "start": 526.32,
+      "duration": 7.199
+    },
+    {
+      "text": "= 0. Done.",
+      "start": 528.32,
+      "duration": 9.28
+    },
+    {
+      "text": "Next, let's take a look. Second. Okay,",
+      "start": 533.519,
+      "duration": 8.401
+    },
+    {
+      "text": "this point a must be less than zero. So,",
+      "start": 537.6,
+      "duration": 8.48
+    },
+    {
+      "text": "this one will be rejected.",
+      "start": 541.92,
+      "duration": 8.08
+    },
+    {
+      "text": "Why? Because a is more than zero. That",
+      "start": 546.08,
+      "duration": 7.04
+    },
+    {
+      "text": "is a positive number. So the a value",
+      "start": 550.0,
+      "duration": 7.8
+    },
+    {
+      "text": "that we'll take is this.",
+      "start": 553.12,
+      "duration": 4.68
+    },
+    {
+      "text": "Next what we will do is we will rewrite",
+      "start": 559.76,
+      "duration": 9.44
+    },
+    {
+      "text": "our m. Okay. What is our m? Our m would",
+      "start": 563.279,
+      "duration": 9.201
+    },
+    {
+      "text": "be three",
+      "start": 569.2,
+      "duration": 6.28
+    },
+    {
+      "text": "six.",
+      "start": 572.48,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay. It would be",
+      "start": 577.2,
+      "duration": 7.36
+    },
+    {
+      "text": "3 6 0",
+      "start": 581.279,
+      "duration": 4.961
+    },
+    {
+      "text": "-4",
+      "start": 584.56,
+      "duration": 3.92
+    },
+    {
+      "text": "31",
+      "start": 586.24,
+      "duration": 4.64
+    },
+    {
+      "text": "2 -4",
+      "start": 588.48,
+      "duration": 5.4
+    },
+    {
+      "text": "-4.",
+      "start": 590.88,
+      "duration": 3.0
+    },
+    {
+      "text": "Now because of this for this question",
+      "start": 595.12,
+      "duration": 6.8
+    },
+    {
+      "text": "right all okay all of the elements in",
+      "start": 597.92,
+      "duration": 6.32
+    },
+    {
+      "text": "our matrix",
+      "start": 601.92,
+      "duration": 5.68
+    },
+    {
+      "text": "or numbers we can simply use our",
+      "start": 604.24,
+      "duration": 6.56
+    },
+    {
+      "text": "calculator to find its inverse. Go to",
+      "start": 607.6,
+      "duration": 5.76
+    },
+    {
+      "text": "menu",
+      "start": 610.8,
+      "duration": 6.0
+    },
+    {
+      "text": "and then go to matrix. Okay we want to",
+      "start": 613.36,
+      "duration": 7.36
+    },
+    {
+      "text": "define the first matrix matrix A. Three",
+      "start": 616.8,
+      "duration": 6.96
+    },
+    {
+      "text": "rows and three columns. Let's start fill",
+      "start": 620.72,
+      "duration": 5.52
+    },
+    {
+      "text": "in the blanks. 3",
+      "start": 623.76,
+      "duration": 5.92
+    },
+    {
+      "text": "6 0",
+      "start": 626.24,
+      "duration": 5.68
+    },
+    {
+      "text": "-4",
+      "start": 629.68,
+      "duration": 4.0
+    },
+    {
+      "text": "3",
+      "start": 631.92,
+      "duration": 3.44
+    },
+    {
+      "text": "1",
+      "start": 633.68,
+      "duration": 3.2
+    },
+    {
+      "text": "2",
+      "start": 635.36,
+      "duration": 3.68
+    },
+    {
+      "text": "-4",
+      "start": 636.88,
+      "duration": 4.32
+    },
+    {
+      "text": "-4",
+      "start": 639.04,
+      "duration": 4.479
+    },
+    {
+      "text": "done now what we're going to do is going",
+      "start": 641.2,
+      "duration": 4.879
+    },
+    {
+      "text": "to press AC we're going to go up and we",
+      "start": 643.519,
+      "duration": 7.521
+    },
+    {
+      "text": "can see matrix press option optn button",
+      "start": 646.079,
+      "duration": 8.081
+    },
+    {
+      "text": "and then go to matrix H option number",
+      "start": 651.04,
+      "duration": 7.6
+    },
+    {
+      "text": "three and then just press here x -1 such",
+      "start": 654.16,
+      "duration": 8.239
+    },
+    {
+      "text": "that we can see that one with that we",
+      "start": 658.64,
+      "duration": 8.56
+    },
+    {
+      "text": "can straight away get our inverse matrix",
+      "start": 662.399,
+      "duration": 7.601
+    },
+    {
+      "text": "okay I'm just going to bring my working",
+      "start": 667.2,
+      "duration": 6.639
+    },
+    {
+      "text": "up here okay in exam they want us to",
+      "start": 670.0,
+      "duration": 7.8
+    },
+    {
+      "text": "give exact values",
+      "start": 673.839,
+      "duration": 3.961
+    },
+    {
+      "text": "so what we're going to do is we're going",
+      "start": 678.079,
+      "duration": 4.801
+    },
+    {
+      "text": "to write the value the first element",
+      "start": 680.24,
+      "duration": 6.8
+    },
+    {
+      "text": "will be 2 over 27. Do not write the",
+      "start": 682.88,
+      "duration": 7.04
+    },
+    {
+      "text": "decimal number. Let's go to the next",
+      "start": 687.04,
+      "duration": 7.52
+    },
+    {
+      "text": "one. -2 over 9.",
+      "start": 689.92,
+      "duration": 10.08
+    },
+    {
+      "text": "Next, -1 / 18.",
+      "start": 694.56,
+      "duration": 10.839
+    },
+    {
+      "text": "Next, 7 over 54.",
+      "start": 700.0,
+      "duration": 5.399
+    },
+    {
+      "text": "Next, 1 over 9.",
+      "start": 705.68,
+      "duration": 10.44
+    },
+    {
+      "text": "Next 1 over 36.",
+      "start": 710.48,
+      "duration": 5.64
+    },
+    {
+      "text": "Next",
+      "start": 716.64,
+      "duration": 6.52
+    },
+    {
+      "text": "-5 over 54.",
+      "start": 718.16,
+      "duration": 5.0
+    },
+    {
+      "text": "Next -2 over 9.",
+      "start": 723.92,
+      "duration": 9.84
+    },
+    {
+      "text": "Lastly -1 over 36.",
+      "start": 728.8,
+      "duration": 7.599
+    },
+    {
+      "text": "Okay.",
+      "start": 733.76,
+      "duration": 8.44
+    },
+    {
+      "text": "So this is our inverse matrix.",
+      "start": 736.399,
+      "duration": 5.801
+    },
+    {
+      "text": "Okay, with that we are done with our",
+      "start": 747.76,
+      "duration": 10.16
+    },
+    {
+      "text": "first question. We have our A values",
+      "start": 752.72,
+      "duration": 11.16
+    },
+    {
+      "text": "and we also have our inverse matrix.",
+      "start": 757.92,
+      "duration": 5.96
+    }
+  ]
+}

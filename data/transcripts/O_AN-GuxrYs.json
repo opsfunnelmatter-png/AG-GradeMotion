@@ -1,0 +1,794 @@
+{
+  "id": "O_AN-GuxrYs",
+  "paper": "CP1",
+  "question": "Q7a",
+  "title": "Partial Fractions & Improper Fractions",
+  "full_text": "Question seven, they give us a polynomial fraction and they want us to express it in partial fraction. For part B, they want us to use the answer to solve the integration. Let's take a look at part A. Whenever we have a partial fraction, right? We have to check our polynomial fraction whether it is improper or proper. How to do that? Let's check our highest degree. For our denominator, we got x cubed. So, x multiplied by x squared that is three. So, the highest degree is three. For our numerator, it's obvious here is cubed. So, the degree is also three. Whenever, okay, the highest degree for your numerator, when it is more or equal to the highest degree for denominator, then we have a case for improper polynomial fraction. So, what happened when we have improper polynomial fraction? When we express our polynomial in partial fraction, we will have a constant. Okay, why? Because we have a constant quotient. Let me [snorts] just write this down first. Okay, it will get A. Okay, plus our first denominator will be x + 2. So, numerator will be B. Here will be x squared + 3. Your numerator should be one degree less, so it will become Cx + D. Okay. That's good. Next, what we need to do in order to solve for our unknowns. What we can do is we can find our A value first. How can we find our quotient? We just need to divide the highest degree, okay, both of our X cubed coefficient. So, A is equal to 2 X cubed over X multiplied by X squared, which is 2 X cubed over X cubed. A is equal to 2. And now, we can rewrite this. >> [snorts] >> Okay, copy, paste. We know our A value now is 2. What we're going to do next is we're going to multiply by X + 2 and X squared + 3 to eliminate our fraction. First term, the left-hand side, we're going to eliminate um the denominator, but we're not going to add anything beside it, okay? So, what we're going to have is we're going to have 2 X cubed + 10 X squared + 9 X + 22 equals to 2. Okay, this one is just constant, so we're going to carry both of it. So, X + 2, X squared + 3. Plus B. For this one, we're going to cancel X + 2, X + 2. That means B will be multiplied only with X squared + 3. And for our CX + D, okay, we're going to cancel this and this, so we'll multiply by X + 2. Now, we have three more unknowns B, C, and D. That means we have to substitute three different values to solve for these unknown. Let's begin with the first substitution. Let X equals to Okay, we want to make this zero, so your X value supposed to be -2. So 2 -2 cubed + 10 -2 squared + 9 * -2 + 22 = Here would be zero, so the whole term would be zero + B >> [snorts] >> Okay, -2 squared + 3 Here this term would be zero, so that one multiplied by zero would be zero. We'll plug in all of these into our calculator. So 2 -2 cubed + 10 -2 squared + 9 -2 + 22 alpha equal 0 + alpha B bracket bracket -2 close bracket squared + 3 close bracket + 0 What we're going to do now is we're going to press shift solve. Okay, just press equal and they're going to give us the value of B. So B is equals to 4. Let's substitute the next value. Okay, what can we substitute? Let X equal to zero. Why do we choose zero? Because we want to eliminate C. Okay, so here you'll become zero + zero + zero + 22 = 2 0 + 2 is 2, 0 + 3 is 3. Plus B, we know B already, that's 4. 0 + 3 is 3. Plus, okay, we'll eliminate C, so that would just be D. 0 + 2 is 2. We'll do the same thing. Press AC. Okay, 22 alpha equal 2 * 2 * 3 Okay, + 4 * 3 + alpha D * 2. We want to solve this, so shift solve. Equal, D is equal to -1. Let's choose a different value to be substituted. Easy value. So, let X equals to 1. So, here will become 2 + 10 + 9 + 22 plus Okay, equal to 2 1 + 2 1 + 3 + B, B is 4. 1 + 3 plus C multiplied by 1 is just C, D is -1. 1 + 2. Let's put all of this into our calculator. Press AC first. 2 + 10 + 9 + 22 alpha equal 2 Okay, 1 + 2, the next bracket, 1 + 3 + 4 1 + 3 + bracket alpha C -1 close bracket 1 + 2. Okay, shift solve. Equal, C is equal to two. That's it. We managed to find all of the unknowns. Okay, let's write this. Copy and paste. There we go. Let's just change all of the constant. So, A is two, B is equals to four, C is equal to two, and D is negative one. We are done with part A.",
+  "snippets": [
+    {
+      "text": "Question seven, they give us a",
+      "start": 0.56,
+      "duration": 4.32
+    },
+    {
+      "text": "polynomial fraction and they want us to",
+      "start": 2.52,
+      "duration": 5.88
+    },
+    {
+      "text": "express it in partial fraction. For part",
+      "start": 4.88,
+      "duration": 5.68
+    },
+    {
+      "text": "B, they want us to use the answer to",
+      "start": 8.4,
+      "duration": 6.08
+    },
+    {
+      "text": "solve the integration.",
+      "start": 10.56,
+      "duration": 6.64
+    },
+    {
+      "text": "Let's take a look at part A. Whenever we",
+      "start": 14.48,
+      "duration": 4.64
+    },
+    {
+      "text": "have a partial fraction, right? We have",
+      "start": 17.2,
+      "duration": 5.08
+    },
+    {
+      "text": "to check our polynomial fraction whether",
+      "start": 19.12,
+      "duration": 5.6
+    },
+    {
+      "text": "it is improper or proper. How to do",
+      "start": 22.28,
+      "duration": 7.72
+    },
+    {
+      "text": "that? Let's check our highest degree.",
+      "start": 24.72,
+      "duration": 8.08
+    },
+    {
+      "text": "For our denominator,",
+      "start": 30.0,
+      "duration": 4.24
+    },
+    {
+      "text": "we got",
+      "start": 32.8,
+      "duration": 3.92
+    },
+    {
+      "text": "x cubed. So, x multiplied by x squared",
+      "start": 34.24,
+      "duration": 4.88
+    },
+    {
+      "text": "that is three. So, the highest degree is",
+      "start": 36.72,
+      "duration": 5.92
+    },
+    {
+      "text": "three. For our numerator, it's obvious",
+      "start": 39.12,
+      "duration": 6.28
+    },
+    {
+      "text": "here is cubed. So, the degree is also",
+      "start": 42.64,
+      "duration": 5.88
+    },
+    {
+      "text": "three. Whenever, okay, the highest",
+      "start": 45.4,
+      "duration": 6.32
+    },
+    {
+      "text": "degree for your numerator, when it is",
+      "start": 48.52,
+      "duration": 7.16
+    },
+    {
+      "text": "more or equal to the highest degree for",
+      "start": 51.72,
+      "duration": 6.12
+    },
+    {
+      "text": "denominator,",
+      "start": 55.68,
+      "duration": 6.4
+    },
+    {
+      "text": "then we have a case for improper",
+      "start": 57.84,
+      "duration": 6.0
+    },
+    {
+      "text": "polynomial",
+      "start": 62.08,
+      "duration": 3.32
+    },
+    {
+      "text": "fraction.",
+      "start": 63.84,
+      "duration": 4.2
+    },
+    {
+      "text": "So, what happened when we have improper",
+      "start": 65.4,
+      "duration": 5.24
+    },
+    {
+      "text": "polynomial fraction?",
+      "start": 68.04,
+      "duration": 5.6
+    },
+    {
+      "text": "When we express our polynomial in",
+      "start": 70.64,
+      "duration": 5.04
+    },
+    {
+      "text": "partial fraction,",
+      "start": 73.64,
+      "duration": 5.72
+    },
+    {
+      "text": "we will have a constant.",
+      "start": 75.68,
+      "duration": 7.04
+    },
+    {
+      "text": "Okay, why? Because we have a constant",
+      "start": 79.36,
+      "duration": 4.84
+    },
+    {
+      "text": "quotient.",
+      "start": 82.72,
+      "duration": 2.96
+    },
+    {
+      "text": "Let me [snorts] just write this down",
+      "start": 84.2,
+      "duration": 4.32
+    },
+    {
+      "text": "first.",
+      "start": 85.68,
+      "duration": 2.84
+    },
+    {
+      "text": "Okay, it will get A. Okay, plus our",
+      "start": 89.36,
+      "duration": 7.2
+    },
+    {
+      "text": "first denominator will be x + 2. So,",
+      "start": 93.16,
+      "duration": 5.44
+    },
+    {
+      "text": "numerator will be B.",
+      "start": 96.56,
+      "duration": 4.48
+    },
+    {
+      "text": "Here will be x squared + 3. Your",
+      "start": 98.6,
+      "duration": 5.64
+    },
+    {
+      "text": "numerator should be one degree less, so",
+      "start": 101.04,
+      "duration": 6.16
+    },
+    {
+      "text": "it will become Cx + D.",
+      "start": 104.24,
+      "duration": 4.4
+    },
+    {
+      "text": "Okay.",
+      "start": 107.2,
+      "duration": 4.72
+    },
+    {
+      "text": "That's good.",
+      "start": 108.64,
+      "duration": 6.12
+    },
+    {
+      "text": "Next, what we need to do in order to",
+      "start": 111.92,
+      "duration": 4.72
+    },
+    {
+      "text": "solve for our",
+      "start": 114.76,
+      "duration": 4.84
+    },
+    {
+      "text": "unknowns.",
+      "start": 116.64,
+      "duration": 2.96
+    },
+    {
+      "text": "What we can do is we can find our",
+      "start": 120.72,
+      "duration": 6.52
+    },
+    {
+      "text": "A value first. How can we find our",
+      "start": 124.64,
+      "duration": 5.16
+    },
+    {
+      "text": "quotient? We just need to divide the",
+      "start": 127.24,
+      "duration": 6.0
+    },
+    {
+      "text": "highest degree, okay, both of our X",
+      "start": 129.8,
+      "duration": 8.88
+    },
+    {
+      "text": "cubed coefficient. So, A is equal to",
+      "start": 133.24,
+      "duration": 10.08
+    },
+    {
+      "text": "2 X cubed over X multiplied by X",
+      "start": 138.68,
+      "duration": 9.44
+    },
+    {
+      "text": "squared, which is 2 X cubed over X",
+      "start": 143.32,
+      "duration": 8.56
+    },
+    {
+      "text": "cubed. A is equal to 2.",
+      "start": 148.12,
+      "duration": 7.116
+    },
+    {
+      "text": "And now, we can rewrite this.",
+      "start": 151.88,
+      "duration": 3.8
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 155.236,
+      "duration": 4.404
+    },
+    {
+      "text": ">> Okay, copy, paste.",
+      "start": 155.68,
+      "duration": 3.96
+    },
+    {
+      "text": "We know our A value now is",
+      "start": 160.88,
+      "duration": 4.52
+    },
+    {
+      "text": "2.",
+      "start": 164.04,
+      "duration": 2.8
+    },
+    {
+      "text": "What we're going to do next is we're",
+      "start": 165.4,
+      "duration": 5.76
+    },
+    {
+      "text": "going to multiply by X + 2 and X squared",
+      "start": 166.84,
+      "duration": 5.84
+    },
+    {
+      "text": "+ 3",
+      "start": 171.16,
+      "duration": 3.92
+    },
+    {
+      "text": "to eliminate our",
+      "start": 172.68,
+      "duration": 5.32
+    },
+    {
+      "text": "fraction. First term, the left-hand",
+      "start": 175.08,
+      "duration": 5.84
+    },
+    {
+      "text": "side, we're going to eliminate",
+      "start": 178.0,
+      "duration": 3.88
+    },
+    {
+      "text": "um",
+      "start": 180.92,
+      "duration": 3.039
+    },
+    {
+      "text": "the denominator, but we're not going to",
+      "start": 181.88,
+      "duration": 5.84
+    },
+    {
+      "text": "add anything beside it, okay? So, what",
+      "start": 183.959,
+      "duration": 5.28
+    },
+    {
+      "text": "we're going to have is we're going to",
+      "start": 187.72,
+      "duration": 9.799
+    },
+    {
+      "text": "have 2 X cubed + 10 X squared + 9 X + 22",
+      "start": 189.239,
+      "duration": 10.481
+    },
+    {
+      "text": "equals to 2.",
+      "start": 197.519,
+      "duration": 4.0
+    },
+    {
+      "text": "Okay, this one is just constant, so",
+      "start": 199.72,
+      "duration": 4.239
+    },
+    {
+      "text": "we're going to carry both of it. So, X +",
+      "start": 201.519,
+      "duration": 5.72
+    },
+    {
+      "text": "2, X squared + 3.",
+      "start": 203.959,
+      "duration": 5.961
+    },
+    {
+      "text": "Plus B. For this one, we're going to",
+      "start": 207.239,
+      "duration": 6.481
+    },
+    {
+      "text": "cancel X + 2, X + 2. That means B will",
+      "start": 209.92,
+      "duration": 9.72
+    },
+    {
+      "text": "be multiplied only with X squared + 3.",
+      "start": 213.72,
+      "duration": 5.92
+    },
+    {
+      "text": "And for our CX + D, okay, we're going to",
+      "start": 221.4,
+      "duration": 7.119
+    },
+    {
+      "text": "cancel this and this, so we'll multiply",
+      "start": 226.12,
+      "duration": 6.32
+    },
+    {
+      "text": "by X + 2.",
+      "start": 228.519,
+      "duration": 3.921
+    },
+    {
+      "text": "Now, we have three more unknowns B, C,",
+      "start": 233.68,
+      "duration": 5.48
+    },
+    {
+      "text": "and D. That means we have to substitute",
+      "start": 237.24,
+      "duration": 4.16
+    },
+    {
+      "text": "three different values to solve for",
+      "start": 239.16,
+      "duration": 4.68
+    },
+    {
+      "text": "these unknown. Let's begin with the",
+      "start": 241.4,
+      "duration": 4.52
+    },
+    {
+      "text": "first substitution.",
+      "start": 243.84,
+      "duration": 5.56
+    },
+    {
+      "text": "Let X equals to Okay, we want to make",
+      "start": 245.92,
+      "duration": 6.039
+    },
+    {
+      "text": "this zero, so your X value supposed to",
+      "start": 249.4,
+      "duration": 5.0
+    },
+    {
+      "text": "be -2.",
+      "start": 251.959,
+      "duration": 11.681
+    },
+    {
+      "text": "So 2 -2 cubed + 10 -2 squared + 9 * -2 +",
+      "start": 254.4,
+      "duration": 13.44
+    },
+    {
+      "text": "22 = Here would be zero, so the whole",
+      "start": 263.64,
+      "duration": 8.188
+    },
+    {
+      "text": "term would be zero + B",
+      "start": 267.84,
+      "duration": 4.079
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 271.828,
+      "duration": 5.652
+    },
+    {
+      "text": ">> Okay, -2 squared + 3 Here this term",
+      "start": 271.919,
+      "duration": 7.641
+    },
+    {
+      "text": "would be zero, so that one multiplied by",
+      "start": 277.48,
+      "duration": 5.68
+    },
+    {
+      "text": "zero would be zero. We'll plug in all of",
+      "start": 279.56,
+      "duration": 9.52
+    },
+    {
+      "text": "these into our calculator. So 2 -2",
+      "start": 283.16,
+      "duration": 7.4
+    },
+    {
+      "text": "cubed",
+      "start": 289.08,
+      "duration": 4.88
+    },
+    {
+      "text": "+ 10 -2",
+      "start": 290.56,
+      "duration": 7.68
+    },
+    {
+      "text": "squared + 9 -2",
+      "start": 293.96,
+      "duration": 8.36
+    },
+    {
+      "text": "+ 22 alpha equal",
+      "start": 298.24,
+      "duration": 7.64
+    },
+    {
+      "text": "0 + alpha B",
+      "start": 302.32,
+      "duration": 8.04
+    },
+    {
+      "text": "bracket bracket -2 close bracket squared",
+      "start": 305.88,
+      "duration": 8.96
+    },
+    {
+      "text": "+ 3 close bracket + 0",
+      "start": 310.36,
+      "duration": 5.76
+    },
+    {
+      "text": "What we're going to do now is we're",
+      "start": 314.84,
+      "duration": 4.44
+    },
+    {
+      "text": "going to press shift solve. Okay, just",
+      "start": 316.12,
+      "duration": 5.0
+    },
+    {
+      "text": "press equal and they're going to give us",
+      "start": 319.28,
+      "duration": 6.48
+    },
+    {
+      "text": "the value of B. So B is equals to 4.",
+      "start": 321.12,
+      "duration": 7.92
+    },
+    {
+      "text": "Let's substitute the next value. Okay,",
+      "start": 325.76,
+      "duration": 6.44
+    },
+    {
+      "text": "what can we substitute? Let X equal to",
+      "start": 329.04,
+      "duration": 5.76
+    },
+    {
+      "text": "zero. Why do we choose zero? Because we",
+      "start": 332.2,
+      "duration": 6.52
+    },
+    {
+      "text": "want to eliminate C. Okay, so here",
+      "start": 334.8,
+      "duration": 9.24
+    },
+    {
+      "text": "you'll become zero + zero + zero + 22",
+      "start": 338.72,
+      "duration": 10.96
+    },
+    {
+      "text": "= 2 0 + 2 is 2, 0 + 3 is 3.",
+      "start": 344.04,
+      "duration": 8.92
+    },
+    {
+      "text": "Plus B, we know B already, that's 4. 0 +",
+      "start": 349.68,
+      "duration": 4.88
+    },
+    {
+      "text": "3 is 3.",
+      "start": 352.96,
+      "duration": 3.76
+    },
+    {
+      "text": "Plus, okay, we'll eliminate C, so that",
+      "start": 354.56,
+      "duration": 6.08
+    },
+    {
+      "text": "would just be D. 0 + 2 is 2. We'll do",
+      "start": 356.72,
+      "duration": 6.48
+    },
+    {
+      "text": "the same thing. Press AC.",
+      "start": 360.64,
+      "duration": 6.28
+    },
+    {
+      "text": "Okay, 22 alpha equal",
+      "start": 363.2,
+      "duration": 5.68
+    },
+    {
+      "text": "2 * 2",
+      "start": 366.92,
+      "duration": 3.96
+    },
+    {
+      "text": "* 3",
+      "start": 368.88,
+      "duration": 5.24
+    },
+    {
+      "text": "Okay, + 4 * 3",
+      "start": 370.88,
+      "duration": 6.28
+    },
+    {
+      "text": "+ alpha D",
+      "start": 374.12,
+      "duration": 6.76
+    },
+    {
+      "text": "* 2. We want to solve this, so shift",
+      "start": 377.16,
+      "duration": 9.96
+    },
+    {
+      "text": "solve. Equal, D is equal to -1.",
+      "start": 380.88,
+      "duration": 8.56
+    },
+    {
+      "text": "Let's choose a different value to be",
+      "start": 387.12,
+      "duration": 3.84
+    },
+    {
+      "text": "substituted.",
+      "start": 389.44,
+      "duration": 4.36
+    },
+    {
+      "text": "Easy value.",
+      "start": 390.96,
+      "duration": 6.52
+    },
+    {
+      "text": "So, let X equals to 1.",
+      "start": 393.8,
+      "duration": 10.92
+    },
+    {
+      "text": "So, here will become 2 + 10 + 9 + 22",
+      "start": 397.48,
+      "duration": 9.04
+    },
+    {
+      "text": "plus",
+      "start": 404.72,
+      "duration": 5.64
+    },
+    {
+      "text": "Okay, equal to",
+      "start": 406.52,
+      "duration": 4.88
+    },
+    {
+      "text": "2",
+      "start": 410.36,
+      "duration": 5.32
+    },
+    {
+      "text": "1 + 2 1 + 3",
+      "start": 411.4,
+      "duration": 6.68
+    },
+    {
+      "text": "+ B, B is 4.",
+      "start": 415.68,
+      "duration": 4.72
+    },
+    {
+      "text": "1 + 3",
+      "start": 418.08,
+      "duration": 6.24
+    },
+    {
+      "text": "plus C multiplied by 1 is just C, D is",
+      "start": 420.4,
+      "duration": 5.48
+    },
+    {
+      "text": "-1.",
+      "start": 424.32,
+      "duration": 5.88
+    },
+    {
+      "text": "1 + 2. Let's put all of this into our",
+      "start": 425.88,
+      "duration": 8.76
+    },
+    {
+      "text": "calculator. Press AC first. 2 + 10 + 9 +",
+      "start": 430.2,
+      "duration": 8.48
+    },
+    {
+      "text": "22 alpha equal 2",
+      "start": 434.64,
+      "duration": 8.84
+    },
+    {
+      "text": "Okay, 1 + 2, the next bracket, 1 + 3",
+      "start": 438.68,
+      "duration": 6.56
+    },
+    {
+      "text": "+ 4",
+      "start": 443.48,
+      "duration": 4.16
+    },
+    {
+      "text": "1 + 3",
+      "start": 445.24,
+      "duration": 5.64
+    },
+    {
+      "text": "+ bracket alpha C",
+      "start": 447.64,
+      "duration": 7.88
+    },
+    {
+      "text": "-1 close bracket 1 + 2.",
+      "start": 450.88,
+      "duration": 7.8
+    },
+    {
+      "text": "Okay, shift solve.",
+      "start": 455.52,
+      "duration": 6.04
+    },
+    {
+      "text": "Equal, C is equal to",
+      "start": 458.68,
+      "duration": 5.24
+    },
+    {
+      "text": "two.",
+      "start": 461.56,
+      "duration": 2.36
+    },
+    {
+      "text": "That's it. We managed to find all of the",
+      "start": 464.6,
+      "duration": 8.04
+    },
+    {
+      "text": "unknowns. Okay, let's write this.",
+      "start": 468.4,
+      "duration": 7.24
+    },
+    {
+      "text": "Copy",
+      "start": 472.64,
+      "duration": 3.0
+    },
+    {
+      "text": "and",
+      "start": 476.4,
+      "duration": 3.0
+    },
+    {
+      "text": "paste.",
+      "start": 477.44,
+      "duration": 3.84
+    },
+    {
+      "text": "There we go.",
+      "start": 479.4,
+      "duration": 4.44
+    },
+    {
+      "text": "Let's just change all of the",
+      "start": 481.28,
+      "duration": 5.56
+    },
+    {
+      "text": "constant.",
+      "start": 483.84,
+      "duration": 3.0
+    },
+    {
+      "text": "So, A is two, B is equals to four, C is",
+      "start": 486.96,
+      "duration": 7.68
+    },
+    {
+      "text": "equal to two, and D is negative one. We",
+      "start": 490.88,
+      "duration": 7.96
+    },
+    {
+      "text": "are done with part A.",
+      "start": 494.64,
+      "duration": 4.2
+    }
+  ]
+}

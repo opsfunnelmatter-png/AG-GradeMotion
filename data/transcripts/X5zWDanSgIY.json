@@ -1,0 +1,1134 @@
+{
+  "id": "X5zWDanSgIY",
+  "paper": "CP2",
+  "question": "Q3a",
+  "title": "Mathematical Induction (Matrices)",
+  "full_text": "Let's take a look at question three. For question three, we have a matrix question and we want to prove this statement using mathematical induction. So, how do we do mathematical induction? We will begin by considering our original matrix. So, left hand side is equal to A to the power of n is equal to original matrix 1 0 5 2 to the power of n. But, what we would like to prove is our right hand side, where we will substitute the value of n. So, right hand side is equal to A to the power of n equal to 1 0 5 open bracket 2 to the power of n minus 1 and 2 to the power of n. There we go. Okay, so let's begin with our first step. What is What is our first step? First step will be prove that A1 is true. Okay, let's begin with the left hand side. So, left hand side A to the power of 1, which is equal to 1 0 5 2 to the power of 1, which is equal to 1 0 5 2. Let's take a look at our right hand side. Our right hand side is A to the power of 1 equal to 1 0 5 open bracket 2 to the power of 1 minus 1 2 to the power of 1. So, let's simplify. Over here, we'll have 1 0 5 open bracket 2 minus 1 and here would [snorts] be 2. This is equal to 1 0 5 2. There we go. Notice that our left hand side is equal to the right hand side. Therefore, we have proven that A1 is true. Moving on to step number two. Step number two is assumption, so we will assume that A to the power of K is true. Okay, let me use a different color for this step. So, we want to assume that A to the power of K is equal to We'll We'll use the right hand side, the one that we want to prove. 1 0 5 2 to the power of K minus 1 2 to the power of K. Okay. Is assumed to be true. Let's moving on to step three. For step three we want to prove that A to the power of K plus 1 is also true. So, A to the power of K plus 1. How can we get this? Okay, so let's start with the or with our left hand side. A to the power of K plus 1. This is actually equals to A to the power of K multiply with A to the power of 1. And what is A to the power of K? Okay, let me use a different color for this one. So, A to the power of K. A to the power of K is what we have in step number two. So, this is 1 0 5 2 to the power of K minus 1 2 to the power of K. Now, we want to multiply with A to the power of 1. This comes from step 1, which is 1 0 5 2. Next, what we have to do is we have to perform matrix multiplication, but we have unknowns, so we have to be very careful with our multiplication. We will begin by considering the first row from the first matrix and we will multiply with the first column of our second matrix. So, this would be Okay, let's refer to the first matrix. We will have 1, give it a bit of space, plus and then 5 bracket 2 to the power of K minus 1. Now, let's take a look at our second matrix first column. Okay, the first element is 1, so we're going to put it here and the second element is 0 and we're going to put it here. That's it. Next, we will change Okay, the row from the first matrix, but maintain the column from our second matrix. So, let's start with the elements from the first matrix. We will write 0. Okay, we will write 0. Give it a bit of space. The second element will be 2 to the power of K. Let's consider the elements from the second matrix. Look at the shaded element. So, the first element is 1 and the second element is 0. Moving on to the next element. Okay, we will consider first row first matrix, second column, second matrix. So, over here we'll do exactly like what we did just now. We will write the elements from the first matrix, but give it a bit of space. So, 1 plus Okay, a space plus 5 open bracket 2 to the power of K minus 1. Now, let's take a look at the element from our second matrix. So, over here in our bracket, we will have 5. Over here, we'll have 2. That's it. Now, we're going to change the column from the first We're going to change the row from our first matrix. So, this we will get 0. Give it a bit of space and then plus 2 to the power of K. Let's consider the element from our second matrix. The first bracket will be 5 and the second bracket will be 2. That's it. Okay. Let's now simplify our matrix. Over here, I will get 1 * 1 is 1 and then over here, anything multiplied by 0 would be 0. So, 1 plus 0. Over here, it will be 0 plus 0. This one would be 5 plus 5 open bracket. So, what I would like to do first is expand this one. So, that would be 2 to the power of K plus 1 minus 2. Over here, it would be 0 plus 2 to the power of K plus 1. That's it. That is our matrix. Okay. So, what I would like to do is move it slightly to the left hand side so that we have space to do our working. So, this one would be 1 0 5 plus Okay, we will expand this one now. So, it would be 5 open bracket 2 to the power of K plus 1. >> [snorts] >> Okay, close bracket minus 10. This one would be 2 to the power of K plus 1. Close bracket. This is equal to 1 0 Okay, so what we will consider now is this 5 minus 10. So, we will get 5 to the power 5 open bracket 2 to the power of K plus 1 close bracket minus 5. Where did I get that? 5 minus 10. Here, it would be 2 to the power of K plus 1. Let's zoom out. Okay. Let's check this is what we want if we compare with our right hand side. If we substitute with K plus 1, this is what we want. That means Okay, this is equal to the right hand side. Therefore, A to the power of K plus 1 is also true. Last step. Step four. Conclusion. Let's write down the conclusion. If it is true for n equals to k then it is true for n equals to k plus one. It is proven to be true for n equals to one. Therefore Okay, we will copy back the statement from our right hand side. Therefore, a to the power of n equal to 1 0 5 open bracket 2 to the power of n minus 1 2 to the power of n is true for n [snorts] all natural integers. How to know Okay. Which element we should choose? Just refer back to our question. That's it. We are done with question three part A.",
+  "snippets": [
+    {
+      "text": "Let's take a look at question three. For",
+      "start": 2.96,
+      "duration": 3.84
+    },
+    {
+      "text": "question three, we have a matrix",
+      "start": 5.36,
+      "duration": 4.2
+    },
+    {
+      "text": "question and we want to prove this",
+      "start": 6.8,
+      "duration": 6.36
+    },
+    {
+      "text": "statement using mathematical induction.",
+      "start": 9.56,
+      "duration": 6.16
+    },
+    {
+      "text": "So, how do we do mathematical induction?",
+      "start": 13.16,
+      "duration": 5.04
+    },
+    {
+      "text": "We will begin by considering our",
+      "start": 15.72,
+      "duration": 5.8
+    },
+    {
+      "text": "original matrix. So, left hand side is",
+      "start": 18.2,
+      "duration": 5.0
+    },
+    {
+      "text": "equal to",
+      "start": 21.52,
+      "duration": 5.32
+    },
+    {
+      "text": "A to the power of n is equal to",
+      "start": 23.2,
+      "duration": 7.16
+    },
+    {
+      "text": "original matrix 1 0 5 2",
+      "start": 26.84,
+      "duration": 6.16
+    },
+    {
+      "text": "to the power of n. But, what we would",
+      "start": 30.36,
+      "duration": 5.8
+    },
+    {
+      "text": "like to prove is our right hand side,",
+      "start": 33.0,
+      "duration": 7.6
+    },
+    {
+      "text": "where we will substitute the value of n.",
+      "start": 36.16,
+      "duration": 7.0
+    },
+    {
+      "text": "So, right hand side is equal to A to the",
+      "start": 40.6,
+      "duration": 4.2
+    },
+    {
+      "text": "power of n",
+      "start": 43.16,
+      "duration": 3.48
+    },
+    {
+      "text": "equal to",
+      "start": 44.8,
+      "duration": 7.28
+    },
+    {
+      "text": "1 0 5 open bracket 2 to the power of n",
+      "start": 46.64,
+      "duration": 10.76
+    },
+    {
+      "text": "minus 1 and 2 to the power of n.",
+      "start": 52.08,
+      "duration": 7.96
+    },
+    {
+      "text": "There we go. Okay, so let's begin with",
+      "start": 57.4,
+      "duration": 5.0
+    },
+    {
+      "text": "our first step. What is What is our",
+      "start": 60.04,
+      "duration": 4.76
+    },
+    {
+      "text": "first step? First step will be",
+      "start": 62.4,
+      "duration": 5.6
+    },
+    {
+      "text": "prove that",
+      "start": 64.8,
+      "duration": 3.2
+    },
+    {
+      "text": "A1 is true.",
+      "start": 69.64,
+      "duration": 3.8
+    },
+    {
+      "text": "Okay, let's begin with the left hand",
+      "start": 74.08,
+      "duration": 7.0
+    },
+    {
+      "text": "side. So, left hand side",
+      "start": 77.92,
+      "duration": 6.72
+    },
+    {
+      "text": "A to the power of 1, which is equal to 1",
+      "start": 81.08,
+      "duration": 7.8
+    },
+    {
+      "text": "0 5 2 to the power of 1, which is equal",
+      "start": 84.64,
+      "duration": 8.36
+    },
+    {
+      "text": "to 1 0 5 2.",
+      "start": 88.88,
+      "duration": 6.24
+    },
+    {
+      "text": "Let's take a look at our right hand",
+      "start": 93.0,
+      "duration": 3.68
+    },
+    {
+      "text": "side.",
+      "start": 95.12,
+      "duration": 3.92
+    },
+    {
+      "text": "Our right hand side is A to the power of",
+      "start": 96.68,
+      "duration": 4.96
+    },
+    {
+      "text": "1 equal to",
+      "start": 99.04,
+      "duration": 4.36
+    },
+    {
+      "text": "1 0",
+      "start": 101.64,
+      "duration": 4.84
+    },
+    {
+      "text": "5 open bracket 2 to the power of 1 minus",
+      "start": 103.4,
+      "duration": 4.16
+    },
+    {
+      "text": "1",
+      "start": 106.48,
+      "duration": 4.16
+    },
+    {
+      "text": "2 to the power of 1. So, let's simplify.",
+      "start": 107.56,
+      "duration": 6.28
+    },
+    {
+      "text": "Over here, we'll have 1 0",
+      "start": 110.64,
+      "duration": 6.2
+    },
+    {
+      "text": "5 open bracket 2 minus 1",
+      "start": 113.84,
+      "duration": 5.52
+    },
+    {
+      "text": "and here would [snorts] be 2. This is",
+      "start": 116.84,
+      "duration": 3.96
+    },
+    {
+      "text": "equal to",
+      "start": 119.36,
+      "duration": 3.92
+    },
+    {
+      "text": "1 0",
+      "start": 120.8,
+      "duration": 4.6
+    },
+    {
+      "text": "5 2.",
+      "start": 123.28,
+      "duration": 4.72
+    },
+    {
+      "text": "There we go. Notice that our left hand",
+      "start": 125.4,
+      "duration": 6.04
+    },
+    {
+      "text": "side is equal to the right hand side.",
+      "start": 128.0,
+      "duration": 8.04
+    },
+    {
+      "text": "Therefore, we have proven that",
+      "start": 131.44,
+      "duration": 8.32
+    },
+    {
+      "text": "A1 is true.",
+      "start": 136.04,
+      "duration": 3.72
+    },
+    {
+      "text": "Moving on to step number two. Step",
+      "start": 142.2,
+      "duration": 5.16
+    },
+    {
+      "text": "number two is assumption, so we will",
+      "start": 145.08,
+      "duration": 4.68
+    },
+    {
+      "text": "assume",
+      "start": 147.36,
+      "duration": 4.96
+    },
+    {
+      "text": "that",
+      "start": 149.76,
+      "duration": 6.88
+    },
+    {
+      "text": "A to the power of K is true.",
+      "start": 152.32,
+      "duration": 6.68
+    },
+    {
+      "text": "Okay, let me use a different color for",
+      "start": 156.64,
+      "duration": 4.08
+    },
+    {
+      "text": "this step.",
+      "start": 159.0,
+      "duration": 4.32
+    },
+    {
+      "text": "So, we want to assume that A to the",
+      "start": 160.72,
+      "duration": 5.52
+    },
+    {
+      "text": "power of K is equal to",
+      "start": 163.32,
+      "duration": 3.92
+    },
+    {
+      "text": "We'll",
+      "start": 166.24,
+      "duration": 2.6
+    },
+    {
+      "text": "We'll use the right hand side, the one",
+      "start": 167.24,
+      "duration": 3.16
+    },
+    {
+      "text": "that we want to prove.",
+      "start": 168.84,
+      "duration": 3.2
+    },
+    {
+      "text": "1 0",
+      "start": 170.4,
+      "duration": 5.72
+    },
+    {
+      "text": "5 2 to the power of K minus 1 2 to the",
+      "start": 172.04,
+      "duration": 6.12
+    },
+    {
+      "text": "power of K.",
+      "start": 176.12,
+      "duration": 4.76
+    },
+    {
+      "text": "Okay.",
+      "start": 178.16,
+      "duration": 2.72
+    },
+    {
+      "text": "Is assumed",
+      "start": 181.12,
+      "duration": 3.44
+    },
+    {
+      "text": "to be true.",
+      "start": 184.88,
+      "duration": 2.76
+    },
+    {
+      "text": "Let's moving on to step three.",
+      "start": 189.6,
+      "duration": 5.92
+    },
+    {
+      "text": "For step three",
+      "start": 192.84,
+      "duration": 5.4
+    },
+    {
+      "text": "we want to prove",
+      "start": 195.52,
+      "duration": 4.4
+    },
+    {
+      "text": "that",
+      "start": 198.24,
+      "duration": 7.96
+    },
+    {
+      "text": "A to the power of K plus 1 is also true.",
+      "start": 199.92,
+      "duration": 6.28
+    },
+    {
+      "text": "So, A to the power of K plus 1. How can",
+      "start": 209.2,
+      "duration": 5.56
+    },
+    {
+      "text": "we get this? Okay, so let's start with",
+      "start": 212.64,
+      "duration": 4.8
+    },
+    {
+      "text": "the or with our left hand side.",
+      "start": 214.76,
+      "duration": 5.56
+    },
+    {
+      "text": "A to the power of",
+      "start": 217.44,
+      "duration": 4.44
+    },
+    {
+      "text": "K plus 1.",
+      "start": 220.32,
+      "duration": 4.28
+    },
+    {
+      "text": "This is actually equals to",
+      "start": 221.88,
+      "duration": 6.12
+    },
+    {
+      "text": "A to the power of K multiply with A to",
+      "start": 224.6,
+      "duration": 6.44
+    },
+    {
+      "text": "the power of 1.",
+      "start": 228.0,
+      "duration": 6.08
+    },
+    {
+      "text": "And what is A to the power of K? Okay,",
+      "start": 231.04,
+      "duration": 4.72
+    },
+    {
+      "text": "let me use a different color for this",
+      "start": 234.08,
+      "duration": 4.72
+    },
+    {
+      "text": "one. So, A to the power of K. A to the",
+      "start": 235.76,
+      "duration": 5.32
+    },
+    {
+      "text": "power of K is what we have in step",
+      "start": 238.8,
+      "duration": 7.08
+    },
+    {
+      "text": "number two. So, this is 1 0 5",
+      "start": 241.08,
+      "duration": 8.0
+    },
+    {
+      "text": "2 to the power of K minus 1 2 to the",
+      "start": 245.88,
+      "duration": 4.88
+    },
+    {
+      "text": "power of K.",
+      "start": 249.08,
+      "duration": 4.44
+    },
+    {
+      "text": "Now, we want to multiply with A to the",
+      "start": 250.76,
+      "duration": 6.36
+    },
+    {
+      "text": "power of 1. This comes from step 1,",
+      "start": 253.52,
+      "duration": 7.999
+    },
+    {
+      "text": "which is 1 0 5 2.",
+      "start": 257.12,
+      "duration": 6.64
+    },
+    {
+      "text": "Next, what we have to do is we have to",
+      "start": 261.519,
+      "duration": 5.881
+    },
+    {
+      "text": "perform matrix multiplication,",
+      "start": 263.76,
+      "duration": 5.2
+    },
+    {
+      "text": "but we have unknowns, so we have to be",
+      "start": 267.4,
+      "duration": 4.48
+    },
+    {
+      "text": "very careful with our multiplication. We",
+      "start": 268.96,
+      "duration": 6.2
+    },
+    {
+      "text": "will begin by considering",
+      "start": 271.88,
+      "duration": 7.36
+    },
+    {
+      "text": "the first row from the first matrix and",
+      "start": 275.16,
+      "duration": 6.72
+    },
+    {
+      "text": "we will multiply with the first column",
+      "start": 279.24,
+      "duration": 5.8
+    },
+    {
+      "text": "of our second matrix.",
+      "start": 281.88,
+      "duration": 5.4
+    },
+    {
+      "text": "So, this would be Okay, let's refer to",
+      "start": 285.04,
+      "duration": 5.32
+    },
+    {
+      "text": "the first matrix. We will have 1, give",
+      "start": 287.28,
+      "duration": 6.72
+    },
+    {
+      "text": "it a bit of space, plus and then",
+      "start": 290.36,
+      "duration": 7.76
+    },
+    {
+      "text": "5 bracket 2 to the power of K minus 1.",
+      "start": 294.0,
+      "duration": 6.08
+    },
+    {
+      "text": "Now, let's take a look at our second",
+      "start": 298.12,
+      "duration": 3.4
+    },
+    {
+      "text": "matrix",
+      "start": 300.08,
+      "duration": 4.0
+    },
+    {
+      "text": "first column. Okay, the first element is",
+      "start": 301.52,
+      "duration": 4.8
+    },
+    {
+      "text": "1, so we're going to put it here and the",
+      "start": 304.08,
+      "duration": 4.6
+    },
+    {
+      "text": "second element is 0 and we're going to",
+      "start": 306.32,
+      "duration": 3.96
+    },
+    {
+      "text": "put it here.",
+      "start": 308.68,
+      "duration": 4.64
+    },
+    {
+      "text": "That's it.",
+      "start": 310.28,
+      "duration": 3.04
+    },
+    {
+      "text": "Next, we will change Okay,",
+      "start": 314.0,
+      "duration": 7.04
+    },
+    {
+      "text": "the row from the first matrix, but",
+      "start": 318.44,
+      "duration": 5.64
+    },
+    {
+      "text": "maintain the column from our second",
+      "start": 321.04,
+      "duration": 4.32
+    },
+    {
+      "text": "matrix.",
+      "start": 324.08,
+      "duration": 4.24
+    },
+    {
+      "text": "So, let's start with the elements from",
+      "start": 325.36,
+      "duration": 7.52
+    },
+    {
+      "text": "the first matrix. We will write 0.",
+      "start": 328.32,
+      "duration": 4.56
+    },
+    {
+      "text": "Okay, we will write 0. Give it a bit of",
+      "start": 333.72,
+      "duration": 4.84
+    },
+    {
+      "text": "space. The second element will be 2 to",
+      "start": 335.68,
+      "duration": 4.76
+    },
+    {
+      "text": "the power of K.",
+      "start": 338.56,
+      "duration": 3.72
+    },
+    {
+      "text": "Let's consider the elements from the",
+      "start": 340.44,
+      "duration": 4.8
+    },
+    {
+      "text": "second matrix. Look at the shaded",
+      "start": 342.28,
+      "duration": 5.76
+    },
+    {
+      "text": "element. So, the first element is 1 and",
+      "start": 345.24,
+      "duration": 5.68
+    },
+    {
+      "text": "the second element is 0.",
+      "start": 348.04,
+      "duration": 5.96
+    },
+    {
+      "text": "Moving on to the next",
+      "start": 350.92,
+      "duration": 7.8
+    },
+    {
+      "text": "element. Okay, we will consider",
+      "start": 354.0,
+      "duration": 6.52
+    },
+    {
+      "text": "first row",
+      "start": 358.72,
+      "duration": 6.0
+    },
+    {
+      "text": "first matrix, second column, second",
+      "start": 360.52,
+      "duration": 5.64
+    },
+    {
+      "text": "matrix.",
+      "start": 364.72,
+      "duration": 3.2
+    },
+    {
+      "text": "So, over here",
+      "start": 366.16,
+      "duration": 3.6
+    },
+    {
+      "text": "we'll do exactly like what we did just",
+      "start": 367.92,
+      "duration": 4.2
+    },
+    {
+      "text": "now. We will write the elements from the",
+      "start": 369.76,
+      "duration": 3.92
+    },
+    {
+      "text": "first matrix, but give it a bit of",
+      "start": 372.12,
+      "duration": 4.28
+    },
+    {
+      "text": "space. So, 1",
+      "start": 373.68,
+      "duration": 5.24
+    },
+    {
+      "text": "plus Okay, a space plus",
+      "start": 376.4,
+      "duration": 6.28
+    },
+    {
+      "text": "5 open bracket 2 to the power of K minus",
+      "start": 378.92,
+      "duration": 6.96
+    },
+    {
+      "text": "1. Now, let's take a look at the element",
+      "start": 382.68,
+      "duration": 6.16
+    },
+    {
+      "text": "from our second matrix. So, over here in",
+      "start": 385.88,
+      "duration": 5.48
+    },
+    {
+      "text": "our bracket, we will have 5.",
+      "start": 388.84,
+      "duration": 5.4
+    },
+    {
+      "text": "Over here, we'll have 2.",
+      "start": 391.36,
+      "duration": 4.92
+    },
+    {
+      "text": "That's it. Now, we're going to change",
+      "start": 394.24,
+      "duration": 3.84
+    },
+    {
+      "text": "the column",
+      "start": 396.28,
+      "duration": 3.56
+    },
+    {
+      "text": "from the first",
+      "start": 398.08,
+      "duration": 4.12
+    },
+    {
+      "text": "We're going to change the row from our",
+      "start": 399.84,
+      "duration": 5.12
+    },
+    {
+      "text": "first matrix.",
+      "start": 402.2,
+      "duration": 5.52
+    },
+    {
+      "text": "So, this we will get 0. Give it a bit of",
+      "start": 404.96,
+      "duration": 6.8
+    },
+    {
+      "text": "space and then plus 2 to the power of K.",
+      "start": 407.72,
+      "duration": 6.24
+    },
+    {
+      "text": "Let's consider the element from our",
+      "start": 411.76,
+      "duration": 4.72
+    },
+    {
+      "text": "second matrix. The first bracket will be",
+      "start": 413.96,
+      "duration": 3.76
+    },
+    {
+      "text": "5",
+      "start": 416.48,
+      "duration": 4.16
+    },
+    {
+      "text": "and the second bracket will be 2.",
+      "start": 417.72,
+      "duration": 7.08
+    },
+    {
+      "text": "That's it. Okay.",
+      "start": 420.64,
+      "duration": 6.76
+    },
+    {
+      "text": "Let's now simplify",
+      "start": 424.8,
+      "duration": 5.12
+    },
+    {
+      "text": "our matrix.",
+      "start": 427.4,
+      "duration": 6.12
+    },
+    {
+      "text": "Over here, I will get 1 * 1 is 1",
+      "start": 429.92,
+      "duration": 5.56
+    },
+    {
+      "text": "and then over here, anything multiplied",
+      "start": 433.52,
+      "duration": 4.76
+    },
+    {
+      "text": "by 0 would be 0.",
+      "start": 435.48,
+      "duration": 4.84
+    },
+    {
+      "text": "So, 1 plus 0.",
+      "start": 438.28,
+      "duration": 5.88
+    },
+    {
+      "text": "Over here, it will be 0 plus 0.",
+      "start": 440.32,
+      "duration": 5.12
+    },
+    {
+      "text": "This one",
+      "start": 444.16,
+      "duration": 4.32
+    },
+    {
+      "text": "would be 5 plus",
+      "start": 445.44,
+      "duration": 6.0
+    },
+    {
+      "text": "5 open bracket. So, what I would like to",
+      "start": 448.48,
+      "duration": 6.88
+    },
+    {
+      "text": "do first is expand this one.",
+      "start": 451.44,
+      "duration": 6.08
+    },
+    {
+      "text": "So, that would be",
+      "start": 455.36,
+      "duration": 6.76
+    },
+    {
+      "text": "2 to the power of K plus 1 minus 2.",
+      "start": 457.52,
+      "duration": 7.28
+    },
+    {
+      "text": "Over here, it would be 0 plus",
+      "start": 462.12,
+      "duration": 7.28
+    },
+    {
+      "text": "2 to the power of K plus 1.",
+      "start": 464.8,
+      "duration": 8.4
+    },
+    {
+      "text": "That's it. That is our matrix.",
+      "start": 469.4,
+      "duration": 6.8
+    },
+    {
+      "text": "Okay.",
+      "start": 473.2,
+      "duration": 3.0
+    },
+    {
+      "text": "So, what I would like to do is move it",
+      "start": 476.92,
+      "duration": 5.88
+    },
+    {
+      "text": "slightly to the left hand side so that",
+      "start": 480.0,
+      "duration": 5.84
+    },
+    {
+      "text": "we have space to do our working. So,",
+      "start": 482.8,
+      "duration": 6.44
+    },
+    {
+      "text": "this one would be 1 0",
+      "start": 485.84,
+      "duration": 5.6
+    },
+    {
+      "text": "5 plus",
+      "start": 489.24,
+      "duration": 6.44
+    },
+    {
+      "text": "Okay, we will expand this one now.",
+      "start": 491.44,
+      "duration": 7.04
+    },
+    {
+      "text": "So, it would be",
+      "start": 495.68,
+      "duration": 6.72
+    },
+    {
+      "text": "5 open bracket 2 to the power of K plus",
+      "start": 498.48,
+      "duration": 5.22
+    },
+    {
+      "text": "1.",
+      "start": 502.4,
+      "duration": 1.48
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 503.7,
+      "duration": 4.98
+    },
+    {
+      "text": ">> Okay, close bracket minus 10.",
+      "start": 503.88,
+      "duration": 7.64
+    },
+    {
+      "text": "This one would be 2 to the power of K",
+      "start": 508.68,
+      "duration": 4.88
+    },
+    {
+      "text": "plus 1.",
+      "start": 511.52,
+      "duration": 5.6
+    },
+    {
+      "text": "Close bracket. This is equal to",
+      "start": 513.56,
+      "duration": 7.479
+    },
+    {
+      "text": "1 0 Okay, so what we will consider now",
+      "start": 517.12,
+      "duration": 7.32
+    },
+    {
+      "text": "is this 5 minus 10.",
+      "start": 521.039,
+      "duration": 5.281
+    },
+    {
+      "text": "So, we will get",
+      "start": 524.44,
+      "duration": 5.68
+    },
+    {
+      "text": "5 to the power 5 open bracket 2 to the",
+      "start": 526.32,
+      "duration": 7.24
+    },
+    {
+      "text": "power of K plus 1 close bracket",
+      "start": 530.12,
+      "duration": 7.52
+    },
+    {
+      "text": "minus 5. Where did I get that? 5 minus",
+      "start": 533.56,
+      "duration": 7.16
+    },
+    {
+      "text": "10. Here, it would be 2 to the power of",
+      "start": 537.64,
+      "duration": 5.52
+    },
+    {
+      "text": "K plus 1.",
+      "start": 540.72,
+      "duration": 7.8
+    },
+    {
+      "text": "Let's zoom out. Okay.",
+      "start": 543.16,
+      "duration": 5.36
+    },
+    {
+      "text": "Let's check this is what we want if we",
+      "start": 549.24,
+      "duration": 6.28
+    },
+    {
+      "text": "compare with our right hand side. If we",
+      "start": 552.0,
+      "duration": 5.84
+    },
+    {
+      "text": "substitute with K plus 1, this is what",
+      "start": 555.52,
+      "duration": 4.52
+    },
+    {
+      "text": "we want.",
+      "start": 557.84,
+      "duration": 5.24
+    },
+    {
+      "text": "That means Okay,",
+      "start": 560.04,
+      "duration": 9.76
+    },
+    {
+      "text": "this is equal to the right hand side.",
+      "start": 563.08,
+      "duration": 11.72
+    },
+    {
+      "text": "Therefore, A to the power of K plus 1 is",
+      "start": 569.8,
+      "duration": 6.36
+    },
+    {
+      "text": "also",
+      "start": 574.8,
+      "duration": 3.72
+    },
+    {
+      "text": "true.",
+      "start": 576.16,
+      "duration": 5.28
+    },
+    {
+      "text": "Last step.",
+      "start": 578.52,
+      "duration": 5.72
+    },
+    {
+      "text": "Step four.",
+      "start": 581.44,
+      "duration": 5.8
+    },
+    {
+      "text": "Conclusion.",
+      "start": 584.24,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's write down the conclusion.",
+      "start": 588.72,
+      "duration": 7.76
+    },
+    {
+      "text": "If it is true",
+      "start": 592.6,
+      "duration": 3.88
+    },
+    {
+      "text": "for",
+      "start": 596.96,
+      "duration": 4.48
+    },
+    {
+      "text": "n equals to k",
+      "start": 598.56,
+      "duration": 4.4
+    },
+    {
+      "text": "then",
+      "start": 601.44,
+      "duration": 4.4
+    },
+    {
+      "text": "it is true",
+      "start": 602.96,
+      "duration": 2.88
+    },
+    {
+      "text": "for",
+      "start": 606.24,
+      "duration": 6.48
+    },
+    {
+      "text": "n equals to k plus one.",
+      "start": 608.16,
+      "duration": 4.56
+    },
+    {
+      "text": "It is",
+      "start": 613.52,
+      "duration": 5.68
+    },
+    {
+      "text": "proven to be true",
+      "start": 615.88,
+      "duration": 3.32
+    },
+    {
+      "text": "for n equals to one.",
+      "start": 621.88,
+      "duration": 6.8
+    },
+    {
+      "text": "Therefore",
+      "start": 625.68,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay, we will copy back the statement",
+      "start": 629.32,
+      "duration": 5.4
+    },
+    {
+      "text": "from our right hand side.",
+      "start": 631.84,
+      "duration": 7.88
+    },
+    {
+      "text": "Therefore, a to the power of n equal to",
+      "start": 634.72,
+      "duration": 9.76
+    },
+    {
+      "text": "1 0 5 open bracket 2 to the power of n",
+      "start": 639.72,
+      "duration": 9.28
+    },
+    {
+      "text": "minus 1 2 to the power of n",
+      "start": 644.48,
+      "duration": 7.28
+    },
+    {
+      "text": "is true",
+      "start": 649.0,
+      "duration": 2.76
+    },
+    {
+      "text": "for",
+      "start": 652.0,
+      "duration": 5.6
+    },
+    {
+      "text": "n [snorts] all natural integers. How to",
+      "start": 654.24,
+      "duration": 4.56
+    },
+    {
+      "text": "know",
+      "start": 657.6,
+      "duration": 2.32
+    },
+    {
+      "text": "Okay.",
+      "start": 658.8,
+      "duration": 2.92
+    },
+    {
+      "text": "Which element we should choose? Just",
+      "start": 659.92,
+      "duration": 4.96
+    },
+    {
+      "text": "refer back to our question.",
+      "start": 661.72,
+      "duration": 6.36
+    },
+    {
+      "text": "That's it. We are done with question",
+      "start": 664.88,
+      "duration": 6.4
+    },
+    {
+      "text": "three part A.",
+      "start": 668.08,
+      "duration": 3.2
+    }
+  ]
+}

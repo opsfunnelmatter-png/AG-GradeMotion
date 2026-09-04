@@ -1,0 +1,236 @@
+[
+  {
+    "slug": "matrices-and-linear-transformations",
+    "title": "3x3 Matrices, Determinants, Inverses & Transformations",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 1 & 2 (Sections 1 & 3)",
+      "cie": "Paper 1 Further Pure 1 (Matrices & Transformations)"
+    },
+    "description": "Master 3x3 matrix multiplication, determinants, singular matrix conditions, inverse matrix calculation using minors, cofactors, and adjugate, as well as 2D/3D geometric transformations and systems of linear planes.",
+    "coreConcepts": [
+      {
+        "name": "Singular vs Non-Singular Matrices",
+        "latex": "\\det(M) = 0 \\iff M \\text{ is singular (no inverse exists)}",
+        "explanation": "A matrix is singular if its determinant equals zero. Geometrically, this means the transformation collapses 3D space into a plane, line, or point."
+      },
+      {
+        "name": "Inverse of a 3x3 Matrix",
+        "latex": "M^{-1} = \\frac{1}{\\det(M)} \\text{adj}(M) = \\frac{1}{\\det(M)} C^T",
+        "explanation": "Calculated by finding the matrix of minors, applying alternating signs for cofactors $C$, transposing to find the adjugate matrix, and scaling by $\\frac{1}{\\det(M)}$."
+      },
+      {
+        "name": "Systems of Linear Equations (Sheaf of Planes)",
+        "latex": "\\det(A) = 0 \\text{ with consistent equations } \\implies \\text{infinite solutions (line of intersection / sheaf)}",
+        "explanation": "When the determinant of coefficients is zero, planes either have no common points (inconsistent, triangular prism) or intersect along a single line (sheaf of planes)."
+      },
+      {
+        "name": "Mathematical Induction for Matrices",
+        "latex": "M^n = \\dots \\implies \\text{Prove } n=1, \\text{ assume } n=k, \\text{ prove } n=k+1 \\text{ via } M^{k+1} = M^k M",
+        "explanation": "Standard 4-step proof by induction demonstrating validity for all positive integers $n \\in \\mathbb{Z}^+$."
+      }
+    ],
+    "examinerTraps": [
+      "Forgetting to transpose the matrix of cofactors when computing the adjugate matrix.",
+      "Sign errors when computing cofactors: the alternating sign checkerboard $[+ - +; - + -; + - +]$ is the #1 lost mark in CP1.",
+      "Confusing 'consistent equations' with having a unique solution. A system can be consistent with infinitely many solutions if planes form a sheaf."
+    ],
+    "recommendedPackage": {
+      "name": "Topic Surgery Sprint (8 Hours)",
+      "usd": 760,
+      "myr": 1440,
+      "urlUsd": "/pay/usd/topic-surgery",
+      "urlMyr": "/pay/my/topic-surgery"
+    }
+  },
+  {
+    "slug": "complex-numbers-loci-and-roots",
+    "title": "Complex Numbers: Argand Loci, Cubic Roots & De Moivre's Proofs",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 1 & 2 (Sections 2 & 1)",
+      "cie": "Paper 1 Further Pure 1 (Complex Numbers)"
+    },
+    "description": "Comprehensive guide to complex numbers in A-Level Further Maths: Euler's formula, modulus-argument arithmetic, loci in the Argand plane (circles, half-lines, angle boundaries), and complex conjugate root theorems for polynomials.",
+    "coreConcepts": [
+      {
+        "name": "Purely Imaginary Proof",
+        "latex": "w \\in i\\mathbb{R} \\iff \\text{Re}(w) = 0 \\iff w + w^* = 0",
+        "explanation": "A complex number is strictly imaginary if and only if its real component vanishes, or $w$ equals the negative of its complex conjugate."
+      },
+      {
+        "name": "Argand Loci: Circles and Half-Lines",
+        "latex": "|z - z_0| = r \\text{ (Circle)}, \\quad \\arg(z - z_0) = \\theta \\text{ (Half-line radiating from } z_0)",
+        "explanation": "Remember that the initial point $z_0$ is open/excluded in half-line loci, and angle bounds represent sectors in the complex plane."
+      },
+      {
+        "name": "Conjugate Root Theorem",
+        "latex": "P(z) = 0 \\text{ with real coefficients } \\implies \\text{roots appear in conjugate pairs } (\\alpha \\pm i\\beta)",
+        "explanation": "If a polynomial with real coefficients has $a + bi$ as a root, $a - bi$ must also be a root, allowing quadratic factors $(z - \\alpha)^2 + \\beta^2$ to be factored out."
+      }
+    ],
+    "examinerTraps": [
+      "Drawing full lines instead of half-lines/rays for $\\arg(z - z_0) = \\theta$. The endpoint $z_0$ must be an open circle.",
+      "Argument convention errors: $\\arg(z)$ must always lie within the principal range $(-\\pi, \\pi]$.",
+      "Failing to multiply by complex conjugates when rationalizing denominators."
+    ],
+    "recommendedPackage": {
+      "name": "Topic Surgery Sprint (8 Hours)",
+      "usd": 760,
+      "myr": 1440,
+      "urlUsd": "/pay/usd/topic-surgery",
+      "urlMyr": "/pay/my/topic-surgery"
+    }
+  },
+  {
+    "slug": "differential-equations",
+    "title": "First & Second Order Differential Equations & Physical Modelling",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 1 (Sections 7 & 8)",
+      "cie": "Paper 2 Further Pure 2 (Differential Equations)"
+    },
+    "description": "Master analytical methods for solving 1st order differential equations using integrating factors, and 2nd order linear non-homogeneous differential equations using auxiliary equations, complementary functions, and particular integrals.",
+    "coreConcepts": [
+      {
+        "name": "Integrating Factor Method (1st Order)",
+        "latex": "\\frac{dy}{dx} + P(x)y = Q(x) \\implies I(x) = e^{\\int P(x)\\,dx}",
+        "explanation": "Multiply through by $I(x)$ to express the LHS as $\\frac{d}{dx}[y I(x)]$, followed by direct integration."
+      },
+      {
+        "name": "Second Order Auxiliary Equation",
+        "latex": "a\\frac{d^2y}{dx^2} + b\\frac{dy}{dx} + cy = f(x) \\implies am^2 + bm + c = 0",
+        "explanation": "Roots determine Complementary Function ($y_{CF}$): distinct real roots ($Ae^{m_1 x} + Be^{m_2 x}$), repeated roots ($(A + Bx)e^{mx}$), or complex roots ($e^{px}[A\\cos(qx) + B\\sin(qx)]$). General Solution is $y = y_{CF} + y_{PI}$."
+      },
+      {
+        "name": "Particular Integral Trials",
+        "latex": "f(x) = k e^{\\lambda x} \\implies y_{PI} = C e^{\\lambda x} \\quad (\\text{or } C x e^{\\lambda x} \\text{ if } \\lambda \\text{ is a root of auxiliary})",
+        "explanation": "Carefully choose trial functions that avoid duplicating terms in the complementary function."
+      }
+    ],
+    "examinerTraps": [
+      "Applying initial boundary conditions to the Complementary Function before finding the Particular Integral.",
+      "Algebraic slip in differentiating particular integrals with product rule.",
+      "Forgetting absolute values in $\\int \\frac{1}{x} dx = \\ln|x|$ which affects sign in real-world modelling constraints."
+    ],
+    "recommendedPackage": {
+      "name": "Exam Readiness Sprint (16 Hours)",
+      "usd": 1360,
+      "myr": 2560,
+      "urlUsd": "/pay/usd/exam-readiness",
+      "urlMyr": "/pay/my/exam-readiness"
+    }
+  },
+  {
+    "slug": "hyperbolic-functions-and-calculus",
+    "title": "Hyperbolic Functions, Maclaurin Series & Inverse Trigonometry",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 1 & 2 (Sections 4 & 8)",
+      "cie": "Paper 2 Further Pure 2 (Hyperbolic Functions)"
+    },
+    "description": "Comprehensive breakdown of hyperbolic functions $(\\sinh, \\cosh, \\tanh)$, logarithmic forms of inverse hyperbolics, Maclaurin and Taylor expansions, and derivatives of inverse trigonometric functions.",
+    "coreConcepts": [
+      {
+        "name": "Definitions & Identities",
+        "latex": "\\cosh x = \\frac{e^x + e^{-x}}{2}, \\quad \\sinh x = \\frac{e^x - e^{-x}}{2}, \\quad \\cosh^2 x - \\sinh^2 x = 1",
+        "explanation": "Osborn's Rule states that standard trig identities convert to hyperbolic identities with the sign reversed when two sines multiply (e.g. $\\sin^2 \\to -\\sinh^2$)."
+      },
+      {
+        "name": "Inverse Trigonometric & Hyperbolic Derivatives",
+        "latex": "\\frac{d}{dx}(\\arcsin x) = \\frac{1}{\\sqrt{1-x^2}}, \\quad \\frac{d}{dx}(\\text{arsinh } x) = \\frac{1}{\\sqrt{x^2+1}}",
+        "explanation": "Derived using implicit differentiation and standard Pythagorean identities."
+      },
+      {
+        "name": "Maclaurin Series Expansion",
+        "latex": "f(x) = f(0) + f'(0)x + \\frac{f''(0)}{2!}x^2 + \\frac{f'''(0)}{3!}x^3 + \\dots",
+        "explanation": "Expansion of smooth functions around $x=0$. Often combined with Leibniz's theorem for $n$-th derivatives."
+      }
+    ],
+    "examinerTraps": [
+      "Confusing trig identities with hyperbolic identities: forgetting the sign flip in $\\cosh(2x) = \\cosh^2 x + \\sinh^2 x$.",
+      "Not stating the range of validity for Maclaurin series.",
+      "Missing the $\\pm$ distinction in $\\text{arcosh } x = \\ln(x + \\sqrt{x^2-1})$ for $x \\ge 1$."
+    ],
+    "recommendedPackage": {
+      "name": "Topic Surgery Sprint (8 Hours)",
+      "usd": 760,
+      "myr": 1440,
+      "urlUsd": "/pay/usd/topic-surgery",
+      "urlMyr": "/pay/my/topic-surgery"
+    }
+  },
+  {
+    "slug": "polar-coordinates-and-area",
+    "title": "Polar Coordinates: Curves, Tangents & Area Integration",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 2 (Section 5)",
+      "cie": "Paper 1 Further Pure 1 (Polar Coordinates)"
+    },
+    "description": "Understand polar curve sketching ($r = f(\\theta)$ like cardioids, limaçons, and lemniscates), vertical and horizontal tangents via Cartesian conversion $(x = r\\cos\\theta, y = r\\sin\\theta)$, and polar bounded area calculation.",
+    "coreConcepts": [
+      {
+        "name": "Cartesian Conversion & Tangents",
+        "latex": "x = r\\cos\\theta, \\quad y = r\\sin\\theta \\implies \\frac{dx}{d\\theta} = 0 \\text{ (Vertical Tangent)}, \\quad \\frac{dy}{d\\theta} = 0 \\text{ (Horizontal Tangent)}",
+        "explanation": "Tangents parallel to the initial line have $\\frac{dy}{d\\theta} = 0$, while tangents perpendicular to the initial line have $\\frac{dx}{d\\theta} = 0$."
+      },
+      {
+        "name": "Polar Area Integration",
+        "latex": "\\text{Area} = \\frac{1}{2}\\int_{\\alpha}^{\\beta} r^2 \\, d\\theta",
+        "explanation": "Always identify symmetry lines to simplify integration limits, and check for negative $r$ bounds."
+      }
+    ],
+    "examinerTraps": [
+      "Forgetting the factor of $\\frac{1}{2}$ in the polar area formula $\\frac{1}{2} \\int r^2 d\\theta$.",
+      "Incorrect limits of integration when curves pass through the pole ($r=0$).",
+      "Failing to differentiate using the product rule on $x = r\\cos\\theta$ and $y = r\\sin\\theta$."
+    ],
+    "recommendedPackage": {
+      "name": "Topic Surgery Sprint (8 Hours)",
+      "usd": 760,
+      "myr": 1440,
+      "urlUsd": "/pay/usd/topic-surgery",
+      "urlMyr": "/pay/my/topic-surgery"
+    }
+  },
+  {
+    "slug": "series-proof-and-integration",
+    "title": "Summation of Series, Method of Differences & Vectors in 3D",
+    "subject": "Further Pure Mathematics",
+    "syllabusCodes": {
+      "edexcel": "Core Pure 1 & 2 (Sections 2, 4 & 6)",
+      "cie": "Paper 1 Further Pure 1 (Series & Vectors)"
+    },
+    "description": "Techniques for evaluating finite series using standard summation formulas $\\sum r, \\sum r^2, \\sum r^3$ and method of differences (telescoping series), alongside 3D vectors (skew lines, planes, dot & cross products) and polynomial root relations.",
+    "coreConcepts": [
+      {
+        "name": "Method of Differences",
+        "latex": "\\sum_{r=1}^n [f(r) - f(r+1)] = f(1) - f(n+1)",
+        "explanation": "Terms cancel telescopically leaving only the boundary terms from the beginning and end."
+      },
+      {
+        "name": "Vieta's Formulas for Polynomial Roots",
+        "latex": "\\sum \\alpha = -\\frac{b}{a}, \\quad \\sum \\alpha\\beta = \\frac{c}{a}, \\quad \\sum \\alpha\\beta\\gamma = -\\frac{d}{a}, \\quad \\alpha\\beta\\gamma\\delta = \\frac{e}{a}",
+        "explanation": "Relations between the coefficients of a polynomial equation and sums/products of its roots."
+      },
+      {
+        "name": "3D Vectors: Planes & Lines",
+        "latex": "\\mathbf{r} = \\mathbf{a} + \\lambda \\mathbf{b}, \\quad \\mathbf{r} \\cdot \\mathbf{n} = d",
+        "explanation": "Scalar product form of a plane $\\mathbf{r}\\cdot\\mathbf{n}=d$ reveals the normal vector immediately for distance and angle calculations."
+      }
+    ],
+    "examinerTraps": [
+      "Leaving uncancelled terms in telescopic series, especially when fractions have shifts like $f(r) - f(r+2)$.",
+      "Sign alternation in Vieta's formulas: $-, +, -, +$.",
+      "Vector distance formula: misidentifying normal vector magnitude."
+    ],
+    "recommendedPackage": {
+      "name": "Topic Surgery Sprint (8 Hours)",
+      "usd": 760,
+      "myr": 1440,
+      "urlUsd": "/pay/usd/topic-surgery",
+      "urlMyr": "/pay/my/topic-surgery"
+    }
+  }
+]

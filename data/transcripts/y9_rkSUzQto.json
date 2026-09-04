@@ -1,0 +1,1019 @@
+{
+  "id": "y9_rkSUzQto",
+  "paper": "CP1",
+  "question": "Q9",
+  "title": "Hyperbolic Functions & Integration",
+  "full_text": "Let's take a look at question nine. For nine part one, we have a trigle function. Okay. And they want us to solve this. They tell us that these are the equation for two curves that intersect at just one point P. For part A, they want us to use algebra to show that the xcoordinate of P satisfy this equation. For part B, they want us to show that e ^ x = 3 is the solution to this equation. And for part C, they want us to state the exact coordinate of B. Whereas for part two, they want us to solve an integration question. Let's begin from for question nine part one 8. Okay. Now we want to find intersection. Whenever we want to find intersection, we have to equate the two equation. So 3 over 4 shine x is equal to tang x + 1 over 5. Okay. So 3 over 4. Let's substitute the definition. So this is e ^ x - e ^ -x / 2. Okay. Equal to the definition of tang x would be e to the^ x - e^ -x over e ^ x + e ^ -x + 1 5. Now we want to eliminate the fraction to simplify this equation. So we'll multiply with the LCM. On the left hand side we have 8 okay in the denominator. Whereas for our right hand side we have five bracket e x + e -x. So the LCM for 8 and 5 would be 40. And for the expression will be e x + e -x. Okay, let's begin. Now here we will have 3 over8 e x - e -x. Okay, let's copy back what we multiply. Okay. Copy paste. Okay. Now this is equal to e x - e -x over e x + e -x. Okay. Base multiply by 40. Okay. So + 1 over 5. Now let's paste that multiply by 40 and a x. Okay, let's simplify this equation wherever we can. So let's see 8 and 40 that will be five. So this and this will cancel each other and this one will be eight. So what we have here is this 15 e^ of x - e -x e x + e -x = to we can expand this 40 e x - 40 e to of -x + 8 e x + 8 e X. Okay. What we have over here is the expansion for difference of two squares. So if we want to factor it, it will be e to the^ 2x - e to the power of -2x = to 40 e x + 8 e x we'll get 48 e to the^ x -40 + 8 that will be -32 e to the power of x. Okay. expand the left hand side and change any of our exponential that's supposed to be a fraction. So it will be 15 e to 2x - 15 over e ^ 2x = 48 e to the^ x - 32 / e ^ x. We want to eliminate the fraction. So we'll multiply by the LCM which is e to the^ 2x. So for the first term when we multiply e^ of 2x * with e of 2x that would be e to the power of 4x - 15. These two will just cancel each other. So it will be just 15 equal to 48. So e^ of x * with e^ of 2x that will be e ^ of 3x - 32 and this one it will cancel one of the e x. So we will get e to the power of x. Let's rearrange and make everything equal to zero. So 15 e ^ 4x - 48 e to the^ of 3x + 32 e to the^ x - 15 is equal to zero. Let's zoom out. See that is exactly what they want us to find. That's it. We are done with part A. Moving on to part B. To part B. Right. In part B, they want us to prove that e x = 3 is a solution to this equation. So we'll start from the left hand side and we'll substitute this value. So 15 3 ^ 4 - 48 3 cubed + 32 * 3 - 15. This is equal to 15 * 3 ^ of 415 - 48 * 3 cubed that is 296 + 32 * 3 that is 96 - 1515 - 1296 + 96 6 - 15 that is equal to zero which is our right hand side. Therefore, e x = 3 is proven to be the solution. Okay, moving on to part C. In part C, they want us to find the exact coordinate of P. So we know E X is equal to 3. Therefore X is equal to lawn 3. Let's find out our Y value. So what is our Y value? Let's take this one. This one already expand. So 3 over 4 bracket. Okay. e x - e -x / 2. So this is equal to 3 over 4 3 - 1 / 3 over 2. Okay, let's use our calculator. 3 over 4 3 - 1 / 3 over 2. Okay, let's close our bracket. Equal to 1. Day 4 P is equal to lawn 3 1. We are done with part one. Moving on to part two. Now we have an integration question. -4 to 0 e to the power of 1 /x / x² dx. We want to prove that this should be equal to e to the power of -1 /4. Okay, let's start by um substituting. Okay, we're going to use substitution method. So let u = 1 /x which is x = -1. If we differentiate right du dx we will get -x -2 which is -1 / x². By rearranging this we will get dx is =x² d u. Let's replace this into our integration. Okay. So now we will get e u over x² here will be x² du. Okay, we can cancel this but we still have the negative. Be cautious of that. So we have negative okay e u d u when we integrate this we will get e u neative eu. Remember that we have to substitute back our okay we have to substitute back so that uh our equation or our answer will be in x. So it will be e1 / x. Now we can write down the limit. The limit is -4 and zero. But if we replace zero into this you notice that we're going to get 1 / 0. We cannot have that. So what we going to do instead is this. Okay. So it would be limit t to zero. Okay. E to p. Okay. Minus - e. Okay. - e -1 / 4. So here I will get limit. Okay. Or here it should be 1 / t. Okay. T close to zero. e 1 / t + e to the power of -1 /4. Let's figure out our first term. Okay. Now let's refer to our limit. Our limit is from -4 to 0. Right? So -4 to 0. So that means we're approaching zero from the negative side. So as t get closer to zero from the negative side, what will happen to our 1 / t? Okay. So let's recap our 1 / t function. 1 / t function. Okay. Let's draw this. rational function would look like this. This is where our zero is. So if we approach to the zero from the negative side, it will be okay negative infinity. Okay. Next as we approach okay as 1 / t approach negative infinity what will happen to e okay to the power of 1 / t. So now we will refer to our exponential function. Exponential function look like this. But now we want to approach to negative infinity. So it will get closer and closer to zero. So this one would be zero. Now we can conclude that this one is 0 + e1 / 4. Therefore this is equal to e to the power of -1 /4. We are done with this question. Let's just mark all the answers. Okay. So this is the answer for part one. A. Okay. We have proven. So B nothing. Okay. C is that one. And two we also proven that it looks like this. That's it.",
+  "snippets": [
+    {
+      "text": "Let's take a look at question nine. For",
+      "start": 0.56,
+      "duration": 6.239
+    },
+    {
+      "text": "nine part one, we have",
+      "start": 3.52,
+      "duration": 6.48
+    },
+    {
+      "text": "a trigle function. Okay. And they want",
+      "start": 6.799,
+      "duration": 6.241
+    },
+    {
+      "text": "us to solve this. They tell us that",
+      "start": 10.0,
+      "duration": 6.72
+    },
+    {
+      "text": "these are the equation for two curves",
+      "start": 13.04,
+      "duration": 6.88
+    },
+    {
+      "text": "that intersect at just one point P. For",
+      "start": 16.72,
+      "duration": 5.84
+    },
+    {
+      "text": "part A, they want us to use algebra to",
+      "start": 19.92,
+      "duration": 5.68
+    },
+    {
+      "text": "show that the xcoordinate of P satisfy",
+      "start": 22.56,
+      "duration": 6.16
+    },
+    {
+      "text": "this equation. For part B, they want us",
+      "start": 25.6,
+      "duration": 7.2
+    },
+    {
+      "text": "to show that e ^ x = 3 is the solution",
+      "start": 28.72,
+      "duration": 7.12
+    },
+    {
+      "text": "to this equation. And for part C, they",
+      "start": 32.8,
+      "duration": 6.32
+    },
+    {
+      "text": "want us to state the exact coordinate of",
+      "start": 35.84,
+      "duration": 6.719
+    },
+    {
+      "text": "B. Whereas for part two, they want us to",
+      "start": 39.12,
+      "duration": 7.119
+    },
+    {
+      "text": "solve an integration question. Let's",
+      "start": 42.559,
+      "duration": 10.241
+    },
+    {
+      "text": "begin from for question nine part one 8.",
+      "start": 46.239,
+      "duration": 9.121
+    },
+    {
+      "text": "Okay. Now we want to find intersection.",
+      "start": 52.8,
+      "duration": 4.88
+    },
+    {
+      "text": "Whenever we want to find intersection,",
+      "start": 55.36,
+      "duration": 6.32
+    },
+    {
+      "text": "we have to equate the two equation. So 3",
+      "start": 57.68,
+      "duration": 8.08
+    },
+    {
+      "text": "over 4 shine",
+      "start": 61.68,
+      "duration": 9.28
+    },
+    {
+      "text": "x is equal to tang x",
+      "start": 65.76,
+      "duration": 10.56
+    },
+    {
+      "text": "+ 1 over 5. Okay. So 3 over 4. Let's",
+      "start": 70.96,
+      "duration": 9.519
+    },
+    {
+      "text": "substitute the definition. So this is e",
+      "start": 76.32,
+      "duration": 11.119
+    },
+    {
+      "text": "^ x - e ^ -x / 2. Okay. Equal to the",
+      "start": 80.479,
+      "duration": 10.96
+    },
+    {
+      "text": "definition of tang x would be e to the^",
+      "start": 87.439,
+      "duration": 13.921
+    },
+    {
+      "text": "x - e^ -x over e ^ x + e ^ -x",
+      "start": 91.439,
+      "duration": 13.841
+    },
+    {
+      "text": "+ 1 5. Now we want to eliminate the",
+      "start": 101.36,
+      "duration": 7.84
+    },
+    {
+      "text": "fraction to simplify this equation. So",
+      "start": 105.28,
+      "duration": 6.879
+    },
+    {
+      "text": "we'll multiply with the LCM. On the left",
+      "start": 109.2,
+      "duration": 6.72
+    },
+    {
+      "text": "hand side we have 8 okay in the",
+      "start": 112.159,
+      "duration": 6.56
+    },
+    {
+      "text": "denominator. Whereas for our right hand",
+      "start": 115.92,
+      "duration": 7.44
+    },
+    {
+      "text": "side we have five bracket e x + e -x. So",
+      "start": 118.719,
+      "duration": 9.281
+    },
+    {
+      "text": "the LCM for 8 and 5 would be 40. And for",
+      "start": 123.36,
+      "duration": 10.08
+    },
+    {
+      "text": "the expression will be e x + e -x.",
+      "start": 128.0,
+      "duration": 9.12
+    },
+    {
+      "text": "Okay, let's begin.",
+      "start": 133.44,
+      "duration": 6.68
+    },
+    {
+      "text": "Now",
+      "start": 137.12,
+      "duration": 3.0
+    },
+    {
+      "text": "here we will have 3 over8 e x - e -x.",
+      "start": 141.28,
+      "duration": 10.4
+    },
+    {
+      "text": "Okay, let's copy back what we multiply.",
+      "start": 148.4,
+      "duration": 5.76
+    },
+    {
+      "text": "Okay.",
+      "start": 151.68,
+      "duration": 4.559
+    },
+    {
+      "text": "Copy",
+      "start": 154.16,
+      "duration": 4.96
+    },
+    {
+      "text": "paste. Okay.",
+      "start": 156.239,
+      "duration": 6.321
+    },
+    {
+      "text": "Now this is equal to",
+      "start": 159.12,
+      "duration": 13.0
+    },
+    {
+      "text": "e x - e -x over e x + e -x.",
+      "start": 162.56,
+      "duration": 9.56
+    },
+    {
+      "text": "Okay. Base multiply by 40. Okay. So + 1",
+      "start": 172.56,
+      "duration": 9.759
+    },
+    {
+      "text": "over 5.",
+      "start": 179.599,
+      "duration": 10.241
+    },
+    {
+      "text": "Now let's paste that multiply by 40 and",
+      "start": 182.319,
+      "duration": 11.92
+    },
+    {
+      "text": "a x. Okay, let's simplify this equation",
+      "start": 189.84,
+      "duration": 9.679
+    },
+    {
+      "text": "wherever we can. So let's see 8 and 40",
+      "start": 194.239,
+      "duration": 8.961
+    },
+    {
+      "text": "that will be five. So this and this will",
+      "start": 199.519,
+      "duration": 6.0
+    },
+    {
+      "text": "cancel each other and this one will be",
+      "start": 203.2,
+      "duration": 6.48
+    },
+    {
+      "text": "eight. So what we have here is this",
+      "start": 205.519,
+      "duration": 6.561
+    },
+    {
+      "text": "15",
+      "start": 209.68,
+      "duration": 6.96
+    },
+    {
+      "text": "e^ of x - e -x",
+      "start": 212.08,
+      "duration": 9.28
+    },
+    {
+      "text": "e x + e -x",
+      "start": 216.64,
+      "duration": 11.84
+    },
+    {
+      "text": "= to we can expand this 40 e x - 40 e to",
+      "start": 221.36,
+      "duration": 9.04
+    },
+    {
+      "text": "of -x",
+      "start": 228.48,
+      "duration": 9.839
+    },
+    {
+      "text": "+ 8 e x + 8 e X.",
+      "start": 230.4,
+      "duration": 10.919
+    },
+    {
+      "text": "Okay.",
+      "start": 238.319,
+      "duration": 3.0
+    },
+    {
+      "text": "What we have over here is the expansion",
+      "start": 242.48,
+      "duration": 8.8
+    },
+    {
+      "text": "for difference of two squares. So if we",
+      "start": 246.879,
+      "duration": 7.121
+    },
+    {
+      "text": "want to",
+      "start": 251.28,
+      "duration": 8.239
+    },
+    {
+      "text": "factor it, it will be e to the^ 2x - e",
+      "start": 254.0,
+      "duration": 9.04
+    },
+    {
+      "text": "to the power of -2x",
+      "start": 259.519,
+      "duration": 9.041
+    },
+    {
+      "text": "= to 40 e x + 8 e x we'll get 48 e to",
+      "start": 263.04,
+      "duration": 11.04
+    },
+    {
+      "text": "the^ x -40 + 8 that will be -32",
+      "start": 268.56,
+      "duration": 10.639
+    },
+    {
+      "text": "e to the power of x. Okay. expand the",
+      "start": 274.08,
+      "duration": 9.52
+    },
+    {
+      "text": "left hand side and change any of our",
+      "start": 279.199,
+      "duration": 6.161
+    },
+    {
+      "text": "exponential",
+      "start": 283.6,
+      "duration": 4.08
+    },
+    {
+      "text": "that's supposed to be a fraction. So it",
+      "start": 285.36,
+      "duration": 8.399
+    },
+    {
+      "text": "will be 15 e to 2x - 15",
+      "start": 287.68,
+      "duration": 16.32
+    },
+    {
+      "text": "over e ^ 2x = 48 e to the^ x - 32 / e ^",
+      "start": 293.759,
+      "duration": 13.121
+    },
+    {
+      "text": "x. We want to eliminate the fraction. So",
+      "start": 304.0,
+      "duration": 6.32
+    },
+    {
+      "text": "we'll multiply by the LCM which is e to",
+      "start": 306.88,
+      "duration": 7.2
+    },
+    {
+      "text": "the^ 2x. So for the first term when we",
+      "start": 310.32,
+      "duration": 8.96
+    },
+    {
+      "text": "multiply e^ of 2x * with e of 2x that",
+      "start": 314.08,
+      "duration": 11.119
+    },
+    {
+      "text": "would be e to the power of 4x - 15.",
+      "start": 319.28,
+      "duration": 8.32
+    },
+    {
+      "text": "These two will just cancel each other.",
+      "start": 325.199,
+      "duration": 5.84
+    },
+    {
+      "text": "So it will be just 15",
+      "start": 327.6,
+      "duration": 6.4
+    },
+    {
+      "text": "equal to 48.",
+      "start": 331.039,
+      "duration": 8.241
+    },
+    {
+      "text": "So e^ of x * with e^ of 2x that will be",
+      "start": 334.0,
+      "duration": 8.32
+    },
+    {
+      "text": "e ^ of 3x",
+      "start": 339.28,
+      "duration": 7.6
+    },
+    {
+      "text": "- 32 and this one it will cancel one of",
+      "start": 342.32,
+      "duration": 9.28
+    },
+    {
+      "text": "the e x. So we will get e to the power",
+      "start": 346.88,
+      "duration": 7.28
+    },
+    {
+      "text": "of x. Let's rearrange and make",
+      "start": 351.6,
+      "duration": 8.879
+    },
+    {
+      "text": "everything equal to zero. So 15 e ^ 4x -",
+      "start": 354.16,
+      "duration": 14.64
+    },
+    {
+      "text": "48 e to the^ of 3x + 32 e to the^ x - 15",
+      "start": 360.479,
+      "duration": 11.201
+    },
+    {
+      "text": "is equal to zero.",
+      "start": 368.8,
+      "duration": 5.28
+    },
+    {
+      "text": "Let's zoom out. See that is exactly what",
+      "start": 371.68,
+      "duration": 5.12
+    },
+    {
+      "text": "they want us to find.",
+      "start": 374.08,
+      "duration": 6.48
+    },
+    {
+      "text": "That's it. We are done with",
+      "start": 376.8,
+      "duration": 8.239
+    },
+    {
+      "text": "part A. Moving on to part B. To part B.",
+      "start": 380.56,
+      "duration": 7.12
+    },
+    {
+      "text": "Right. In part B, they want us to prove",
+      "start": 385.039,
+      "duration": 4.401
+    },
+    {
+      "text": "that",
+      "start": 387.68,
+      "duration": 7.6
+    },
+    {
+      "text": "e x = 3 is a solution to this equation.",
+      "start": 389.44,
+      "duration": 8.64
+    },
+    {
+      "text": "So we'll start from the left hand side",
+      "start": 395.28,
+      "duration": 7.52
+    },
+    {
+      "text": "and we'll substitute this value. So 15 3",
+      "start": 398.08,
+      "duration": 10.16
+    },
+    {
+      "text": "^ 4 - 48 3 cubed",
+      "start": 402.8,
+      "duration": 14.239
+    },
+    {
+      "text": "+ 32 * 3 - 15. This is equal to 15 * 3 ^",
+      "start": 408.24,
+      "duration": 11.959
+    },
+    {
+      "text": "of 415",
+      "start": 417.039,
+      "duration": 3.16
+    },
+    {
+      "text": "- 48 * 3 cubed",
+      "start": 421.039,
+      "duration": 7.681
+    },
+    {
+      "text": "that is 296",
+      "start": 425.84,
+      "duration": 9.04
+    },
+    {
+      "text": "+ 32 * 3 that is 96",
+      "start": 428.72,
+      "duration": 10.12
+    },
+    {
+      "text": "- 1515",
+      "start": 434.88,
+      "duration": 3.96
+    },
+    {
+      "text": "- 1296 + 96 6 - 15 that is equal to zero",
+      "start": 439.44,
+      "duration": 12.159
+    },
+    {
+      "text": "which is our right hand side.",
+      "start": 447.52,
+      "duration": 11.36
+    },
+    {
+      "text": "Therefore, e x = 3 is proven",
+      "start": 451.599,
+      "duration": 9.681
+    },
+    {
+      "text": "to be",
+      "start": 458.88,
+      "duration": 6.12
+    },
+    {
+      "text": "the solution.",
+      "start": 461.28,
+      "duration": 3.72
+    },
+    {
+      "text": "Okay, moving on to part C. In part C,",
+      "start": 466.4,
+      "duration": 7.04
+    },
+    {
+      "text": "they want us to find the exact",
+      "start": 471.199,
+      "duration": 6.0
+    },
+    {
+      "text": "coordinate of P. So we know E X is equal",
+      "start": 473.44,
+      "duration": 8.479
+    },
+    {
+      "text": "to 3. Therefore X is equal to lawn 3.",
+      "start": 477.199,
+      "duration": 7.521
+    },
+    {
+      "text": "Let's find out our Y value. So what is",
+      "start": 481.919,
+      "duration": 5.761
+    },
+    {
+      "text": "our Y value? Let's take this one. This",
+      "start": 484.72,
+      "duration": 8.159
+    },
+    {
+      "text": "one already expand. So 3 over 4",
+      "start": 487.68,
+      "duration": 8.199
+    },
+    {
+      "text": "bracket.",
+      "start": 492.879,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay. e x",
+      "start": 497.36,
+      "duration": 11.44
+    },
+    {
+      "text": "- e -x / 2. So this is equal to 3 over 4",
+      "start": 500.4,
+      "duration": 13.84
+    },
+    {
+      "text": "3 - 1 / 3 over 2.",
+      "start": 508.8,
+      "duration": 10.479
+    },
+    {
+      "text": "Okay, let's use our calculator. 3 over 4",
+      "start": 514.24,
+      "duration": 9.96
+    },
+    {
+      "text": "3 - 1 / 3",
+      "start": 519.279,
+      "duration": 4.921
+    },
+    {
+      "text": "over 2.",
+      "start": 525.279,
+      "duration": 6.161
+    },
+    {
+      "text": "Okay, let's close our bracket. Equal to",
+      "start": 527.6,
+      "duration": 11.52
+    },
+    {
+      "text": "1. Day 4 P is equal to lawn 3 1. We are",
+      "start": 531.44,
+      "duration": 12.959
+    },
+    {
+      "text": "done with part one. Moving on to part",
+      "start": 539.12,
+      "duration": 8.24
+    },
+    {
+      "text": "two. Now we have an integration",
+      "start": 544.399,
+      "duration": 7.281
+    },
+    {
+      "text": "question. -4 to 0",
+      "start": 547.36,
+      "duration": 11.36
+    },
+    {
+      "text": "e to the power of 1 /x / x² dx. We want",
+      "start": 551.68,
+      "duration": 10.48
+    },
+    {
+      "text": "to prove that this should be equal to e",
+      "start": 558.72,
+      "duration": 8.0
+    },
+    {
+      "text": "to the power of -1 /4. Okay, let's start",
+      "start": 562.16,
+      "duration": 7.76
+    },
+    {
+      "text": "by um substituting. Okay, we're going to",
+      "start": 566.72,
+      "duration": 9.6
+    },
+    {
+      "text": "use substitution method. So let u = 1 /x",
+      "start": 569.92,
+      "duration": 11.039
+    },
+    {
+      "text": "which is x = -1. If we differentiate",
+      "start": 576.32,
+      "duration": 8.24
+    },
+    {
+      "text": "right du dx we will get",
+      "start": 580.959,
+      "duration": 11.761
+    },
+    {
+      "text": "-x -2 which is -1 / x². By rearranging",
+      "start": 584.56,
+      "duration": 13.48
+    },
+    {
+      "text": "this we will get dx is =x²",
+      "start": 592.72,
+      "duration": 5.32
+    },
+    {
+      "text": "d u. Let's replace this into our",
+      "start": 598.32,
+      "duration": 7.8
+    },
+    {
+      "text": "integration.",
+      "start": 603.12,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay. So",
+      "start": 606.24,
+      "duration": 4.279
+    },
+    {
+      "text": "now we will get e u over x²",
+      "start": 612.959,
+      "duration": 9.521
+    },
+    {
+      "text": "here will be x² du.",
+      "start": 617.68,
+      "duration": 7.12
+    },
+    {
+      "text": "Okay, we can cancel this but we still",
+      "start": 622.48,
+      "duration": 5.52
+    },
+    {
+      "text": "have the negative. Be cautious of that.",
+      "start": 624.8,
+      "duration": 7.44
+    },
+    {
+      "text": "So we have negative",
+      "start": 628.0,
+      "duration": 10.0
+    },
+    {
+      "text": "okay e u d u when we integrate this we",
+      "start": 632.24,
+      "duration": 11.839
+    },
+    {
+      "text": "will get e u neative eu.",
+      "start": 638.0,
+      "duration": 8.56
+    },
+    {
+      "text": "Remember that we have to substitute back",
+      "start": 644.079,
+      "duration": 4.801
+    },
+    {
+      "text": "our",
+      "start": 646.56,
+      "duration": 6.959
+    },
+    {
+      "text": "okay we have to substitute back so that",
+      "start": 648.88,
+      "duration": 8.16
+    },
+    {
+      "text": "uh our equation or our answer will be in",
+      "start": 653.519,
+      "duration": 6.961
+    },
+    {
+      "text": "x. So it will be",
+      "start": 657.04,
+      "duration": 8.0
+    },
+    {
+      "text": "e1 / x. Now we can write down the limit.",
+      "start": 660.48,
+      "duration": 8.32
+    },
+    {
+      "text": "The limit is -4 and zero. But if we",
+      "start": 665.04,
+      "duration": 6.799
+    },
+    {
+      "text": "replace zero into this you notice that",
+      "start": 668.8,
+      "duration": 6.0
+    },
+    {
+      "text": "we're going to get 1 / 0. We cannot have",
+      "start": 671.839,
+      "duration": 6.481
+    },
+    {
+      "text": "that. So what we going to do instead is",
+      "start": 674.8,
+      "duration": 9.2
+    },
+    {
+      "text": "this. Okay. So it would be",
+      "start": 678.32,
+      "duration": 9.6
+    },
+    {
+      "text": "limit t to zero.",
+      "start": 684.0,
+      "duration": 6.92
+    },
+    {
+      "text": "Okay.",
+      "start": 687.92,
+      "duration": 3.0
+    },
+    {
+      "text": "E to",
+      "start": 692.48,
+      "duration": 8.68
+    },
+    {
+      "text": "p. Okay. Minus -",
+      "start": 694.88,
+      "duration": 6.28
+    },
+    {
+      "text": "e. Okay.",
+      "start": 701.519,
+      "duration": 5.841
+    },
+    {
+      "text": "-",
+      "start": 704.88,
+      "duration": 12.6
+    },
+    {
+      "text": "e -1 / 4. So here I will get limit.",
+      "start": 707.36,
+      "duration": 10.12
+    },
+    {
+      "text": "Okay. Or here it should be 1 / t.",
+      "start": 717.92,
+      "duration": 7.159
+    },
+    {
+      "text": "Okay.",
+      "start": 722.079,
+      "duration": 3.0
+    },
+    {
+      "text": "T close to zero. e 1 / t + e",
+      "start": 725.76,
+      "duration": 13.84
+    },
+    {
+      "text": "to the power of -1 /4. Let's figure out",
+      "start": 734.88,
+      "duration": 9.84
+    },
+    {
+      "text": "our first term. Okay.",
+      "start": 739.6,
+      "duration": 9.359
+    },
+    {
+      "text": "Now let's refer to our limit. Our limit",
+      "start": 744.72,
+      "duration": 10.0
+    },
+    {
+      "text": "is from -4 to 0. Right? So -4 to 0. So",
+      "start": 748.959,
+      "duration": 8.0
+    },
+    {
+      "text": "that means we're approaching zero from",
+      "start": 754.72,
+      "duration": 7.76
+    },
+    {
+      "text": "the negative side. So as t get closer to",
+      "start": 756.959,
+      "duration": 8.481
+    },
+    {
+      "text": "zero from the negative side, what will",
+      "start": 762.48,
+      "duration": 7.76
+    },
+    {
+      "text": "happen to our 1 / t? Okay.",
+      "start": 765.44,
+      "duration": 11.36
+    },
+    {
+      "text": "So let's recap our 1 / t function.",
+      "start": 770.24,
+      "duration": 11.68
+    },
+    {
+      "text": "1 / t function. Okay. Let's draw this.",
+      "start": 776.8,
+      "duration": 7.76
+    },
+    {
+      "text": "rational function would look like this.",
+      "start": 781.92,
+      "duration": 5.84
+    },
+    {
+      "text": "This is where our zero is. So if we",
+      "start": 784.56,
+      "duration": 7.12
+    },
+    {
+      "text": "approach to the zero from the negative",
+      "start": 787.76,
+      "duration": 6.8
+    },
+    {
+      "text": "side, it will be",
+      "start": 791.68,
+      "duration": 7.959
+    },
+    {
+      "text": "okay negative infinity.",
+      "start": 794.56,
+      "duration": 5.079
+    },
+    {
+      "text": "Okay. Next",
+      "start": 801.36,
+      "duration": 3.479
+    },
+    {
+      "text": "as we approach okay as 1 / t approach",
+      "start": 806.56,
+      "duration": 11.279
+    },
+    {
+      "text": "negative infinity what will happen to e",
+      "start": 812.079,
+      "duration": 10.241
+    },
+    {
+      "text": "okay to the power of 1 / t.",
+      "start": 817.839,
+      "duration": 9.12
+    },
+    {
+      "text": "So now we will refer to our",
+      "start": 822.32,
+      "duration": 8.319
+    },
+    {
+      "text": "exponential function. Exponential",
+      "start": 826.959,
+      "duration": 6.721
+    },
+    {
+      "text": "function look like this. But now we want",
+      "start": 830.639,
+      "duration": 7.121
+    },
+    {
+      "text": "to approach to negative infinity.",
+      "start": 833.68,
+      "duration": 6.8
+    },
+    {
+      "text": "So it will get closer and closer to",
+      "start": 837.76,
+      "duration": 7.04
+    },
+    {
+      "text": "zero. So this one would be zero. Now we",
+      "start": 840.48,
+      "duration": 10.479
+    },
+    {
+      "text": "can conclude that this one is 0 + e1",
+      "start": 844.8,
+      "duration": 10.159
+    },
+    {
+      "text": "/ 4. Therefore this is equal to e to the",
+      "start": 850.959,
+      "duration": 7.841
+    },
+    {
+      "text": "power of -1 /4.",
+      "start": 854.959,
+      "duration": 6.481
+    },
+    {
+      "text": "We are done with this question. Let's",
+      "start": 858.8,
+      "duration": 7.52
+    },
+    {
+      "text": "just mark all the answers. Okay. So this",
+      "start": 861.44,
+      "duration": 7.68
+    },
+    {
+      "text": "is the answer for",
+      "start": 866.32,
+      "duration": 8.4
+    },
+    {
+      "text": "part one. A. Okay. We have proven. So B",
+      "start": 869.12,
+      "duration": 7.36
+    },
+    {
+      "text": "nothing.",
+      "start": 874.72,
+      "duration": 6.799
+    },
+    {
+      "text": "Okay. C is that one. And",
+      "start": 876.48,
+      "duration": 8.4
+    },
+    {
+      "text": "two we also proven that it looks like",
+      "start": 881.519,
+      "duration": 7.44
+    },
+    {
+      "text": "this. That's it.",
+      "start": 884.88,
+      "duration": 4.079
+    }
+  ]
+}

@@ -1,0 +1,499 @@
+{
+  "id": "uiFGdDFbvIg",
+  "paper": "CP1",
+  "question": "Q2",
+  "title": "Hyperbolic Functions (Exact Values Walkthrough)",
+  "full_text": "Look at this question. Question number two. We have a trig question. They want us to find the exact value of X for which shine 2X is equal to 3 shine X. We have to show all of our working for this question. That means we cannot simply just use our calculator. Okay, we'll begin by using the identity for shine 2X. What is shine 2X? Shine 2X is 2 shine X cosh X. And then we'll equate to our right hand side, which is 3 shine X. For the next step, we'll bring 3 shine X to the left side so that our equation will equate to zero. Now we'll factor out the common term, which is shine X. We'll get 2 cosh X - 3. This one is equal to zero. From here, we'll get two parts. Okay? The first one is shine X equal to zero. And the second one is 2 cosh X - 3 is equal to zero. Which will be cosh X equals to 3 over 2. Okay, next, we will use the definition for shine X and cosh X. Okay, shine X is e to the power of X minus e negative X over 2. This one going to equate to zero. Cosh x would be e x plus e negative x over two. This one will equate to three over two. Okay, let's solve the shine x first. Okay, we'll multiply this so we will get e x minus e negative x equal to zero. e x is equals to e negative x. We can learn both sides so we will get ln e x equals to ln e negative x. We'll just be x equals to negative x. Okay, so from here, okay, let me just give myself a bit more space so that I can finish this part. So here it would be 2 x equals to zero. Therefore, x is equal to zero. We have our first answer. For this part, the cosh x, okay. Let's bring it up. So here it would be, let's multiply both by two so we'll get e x plus e negative x is equals to three. Bring everything to the left-hand side. It will be e x. But for this one, we'll swap it to one over e x minus three equal to zero. What I will do is I'll multiply all of this by e x. And we will get e 2 x minus three e x plus one equal to zero. We have a quadratic equation. Okay, in terms of e x. Or we can To make it clearer, let's just sub it. Okay, sub y equal to e x. Okay. From here, we'll get y squared minus 3y plus 1 equal to zero. Okay. We'll use our calculator to solve our quadratic equation. Polynomial degree two. First coefficient is 1 and then -3 and then positive 1. Okay, this is further math. So, we don't have to show our working on how we get this. We can simply use it. Y is equal to 3 plus square root 5 over 2. And the second one is y is equal to 3 minus square root 5 over 2. We'll swap back. Okay. Uh y with e x. So, e x is basically if you combine these two e x is equal to 3 plus minus square root 5 over 2. Therefore, x is equal to ln 3 plus minus square root 5 over 2. From here, you can see that we have managed to get all three answers. The first one is x equal to zero. And the second and third one comes from x equal to ln 3 plus minus square root five over two. We're done with this question.",
+  "snippets": [
+    {
+      "text": "Look at this question. Question number",
+      "start": 0.72,
+      "duration": 4.56
+    },
+    {
+      "text": "two. We have a trig question. They want",
+      "start": 2.52,
+      "duration": 5.32
+    },
+    {
+      "text": "us to find the exact value",
+      "start": 5.28,
+      "duration": 6.2
+    },
+    {
+      "text": "of X for which shine 2X is equal to 3",
+      "start": 7.84,
+      "duration": 6.52
+    },
+    {
+      "text": "shine X. We have to show all of our",
+      "start": 11.48,
+      "duration": 5.44
+    },
+    {
+      "text": "working for this question. That means we",
+      "start": 14.36,
+      "duration": 6.8
+    },
+    {
+      "text": "cannot simply just use our calculator.",
+      "start": 16.92,
+      "duration": 7.6
+    },
+    {
+      "text": "Okay, we'll begin by using the identity",
+      "start": 21.16,
+      "duration": 7.52
+    },
+    {
+      "text": "for shine 2X. What is shine 2X? Shine 2X",
+      "start": 24.52,
+      "duration": 5.32
+    },
+    {
+      "text": "is",
+      "start": 28.68,
+      "duration": 4.56
+    },
+    {
+      "text": "2 shine X",
+      "start": 29.84,
+      "duration": 6.6
+    },
+    {
+      "text": "cosh X.",
+      "start": 33.24,
+      "duration": 3.2
+    },
+    {
+      "text": "And then we'll equate to our",
+      "start": 38.32,
+      "duration": 6.64
+    },
+    {
+      "text": "right hand side, which is 3 shine X.",
+      "start": 41.16,
+      "duration": 6.12
+    },
+    {
+      "text": "For the next step, we'll bring 3 shine X",
+      "start": 44.96,
+      "duration": 3.64
+    },
+    {
+      "text": "to the",
+      "start": 47.28,
+      "duration": 3.44
+    },
+    {
+      "text": "left side",
+      "start": 48.6,
+      "duration": 5.0
+    },
+    {
+      "text": "so that our equation will equate to",
+      "start": 50.72,
+      "duration": 5.56
+    },
+    {
+      "text": "zero.",
+      "start": 53.6,
+      "duration": 2.68
+    },
+    {
+      "text": "Now we'll factor out the common term,",
+      "start": 59.52,
+      "duration": 6.8
+    },
+    {
+      "text": "which is shine X.",
+      "start": 62.12,
+      "duration": 7.64
+    },
+    {
+      "text": "We'll get 2 cosh X",
+      "start": 66.32,
+      "duration": 5.32
+    },
+    {
+      "text": "- 3.",
+      "start": 69.76,
+      "duration": 5.0
+    },
+    {
+      "text": "This one is equal to zero. From here,",
+      "start": 71.64,
+      "duration": 6.24
+    },
+    {
+      "text": "we'll get two parts. Okay?",
+      "start": 74.76,
+      "duration": 8.48
+    },
+    {
+      "text": "The first one is shine X equal to zero.",
+      "start": 77.88,
+      "duration": 7.44
+    },
+    {
+      "text": "And the second one is",
+      "start": 83.24,
+      "duration": 6.96
+    },
+    {
+      "text": "2 cosh X - 3 is equal to zero.",
+      "start": 85.32,
+      "duration": 12.16
+    },
+    {
+      "text": "Which will be cosh X equals to 3 over 2.",
+      "start": 90.2,
+      "duration": 7.28
+    },
+    {
+      "text": "Okay, next, we will use the definition",
+      "start": 98.48,
+      "duration": 6.76
+    },
+    {
+      "text": "for shine X and cosh X.",
+      "start": 101.64,
+      "duration": 6.2
+    },
+    {
+      "text": "Okay, shine X is",
+      "start": 105.24,
+      "duration": 6.24
+    },
+    {
+      "text": "e to the power of X minus",
+      "start": 107.84,
+      "duration": 7.92
+    },
+    {
+      "text": "e negative X over 2. This one going to",
+      "start": 111.48,
+      "duration": 9.76
+    },
+    {
+      "text": "equate to zero. Cosh x would be e x plus",
+      "start": 115.76,
+      "duration": 7.88
+    },
+    {
+      "text": "e negative x",
+      "start": 121.24,
+      "duration": 5.4
+    },
+    {
+      "text": "over two. This one will equate to three",
+      "start": 123.64,
+      "duration": 4.479
+    },
+    {
+      "text": "over two.",
+      "start": 126.64,
+      "duration": 5.12
+    },
+    {
+      "text": "Okay, let's solve the shine x first.",
+      "start": 128.119,
+      "duration": 8.681
+    },
+    {
+      "text": "Okay, we'll multiply this so we will get",
+      "start": 131.76,
+      "duration": 10.28
+    },
+    {
+      "text": "e x minus e negative x equal to zero.",
+      "start": 136.8,
+      "duration": 9.76
+    },
+    {
+      "text": "e x is equals to e negative x. We can",
+      "start": 142.04,
+      "duration": 8.28
+    },
+    {
+      "text": "learn both sides so we will get",
+      "start": 146.56,
+      "duration": 9.88
+    },
+    {
+      "text": "ln e x equals to ln e negative x. We'll",
+      "start": 150.32,
+      "duration": 11.639
+    },
+    {
+      "text": "just be x equals to negative x.",
+      "start": 156.44,
+      "duration": 5.519
+    },
+    {
+      "text": "Okay, so from here, okay, let me just",
+      "start": 163.08,
+      "duration": 6.36
+    },
+    {
+      "text": "give myself a bit more space so that I",
+      "start": 166.56,
+      "duration": 4.76
+    },
+    {
+      "text": "can",
+      "start": 169.44,
+      "duration": 5.08
+    },
+    {
+      "text": "finish this part. So here it would be 2",
+      "start": 171.32,
+      "duration": 6.92
+    },
+    {
+      "text": "x equals to zero. Therefore, x is equal",
+      "start": 174.52,
+      "duration": 5.36
+    },
+    {
+      "text": "to zero.",
+      "start": 178.24,
+      "duration": 4.04
+    },
+    {
+      "text": "We have our first answer.",
+      "start": 179.88,
+      "duration": 6.52
+    },
+    {
+      "text": "For this part, the cosh x, okay.",
+      "start": 182.28,
+      "duration": 7.72
+    },
+    {
+      "text": "Let's bring it up.",
+      "start": 186.4,
+      "duration": 3.6
+    },
+    {
+      "text": "So here it would be, let's multiply both",
+      "start": 190.4,
+      "duration": 7.4
+    },
+    {
+      "text": "by two so we'll get e x plus e negative",
+      "start": 192.92,
+      "duration": 8.039
+    },
+    {
+      "text": "x is equals to three. Bring everything",
+      "start": 197.8,
+      "duration": 7.0
+    },
+    {
+      "text": "to the left-hand side. It will be e x.",
+      "start": 200.959,
+      "duration": 7.361
+    },
+    {
+      "text": "But for this one, we'll swap it to one",
+      "start": 204.8,
+      "duration": 9.159
+    },
+    {
+      "text": "over e x minus three equal to zero. What",
+      "start": 208.32,
+      "duration": 8.8
+    },
+    {
+      "text": "I will do is I'll multiply all of this",
+      "start": 213.959,
+      "duration": 5.681
+    },
+    {
+      "text": "by e x.",
+      "start": 217.12,
+      "duration": 4.92
+    },
+    {
+      "text": "And we will get",
+      "start": 219.64,
+      "duration": 4.84
+    },
+    {
+      "text": "e 2 x",
+      "start": 222.04,
+      "duration": 4.08
+    },
+    {
+      "text": "minus",
+      "start": 224.48,
+      "duration": 7.4
+    },
+    {
+      "text": "three e x plus one equal to zero.",
+      "start": 226.12,
+      "duration": 9.84
+    },
+    {
+      "text": "We have a quadratic equation.",
+      "start": 231.88,
+      "duration": 7.84
+    },
+    {
+      "text": "Okay, in terms of e x. Or we can",
+      "start": 235.96,
+      "duration": 6.48
+    },
+    {
+      "text": "To make it clearer, let's just sub it.",
+      "start": 239.72,
+      "duration": 4.76
+    },
+    {
+      "text": "Okay, sub",
+      "start": 242.44,
+      "duration": 6.56
+    },
+    {
+      "text": "y equal to e x. Okay.",
+      "start": 244.48,
+      "duration": 7.56
+    },
+    {
+      "text": "From here, we'll get y squared",
+      "start": 249.0,
+      "duration": 8.92
+    },
+    {
+      "text": "minus 3y plus 1 equal to zero.",
+      "start": 252.04,
+      "duration": 9.479
+    },
+    {
+      "text": "Okay. We'll use our calculator to solve",
+      "start": 257.92,
+      "duration": 7.72
+    },
+    {
+      "text": "our quadratic equation. Polynomial",
+      "start": 261.519,
+      "duration": 5.681
+    },
+    {
+      "text": "degree two.",
+      "start": 265.64,
+      "duration": 5.88
+    },
+    {
+      "text": "First coefficient is 1 and then -3 and",
+      "start": 267.2,
+      "duration": 8.16
+    },
+    {
+      "text": "then positive 1.",
+      "start": 271.52,
+      "duration": 6.2
+    },
+    {
+      "text": "Okay, this is further math. So, we don't",
+      "start": 275.36,
+      "duration": 4.44
+    },
+    {
+      "text": "have to show our working on how we get",
+      "start": 277.72,
+      "duration": 5.6
+    },
+    {
+      "text": "this. We can simply use it. Y is equal",
+      "start": 279.8,
+      "duration": 8.96
+    },
+    {
+      "text": "to 3 plus square root 5 over 2.",
+      "start": 283.32,
+      "duration": 10.16
+    },
+    {
+      "text": "And the second one is y is equal to 3",
+      "start": 288.76,
+      "duration": 9.44
+    },
+    {
+      "text": "minus square root 5 over 2.",
+      "start": 293.48,
+      "duration": 11.88
+    },
+    {
+      "text": "We'll swap back. Okay. Uh y with e x.",
+      "start": 298.2,
+      "duration": 10.16
+    },
+    {
+      "text": "So, e x is basically if you combine",
+      "start": 305.36,
+      "duration": 4.48
+    },
+    {
+      "text": "these two",
+      "start": 308.36,
+      "duration": 6.44
+    },
+    {
+      "text": "e x is equal to 3 plus minus square root",
+      "start": 309.84,
+      "duration": 7.76
+    },
+    {
+      "text": "5 over 2.",
+      "start": 314.8,
+      "duration": 8.4
+    },
+    {
+      "text": "Therefore, x is equal to ln",
+      "start": 317.6,
+      "duration": 12.72
+    },
+    {
+      "text": "3 plus minus square root 5 over 2.",
+      "start": 323.2,
+      "duration": 7.12
+    },
+    {
+      "text": "From here, you can see that we have",
+      "start": 331.72,
+      "duration": 5.68
+    },
+    {
+      "text": "managed to get all three answers. The",
+      "start": 333.8,
+      "duration": 6.96
+    },
+    {
+      "text": "first one is x equal to zero.",
+      "start": 337.4,
+      "duration": 7.2
+    },
+    {
+      "text": "And the second and third one comes from",
+      "start": 340.76,
+      "duration": 6.88
+    },
+    {
+      "text": "x equal to ln",
+      "start": 344.6,
+      "duration": 7.28
+    },
+    {
+      "text": "3 plus minus square root five over two.",
+      "start": 347.64,
+      "duration": 7.88
+    },
+    {
+      "text": "We're done with this question.",
+      "start": 351.88,
+      "duration": 3.64
+    }
+  ]
+}

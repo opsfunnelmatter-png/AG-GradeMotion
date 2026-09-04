@@ -1,0 +1,739 @@
+{
+  "id": "uvgfNhLMbJ0",
+  "paper": "CP2",
+  "question": "Q5",
+  "title": "Simultaneous Equations (Planes and Sheaf)",
+  "full_text": "Let's take a look at question number five. We have coordinate geometry planes question. In this question, they give us three planes equation with two unknowns, P and Q. They tell us that these three planes form a shift and they want us to find the unknown values for P and Q. Let's start by imagining how does a shift look like, okay? So, we have one plane here. And then we will have another. Okay, so at the back. Go to the front. Okay, and what we don't see is like go slightly like that and it's passing through this plane. And then we also will have another plane this side, okay? And it goes like that. So, this plane is also passing through this line. So, a shift happens, okay, when all three plane passing through one common line. So, instead of instead of having a a point of intersection, what we have here is a line of intersection. So, what does it means by having one common line? So, that means we have infinitely many solutions. Okay, let's write down our coefficients for all these three equation into matrix form. So, M is equal to 2 -1 1 1 P -3 3 1 -2. So, when we have infinitely many that means we have a singular matrix, which is which means determinant of M is equal to zero. How do you find determinant for a 3 by 3 matrix? You start by writing plus, minus, plus. It belongs to the first row. So, that's what I'm going to write. I'm going to write plus, minus, plus. And then, I'm going to write down, okay, the elements from the first row. So, here I'm going to have two, negative one, and one. Next, let's take a look at two. So, what I'm going to do now is I'm going to close its column and its row. Then, I will write down the balance matrix. So, it'll be P, -3, 1, -2. That's it. Okay, moving on to the second column. Okay, I'm going to close this column and this row. So, I'm left with 1, 3, -3, -2. We'll do the same thing to the last element. So, we're going to close the last column and the first row, and we will get 1, 3, P, 1. This will equal to zero. Okay, what happened now is we have to find the determinant for each 2 by 2 matrix. So, it would be two, this one would be -2P minus -3, plus one. Here would be -2 -9 plus one 1 3p. So, this is equal to zero. So, what we have here is this two -2p plus three and here it would just be okay, -2 +9 which is seven plus 1 - 3p equal to zero. Let's expand the first part then we'll get -4p + 6 + 8 - 3p equal to zero. Let's bring all of our unknowns to the right-hand side. So, we will have 14 equal to 7p. P is equal to two. That's it. We're done with part one. Moving on to part two. Okay. Now, we want to find the value of Q. But, before that, let's fill in the blanks our value of P. So, we will have new equation. So, 2x - y + z equals to three. x plus Okay, what is our P value? Two. 2y - 3z equal to Q. 3x + y - 2z equal to four. Now, that we have three equation, okay, what we can do is we can use simultaneous equation to solve for Q. What we're going to do next is we can figure out how to eliminate Y. So, let's start by adding one and three. So, what I would like to do is adding one and three. Equation one and equation three. So, I will have 2X - Y + Z is equal to three. Here, I'll get 3X + Y - 2Z is equal to four. If I add these two together, I will get 5X. Y will be eliminated. Okay, - Z equal to seven. Let's take a look. Okay, we have to find a different combination to eliminate Y, but it must include equation two now. So, what I would like to do is, okay, two multiply by equation No, my bad. Two multiply by equation one plus with equation two. So, let's multiply two to the first equation, and I will get 4X - 2Y + 2Z is equal to six. And then, equation two, I'll get X + 2Y - 3Z equal to Q. I will add these two equations, and I'll have 5X. The Y will be eliminated. - Z equal to 6 + Q. Notice that we have the same left-hand side for both equations. So, what I can do is I can I can write it this way. So, 5X - Z is equal to seven equal to 6 + Q. Therefore, 6 + Q is equal to 7. Q is equal to 1. With that, we are done with this question. So, P is equal to 2, the answer for part 1, and Q equals to 1, the answer to part 2.",
+  "snippets": [
+    {
+      "text": "Let's take a look at question number",
+      "start": 2.28,
+      "duration": 4.32
+    },
+    {
+      "text": "five. We have coordinate geometry planes",
+      "start": 4.0,
+      "duration": 4.96
+    },
+    {
+      "text": "question. In this question, they give us",
+      "start": 6.6,
+      "duration": 4.6
+    },
+    {
+      "text": "three planes equation",
+      "start": 8.96,
+      "duration": 6.0
+    },
+    {
+      "text": "with two unknowns, P and Q. They tell us",
+      "start": 11.2,
+      "duration": 6.56
+    },
+    {
+      "text": "that these three planes form a shift and",
+      "start": 14.96,
+      "duration": 5.12
+    },
+    {
+      "text": "they want us to find the unknown values",
+      "start": 17.76,
+      "duration": 5.76
+    },
+    {
+      "text": "for P and Q. Let's start by imagining",
+      "start": 20.08,
+      "duration": 7.48
+    },
+    {
+      "text": "how does a shift look like, okay? So, we",
+      "start": 23.52,
+      "duration": 7.6
+    },
+    {
+      "text": "have one plane here.",
+      "start": 27.56,
+      "duration": 6.68
+    },
+    {
+      "text": "And then we will have another.",
+      "start": 31.12,
+      "duration": 6.52
+    },
+    {
+      "text": "Okay, so at the back.",
+      "start": 34.24,
+      "duration": 5.52
+    },
+    {
+      "text": "Go to the front.",
+      "start": 37.64,
+      "duration": 4.12
+    },
+    {
+      "text": "Okay, and what we don't see is like go",
+      "start": 39.76,
+      "duration": 3.96
+    },
+    {
+      "text": "slightly like that and it's passing",
+      "start": 41.76,
+      "duration": 2.96
+    },
+    {
+      "text": "through",
+      "start": 43.72,
+      "duration": 3.76
+    },
+    {
+      "text": "this plane. And then we also will have",
+      "start": 44.72,
+      "duration": 4.8
+    },
+    {
+      "text": "another plane",
+      "start": 47.48,
+      "duration": 4.64
+    },
+    {
+      "text": "this side, okay?",
+      "start": 49.52,
+      "duration": 6.32
+    },
+    {
+      "text": "And it goes like that. So, this plane is",
+      "start": 52.12,
+      "duration": 6.96
+    },
+    {
+      "text": "also passing through this line. So, a",
+      "start": 55.84,
+      "duration": 6.12
+    },
+    {
+      "text": "shift happens, okay, when all three",
+      "start": 59.08,
+      "duration": 5.72
+    },
+    {
+      "text": "plane passing through",
+      "start": 61.96,
+      "duration": 6.08
+    },
+    {
+      "text": "one common line.",
+      "start": 64.8,
+      "duration": 6.84
+    },
+    {
+      "text": "So, instead of instead of having",
+      "start": 68.04,
+      "duration": 6.2
+    },
+    {
+      "text": "a a point of intersection, what we have",
+      "start": 71.64,
+      "duration": 7.28
+    },
+    {
+      "text": "here is a line of intersection.",
+      "start": 74.24,
+      "duration": 7.44
+    },
+    {
+      "text": "So, what does it means by having one",
+      "start": 78.92,
+      "duration": 5.48
+    },
+    {
+      "text": "common line? So, that means we have",
+      "start": 81.68,
+      "duration": 5.72
+    },
+    {
+      "text": "infinitely",
+      "start": 84.4,
+      "duration": 3.0
+    },
+    {
+      "text": "many solutions.",
+      "start": 87.88,
+      "duration": 4.08
+    },
+    {
+      "text": "Okay, let's write down our coefficients",
+      "start": 94.44,
+      "duration": 7.92
+    },
+    {
+      "text": "for all these three equation into matrix",
+      "start": 98.84,
+      "duration": 6.72
+    },
+    {
+      "text": "form. So, M is equal to",
+      "start": 102.36,
+      "duration": 8.92
+    },
+    {
+      "text": "2 -1 1 1 P -3",
+      "start": 105.56,
+      "duration": 9.36
+    },
+    {
+      "text": "3 1 -2.",
+      "start": 111.28,
+      "duration": 6.24
+    },
+    {
+      "text": "So, when we have infinitely many",
+      "start": 114.92,
+      "duration": 4.96
+    },
+    {
+      "text": "that means we have",
+      "start": 117.52,
+      "duration": 4.04
+    },
+    {
+      "text": "a singular",
+      "start": 119.88,
+      "duration": 3.88
+    },
+    {
+      "text": "matrix, which is",
+      "start": 121.56,
+      "duration": 5.52
+    },
+    {
+      "text": "which means determinant of M is equal to",
+      "start": 123.76,
+      "duration": 7.12
+    },
+    {
+      "text": "zero. How do you find determinant",
+      "start": 127.08,
+      "duration": 6.48
+    },
+    {
+      "text": "for a 3 by 3 matrix? You start by",
+      "start": 130.88,
+      "duration": 7.079
+    },
+    {
+      "text": "writing plus, minus, plus. It belongs to",
+      "start": 133.56,
+      "duration": 6.0
+    },
+    {
+      "text": "the first",
+      "start": 137.959,
+      "duration": 3.521
+    },
+    {
+      "text": "row. So, that's what I'm going to write.",
+      "start": 139.56,
+      "duration": 3.64
+    },
+    {
+      "text": "I'm going to write plus,",
+      "start": 141.48,
+      "duration": 4.479
+    },
+    {
+      "text": "minus, plus. And then, I'm going to",
+      "start": 143.2,
+      "duration": 5.68
+    },
+    {
+      "text": "write down, okay, the elements from the",
+      "start": 145.959,
+      "duration": 5.441
+    },
+    {
+      "text": "first row. So, here I'm going to have",
+      "start": 148.88,
+      "duration": 3.6
+    },
+    {
+      "text": "two,",
+      "start": 151.4,
+      "duration": 3.0
+    },
+    {
+      "text": "negative one,",
+      "start": 152.48,
+      "duration": 4.56
+    },
+    {
+      "text": "and one.",
+      "start": 154.4,
+      "duration": 5.72
+    },
+    {
+      "text": "Next, let's take a look at two. So, what",
+      "start": 157.04,
+      "duration": 4.56
+    },
+    {
+      "text": "I'm going to do now is I'm going to",
+      "start": 160.12,
+      "duration": 3.64
+    },
+    {
+      "text": "close its column",
+      "start": 161.6,
+      "duration": 4.04
+    },
+    {
+      "text": "and its row.",
+      "start": 163.76,
+      "duration": 4.16
+    },
+    {
+      "text": "Then, I will write down the balance",
+      "start": 165.64,
+      "duration": 8.319
+    },
+    {
+      "text": "matrix. So, it'll be P, -3, 1, -2.",
+      "start": 167.92,
+      "duration": 10.039
+    },
+    {
+      "text": "That's it. Okay, moving on to the second",
+      "start": 173.959,
+      "duration": 6.601
+    },
+    {
+      "text": "column. Okay, I'm going to close this",
+      "start": 177.959,
+      "duration": 7.801
+    },
+    {
+      "text": "column and this row. So, I'm left with",
+      "start": 180.56,
+      "duration": 10.64
+    },
+    {
+      "text": "1, 3, -3, -2.",
+      "start": 185.76,
+      "duration": 8.16
+    },
+    {
+      "text": "We'll do the same thing to the last",
+      "start": 191.2,
+      "duration": 4.96
+    },
+    {
+      "text": "element. So, we're going to close",
+      "start": 193.92,
+      "duration": 5.68
+    },
+    {
+      "text": "the last column and the first",
+      "start": 196.16,
+      "duration": 9.799
+    },
+    {
+      "text": "row, and we will get 1, 3, P, 1.",
+      "start": 199.6,
+      "duration": 10.359
+    },
+    {
+      "text": "This will equal to zero. Okay, what",
+      "start": 205.959,
+      "duration": 7.841
+    },
+    {
+      "text": "happened now is we have to find",
+      "start": 209.959,
+      "duration": 6.681
+    },
+    {
+      "text": "the determinant for",
+      "start": 213.8,
+      "duration": 4.6
+    },
+    {
+      "text": "each",
+      "start": 216.64,
+      "duration": 6.68
+    },
+    {
+      "text": "2 by 2 matrix. So, it would be",
+      "start": 218.4,
+      "duration": 6.0
+    },
+    {
+      "text": "two,",
+      "start": 223.32,
+      "duration": 4.68
+    },
+    {
+      "text": "this one would be -2P",
+      "start": 224.4,
+      "duration": 6.8
+    },
+    {
+      "text": "minus -3,",
+      "start": 228.0,
+      "duration": 8.32
+    },
+    {
+      "text": "plus one. Here would be -2",
+      "start": 231.2,
+      "duration": 7.32
+    },
+    {
+      "text": "-9",
+      "start": 236.32,
+      "duration": 4.08
+    },
+    {
+      "text": "plus one",
+      "start": 238.52,
+      "duration": 3.32
+    },
+    {
+      "text": "1",
+      "start": 240.4,
+      "duration": 5.84
+    },
+    {
+      "text": "3p. So, this is equal to zero.",
+      "start": 241.84,
+      "duration": 8.96
+    },
+    {
+      "text": "So, what we have here is this two -2p",
+      "start": 246.24,
+      "duration": 6.32
+    },
+    {
+      "text": "plus three",
+      "start": 250.8,
+      "duration": 4.28
+    },
+    {
+      "text": "and here it would just be",
+      "start": 252.56,
+      "duration": 6.04
+    },
+    {
+      "text": "okay, -2",
+      "start": 255.08,
+      "duration": 5.04
+    },
+    {
+      "text": "+9",
+      "start": 258.6,
+      "duration": 4.4
+    },
+    {
+      "text": "which is seven",
+      "start": 260.12,
+      "duration": 4.04
+    },
+    {
+      "text": "plus",
+      "start": 263.0,
+      "duration": 4.16
+    },
+    {
+      "text": "1 - 3p",
+      "start": 264.16,
+      "duration": 5.68
+    },
+    {
+      "text": "equal to zero. Let's expand the first",
+      "start": 267.16,
+      "duration": 5.48
+    },
+    {
+      "text": "part then we'll get -4p",
+      "start": 269.84,
+      "duration": 8.92
+    },
+    {
+      "text": "+ 6 + 8 - 3p equal to zero. Let's bring",
+      "start": 272.64,
+      "duration": 9.0
+    },
+    {
+      "text": "all of our unknowns to the right-hand",
+      "start": 278.76,
+      "duration": 8.84
+    },
+    {
+      "text": "side. So, we will have 14 equal to 7p.",
+      "start": 281.64,
+      "duration": 7.72
+    },
+    {
+      "text": "P is equal to",
+      "start": 287.6,
+      "duration": 4.88
+    },
+    {
+      "text": "two. That's it. We're done with part",
+      "start": 289.36,
+      "duration": 8.36
+    },
+    {
+      "text": "one. Moving on to part two. Okay.",
+      "start": 292.48,
+      "duration": 9.24
+    },
+    {
+      "text": "Now, we want to find the value of Q.",
+      "start": 297.72,
+      "duration": 5.88
+    },
+    {
+      "text": "But, before that, let's fill in the",
+      "start": 301.72,
+      "duration": 3.64
+    },
+    {
+      "text": "blanks our",
+      "start": 303.6,
+      "duration": 4.48
+    },
+    {
+      "text": "value of P. So, we will have new",
+      "start": 305.36,
+      "duration": 7.0
+    },
+    {
+      "text": "equation. So, 2x - y + z equals to",
+      "start": 308.08,
+      "duration": 5.96
+    },
+    {
+      "text": "three.",
+      "start": 312.36,
+      "duration": 6.04
+    },
+    {
+      "text": "x plus Okay, what is our P value? Two.",
+      "start": 314.04,
+      "duration": 14.16
+    },
+    {
+      "text": "2y - 3z equal to Q. 3x + y - 2z equal to",
+      "start": 318.4,
+      "duration": 11.36
+    },
+    {
+      "text": "four.",
+      "start": 328.2,
+      "duration": 5.76
+    },
+    {
+      "text": "Now, that we have three equation, okay,",
+      "start": 329.76,
+      "duration": 6.52
+    },
+    {
+      "text": "what we can do is we can use",
+      "start": 333.96,
+      "duration": 7.6
+    },
+    {
+      "text": "simultaneous equation to solve for Q.",
+      "start": 336.28,
+      "duration": 7.92
+    },
+    {
+      "text": "What we're going to do next is we can",
+      "start": 341.56,
+      "duration": 6.64
+    },
+    {
+      "text": "figure out how to eliminate",
+      "start": 344.2,
+      "duration": 5.84
+    },
+    {
+      "text": "Y.",
+      "start": 348.2,
+      "duration": 6.64
+    },
+    {
+      "text": "So, let's start by adding one and three.",
+      "start": 350.04,
+      "duration": 7.6
+    },
+    {
+      "text": "So, what I would like to do is adding",
+      "start": 354.84,
+      "duration": 6.48
+    },
+    {
+      "text": "one and three. Equation one and equation",
+      "start": 357.64,
+      "duration": 7.4
+    },
+    {
+      "text": "three. So, I will have 2X - Y",
+      "start": 361.32,
+      "duration": 7.76
+    },
+    {
+      "text": "+ Z is equal to three. Here, I'll get 3X",
+      "start": 365.04,
+      "duration": 9.48
+    },
+    {
+      "text": "+ Y - 2Z is equal to four. If I add",
+      "start": 369.08,
+      "duration": 7.48
+    },
+    {
+      "text": "these two together,",
+      "start": 374.52,
+      "duration": 5.52
+    },
+    {
+      "text": "I will get 5X.",
+      "start": 376.56,
+      "duration": 7.6
+    },
+    {
+      "text": "Y will be eliminated. Okay, - Z equal to",
+      "start": 380.04,
+      "duration": 5.84
+    },
+    {
+      "text": "seven.",
+      "start": 384.16,
+      "duration": 4.36
+    },
+    {
+      "text": "Let's take a look. Okay, we have to find",
+      "start": 385.88,
+      "duration": 5.56
+    },
+    {
+      "text": "a different combination to eliminate Y,",
+      "start": 388.52,
+      "duration": 6.08
+    },
+    {
+      "text": "but it must include equation two now.",
+      "start": 391.44,
+      "duration": 6.6
+    },
+    {
+      "text": "So, what I would like to do is, okay,",
+      "start": 394.6,
+      "duration": 7.04
+    },
+    {
+      "text": "two multiply by",
+      "start": 398.04,
+      "duration": 3.6
+    },
+    {
+      "text": "equation No, my bad. Two multiply by",
+      "start": 404.52,
+      "duration": 9.6
+    },
+    {
+      "text": "equation one plus with equation two.",
+      "start": 409.0,
+      "duration": 7.52
+    },
+    {
+      "text": "So, let's multiply two to the first",
+      "start": 414.12,
+      "duration": 8.44
+    },
+    {
+      "text": "equation, and I will get 4X - 2Y + 2Z is",
+      "start": 416.52,
+      "duration": 9.44
+    },
+    {
+      "text": "equal to six. And then, equation two,",
+      "start": 422.56,
+      "duration": 9.84
+    },
+    {
+      "text": "I'll get X + 2Y - 3Z equal to Q. I will",
+      "start": 425.96,
+      "duration": 10.24
+    },
+    {
+      "text": "add these two equations, and I'll have",
+      "start": 432.4,
+      "duration": 5.8
+    },
+    {
+      "text": "5X.",
+      "start": 436.2,
+      "duration": 6.64
+    },
+    {
+      "text": "The Y will be eliminated. - Z equal to 6",
+      "start": 438.2,
+      "duration": 6.32
+    },
+    {
+      "text": "+ Q.",
+      "start": 442.84,
+      "duration": 4.12
+    },
+    {
+      "text": "Notice that we have the same left-hand",
+      "start": 444.52,
+      "duration": 6.32
+    },
+    {
+      "text": "side for both equations. So, what I can",
+      "start": 446.96,
+      "duration": 7.04
+    },
+    {
+      "text": "do is I can I can write it this way. So,",
+      "start": 450.84,
+      "duration": 10.16
+    },
+    {
+      "text": "5X - Z is equal to seven equal to 6 + Q.",
+      "start": 454.0,
+      "duration": 12.24
+    },
+    {
+      "text": "Therefore, 6 + Q is equal to 7. Q is",
+      "start": 461.0,
+      "duration": 9.16
+    },
+    {
+      "text": "equal to 1.",
+      "start": 466.24,
+      "duration": 3.92
+    },
+    {
+      "text": "With that, we are done with this",
+      "start": 470.48,
+      "duration": 5.32
+    },
+    {
+      "text": "question. So, P is equal to 2, the",
+      "start": 473.36,
+      "duration": 5.52
+    },
+    {
+      "text": "answer for part 1, and Q equals to 1,",
+      "start": 475.8,
+      "duration": 6.96
+    },
+    {
+      "text": "the answer to part 2.",
+      "start": 478.88,
+      "duration": 3.88
+    }
+  ]
+}

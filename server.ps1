@@ -44,6 +44,13 @@ while ($listener.IsListening) {
         
         $filePath = Join-Path $root ($urlPath.TrimStart('/').Replace('/', '\'))
 
+        if (Test-Path $filePath -PathType Container) {
+            $candidate = Join-Path $filePath "index.html"
+            if (Test-Path $candidate -PathType Leaf) {
+                $filePath = $candidate
+            }
+        }
+
         if (Test-Path $filePath -PathType Leaf) {
             $ext = [System.IO.Path]::GetExtension($filePath).ToLower()
             if ($mimeTypes.ContainsKey($ext)) {

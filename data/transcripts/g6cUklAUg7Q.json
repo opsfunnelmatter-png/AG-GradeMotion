@@ -1,0 +1,1269 @@
+{
+  "id": "g6cUklAUg7Q",
+  "paper": "CP2",
+  "question": "Q2",
+  "title": "Vectors (Lines and Planes)",
+  "full_text": "Let's now take a look at question number two. Okay, for question number two we have a modeling question for vectors. An archer shoot an arrow towards a target. Okay, in our model the arrow is a particle. The flight path of the arrow is a straight line. So, what we have here we have a flight path and it is a straight line. Okay, the target is part of a plane. So, let's use a different color to draw a plane. So, there we go. So, here we have a plane. Okay. Therefore, this would be the target. There we go. So, this is the flight path. Okay, the arrow is fired from the position. Okay, so what we do is Okay, originally the arrow is fired from this point. Okay. 3 -5 and 2. >> [snorts] >> The plane containing the target has the equation so 2x + 4y -z is equal to 3. So, what we have Okay, the beginning here we have 3 -5 and 2. The question Okay, A. Determine the shortest distance that the arrow must travel to reach the plane. So, shortest distance will always means it's perpendicular. So, from here to the plane So, here it will be 90°. So, this is your shortest distance D. Okay, so let's answer question A. So, to answer this one, right? They actually give us the formula in the formula booklet. So, what we need to do is rewrite our plane equation. So, our plane equation will be 2x + 4y -z -3 = 0. So, based on this our N1 is 2, our N2 is 4, our N3 is -1 and our D is equal to -3. And then the point. Okay. The point that we have here is 3 -5 2. Which means alpha is equal to 3, beta is equal to -5 and gamma is equal to 2. Now, to find the distance we can simply input it into this formula. So, shortest distance is equal to modulus N1 alpha. So, 2 * 3 + N2 beta. 4 * -5 + N3 gamma. So, -1 * 2 and then + D which is -3 over square root N1 squared + N2 squared which is 4 squared + N3 squared which is -1 squared. Okay. Let's just draw the line. There we go. Okay. Let's use our calculator to find the values. So, here we have 2 * 3 + 4 * -5 + -1 * 2 + -3. So, I have modulus -19 over Okay, square root of 2 squared + 4 squared + -1 square. That is square root 21. So, it will be equal to 19 over square root 21. Okay, with that we are done with part A. Let's now take a look at B. Okay, the arrow hits the target at the point 6 -2 and 1. So, here we have Okay, so the point the target here is at 6 -2 and 1. Okay. Determine a vector equation of the flight path of the arrow. Okay, so what we're finding is just the vector. Okay, so in the beginning we have What is our OP? The first point our first point is OP is 3 -5 and 2. Where is our OT? From O to the target we have 6 -2 and 1. We want to find the flight path so from P to T. So, it would be negative OP + OT. Why is it negative OP? Because we want it to be PO. From from P you go to O and from O you go to T. So, this would be equals to -3 -5 2 + 6 -2 and 1. So, this is equal to -3 + 6 5 -2 -2 + 1 which is equal to 3 3 -1. We are done with B. Next, determine the acute angle that the flight path of the arrow makes with the target. Give your answer to the nearest degree. Just now we find the shortest distance vector equation and this one is the acute angle between the flight path of the arrow and the target. Okay. So, I'll draw a new drawing for this one. Now, let's draw the target. I'm going to draw the target like this. So, this is the plane. Okay. Let me make it into a line. So, this is my target. It is on a plane. Okay, so what happened now? I have a flight path that is a straight line. So, let's say it's from P to Q. It looks like P to T looks like that. So, here is P and here is T. So, PT moving it like that and this is your plane. Now, in plane, right? Plane equation we have N. What is the definition of N? N means normal. Normal to the plane. That means we have a straight line here. So, this is our N. Oops. Okay. So, this is our N. Why can't it be straight? Let me just try it so that it's straight like that. There you go. So, this is your N to the plane. Okay, so what we want to do is we want to find Okay, the angle here. This is what we want to find. We want to find X. The angle between the arrow and also the target. But what we have are these two vectors PT and N. So, if we use the angle formula, what we will find is this one. Angle Y. So, you have to do step by step in order to find X. Let's start by finding X. Oh, let's start by finding Y. So, for C So, for C we have Okay, what is our N? Our N is do do do plane 2 4 -1. So, 2 4 -1. And what is our PT from our previous question? It was 3 3 -1. And the formula to find the angle would be cos X equal to modulus of this. Okay. Modulus of 2 4 -1 dot with 3 3 -1 over Okay, modulus of N modulus of PT. So, what will happen? We're going to do the dot product up here. We will get 2 * 3 + 4 * 3 + -1 * -1 over modulus of N. So, it will be square root 2 squared + 4 squared + -1 square. And then, the second modulus is 3 3 -1. So, it will become 3 square plus 3 square plus -1 square. Okay. So, let's compute one by one. So, here we have 2 * 3 + 4 * 3 plus -1 * -1, that's just 1. So, we got 19 up here over. Okay. I believe we already found this one. Okay, square root 2 square plus 4 square plus -1 square, that is square root 21 from the previous question. So, we only need to find the second one, which is square root 3 square plus 3 square plus -1 square, which is square root 19. So, X is equal to inverse cos 19 over square root 21 square root 19, which is equal to K, oh, they want us to give the answer to the nearest degree. So, make sure we change our calculator so that it is in degree mode. So, now it will be inverse cos 19 over square root 21 multiplied by square root 19. Okay, close bracket. I will get 17.975 degree. What we want to do is we want to find Y. Okay, because this is perpendicular, so Y is 90 minus X, which is 90 minus 17.975. So, 90 minus answer, we will get 72 degree. That's it. Done with B. Moving Done with C. Moving on to D. Okay, they want us to find the distance traveled by the arrow. So, distance traveled by the arrow is basically Okay, so, D distance traveled by arrow is basically is just modulus of PT. We know our PT already. So, modulus of that will be 3 square plus 3 square plus -1 square, which is already compute here. That is square root 19. Done. D is also done. E. Comment on whether the actual distance traveled by the arrow is likely, okay, actual distance traveled is likely to match the answer to part D, giving a reason to your answer. Okay, let's see for E, right? Okay. It is unlikely to match. Okay. Why? Because, okay, in actuality, it is unlikely for the flight path to be a straight line. Okay, that's it for this question. We managed to finish all of this.",
+  "snippets": [
+    {
+      "text": "Let's now take a look at question number",
+      "start": 2.4,
+      "duration": 3.28
+    },
+    {
+      "text": "two. Okay, for question number two we",
+      "start": 4.2,
+      "duration": 4.48
+    },
+    {
+      "text": "have a modeling question for vectors. An",
+      "start": 5.68,
+      "duration": 4.8
+    },
+    {
+      "text": "archer shoot an arrow",
+      "start": 8.68,
+      "duration": 4.56
+    },
+    {
+      "text": "towards a target. Okay, in our model the",
+      "start": 10.48,
+      "duration": 4.8
+    },
+    {
+      "text": "arrow is a particle.",
+      "start": 13.24,
+      "duration": 4.36
+    },
+    {
+      "text": "The flight path of the arrow is a",
+      "start": 15.28,
+      "duration": 5.8
+    },
+    {
+      "text": "straight line. So, what we have here",
+      "start": 17.6,
+      "duration": 5.24
+    },
+    {
+      "text": "we have a flight path and it is a",
+      "start": 21.08,
+      "duration": 3.96
+    },
+    {
+      "text": "straight line.",
+      "start": 22.84,
+      "duration": 5.32
+    },
+    {
+      "text": "Okay, the target is part of a plane. So,",
+      "start": 25.04,
+      "duration": 5.2
+    },
+    {
+      "text": "let's use a different color",
+      "start": 28.16,
+      "duration": 4.16
+    },
+    {
+      "text": "to draw a plane.",
+      "start": 30.24,
+      "duration": 4.96
+    },
+    {
+      "text": "So, there we go. So, here we have a",
+      "start": 32.32,
+      "duration": 5.8
+    },
+    {
+      "text": "plane.",
+      "start": 35.2,
+      "duration": 2.92
+    },
+    {
+      "text": "Okay.",
+      "start": 39.92,
+      "duration": 6.4
+    },
+    {
+      "text": "Therefore, this would be the target.",
+      "start": 41.28,
+      "duration": 8.28
+    },
+    {
+      "text": "There we go. So, this is the flight",
+      "start": 46.32,
+      "duration": 5.88
+    },
+    {
+      "text": "path.",
+      "start": 49.56,
+      "duration": 2.64
+    },
+    {
+      "text": "Okay, the arrow is fired from the",
+      "start": 55.92,
+      "duration": 7.0
+    },
+    {
+      "text": "position. Okay, so what we do is Okay,",
+      "start": 59.0,
+      "duration": 5.559
+    },
+    {
+      "text": "originally",
+      "start": 62.92,
+      "duration": 4.84
+    },
+    {
+      "text": "the arrow is fired",
+      "start": 64.559,
+      "duration": 5.161
+    },
+    {
+      "text": "from this point.",
+      "start": 67.76,
+      "duration": 3.2
+    },
+    {
+      "text": "Okay.",
+      "start": 69.72,
+      "duration": 3.44
+    },
+    {
+      "text": "3 -5",
+      "start": 70.96,
+      "duration": 4.365
+    },
+    {
+      "text": "and 2.",
+      "start": 73.16,
+      "duration": 2.44
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 75.325,
+      "duration": 3.195
+    },
+    {
+      "text": ">> The plane containing the target has the",
+      "start": 75.6,
+      "duration": 4.72
+    },
+    {
+      "text": "equation",
+      "start": 78.52,
+      "duration": 5.88
+    },
+    {
+      "text": "so 2x + 4y",
+      "start": 80.32,
+      "duration": 7.44
+    },
+    {
+      "text": "-z is equal to 3.",
+      "start": 84.4,
+      "duration": 5.36
+    },
+    {
+      "text": "So, what we have Okay, the beginning",
+      "start": 87.76,
+      "duration": 8.28
+    },
+    {
+      "text": "here we have 3 -5 and 2.",
+      "start": 89.76,
+      "duration": 9.48
+    },
+    {
+      "text": "The question Okay, A. Determine the",
+      "start": 96.04,
+      "duration": 5.2
+    },
+    {
+      "text": "shortest distance that the arrow must",
+      "start": 99.24,
+      "duration": 4.72
+    },
+    {
+      "text": "travel to reach the plane. So, shortest",
+      "start": 101.24,
+      "duration": 5.68
+    },
+    {
+      "text": "distance will always means it's",
+      "start": 103.96,
+      "duration": 4.96
+    },
+    {
+      "text": "perpendicular.",
+      "start": 106.92,
+      "duration": 5.08
+    },
+    {
+      "text": "So, from here to the plane",
+      "start": 108.92,
+      "duration": 6.48
+    },
+    {
+      "text": "So, here it will be 90°.",
+      "start": 112.0,
+      "duration": 7.2
+    },
+    {
+      "text": "So, this is your",
+      "start": 115.4,
+      "duration": 3.8
+    },
+    {
+      "text": "shortest distance D. Okay, so let's",
+      "start": 119.36,
+      "duration": 5.48
+    },
+    {
+      "text": "answer question A.",
+      "start": 122.8,
+      "duration": 3.32
+    },
+    {
+      "text": "So, to answer this one, right? They",
+      "start": 124.84,
+      "duration": 2.96
+    },
+    {
+      "text": "actually give us the formula in the",
+      "start": 126.12,
+      "duration": 3.919
+    },
+    {
+      "text": "formula booklet. So, what we need to do",
+      "start": 127.8,
+      "duration": 5.48
+    },
+    {
+      "text": "is rewrite our plane equation. So, our",
+      "start": 130.039,
+      "duration": 9.721
+    },
+    {
+      "text": "plane equation will be 2x + 4y -z -3 =",
+      "start": 133.28,
+      "duration": 12.12
+    },
+    {
+      "text": "0. So, based on this our N1 is 2, our N2",
+      "start": 139.76,
+      "duration": 11.8
+    },
+    {
+      "text": "is 4, our N3 is -1 and our D is equal to",
+      "start": 145.4,
+      "duration": 8.2
+    },
+    {
+      "text": "-3.",
+      "start": 151.56,
+      "duration": 4.48
+    },
+    {
+      "text": "And then the point. Okay.",
+      "start": 153.6,
+      "duration": 6.6
+    },
+    {
+      "text": "The point that we have here is 3 -5",
+      "start": 156.04,
+      "duration": 5.2
+    },
+    {
+      "text": "2.",
+      "start": 160.2,
+      "duration": 5.32
+    },
+    {
+      "text": "Which means alpha is equal to 3, beta is",
+      "start": 161.24,
+      "duration": 7.96
+    },
+    {
+      "text": "equal to -5 and",
+      "start": 165.52,
+      "duration": 6.72
+    },
+    {
+      "text": "gamma is equal to 2.",
+      "start": 169.2,
+      "duration": 5.88
+    },
+    {
+      "text": "Now, to find the distance we can simply",
+      "start": 172.24,
+      "duration": 6.36
+    },
+    {
+      "text": "input it into this formula.",
+      "start": 175.08,
+      "duration": 4.52
+    },
+    {
+      "text": "So,",
+      "start": 178.6,
+      "duration": 4.6
+    },
+    {
+      "text": "shortest distance",
+      "start": 179.6,
+      "duration": 3.6
+    },
+    {
+      "text": "is equal to",
+      "start": 185.8,
+      "duration": 9.76
+    },
+    {
+      "text": "modulus N1 alpha. So, 2 * 3 + N2 beta.",
+      "start": 188.04,
+      "duration": 10.44
+    },
+    {
+      "text": "4 * -5",
+      "start": 195.56,
+      "duration": 8.96
+    },
+    {
+      "text": "+ N3 gamma. So, -1 * 2",
+      "start": 198.48,
+      "duration": 10.08
+    },
+    {
+      "text": "and then + D which is -3",
+      "start": 204.52,
+      "duration": 8.96
+    },
+    {
+      "text": "over square root N1 squared",
+      "start": 208.56,
+      "duration": 9.2
+    },
+    {
+      "text": "+ N2 squared which is 4 squared + N3",
+      "start": 213.48,
+      "duration": 10.8
+    },
+    {
+      "text": "squared which is -1 squared. Okay.",
+      "start": 217.76,
+      "duration": 6.52
+    },
+    {
+      "text": "Let's just",
+      "start": 225.64,
+      "duration": 5.72
+    },
+    {
+      "text": "draw the line. There we go.",
+      "start": 227.88,
+      "duration": 6.16
+    },
+    {
+      "text": "Okay.",
+      "start": 231.36,
+      "duration": 2.68
+    },
+    {
+      "text": "Let's use our calculator to find the",
+      "start": 234.56,
+      "duration": 3.36
+    },
+    {
+      "text": "values.",
+      "start": 236.56,
+      "duration": 3.52
+    },
+    {
+      "text": "So, here we have",
+      "start": 237.92,
+      "duration": 5.4
+    },
+    {
+      "text": "2 * 3 +",
+      "start": 240.08,
+      "duration": 7.0
+    },
+    {
+      "text": "4 * -5",
+      "start": 243.32,
+      "duration": 6.44
+    },
+    {
+      "text": "+ -1",
+      "start": 247.08,
+      "duration": 7.44
+    },
+    {
+      "text": "* 2 + -3.",
+      "start": 249.76,
+      "duration": 9.08
+    },
+    {
+      "text": "So, I have modulus",
+      "start": 254.52,
+      "duration": 6.04
+    },
+    {
+      "text": "-19",
+      "start": 258.84,
+      "duration": 4.56
+    },
+    {
+      "text": "over",
+      "start": 260.56,
+      "duration": 2.84
+    },
+    {
+      "text": "Okay, square root of",
+      "start": 263.56,
+      "duration": 6.0
+    },
+    {
+      "text": "2 squared + 4 squared +",
+      "start": 266.16,
+      "duration": 5.24
+    },
+    {
+      "text": "-1",
+      "start": 269.56,
+      "duration": 6.0
+    },
+    {
+      "text": "square. That is square root 21. So, it",
+      "start": 271.4,
+      "duration": 10.48
+    },
+    {
+      "text": "will be equal to 19 over square root 21.",
+      "start": 275.56,
+      "duration": 11.6
+    },
+    {
+      "text": "Okay, with that we are done with part A.",
+      "start": 281.88,
+      "duration": 5.28
+    },
+    {
+      "text": "Let's now take a look at B. Okay, the",
+      "start": 290.44,
+      "duration": 7.48
+    },
+    {
+      "text": "arrow hits the target at the point 6 -2",
+      "start": 293.56,
+      "duration": 7.64
+    },
+    {
+      "text": "and 1. So, here",
+      "start": 297.92,
+      "duration": 5.8
+    },
+    {
+      "text": "we have",
+      "start": 301.2,
+      "duration": 5.8
+    },
+    {
+      "text": "Okay, so the point the target here is at",
+      "start": 303.72,
+      "duration": 6.92
+    },
+    {
+      "text": "6 -2 and 1.",
+      "start": 307.0,
+      "duration": 4.48
+    },
+    {
+      "text": "Okay.",
+      "start": 310.64,
+      "duration": 3.52
+    },
+    {
+      "text": "Determine a vector equation of the",
+      "start": 311.48,
+      "duration": 6.0
+    },
+    {
+      "text": "flight path of the arrow.",
+      "start": 314.16,
+      "duration": 6.48
+    },
+    {
+      "text": "Okay, so what we're finding is just the",
+      "start": 317.48,
+      "duration": 6.36
+    },
+    {
+      "text": "vector. Okay, so in the beginning we",
+      "start": 320.64,
+      "duration": 4.36
+    },
+    {
+      "text": "have",
+      "start": 323.84,
+      "duration": 3.32
+    },
+    {
+      "text": "What is our OP?",
+      "start": 325.0,
+      "duration": 5.28
+    },
+    {
+      "text": "The first point our first point is",
+      "start": 327.16,
+      "duration": 7.52
+    },
+    {
+      "text": "OP is 3 -5 and 2.",
+      "start": 330.28,
+      "duration": 6.68
+    },
+    {
+      "text": "Where is our OT?",
+      "start": 334.68,
+      "duration": 7.96
+    },
+    {
+      "text": "From O to the target we have 6 -2 and 1.",
+      "start": 336.96,
+      "duration": 8.32
+    },
+    {
+      "text": "We want to find the flight path so from",
+      "start": 342.64,
+      "duration": 4.8
+    },
+    {
+      "text": "P to T.",
+      "start": 345.28,
+      "duration": 5.2
+    },
+    {
+      "text": "So, it would be negative",
+      "start": 347.44,
+      "duration": 4.92
+    },
+    {
+      "text": "OP",
+      "start": 350.48,
+      "duration": 4.16
+    },
+    {
+      "text": "+ OT.",
+      "start": 352.36,
+      "duration": 4.4
+    },
+    {
+      "text": "Why is it negative OP? Because we want",
+      "start": 354.64,
+      "duration": 5.36
+    },
+    {
+      "text": "it to be PO. From from P you go to O and",
+      "start": 356.76,
+      "duration": 5.56
+    },
+    {
+      "text": "from O you go to T. So, this would be",
+      "start": 360.0,
+      "duration": 4.48
+    },
+    {
+      "text": "equals to -3",
+      "start": 362.32,
+      "duration": 4.88
+    },
+    {
+      "text": "-5 2",
+      "start": 364.48,
+      "duration": 5.16
+    },
+    {
+      "text": "+",
+      "start": 367.2,
+      "duration": 9.36
+    },
+    {
+      "text": "6 -2 and 1. So, this is equal to",
+      "start": 369.64,
+      "duration": 16.8
+    },
+    {
+      "text": "-3 + 6 5 -2 -2 + 1 which is equal to 3 3",
+      "start": 376.56,
+      "duration": 12.2
+    },
+    {
+      "text": "-1.",
+      "start": 386.44,
+      "duration": 5.04
+    },
+    {
+      "text": "We are done with B.",
+      "start": 388.76,
+      "duration": 5.68
+    },
+    {
+      "text": "Next, determine the acute angle that the",
+      "start": 391.48,
+      "duration": 4.92
+    },
+    {
+      "text": "flight path of the arrow makes with the",
+      "start": 394.44,
+      "duration": 4.76
+    },
+    {
+      "text": "target. Give your answer to the nearest",
+      "start": 396.4,
+      "duration": 4.96
+    },
+    {
+      "text": "degree. Just now we find the shortest",
+      "start": 399.2,
+      "duration": 4.72
+    },
+    {
+      "text": "distance vector equation and this one is",
+      "start": 401.36,
+      "duration": 5.2
+    },
+    {
+      "text": "the acute angle between",
+      "start": 403.92,
+      "duration": 5.0
+    },
+    {
+      "text": "the flight path of the arrow and the",
+      "start": 406.56,
+      "duration": 5.4
+    },
+    {
+      "text": "target. Okay.",
+      "start": 408.92,
+      "duration": 5.0
+    },
+    {
+      "text": "So, I'll draw a new drawing for this",
+      "start": 411.96,
+      "duration": 3.4
+    },
+    {
+      "text": "one.",
+      "start": 413.92,
+      "duration": 3.76
+    },
+    {
+      "text": "Now, let's draw the target. I'm going to",
+      "start": 415.36,
+      "duration": 4.36
+    },
+    {
+      "text": "draw the target like this. So, this is",
+      "start": 417.68,
+      "duration": 3.72
+    },
+    {
+      "text": "the plane.",
+      "start": 419.72,
+      "duration": 2.76
+    },
+    {
+      "text": "Okay.",
+      "start": 421.4,
+      "duration": 4.88
+    },
+    {
+      "text": "Let me make it into a line. So, this is",
+      "start": 422.48,
+      "duration": 8.32
+    },
+    {
+      "text": "my target. It is on a plane. Okay, so",
+      "start": 426.28,
+      "duration": 6.64
+    },
+    {
+      "text": "what happened now?",
+      "start": 430.8,
+      "duration": 4.56
+    },
+    {
+      "text": "I have a flight path",
+      "start": 432.92,
+      "duration": 4.68
+    },
+    {
+      "text": "that is a straight line.",
+      "start": 435.36,
+      "duration": 4.76
+    },
+    {
+      "text": "So, let's say it's from P to Q. It looks",
+      "start": 437.6,
+      "duration": 5.36
+    },
+    {
+      "text": "like P to T looks like that.",
+      "start": 440.12,
+      "duration": 6.36
+    },
+    {
+      "text": "So, here is P and here is T. So, PT",
+      "start": 442.96,
+      "duration": 7.72
+    },
+    {
+      "text": "moving it like that and this is your",
+      "start": 446.48,
+      "duration": 6.96
+    },
+    {
+      "text": "plane. Now, in plane, right? Plane",
+      "start": 450.68,
+      "duration": 4.6
+    },
+    {
+      "text": "equation we have N. What is the",
+      "start": 453.44,
+      "duration": 5.92
+    },
+    {
+      "text": "definition of N? N means normal. Normal",
+      "start": 455.28,
+      "duration": 6.44
+    },
+    {
+      "text": "to the plane. That means we have a",
+      "start": 459.36,
+      "duration": 4.4
+    },
+    {
+      "text": "straight line here.",
+      "start": 461.72,
+      "duration": 5.28
+    },
+    {
+      "text": "So, this is our N.",
+      "start": 463.76,
+      "duration": 4.8
+    },
+    {
+      "text": "Oops.",
+      "start": 467.0,
+      "duration": 3.12
+    },
+    {
+      "text": "Okay.",
+      "start": 468.56,
+      "duration": 4.76
+    },
+    {
+      "text": "So, this is our N.",
+      "start": 470.12,
+      "duration": 5.44
+    },
+    {
+      "text": "Why can't it be straight? Let me just",
+      "start": 473.32,
+      "duration": 4.12
+    },
+    {
+      "text": "try it so that it's",
+      "start": 475.56,
+      "duration": 6.24
+    },
+    {
+      "text": "straight like that. There you go.",
+      "start": 477.44,
+      "duration": 4.36
+    },
+    {
+      "text": "So, this is your N to the plane. Okay,",
+      "start": 482.16,
+      "duration": 8.2
+    },
+    {
+      "text": "so what we want to do is we want to find",
+      "start": 486.12,
+      "duration": 7.12
+    },
+    {
+      "text": "Okay, the angle here. This is what we",
+      "start": 490.36,
+      "duration": 5.08
+    },
+    {
+      "text": "want to find. We want to find X. The",
+      "start": 493.24,
+      "duration": 6.44
+    },
+    {
+      "text": "angle between the arrow",
+      "start": 495.44,
+      "duration": 4.24
+    },
+    {
+      "text": "and also the target.",
+      "start": 499.76,
+      "duration": 6.24
+    },
+    {
+      "text": "But what we have are these two vectors",
+      "start": 502.84,
+      "duration": 6.84
+    },
+    {
+      "text": "PT and N. So, if we use the angle",
+      "start": 506.0,
+      "duration": 7.64
+    },
+    {
+      "text": "formula, what we will find is this one.",
+      "start": 509.68,
+      "duration": 7.6
+    },
+    {
+      "text": "Angle Y. So, you have to do step by step",
+      "start": 513.64,
+      "duration": 8.0
+    },
+    {
+      "text": "in order to find X.",
+      "start": 517.28,
+      "duration": 4.36
+    },
+    {
+      "text": "Let's start by finding X. Oh, let's",
+      "start": 521.96,
+      "duration": 6.6
+    },
+    {
+      "text": "start by finding Y.",
+      "start": 526.4,
+      "duration": 5.52
+    },
+    {
+      "text": "So, for C",
+      "start": 528.56,
+      "duration": 3.36
+    },
+    {
+      "text": "So, for C we have Okay, what is our N?",
+      "start": 532.48,
+      "duration": 6.96
+    },
+    {
+      "text": "Our N is",
+      "start": 536.72,
+      "duration": 8.12
+    },
+    {
+      "text": "do do do plane 2 4 -1. So, 2 4 -1. And",
+      "start": 539.44,
+      "duration": 7.52
+    },
+    {
+      "text": "what is our PT from our previous",
+      "start": 544.84,
+      "duration": 6.08
+    },
+    {
+      "text": "question? It was 3 3 -1.",
+      "start": 546.96,
+      "duration": 6.32
+    },
+    {
+      "text": "And the formula to find the angle would",
+      "start": 550.92,
+      "duration": 8.32
+    },
+    {
+      "text": "be cos X equal to modulus of this.",
+      "start": 553.28,
+      "duration": 5.96
+    },
+    {
+      "text": "Okay.",
+      "start": 561.36,
+      "duration": 4.24
+    },
+    {
+      "text": "Modulus of",
+      "start": 563.6,
+      "duration": 5.72
+    },
+    {
+      "text": "2 4 -1 dot with",
+      "start": 565.6,
+      "duration": 7.36
+    },
+    {
+      "text": "3 3 -1",
+      "start": 569.32,
+      "duration": 5.76
+    },
+    {
+      "text": "over",
+      "start": 572.96,
+      "duration": 9.0
+    },
+    {
+      "text": "Okay, modulus of N modulus of PT.",
+      "start": 575.08,
+      "duration": 8.04
+    },
+    {
+      "text": "So, what will happen? We're going to do",
+      "start": 581.96,
+      "duration": 3.84
+    },
+    {
+      "text": "the dot product up here. We will get 2 *",
+      "start": 583.12,
+      "duration": 3.88
+    },
+    {
+      "text": "3",
+      "start": 585.8,
+      "duration": 8.44
+    },
+    {
+      "text": "+ 4 * 3 + -1 * -1 over",
+      "start": 587.0,
+      "duration": 9.56
+    },
+    {
+      "text": "modulus of N. So, it will be square root",
+      "start": 594.24,
+      "duration": 8.6
+    },
+    {
+      "text": "2 squared + 4 squared + -1 square.",
+      "start": 596.56,
+      "duration": 9.48
+    },
+    {
+      "text": "And then, the second modulus is 3 3 -1.",
+      "start": 602.84,
+      "duration": 5.36
+    },
+    {
+      "text": "So, it will become 3 square plus 3",
+      "start": 606.04,
+      "duration": 5.24
+    },
+    {
+      "text": "square plus -1",
+      "start": 608.2,
+      "duration": 6.08
+    },
+    {
+      "text": "square.",
+      "start": 611.28,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay. So, let's compute one by one. So,",
+      "start": 617.4,
+      "duration": 8.4
+    },
+    {
+      "text": "here we have 2 * 3 + 4 * 3",
+      "start": 620.88,
+      "duration": 8.96
+    },
+    {
+      "text": "plus -1 * -1, that's just 1. So, we got",
+      "start": 625.8,
+      "duration": 6.24
+    },
+    {
+      "text": "19 up here",
+      "start": 629.84,
+      "duration": 3.8
+    },
+    {
+      "text": "over.",
+      "start": 632.04,
+      "duration": 3.2
+    },
+    {
+      "text": "Okay.",
+      "start": 633.64,
+      "duration": 3.72
+    },
+    {
+      "text": "I believe we already found this one.",
+      "start": 635.24,
+      "duration": 3.8
+    },
+    {
+      "text": "Okay, square root 2 square plus 4 square",
+      "start": 637.36,
+      "duration": 5.0
+    },
+    {
+      "text": "plus -1 square, that is square root 21",
+      "start": 639.04,
+      "duration": 5.64
+    },
+    {
+      "text": "from the previous question. So, we only",
+      "start": 642.36,
+      "duration": 4.16
+    },
+    {
+      "text": "need to find the second one, which is",
+      "start": 644.68,
+      "duration": 6.68
+    },
+    {
+      "text": "square root 3 square plus 3 square plus",
+      "start": 646.52,
+      "duration": 6.44
+    },
+    {
+      "text": "-1",
+      "start": 651.36,
+      "duration": 6.28
+    },
+    {
+      "text": "square, which is square root 19. So, X",
+      "start": 652.96,
+      "duration": 7.76
+    },
+    {
+      "text": "is equal to inverse cos",
+      "start": 657.64,
+      "duration": 8.36
+    },
+    {
+      "text": "19 over square root 21 square root 19,",
+      "start": 660.72,
+      "duration": 7.56
+    },
+    {
+      "text": "which is equal to",
+      "start": 666.0,
+      "duration": 5.12
+    },
+    {
+      "text": "K, oh, they want us to give the answer",
+      "start": 668.28,
+      "duration": 4.68
+    },
+    {
+      "text": "to the nearest degree. So, make sure we",
+      "start": 671.12,
+      "duration": 4.36
+    },
+    {
+      "text": "change our calculator so that it is in",
+      "start": 672.96,
+      "duration": 5.44
+    },
+    {
+      "text": "degree mode. So, now it will be inverse",
+      "start": 675.48,
+      "duration": 8.08
+    },
+    {
+      "text": "cos 19 over square root 21",
+      "start": 678.4,
+      "duration": 9.48
+    },
+    {
+      "text": "multiplied by square root 19. Okay,",
+      "start": 683.56,
+      "duration": 10.4
+    },
+    {
+      "text": "close bracket. I will get 17.975",
+      "start": 687.88,
+      "duration": 6.08
+    },
+    {
+      "text": "degree. What we want to do is we want to",
+      "start": 695.12,
+      "duration": 5.64
+    },
+    {
+      "text": "find Y. Okay, because this is",
+      "start": 698.24,
+      "duration": 7.599
+    },
+    {
+      "text": "perpendicular, so Y is 90 minus X, which",
+      "start": 700.76,
+      "duration": 10.56
+    },
+    {
+      "text": "is 90 minus 17.975.",
+      "start": 705.839,
+      "duration": 5.481
+    },
+    {
+      "text": "So, 90 minus answer,",
+      "start": 711.6,
+      "duration": 8.88
+    },
+    {
+      "text": "we will get 72 degree. That's it. Done",
+      "start": 715.0,
+      "duration": 9.92
+    },
+    {
+      "text": "with B. Moving Done with C. Moving on to",
+      "start": 720.48,
+      "duration": 6.88
+    },
+    {
+      "text": "D. Okay, they want us to find the",
+      "start": 724.92,
+      "duration": 5.24
+    },
+    {
+      "text": "distance traveled by the arrow. So,",
+      "start": 727.36,
+      "duration": 4.64
+    },
+    {
+      "text": "distance traveled by the arrow is",
+      "start": 730.16,
+      "duration": 4.76
+    },
+    {
+      "text": "basically",
+      "start": 732.0,
+      "duration": 2.92
+    },
+    {
+      "text": "Okay, so, D distance traveled by arrow",
+      "start": 736.16,
+      "duration": 5.8
+    },
+    {
+      "text": "is basically is just modulus of PT. We",
+      "start": 738.56,
+      "duration": 6.0
+    },
+    {
+      "text": "know our PT already.",
+      "start": 741.96,
+      "duration": 5.76
+    },
+    {
+      "text": "So, modulus of that will be 3 square",
+      "start": 744.56,
+      "duration": 8.6
+    },
+    {
+      "text": "plus 3 square plus -1 square,",
+      "start": 747.72,
+      "duration": 9.48
+    },
+    {
+      "text": "which is already compute here. That is",
+      "start": 753.16,
+      "duration": 8.4
+    },
+    {
+      "text": "square root 19. Done. D is also done.",
+      "start": 757.2,
+      "duration": 6.52
+    },
+    {
+      "text": "E. Comment on whether the actual",
+      "start": 761.56,
+      "duration": 4.76
+    },
+    {
+      "text": "distance traveled by the arrow is",
+      "start": 763.72,
+      "duration": 5.36
+    },
+    {
+      "text": "likely, okay, actual distance traveled",
+      "start": 766.32,
+      "duration": 6.2
+    },
+    {
+      "text": "is likely to match the answer to part D,",
+      "start": 769.08,
+      "duration": 7.12
+    },
+    {
+      "text": "giving a reason to your answer.",
+      "start": 772.52,
+      "duration": 8.04
+    },
+    {
+      "text": "Okay, let's see for E, right? Okay.",
+      "start": 776.2,
+      "duration": 6.08
+    },
+    {
+      "text": "It is",
+      "start": 780.56,
+      "duration": 4.32
+    },
+    {
+      "text": "unlikely",
+      "start": 782.28,
+      "duration": 5.48
+    },
+    {
+      "text": "to match.",
+      "start": 784.88,
+      "duration": 2.88
+    },
+    {
+      "text": "Okay. Why? Because, okay, in actuality,",
+      "start": 788.2,
+      "duration": 6.52
+    },
+    {
+      "text": "it is",
+      "start": 796.32,
+      "duration": 4.64
+    },
+    {
+      "text": "unlikely",
+      "start": 798.44,
+      "duration": 6.32
+    },
+    {
+      "text": "for the flight path",
+      "start": 800.96,
+      "duration": 3.8
+    },
+    {
+      "text": "to be a straight line.",
+      "start": 807.36,
+      "duration": 3.64
+    },
+    {
+      "text": "Okay,",
+      "start": 814.48,
+      "duration": 3.8
+    },
+    {
+      "text": "that's it for this question. We managed",
+      "start": 816.12,
+      "duration": 5.92
+    },
+    {
+      "text": "to finish all of this.",
+      "start": 818.28,
+      "duration": 3.76
+    }
+  ]
+}

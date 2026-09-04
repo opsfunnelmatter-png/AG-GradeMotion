@@ -1,0 +1,1189 @@
+{
+  "id": "1smjwIDMQXU",
+  "paper": "CP2",
+  "question": "Q1",
+  "title": "Complex Numbers (Modulus & Argument Properties)",
+  "full_text": "For question number one, we have a complex number question where they give us two complex number Z and W. For both A and B, they want us to prove different concept using these two terms. Let's start with part A. For part A, they want us to prove modulus connection. Okay, so let's start with the left-hand side. For the left-hand side, we have modulus of Z over W. That means we have to do the division first, then we will modulus. Okay. So, what is Z? Z is 2 - 2 root 3 I over -1 + root 3 I. But notice that, okay, in our denominator placement, we have a complex number. So, we have to remember to always rationalize our complex number when it is in a fraction form. So, how can we do this? We can multiply both our denominator and numerator with our denominator's conjugate. In this case, we will multiply both our denominator and numerator with -1 - root 3 I. -1 - root 3 I. Now, what we're going to do is we will expand both our denominator and numerator. Let's begin with our numerator. We will get -2 -2 root 3 I. And then, we will get +2 root 3 I +2 * 3 * I squared. So, that is our numerator. Whereas for our denominator, we have factored form of difference of two squares. So, that means it will be -1 squared. minus Okay, root 3 i squared. Okay. So, let's simplify both our denominator and numerator. Notice that these two will eliminate each other. So, what we will get is -2 + 6 multiplied by -1. -1 comes from i squared. And here will be 1 minus 3 multiplied by -1. Okay. Oh, we have to remember we still have modulus. We haven't done our modulus yet. Okay. So, here we will get -8 over 4, which is equal to modulus -2. What is the definition for modulus in complex number? Let's say we have a complex number y is equal to a + bi. Therefore, modulus of y is equal to square root of a squared + b squared. But in this case, we only have a. We don't have the complex element or complex component. So, here is square root -2 squared, which is equal to 2. With that, we are done with our left-hand side. We will now move on to our right-hand side. Okay. So, right-hand side, what we will do is the opposite. We will modulus each one first, and then we will divide. Okay. So, modulus of z over modulus of w. So, what is our Z? Our Z is modulus of 2 - 2 root 3 I over modulus of -1 + root 3 I. Let's use the formula for modulus. Okay. For our numerator, we will get square root 2 square plus -2 root 3 square. Okay, over square root -1 square plus root 3 square. So, what we can do is we can use our calculator now. So, square root 2 square plus open bracket -2 root 3, okay, close bracket square. That would be four. Over square root negative one square plus root 3 square, so that would be two. So, 4 over 2 is also two. Notice that both our left-hand side and right-hand side has the same value, so we already proven this. Left-hand side is equal to right-hand side is equal to two. So, proven. Done. Let's move on to part B. For part B, they asked us to find argument. So, argument of Y, so let's say we have this Y here, is equal to inverse tangent B over A. Okay. So, let's write down our three components. So, what they want us to find argument zw is equal to argument z plus argument w. So, let's write down all the three different points. So, 2 - 2 root 3 i, that's the first point. The second point is w. W is -1 + root 3 i. Whereas, the third point would be zw. So, let's find this. We have to multiply z with w. So, 2 - 2 root 3 i multiply with -1 + root 3 i would be -2 + 2 root 3 i. And then, we have + 2 root 3 i -2 * 3 * i squared. So, for our constant or the real component, we have -2. Here would be -2 * 3 * -1. That would be positive six. Whereas, for our imaginary component, we have these two, which is when we plus would be 4 root 3 i. Let's simplify this. This would be 4 + 4 root 3 i. We must first draw our Argand diagram. Why? Because we want to know where is it. Okay? Our points located. So, we don't really care about like the number. It's to know where is it, which quadrant it belongs to. So, real and imaginary. Let's start with z. Okay? Z we have our x is positive, y is negative. Therefore, it's over here. So, this is z. Z located at quadrant number four. Moving on, W, our X is negative, our Y is positive. So, negative X, positive Y, so it would be here. Quadrant number two. Moving on to the next point, we have positive X, positive Y. So, it would be over here, ZW. So, ZW belongs to quadrant number one. In order to find the argument, what we can do is we can compute this separately. Let's start with argument of Z. Argument of Z would be, okay, quadrant Z located at quadrant number four. Remember quadrant number four, it would be 2π minus inverse tangent. Okay, so what's the value? B over A, okay, so 2 root 3 over 2. We will ignore the negative because we already used the position. So, this would be 2π minus Okay, my calculator is already in radian mode. So, shift tangent. Okay, 2 root 3 over 2. So, this is equal to π over 3. So, 2π minus answer. That would be 5 over 3 π. Moving on to finding the next argument, argument of W. Argument of W located in the second quadrant. So, it would be π minus inverse tangent B over A. Okay, so what is our B? Our B is root 3 over 1. So, we will get pi minus pi over 3. So, the answer will be 2 over 3 pi. Because this belongs in quadrant number two. Let's now find the argument for ZW. So, argument for ZW. Argument for the ZW because it located at quadrant number one, we can just simply do inverse tangent 4 root 3 over 4. So, this is equal to inverse tangent root 3 which is 1 over 3 pi. Okay. So, we already know our left-hand side. So, this is left-hand side equal to argument ZW. Let's find out our right-hand side. Right-hand side is equal to argument Z plus argument W which is 5 over 3 pi plus 2 over 3 pi which is equal to 7 over 3 pi. Notice that this is not the same, but let's change this uh let's change 7 over 3 into a mixed number. If we change that into a mixed number, we will get 2 1 over 3 pi which is equal to 2 pi plus 1 over 3 pi. We are just We are looking at the same point but this is the second cycle. What does it means? It means like this. Okay, because you have two pi. That means it goes one pi here, two pi here and another one over three. So, this is seven over three pi. So, seven over three pi is basically the same with one over three pi. Then what we can do now is we can write the conclusion. Left hand side is equal to the right hand side which is equal to one over three pi. Proven. That's it for question one.",
+  "snippets": [
+    {
+      "text": "For question number one, we have a",
+      "start": 3.04,
+      "duration": 4.12
+    },
+    {
+      "text": "complex number question where they give",
+      "start": 4.52,
+      "duration": 6.64
+    },
+    {
+      "text": "us two complex number Z and W. For both",
+      "start": 7.16,
+      "duration": 6.08
+    },
+    {
+      "text": "A and B, they want us to prove different",
+      "start": 11.16,
+      "duration": 5.6
+    },
+    {
+      "text": "concept using these two terms. Let's",
+      "start": 13.24,
+      "duration": 6.8
+    },
+    {
+      "text": "start with part A. For part A, they want",
+      "start": 16.76,
+      "duration": 6.2
+    },
+    {
+      "text": "us to prove modulus connection. Okay, so",
+      "start": 20.04,
+      "duration": 5.4
+    },
+    {
+      "text": "let's start with the left-hand side. For",
+      "start": 22.96,
+      "duration": 6.2
+    },
+    {
+      "text": "the left-hand side, we have modulus of Z",
+      "start": 25.44,
+      "duration": 6.24
+    },
+    {
+      "text": "over W.",
+      "start": 29.16,
+      "duration": 4.92
+    },
+    {
+      "text": "That means we have to do the division",
+      "start": 31.68,
+      "duration": 5.76
+    },
+    {
+      "text": "first, then we will modulus. Okay. So,",
+      "start": 34.08,
+      "duration": 9.2
+    },
+    {
+      "text": "what is Z? Z is 2 - 2 root 3 I",
+      "start": 37.44,
+      "duration": 7.8
+    },
+    {
+      "text": "over",
+      "start": 43.28,
+      "duration": 7.8
+    },
+    {
+      "text": "-1 + root 3 I. But notice that, okay,",
+      "start": 45.24,
+      "duration": 9.44
+    },
+    {
+      "text": "in our denominator placement, we have a",
+      "start": 51.08,
+      "duration": 7.08
+    },
+    {
+      "text": "complex number. So, we have to remember",
+      "start": 54.68,
+      "duration": 7.16
+    },
+    {
+      "text": "to always rationalize our complex number",
+      "start": 58.16,
+      "duration": 6.56
+    },
+    {
+      "text": "when it is in a fraction form. So, how",
+      "start": 61.84,
+      "duration": 5.8
+    },
+    {
+      "text": "can we do this? We can multiply both our",
+      "start": 64.72,
+      "duration": 7.0
+    },
+    {
+      "text": "denominator and numerator with our",
+      "start": 67.64,
+      "duration": 6.76
+    },
+    {
+      "text": "denominator's conjugate. In this case,",
+      "start": 71.72,
+      "duration": 3.96
+    },
+    {
+      "text": "we will",
+      "start": 74.4,
+      "duration": 3.68
+    },
+    {
+      "text": "multiply both our denominator and",
+      "start": 75.68,
+      "duration": 6.92
+    },
+    {
+      "text": "numerator with -1 - root 3 I.",
+      "start": 78.08,
+      "duration": 7.72
+    },
+    {
+      "text": "-1 - root 3 I.",
+      "start": 82.6,
+      "duration": 4.68
+    },
+    {
+      "text": "Now, what we're going to do is we will",
+      "start": 85.8,
+      "duration": 5.0
+    },
+    {
+      "text": "expand both our denominator and",
+      "start": 87.28,
+      "duration": 5.08
+    },
+    {
+      "text": "numerator.",
+      "start": 90.8,
+      "duration": 4.64
+    },
+    {
+      "text": "Let's begin with our numerator. We will",
+      "start": 92.36,
+      "duration": 5.32
+    },
+    {
+      "text": "get -2",
+      "start": 95.44,
+      "duration": 5.72
+    },
+    {
+      "text": "-2 root 3 I.",
+      "start": 97.68,
+      "duration": 8.64
+    },
+    {
+      "text": "And then, we will get +2 root 3 I",
+      "start": 101.16,
+      "duration": 10.72
+    },
+    {
+      "text": "+2 * 3 * I squared. So, that is our",
+      "start": 106.32,
+      "duration": 9.12
+    },
+    {
+      "text": "numerator. Whereas for our denominator,",
+      "start": 111.88,
+      "duration": 5.24
+    },
+    {
+      "text": "we have",
+      "start": 115.44,
+      "duration": 3.88
+    },
+    {
+      "text": "factored form of",
+      "start": 117.12,
+      "duration": 4.16
+    },
+    {
+      "text": "difference of two squares. So, that",
+      "start": 119.32,
+      "duration": 6.6
+    },
+    {
+      "text": "means it will be -1 squared.",
+      "start": 121.28,
+      "duration": 4.64
+    },
+    {
+      "text": "minus",
+      "start": 126.16,
+      "duration": 6.56
+    },
+    {
+      "text": "Okay, root 3 i squared.",
+      "start": 128.2,
+      "duration": 5.96
+    },
+    {
+      "text": "Okay.",
+      "start": 132.72,
+      "duration": 4.32
+    },
+    {
+      "text": "So, let's simplify both our denominator",
+      "start": 134.16,
+      "duration": 6.28
+    },
+    {
+      "text": "and numerator.",
+      "start": 137.04,
+      "duration": 5.24
+    },
+    {
+      "text": "Notice that these two will eliminate",
+      "start": 140.44,
+      "duration": 3.04
+    },
+    {
+      "text": "each other.",
+      "start": 142.28,
+      "duration": 4.64
+    },
+    {
+      "text": "So, what we will get is",
+      "start": 143.48,
+      "duration": 9.92
+    },
+    {
+      "text": "-2 + 6 multiplied by -1. -1 comes from i",
+      "start": 146.92,
+      "duration": 9.76
+    },
+    {
+      "text": "squared. And here will be 1",
+      "start": 153.4,
+      "duration": 4.88
+    },
+    {
+      "text": "minus",
+      "start": 156.68,
+      "duration": 4.24
+    },
+    {
+      "text": "3 multiplied by",
+      "start": 158.28,
+      "duration": 5.08
+    },
+    {
+      "text": "-1.",
+      "start": 160.92,
+      "duration": 4.32
+    },
+    {
+      "text": "Okay. Oh, we have to remember we still",
+      "start": 163.36,
+      "duration": 4.04
+    },
+    {
+      "text": "have modulus. We haven't",
+      "start": 165.24,
+      "duration": 6.08
+    },
+    {
+      "text": "done our modulus yet. Okay. So, here we",
+      "start": 167.4,
+      "duration": 5.96
+    },
+    {
+      "text": "will get -8",
+      "start": 171.32,
+      "duration": 4.28
+    },
+    {
+      "text": "over 4,",
+      "start": 173.36,
+      "duration": 6.36
+    },
+    {
+      "text": "which is equal to modulus -2.",
+      "start": 175.6,
+      "duration": 6.96
+    },
+    {
+      "text": "What is the definition for modulus in",
+      "start": 179.72,
+      "duration": 4.799
+    },
+    {
+      "text": "complex number? Let's say we have a",
+      "start": 182.56,
+      "duration": 6.16
+    },
+    {
+      "text": "complex number y is equal to a + bi.",
+      "start": 184.519,
+      "duration": 7.681
+    },
+    {
+      "text": "Therefore, modulus of y is equal to",
+      "start": 188.72,
+      "duration": 8.2
+    },
+    {
+      "text": "square root of a squared + b squared.",
+      "start": 192.2,
+      "duration": 7.6
+    },
+    {
+      "text": "But in this case, we only have a. We",
+      "start": 196.92,
+      "duration": 4.08
+    },
+    {
+      "text": "don't have",
+      "start": 199.8,
+      "duration": 2.12
+    },
+    {
+      "text": "the",
+      "start": 201.0,
+      "duration": 3.959
+    },
+    {
+      "text": "complex element or complex component.",
+      "start": 201.92,
+      "duration": 7.52
+    },
+    {
+      "text": "So, here is square root -2 squared,",
+      "start": 204.959,
+      "duration": 7.0
+    },
+    {
+      "text": "which is equal to 2.",
+      "start": 209.44,
+      "duration": 4.04
+    },
+    {
+      "text": "With that, we are done with our",
+      "start": 211.959,
+      "duration": 4.721
+    },
+    {
+      "text": "left-hand side. We will now move on",
+      "start": 213.48,
+      "duration": 7.039
+    },
+    {
+      "text": "to our right-hand side. Okay. So,",
+      "start": 216.68,
+      "duration": 6.08
+    },
+    {
+      "text": "right-hand side, what we will do is the",
+      "start": 220.519,
+      "duration": 4.881
+    },
+    {
+      "text": "opposite. We will modulus each one",
+      "start": 222.76,
+      "duration": 5.8
+    },
+    {
+      "text": "first, and then we will divide. Okay.",
+      "start": 225.4,
+      "duration": 8.16
+    },
+    {
+      "text": "So, modulus of z over modulus of w. So,",
+      "start": 228.56,
+      "duration": 9.64
+    },
+    {
+      "text": "what is our Z? Our Z is modulus of 2 - 2",
+      "start": 233.56,
+      "duration": 6.52
+    },
+    {
+      "text": "root 3 I",
+      "start": 238.2,
+      "duration": 3.48
+    },
+    {
+      "text": "over",
+      "start": 240.08,
+      "duration": 6.48
+    },
+    {
+      "text": "modulus of -1 + root 3 I. Let's use the",
+      "start": 241.68,
+      "duration": 7.08
+    },
+    {
+      "text": "formula for",
+      "start": 246.56,
+      "duration": 5.68
+    },
+    {
+      "text": "modulus. Okay. For our numerator, we",
+      "start": 248.76,
+      "duration": 5.4
+    },
+    {
+      "text": "will get",
+      "start": 252.24,
+      "duration": 5.44
+    },
+    {
+      "text": "square root 2 square plus",
+      "start": 254.16,
+      "duration": 8.28
+    },
+    {
+      "text": "-2 root 3 square.",
+      "start": 257.68,
+      "duration": 4.76
+    },
+    {
+      "text": "Okay, over",
+      "start": 263.0,
+      "duration": 6.28
+    },
+    {
+      "text": "square root -1 square",
+      "start": 266.4,
+      "duration": 4.64
+    },
+    {
+      "text": "plus",
+      "start": 269.28,
+      "duration": 5.639
+    },
+    {
+      "text": "root 3 square.",
+      "start": 271.04,
+      "duration": 3.879
+    },
+    {
+      "text": "So, what we can do is we can use our",
+      "start": 276.16,
+      "duration": 4.8
+    },
+    {
+      "text": "calculator now. So, square root",
+      "start": 278.0,
+      "duration": 8.64
+    },
+    {
+      "text": "2 square plus open bracket -2 root 3,",
+      "start": 280.96,
+      "duration": 8.72
+    },
+    {
+      "text": "okay, close bracket square.",
+      "start": 286.64,
+      "duration": 4.56
+    },
+    {
+      "text": "That would be",
+      "start": 289.68,
+      "duration": 4.0
+    },
+    {
+      "text": "four.",
+      "start": 291.2,
+      "duration": 2.48
+    },
+    {
+      "text": "Over",
+      "start": 294.6,
+      "duration": 4.319
+    },
+    {
+      "text": "square root",
+      "start": 296.0,
+      "duration": 2.919
+    },
+    {
+      "text": "negative one square",
+      "start": 299.0,
+      "duration": 5.0
+    },
+    {
+      "text": "plus",
+      "start": 302.2,
+      "duration": 4.2
+    },
+    {
+      "text": "root 3 square, so that would be two. So,",
+      "start": 304.0,
+      "duration": 5.84
+    },
+    {
+      "text": "4 over 2 is also two.",
+      "start": 306.4,
+      "duration": 5.08
+    },
+    {
+      "text": "Notice that both our left-hand side and",
+      "start": 309.84,
+      "duration": 3.28
+    },
+    {
+      "text": "right-hand side has the same value, so",
+      "start": 311.48,
+      "duration": 4.92
+    },
+    {
+      "text": "we already proven this. Left-hand side",
+      "start": 313.12,
+      "duration": 6.08
+    },
+    {
+      "text": "is equal to right-hand side",
+      "start": 316.4,
+      "duration": 7.84
+    },
+    {
+      "text": "is equal to two. So, proven.",
+      "start": 319.2,
+      "duration": 5.04
+    },
+    {
+      "text": "Done.",
+      "start": 324.8,
+      "duration": 3.84
+    },
+    {
+      "text": "Let's move on to part B. For part B,",
+      "start": 326.24,
+      "duration": 5.52
+    },
+    {
+      "text": "they asked us to find argument. So,",
+      "start": 328.64,
+      "duration": 6.0
+    },
+    {
+      "text": "argument of Y, so let's say we have this",
+      "start": 331.76,
+      "duration": 8.2
+    },
+    {
+      "text": "Y here, is equal to inverse tangent",
+      "start": 334.64,
+      "duration": 8.56
+    },
+    {
+      "text": "B over A.",
+      "start": 339.96,
+      "duration": 6.48
+    },
+    {
+      "text": "Okay. So, let's write down our three",
+      "start": 343.2,
+      "duration": 4.64
+    },
+    {
+      "text": "components. So, what they want us to",
+      "start": 346.44,
+      "duration": 5.48
+    },
+    {
+      "text": "find argument zw is equal to argument z",
+      "start": 347.84,
+      "duration": 6.52
+    },
+    {
+      "text": "plus argument w. So, let's write down",
+      "start": 351.92,
+      "duration": 6.0
+    },
+    {
+      "text": "all the three different points. So, 2 -",
+      "start": 354.36,
+      "duration": 6.32
+    },
+    {
+      "text": "2 root 3 i, that's the first point. The",
+      "start": 357.92,
+      "duration": 7.88
+    },
+    {
+      "text": "second point is w. W is -1 + root 3 i.",
+      "start": 360.68,
+      "duration": 7.68
+    },
+    {
+      "text": "Whereas, the third point would be zw.",
+      "start": 365.8,
+      "duration": 5.96
+    },
+    {
+      "text": "So, let's find this. We have to multiply",
+      "start": 368.36,
+      "duration": 7.92
+    },
+    {
+      "text": "z with w. So, 2 - 2 root 3 i multiply",
+      "start": 371.76,
+      "duration": 10.88
+    },
+    {
+      "text": "with -1 + root 3 i would be",
+      "start": 376.28,
+      "duration": 7.88
+    },
+    {
+      "text": "-2",
+      "start": 382.64,
+      "duration": 5.4
+    },
+    {
+      "text": "+ 2 root 3 i.",
+      "start": 384.16,
+      "duration": 6.759
+    },
+    {
+      "text": "And then, we have",
+      "start": 388.04,
+      "duration": 10.64
+    },
+    {
+      "text": "+ 2 root 3 i -2 * 3 * i squared.",
+      "start": 390.919,
+      "duration": 9.921
+    },
+    {
+      "text": "So, for our constant or the real",
+      "start": 398.68,
+      "duration": 6.04
+    },
+    {
+      "text": "component, we have -2.",
+      "start": 400.84,
+      "duration": 9.56
+    },
+    {
+      "text": "Here would be -2 * 3 * -1. That would be",
+      "start": 404.72,
+      "duration": 7.84
+    },
+    {
+      "text": "positive six.",
+      "start": 410.4,
+      "duration": 4.32
+    },
+    {
+      "text": "Whereas, for our",
+      "start": 412.56,
+      "duration": 5.24
+    },
+    {
+      "text": "imaginary component, we have these two,",
+      "start": 414.72,
+      "duration": 4.32
+    },
+    {
+      "text": "which is",
+      "start": 417.8,
+      "duration": 5.52
+    },
+    {
+      "text": "when we plus would be 4 root 3 i. Let's",
+      "start": 419.04,
+      "duration": 9.36
+    },
+    {
+      "text": "simplify this. This would be 4 + 4 root",
+      "start": 423.32,
+      "duration": 9.04
+    },
+    {
+      "text": "3 i. We must first draw our Argand",
+      "start": 428.4,
+      "duration": 6.4
+    },
+    {
+      "text": "diagram. Why? Because we want to know",
+      "start": 432.36,
+      "duration": 8.559
+    },
+    {
+      "text": "where is it. Okay? Our points located.",
+      "start": 434.8,
+      "duration": 7.64
+    },
+    {
+      "text": "So, we don't really care about like the",
+      "start": 440.919,
+      "duration": 4.081
+    },
+    {
+      "text": "number. It's to know where is it, which",
+      "start": 442.44,
+      "duration": 5.56
+    },
+    {
+      "text": "quadrant it belongs to. So, real and",
+      "start": 445.0,
+      "duration": 6.52
+    },
+    {
+      "text": "imaginary. Let's start with z. Okay? Z",
+      "start": 448.0,
+      "duration": 4.8
+    },
+    {
+      "text": "we have",
+      "start": 451.52,
+      "duration": 4.64
+    },
+    {
+      "text": "our x is positive, y is negative.",
+      "start": 452.8,
+      "duration": 5.8
+    },
+    {
+      "text": "Therefore, it's over here. So, this is",
+      "start": 456.16,
+      "duration": 6.84
+    },
+    {
+      "text": "z. Z located at quadrant number four.",
+      "start": 458.6,
+      "duration": 8.28
+    },
+    {
+      "text": "Moving on, W, our X is negative, our Y",
+      "start": 463.0,
+      "duration": 4.72
+    },
+    {
+      "text": "is",
+      "start": 466.88,
+      "duration": 5.36
+    },
+    {
+      "text": "positive. So, negative X, positive Y, so",
+      "start": 467.72,
+      "duration": 6.68
+    },
+    {
+      "text": "it would be here.",
+      "start": 472.24,
+      "duration": 4.48
+    },
+    {
+      "text": "Quadrant number two.",
+      "start": 474.4,
+      "duration": 5.36
+    },
+    {
+      "text": "Moving on to the next point, we have",
+      "start": 476.72,
+      "duration": 6.64
+    },
+    {
+      "text": "positive X, positive Y. So, it would be",
+      "start": 479.76,
+      "duration": 7.52
+    },
+    {
+      "text": "over here, ZW. So, ZW belongs to",
+      "start": 483.36,
+      "duration": 6.28
+    },
+    {
+      "text": "quadrant number one.",
+      "start": 487.28,
+      "duration": 4.4
+    },
+    {
+      "text": "In order to find the argument, what we",
+      "start": 489.64,
+      "duration": 4.04
+    },
+    {
+      "text": "can do is we can",
+      "start": 491.68,
+      "duration": 4.12
+    },
+    {
+      "text": "compute this separately. Let's start",
+      "start": 493.68,
+      "duration": 3.2
+    },
+    {
+      "text": "with",
+      "start": 495.8,
+      "duration": 4.04
+    },
+    {
+      "text": "argument of Z.",
+      "start": 496.88,
+      "duration": 6.56
+    },
+    {
+      "text": "Argument of Z would be, okay, quadrant Z",
+      "start": 499.84,
+      "duration": 6.76
+    },
+    {
+      "text": "located at quadrant number four.",
+      "start": 503.44,
+      "duration": 4.64
+    },
+    {
+      "text": "Remember quadrant number four, it would",
+      "start": 506.6,
+      "duration": 7.16
+    },
+    {
+      "text": "be 2π minus inverse tangent.",
+      "start": 508.08,
+      "duration": 7.8
+    },
+    {
+      "text": "Okay, so what's the value?",
+      "start": 513.76,
+      "duration": 6.88
+    },
+    {
+      "text": "B over A, okay, so 2 root 3 over 2. We",
+      "start": 515.88,
+      "duration": 7.4
+    },
+    {
+      "text": "will ignore the negative because we",
+      "start": 520.64,
+      "duration": 5.36
+    },
+    {
+      "text": "already used the position.",
+      "start": 523.28,
+      "duration": 6.64
+    },
+    {
+      "text": "So, this would be 2π minus Okay, my",
+      "start": 526.0,
+      "duration": 6.2
+    },
+    {
+      "text": "calculator is already in radian mode.",
+      "start": 529.92,
+      "duration": 3.24
+    },
+    {
+      "text": "So,",
+      "start": 532.2,
+      "duration": 3.12
+    },
+    {
+      "text": "shift tangent.",
+      "start": 533.16,
+      "duration": 5.52
+    },
+    {
+      "text": "Okay, 2 root 3",
+      "start": 535.32,
+      "duration": 6.4
+    },
+    {
+      "text": "over 2.",
+      "start": 538.68,
+      "duration": 8.12
+    },
+    {
+      "text": "So, this is equal to π over 3.",
+      "start": 541.72,
+      "duration": 7.119
+    },
+    {
+      "text": "So, 2π",
+      "start": 546.8,
+      "duration": 4.039
+    },
+    {
+      "text": "minus answer.",
+      "start": 548.839,
+      "duration": 4.681
+    },
+    {
+      "text": "That would be",
+      "start": 550.839,
+      "duration": 6.241
+    },
+    {
+      "text": "5 over 3 π.",
+      "start": 553.52,
+      "duration": 6.72
+    },
+    {
+      "text": "Moving on to finding the next argument,",
+      "start": 557.08,
+      "duration": 8.24
+    },
+    {
+      "text": "argument of W. Argument of W located in",
+      "start": 560.24,
+      "duration": 8.52
+    },
+    {
+      "text": "the second quadrant. So, it would be",
+      "start": 565.32,
+      "duration": 9.04
+    },
+    {
+      "text": "π minus inverse tangent B over A.",
+      "start": 568.76,
+      "duration": 8.84
+    },
+    {
+      "text": "Okay, so what is our B? Our B is root 3",
+      "start": 574.36,
+      "duration": 6.04
+    },
+    {
+      "text": "over 1.",
+      "start": 577.6,
+      "duration": 8.72
+    },
+    {
+      "text": "So, we will get pi minus pi over 3. So,",
+      "start": 580.4,
+      "duration": 11.84
+    },
+    {
+      "text": "the answer will be 2 over 3 pi.",
+      "start": 586.32,
+      "duration": 5.92
+    },
+    {
+      "text": "Because this belongs in quadrant number",
+      "start": 592.72,
+      "duration": 3.32
+    },
+    {
+      "text": "two.",
+      "start": 594.96,
+      "duration": 6.12
+    },
+    {
+      "text": "Let's now find the argument for",
+      "start": 596.04,
+      "duration": 9.72
+    },
+    {
+      "text": "ZW. So, argument for ZW.",
+      "start": 601.08,
+      "duration": 7.04
+    },
+    {
+      "text": "Argument for the ZW because it located",
+      "start": 605.76,
+      "duration": 3.88
+    },
+    {
+      "text": "at quadrant number one, we can just",
+      "start": 608.12,
+      "duration": 4.88
+    },
+    {
+      "text": "simply do inverse tangent",
+      "start": 609.64,
+      "duration": 5.32
+    },
+    {
+      "text": "4 root 3",
+      "start": 613.0,
+      "duration": 4.84
+    },
+    {
+      "text": "over 4.",
+      "start": 614.96,
+      "duration": 5.8
+    },
+    {
+      "text": "So, this is equal to",
+      "start": 617.84,
+      "duration": 5.48
+    },
+    {
+      "text": "inverse tangent",
+      "start": 620.76,
+      "duration": 4.08
+    },
+    {
+      "text": "root 3",
+      "start": 623.32,
+      "duration": 2.96
+    },
+    {
+      "text": "which is",
+      "start": 624.84,
+      "duration": 5.52
+    },
+    {
+      "text": "1 over 3 pi.",
+      "start": 626.28,
+      "duration": 4.08
+    },
+    {
+      "text": "Okay. So, we already know our left-hand",
+      "start": 630.4,
+      "duration": 6.52
+    },
+    {
+      "text": "side. So, this is",
+      "start": 634.92,
+      "duration": 3.56
+    },
+    {
+      "text": "left-hand",
+      "start": 636.92,
+      "duration": 3.24
+    },
+    {
+      "text": "side",
+      "start": 638.48,
+      "duration": 4.88
+    },
+    {
+      "text": "equal to argument ZW.",
+      "start": 640.16,
+      "duration": 6.28
+    },
+    {
+      "text": "Let's find out our right-hand side.",
+      "start": 643.36,
+      "duration": 7.24
+    },
+    {
+      "text": "Right-hand side is equal to",
+      "start": 646.44,
+      "duration": 6.16
+    },
+    {
+      "text": "argument Z",
+      "start": 650.6,
+      "duration": 5.12
+    },
+    {
+      "text": "plus argument W",
+      "start": 652.6,
+      "duration": 4.52
+    },
+    {
+      "text": "which is",
+      "start": 655.72,
+      "duration": 7.24
+    },
+    {
+      "text": "5 over 3 pi plus 2 over 3 pi which is",
+      "start": 657.12,
+      "duration": 9.12
+    },
+    {
+      "text": "equal to 7 over 3 pi. Notice that this",
+      "start": 662.96,
+      "duration": 6.6
+    },
+    {
+      "text": "is not the same, but let's change this",
+      "start": 666.24,
+      "duration": 6.4
+    },
+    {
+      "text": "uh let's change 7 over 3 into a mixed",
+      "start": 669.56,
+      "duration": 4.24
+    },
+    {
+      "text": "number.",
+      "start": 672.64,
+      "duration": 4.28
+    },
+    {
+      "text": "If we change that into a mixed number,",
+      "start": 673.8,
+      "duration": 6.32
+    },
+    {
+      "text": "we will get",
+      "start": 676.92,
+      "duration": 3.2
+    },
+    {
+      "text": "2",
+      "start": 680.839,
+      "duration": 2.321
+    },
+    {
+      "text": "1 over 3 pi which is equal to 2 pi plus",
+      "start": 683.32,
+      "duration": 8.28
+    },
+    {
+      "text": "1 over 3 pi. We are just We are looking",
+      "start": 688.48,
+      "duration": 5.64
+    },
+    {
+      "text": "at the same point but this is the second",
+      "start": 691.6,
+      "duration": 5.04
+    },
+    {
+      "text": "cycle. What does it means? It means like",
+      "start": 694.12,
+      "duration": 4.72
+    },
+    {
+      "text": "this. Okay, because you have two pi.",
+      "start": 696.64,
+      "duration": 4.0
+    },
+    {
+      "text": "That means it goes",
+      "start": 698.84,
+      "duration": 6.44
+    },
+    {
+      "text": "one pi here, two pi here and another",
+      "start": 700.64,
+      "duration": 8.72
+    },
+    {
+      "text": "one over three. So, this is seven over",
+      "start": 705.28,
+      "duration": 6.16
+    },
+    {
+      "text": "three pi. So, seven over three pi is",
+      "start": 709.36,
+      "duration": 6.4
+    },
+    {
+      "text": "basically the same with one over three",
+      "start": 711.44,
+      "duration": 5.68
+    },
+    {
+      "text": "pi.",
+      "start": 715.76,
+      "duration": 3.24
+    },
+    {
+      "text": "Then what we can do now is we can write",
+      "start": 717.12,
+      "duration": 5.64
+    },
+    {
+      "text": "the conclusion. Left hand side is equal",
+      "start": 719.0,
+      "duration": 6.56
+    },
+    {
+      "text": "to the right hand side which is equal to",
+      "start": 722.76,
+      "duration": 7.92
+    },
+    {
+      "text": "one over three pi. Proven.",
+      "start": 725.56,
+      "duration": 5.12
+    },
+    {
+      "text": "That's it for question one.",
+      "start": 732.88,
+      "duration": 4.0
+    }
+  ]
+}

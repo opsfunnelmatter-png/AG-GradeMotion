@@ -1,0 +1,1404 @@
+{
+  "id": "RmpPp80YdSg",
+  "paper": "CP2",
+  "question": "Q6",
+  "title": "Roots of Polynomials (Quartic Equations)",
+  "full_text": "Let's take a look at question six. For question six, we are given a quartic equation with A as some of the constants. A is unknown. We know that this equation has root alpha, beta, gamma, delta. For this question, I'm going to write it as A B G D. Okay. Determine the value of 3/alpha + 3/beta + 3/gamma + 3/delta. Next, for part B, given that alpha squared plus beta squared plus gamma squared plus delta squared equals to -3/4. Determine the possible values of A. Before we begin with our question, so what I would like to focus on is to extract as much information as I can from our quartic equation. Originally, our equation is 2x to the power of 4 + ax cubed ax squared -5x + 6 = 0. I would like to make the coefficient of x to the power of 4 equals to 1. So, I will divide this equation by 2. I will get x to the power of 4 + a/2 x cubed -5/2 x + 3 = 0. To extract the information from this quartic equation, I have to make sure my coefficients are alternate in sign. So, it should begin with plus. So, here I have plus, minus, plus, minus, plus. Okay. So, here I have x to the power of four. And this one would be We want it to be negative, so here should be negative a over two inside the bracket. So, here is x cubed. Plus. So, this one would be negative a over two x squared. Okay, negative is already outside, so in the bracket would just be five over two x. And then last but not least, I have three equal to zero. What are these? The first value here would refer to summation of one root. Summation of product of two roots. This one would be summation of product of three roots. And this one would be summation product of all four roots. Okay. So, let's extract information. Summation of one root, that is equal to let's use the a b g d instead, so it'll be a plus b plus g plus d. This is equal to negative a over two. Second one, okay, summation of two roots. So, that would be a b plus a g plus a d plus b g plus b d plus g d. This is equal to the second value, negative A over 2. Next one, summation of product of three roots. This is equal to ABG plus ABD plus BGD. This is equal to 5 over 2. Finally, okay, summation product of four roots. This is equal to ABGD. Okay, equal to three. That's it, okay? Let's now take a look at question A. Okay, for 3A, we want to find the value of Let's write it nicely. So, 3 over alpha over 3 over beta over 3 over gamma plus 3 over delta. So, this is equal to 3 over A plus 3 over B plus 3 over G plus 3 over D. Let's combine this. We should make the denominator the same. So, 3 over A. So, I will multiply my denominator and numerator by BGD. BGD. Next one, I have 3 over B. I should multiply with AGD. AGD. Next, I have 3 over G. I will multiply both numerator and denominator by ABD ABD Last but not least, our fourth fraction 3/D, I will multiply this by ABG and ABG. Okay, so what I will have here would be three open bracket BGD plus AGD plus ABD plus ABG. Okay, over ABGD. Okay. Let's draw the line. And let's refer back to the information that we have here. Oh, I was missing one of the element for my product of three roots, so I was missing EGD, so let's just fix that real quick. I'm going to move this to the side. So, what I was missing was AGD. That's it. Okay, this is 5/2. Now that I already fixed that, I can just simply substitute into our equation. So, that up here would be 5/2 and for our denominator, it would be three. So, we're just using the information that we have extracted prior to our part A. Okay, so here would be this is equals to three and Okay, the multiplication Okay, the summation of three roots, that is positive 5/2. All of this is over Last but not least, the value Okay, ABGD is equal to three. If I cancel this and this, I will just get five over two. And that would be the answer for part A. Moving on to part B, they give us a new information, okay? For part B, they tell us that alpha squared plus beta squared plus gamma squared plus delta squared is equal to negative three over four. So, because of they give a square, we know that we have to square something. So, what I will do is let's name this equation one. I'm going to square equation one. So, let's start by equation one. So, what I have here is a plus b plus g plus d is equal to What is it? Negative a over two. I would like to square this. That means here would be squared and here would be squared. So, what I have here is a plus b plus g plus d squared. Oops. Multiply with a plus b plus g plus d. Equals to positive a squared over four. Let's expand our left-hand side. We will first consider a, okay? So, that would be a squared plus ab plus ag plus ad. Next value, let's consider b, okay? So, we will get plus ab plus b squared plus bg plus bd. Next, let's consider G. Okay, expansion for G So, that would be + AG + BG + G squared + GD Last one Let's consider expansion of D. So, we will get + AD + BD + GD + D squared All of this is equal to A squared over 4. Let's arrange this in order. Let's start with the square. So, I have A squared + B squared + G squared + D squared So, that would be A squared + B squared + G squared + D squared Next + Okay. I have AB and AB here. So, 2 AB K + AG and AG So, + 2 AG AD and AD So, + 2 AD Next, + BG and BG. So, 2 BG + BD and BD So, + 2 BD I'm going going move it slightly to the left. Okay, next I have GD plus GD. So, that would be plus two GD. Equal to a squared over four. Okay, we can substitute the value belongs to this, okay, over here. So, that would be -3/4 plus Now, what I would like to do is I'd like to factor two out. When I factor two out, what would I have? I would have AB plus AG plus AD plus BG plus BD plus GD equal to a squared over four. Okay, we can now use the information that we already have. Okay? Here and input it there, which is -a/2. So, that would be -3/4 plus two -a/2 equals to a squared over four. So, I will have - 3/4 a equals to a squared over four. Multiply this equation by four and I will get -3 -4a equal to a squared. Rearrange it Rearrange this, we will get a squared plus 4a plus 3 equal to zero. Let's use our calculator to find out the value of A. So, menu calculate equation, polynomial, degree two one four and three. So, the first value of A is -1 and the second value of A is -3. Let's work our way up to show our working. So, let's rearrange. So, here I will get, okay, A + 1 equal to zero and here will be A + 3 equal to zero. So, these two will be my factors. So, let's write it here. A + 1 multiply with A + 3 equal to zero. With that, we are done with part B. The two possible values for A.",
+  "snippets": [
+    {
+      "text": "Let's take a look at question six. For",
+      "start": 2.2,
+      "duration": 5.56
+    },
+    {
+      "text": "question six, we are given a quartic",
+      "start": 5.36,
+      "duration": 3.8
+    },
+    {
+      "text": "equation",
+      "start": 7.76,
+      "duration": 4.64
+    },
+    {
+      "text": "with A as some of the constants. A is",
+      "start": 9.16,
+      "duration": 6.12
+    },
+    {
+      "text": "unknown. We know that this equation has",
+      "start": 12.4,
+      "duration": 6.2
+    },
+    {
+      "text": "root alpha, beta, gamma, delta.",
+      "start": 15.28,
+      "duration": 4.72
+    },
+    {
+      "text": "For this question, I'm going to write it",
+      "start": 18.6,
+      "duration": 3.68
+    },
+    {
+      "text": "as A B",
+      "start": 20.0,
+      "duration": 4.32
+    },
+    {
+      "text": "G D.",
+      "start": 22.28,
+      "duration": 7.48
+    },
+    {
+      "text": "Okay. Determine the value of 3/alpha",
+      "start": 24.32,
+      "duration": 11.84
+    },
+    {
+      "text": "+ 3/beta + 3/gamma + 3/delta.",
+      "start": 29.76,
+      "duration": 9.04
+    },
+    {
+      "text": "Next, for part B, given that alpha",
+      "start": 36.16,
+      "duration": 4.92
+    },
+    {
+      "text": "squared plus beta squared plus gamma",
+      "start": 38.8,
+      "duration": 4.92
+    },
+    {
+      "text": "squared plus delta squared equals to",
+      "start": 41.08,
+      "duration": 5.28
+    },
+    {
+      "text": "-3/4.",
+      "start": 43.72,
+      "duration": 6.52
+    },
+    {
+      "text": "Determine the possible values of A.",
+      "start": 46.36,
+      "duration": 7.2
+    },
+    {
+      "text": "Before we begin with our question, so",
+      "start": 50.24,
+      "duration": 5.92
+    },
+    {
+      "text": "what I would like to focus on is to",
+      "start": 53.56,
+      "duration": 5.88
+    },
+    {
+      "text": "extract as much information as I can",
+      "start": 56.16,
+      "duration": 6.2
+    },
+    {
+      "text": "from our quartic equation.",
+      "start": 59.44,
+      "duration": 6.12
+    },
+    {
+      "text": "Originally, our equation is 2x to the",
+      "start": 62.36,
+      "duration": 6.6
+    },
+    {
+      "text": "power of 4 + ax cubed",
+      "start": 65.56,
+      "duration": 5.16
+    },
+    {
+      "text": "ax squared",
+      "start": 68.96,
+      "duration": 3.28
+    },
+    {
+      "text": "-5x",
+      "start": 70.72,
+      "duration": 4.16
+    },
+    {
+      "text": "+ 6 = 0.",
+      "start": 72.24,
+      "duration": 4.88
+    },
+    {
+      "text": "I would like to make the coefficient of",
+      "start": 74.88,
+      "duration": 5.64
+    },
+    {
+      "text": "x to the power of 4 equals to 1. So, I",
+      "start": 77.12,
+      "duration": 4.88
+    },
+    {
+      "text": "will divide",
+      "start": 80.52,
+      "duration": 4.56
+    },
+    {
+      "text": "this equation by 2.",
+      "start": 82.0,
+      "duration": 5.24
+    },
+    {
+      "text": "I will get",
+      "start": 85.08,
+      "duration": 5.12
+    },
+    {
+      "text": "x to the power of 4 +",
+      "start": 87.24,
+      "duration": 7.48
+    },
+    {
+      "text": "a/2 x cubed",
+      "start": 90.2,
+      "duration": 4.52
+    },
+    {
+      "text": "-5/2",
+      "start": 97.48,
+      "duration": 3.52
+    },
+    {
+      "text": "x",
+      "start": 99.72,
+      "duration": 4.6
+    },
+    {
+      "text": "+ 3 = 0.",
+      "start": 101.0,
+      "duration": 5.48
+    },
+    {
+      "text": "To extract the information from this",
+      "start": 104.32,
+      "duration": 6.88
+    },
+    {
+      "text": "quartic equation, I have to make sure my",
+      "start": 106.48,
+      "duration": 7.0
+    },
+    {
+      "text": "coefficients are",
+      "start": 111.2,
+      "duration": 4.4
+    },
+    {
+      "text": "alternate in sign. So, it should begin",
+      "start": 113.48,
+      "duration": 6.04
+    },
+    {
+      "text": "with plus. So, here I have plus, minus,",
+      "start": 115.6,
+      "duration": 8.24
+    },
+    {
+      "text": "plus, minus, plus.",
+      "start": 119.52,
+      "duration": 5.6
+    },
+    {
+      "text": "Okay.",
+      "start": 123.84,
+      "duration": 5.36
+    },
+    {
+      "text": "So, here I have x to the power of four.",
+      "start": 125.12,
+      "duration": 7.44
+    },
+    {
+      "text": "And this one would be",
+      "start": 129.2,
+      "duration": 4.88
+    },
+    {
+      "text": "We want it to be negative, so here",
+      "start": 132.56,
+      "duration": 4.68
+    },
+    {
+      "text": "should be negative a over two inside the",
+      "start": 134.08,
+      "duration": 7.68
+    },
+    {
+      "text": "bracket. So, here is x cubed.",
+      "start": 137.24,
+      "duration": 7.92
+    },
+    {
+      "text": "Plus. So, this one would be negative a",
+      "start": 141.76,
+      "duration": 6.16
+    },
+    {
+      "text": "over two",
+      "start": 145.16,
+      "duration": 5.2
+    },
+    {
+      "text": "x squared.",
+      "start": 147.92,
+      "duration": 4.68
+    },
+    {
+      "text": "Okay, negative is already outside, so in",
+      "start": 150.36,
+      "duration": 6.64
+    },
+    {
+      "text": "the bracket would just be five over two",
+      "start": 152.6,
+      "duration": 5.92
+    },
+    {
+      "text": "x.",
+      "start": 157.0,
+      "duration": 4.52
+    },
+    {
+      "text": "And then last but not least, I have",
+      "start": 158.52,
+      "duration": 4.6
+    },
+    {
+      "text": "three",
+      "start": 161.52,
+      "duration": 4.24
+    },
+    {
+      "text": "equal to zero.",
+      "start": 163.12,
+      "duration": 6.2
+    },
+    {
+      "text": "What are these? The first value here",
+      "start": 165.76,
+      "duration": 5.68
+    },
+    {
+      "text": "would refer to",
+      "start": 169.32,
+      "duration": 4.4
+    },
+    {
+      "text": "summation of",
+      "start": 171.44,
+      "duration": 6.12
+    },
+    {
+      "text": "one root. Summation of product of two",
+      "start": 173.72,
+      "duration": 4.92
+    },
+    {
+      "text": "roots.",
+      "start": 177.56,
+      "duration": 3.679
+    },
+    {
+      "text": "This one would be summation of product",
+      "start": 178.64,
+      "duration": 5.04
+    },
+    {
+      "text": "of three roots.",
+      "start": 181.239,
+      "duration": 5.041
+    },
+    {
+      "text": "And this one would be summation product",
+      "start": 183.68,
+      "duration": 6.16
+    },
+    {
+      "text": "of all four roots.",
+      "start": 186.28,
+      "duration": 3.56
+    },
+    {
+      "text": "Okay.",
+      "start": 190.519,
+      "duration": 4.72
+    },
+    {
+      "text": "So, let's extract information.",
+      "start": 192.48,
+      "duration": 6.6
+    },
+    {
+      "text": "Summation of one root, that is equal to",
+      "start": 195.239,
+      "duration": 6.241
+    },
+    {
+      "text": "let's use the a b",
+      "start": 199.08,
+      "duration": 7.64
+    },
+    {
+      "text": "g d instead, so it'll be a plus b plus g",
+      "start": 201.48,
+      "duration": 6.96
+    },
+    {
+      "text": "plus d.",
+      "start": 206.72,
+      "duration": 5.28
+    },
+    {
+      "text": "This is equal to",
+      "start": 208.44,
+      "duration": 7.28
+    },
+    {
+      "text": "negative a over two.",
+      "start": 212.0,
+      "duration": 7.88
+    },
+    {
+      "text": "Second one, okay, summation of",
+      "start": 215.72,
+      "duration": 6.0
+    },
+    {
+      "text": "two roots.",
+      "start": 219.88,
+      "duration": 4.48
+    },
+    {
+      "text": "So, that would be a b",
+      "start": 221.72,
+      "duration": 6.519
+    },
+    {
+      "text": "plus a g plus a d",
+      "start": 224.36,
+      "duration": 6.08
+    },
+    {
+      "text": "plus b g",
+      "start": 228.239,
+      "duration": 4.241
+    },
+    {
+      "text": "plus b d",
+      "start": 230.44,
+      "duration": 4.28
+    },
+    {
+      "text": "plus g d.",
+      "start": 232.48,
+      "duration": 5.44
+    },
+    {
+      "text": "This is equal to the second value,",
+      "start": 234.72,
+      "duration": 6.96
+    },
+    {
+      "text": "negative A over 2.",
+      "start": 237.92,
+      "duration": 8.12
+    },
+    {
+      "text": "Next one, summation of product of three",
+      "start": 241.68,
+      "duration": 5.56
+    },
+    {
+      "text": "roots.",
+      "start": 246.04,
+      "duration": 3.52
+    },
+    {
+      "text": "This is equal to",
+      "start": 247.24,
+      "duration": 4.2
+    },
+    {
+      "text": "ABG",
+      "start": 249.56,
+      "duration": 4.44
+    },
+    {
+      "text": "plus ABD",
+      "start": 251.44,
+      "duration": 3.64
+    },
+    {
+      "text": "plus",
+      "start": 254.0,
+      "duration": 4.08
+    },
+    {
+      "text": "BGD.",
+      "start": 255.08,
+      "duration": 3.0
+    },
+    {
+      "text": "This is equal to 5 over 2.",
+      "start": 259.12,
+      "duration": 6.16
+    },
+    {
+      "text": "Finally,",
+      "start": 265.4,
+      "duration": 4.08
+    },
+    {
+      "text": "okay, summation",
+      "start": 267.04,
+      "duration": 6.08
+    },
+    {
+      "text": "product of four roots. This is equal to",
+      "start": 269.48,
+      "duration": 6.4
+    },
+    {
+      "text": "ABGD.",
+      "start": 273.12,
+      "duration": 5.04
+    },
+    {
+      "text": "Okay, equal to",
+      "start": 275.88,
+      "duration": 4.039
+    },
+    {
+      "text": "three.",
+      "start": 278.16,
+      "duration": 4.2
+    },
+    {
+      "text": "That's it, okay? Let's now take a look",
+      "start": 279.919,
+      "duration": 4.681
+    },
+    {
+      "text": "at question A.",
+      "start": 282.36,
+      "duration": 4.92
+    },
+    {
+      "text": "Okay, for 3A, we want to find the value",
+      "start": 284.6,
+      "duration": 5.24
+    },
+    {
+      "text": "of Let's write it nicely. So, 3 over",
+      "start": 287.28,
+      "duration": 9.04
+    },
+    {
+      "text": "alpha over 3 over beta over 3 over gamma",
+      "start": 289.84,
+      "duration": 12.0
+    },
+    {
+      "text": "plus 3 over delta. So, this is equal to",
+      "start": 296.32,
+      "duration": 8.96
+    },
+    {
+      "text": "3 over A plus 3 over B",
+      "start": 301.84,
+      "duration": 5.76
+    },
+    {
+      "text": "plus 3 over G",
+      "start": 305.28,
+      "duration": 6.28
+    },
+    {
+      "text": "plus 3 over D.",
+      "start": 307.6,
+      "duration": 3.96
+    },
+    {
+      "text": "Let's combine this. We should make the",
+      "start": 312.16,
+      "duration": 3.8
+    },
+    {
+      "text": "denominator",
+      "start": 314.4,
+      "duration": 4.64
+    },
+    {
+      "text": "the same. So, 3 over A.",
+      "start": 315.96,
+      "duration": 5.24
+    },
+    {
+      "text": "So, I will multiply",
+      "start": 319.04,
+      "duration": 7.0
+    },
+    {
+      "text": "my denominator and numerator by BGD.",
+      "start": 321.2,
+      "duration": 6.8
+    },
+    {
+      "text": "BGD.",
+      "start": 326.04,
+      "duration": 3.72
+    },
+    {
+      "text": "Next one,",
+      "start": 328.0,
+      "duration": 4.48
+    },
+    {
+      "text": "I have 3 over B.",
+      "start": 329.76,
+      "duration": 7.04
+    },
+    {
+      "text": "I should multiply with AGD.",
+      "start": 332.48,
+      "duration": 6.68
+    },
+    {
+      "text": "AGD.",
+      "start": 336.8,
+      "duration": 4.24
+    },
+    {
+      "text": "Next,",
+      "start": 339.16,
+      "duration": 4.84
+    },
+    {
+      "text": "I have 3 over G.",
+      "start": 341.04,
+      "duration": 5.2
+    },
+    {
+      "text": "I will multiply both numerator and",
+      "start": 344.0,
+      "duration": 5.84
+    },
+    {
+      "text": "denominator by ABD",
+      "start": 346.24,
+      "duration": 6.0
+    },
+    {
+      "text": "ABD",
+      "start": 349.84,
+      "duration": 5.24
+    },
+    {
+      "text": "Last but not least, our fourth fraction",
+      "start": 352.24,
+      "duration": 4.44
+    },
+    {
+      "text": "3/D,",
+      "start": 355.08,
+      "duration": 5.68
+    },
+    {
+      "text": "I will multiply this by ABG",
+      "start": 356.68,
+      "duration": 7.04
+    },
+    {
+      "text": "and ABG.",
+      "start": 360.76,
+      "duration": 7.48
+    },
+    {
+      "text": "Okay, so what I will have here would be",
+      "start": 363.72,
+      "duration": 7.8
+    },
+    {
+      "text": "three open bracket",
+      "start": 368.24,
+      "duration": 6.8
+    },
+    {
+      "text": "BGD plus AGD",
+      "start": 371.52,
+      "duration": 5.64
+    },
+    {
+      "text": "plus ABD",
+      "start": 375.04,
+      "duration": 5.44
+    },
+    {
+      "text": "plus ABG.",
+      "start": 377.16,
+      "duration": 6.16
+    },
+    {
+      "text": "Okay, over",
+      "start": 380.48,
+      "duration": 5.84
+    },
+    {
+      "text": "ABGD.",
+      "start": 383.32,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay.",
+      "start": 387.56,
+      "duration": 4.2
+    },
+    {
+      "text": "Let's draw the line.",
+      "start": 389.0,
+      "duration": 4.72
+    },
+    {
+      "text": "And let's refer back to the information",
+      "start": 391.76,
+      "duration": 4.2
+    },
+    {
+      "text": "that we have here.",
+      "start": 393.72,
+      "duration": 4.72
+    },
+    {
+      "text": "Oh, I was missing one of the element for",
+      "start": 395.96,
+      "duration": 4.24
+    },
+    {
+      "text": "my product of three roots, so I was",
+      "start": 398.44,
+      "duration": 6.92
+    },
+    {
+      "text": "missing EGD, so let's just fix that real",
+      "start": 400.2,
+      "duration": 7.16
+    },
+    {
+      "text": "quick.",
+      "start": 405.36,
+      "duration": 4.84
+    },
+    {
+      "text": "I'm going to move this to the side.",
+      "start": 407.36,
+      "duration": 7.08
+    },
+    {
+      "text": "So, what I was missing was AGD.",
+      "start": 410.2,
+      "duration": 8.64
+    },
+    {
+      "text": "That's it. Okay, this is 5/2. Now that I",
+      "start": 414.44,
+      "duration": 6.479
+    },
+    {
+      "text": "already fixed that, I can just simply",
+      "start": 418.84,
+      "duration": 5.8
+    },
+    {
+      "text": "substitute into our equation. So, that",
+      "start": 420.919,
+      "duration": 7.081
+    },
+    {
+      "text": "up here would be 5/2 and for our",
+      "start": 424.64,
+      "duration": 6.76
+    },
+    {
+      "text": "denominator, it would be three. So,",
+      "start": 428.0,
+      "duration": 5.44
+    },
+    {
+      "text": "we're just using the information that we",
+      "start": 431.4,
+      "duration": 6.08
+    },
+    {
+      "text": "have extracted prior to our part A.",
+      "start": 433.44,
+      "duration": 7.24
+    },
+    {
+      "text": "Okay, so here would be this is equals to",
+      "start": 437.48,
+      "duration": 5.68
+    },
+    {
+      "text": "three and",
+      "start": 440.68,
+      "duration": 4.04
+    },
+    {
+      "text": "Okay, the multiplication Okay, the",
+      "start": 443.16,
+      "duration": 4.08
+    },
+    {
+      "text": "summation of three roots, that is",
+      "start": 444.72,
+      "duration": 6.32
+    },
+    {
+      "text": "positive 5/2.",
+      "start": 447.24,
+      "duration": 3.8
+    },
+    {
+      "text": "All of this is",
+      "start": 451.76,
+      "duration": 6.48
+    },
+    {
+      "text": "over",
+      "start": 455.4,
+      "duration": 2.84
+    },
+    {
+      "text": "Last but not least, the value Okay, ABGD",
+      "start": 459.08,
+      "duration": 5.52
+    },
+    {
+      "text": "is equal to three.",
+      "start": 461.88,
+      "duration": 5.48
+    },
+    {
+      "text": "If I cancel this and this, I will just",
+      "start": 464.6,
+      "duration": 4.8
+    },
+    {
+      "text": "get five over",
+      "start": 467.36,
+      "duration": 5.36
+    },
+    {
+      "text": "two. And that would be the answer for",
+      "start": 469.4,
+      "duration": 5.52
+    },
+    {
+      "text": "part A.",
+      "start": 472.72,
+      "duration": 5.0
+    },
+    {
+      "text": "Moving on to part B, they give us a new",
+      "start": 474.92,
+      "duration": 6.44
+    },
+    {
+      "text": "information, okay? For part B, they tell",
+      "start": 477.72,
+      "duration": 5.2
+    },
+    {
+      "text": "us that",
+      "start": 481.36,
+      "duration": 4.76
+    },
+    {
+      "text": "alpha squared plus beta squared plus",
+      "start": 482.92,
+      "duration": 5.96
+    },
+    {
+      "text": "gamma squared plus delta squared is",
+      "start": 486.12,
+      "duration": 8.44
+    },
+    {
+      "text": "equal to negative three over four.",
+      "start": 488.88,
+      "duration": 5.68
+    },
+    {
+      "text": "So, because of they give a square, we",
+      "start": 494.72,
+      "duration": 4.52
+    },
+    {
+      "text": "know that we have to square something.",
+      "start": 496.6,
+      "duration": 4.64
+    },
+    {
+      "text": "So, what I will do is let's name this",
+      "start": 499.24,
+      "duration": 4.2
+    },
+    {
+      "text": "equation one. I'm going to square",
+      "start": 501.24,
+      "duration": 4.12
+    },
+    {
+      "text": "equation one. So, let's start by",
+      "start": 503.44,
+      "duration": 5.2
+    },
+    {
+      "text": "equation one. So, what I have here is",
+      "start": 505.36,
+      "duration": 8.679
+    },
+    {
+      "text": "a plus b plus g plus d is equal to",
+      "start": 508.64,
+      "duration": 11.279
+    },
+    {
+      "text": "What is it? Negative a over two.",
+      "start": 514.039,
+      "duration": 5.88
+    },
+    {
+      "text": "I would like to square this. That means",
+      "start": 520.12,
+      "duration": 5.12
+    },
+    {
+      "text": "here would be squared and here would be",
+      "start": 522.76,
+      "duration": 3.96
+    },
+    {
+      "text": "squared.",
+      "start": 525.24,
+      "duration": 5.72
+    },
+    {
+      "text": "So, what I have here is a plus b plus g",
+      "start": 526.72,
+      "duration": 6.72
+    },
+    {
+      "text": "plus d squared.",
+      "start": 530.96,
+      "duration": 6.84
+    },
+    {
+      "text": "Oops. Multiply with a plus b plus g plus",
+      "start": 533.44,
+      "duration": 5.88
+    },
+    {
+      "text": "d.",
+      "start": 537.8,
+      "duration": 5.96
+    },
+    {
+      "text": "Equals to positive a squared over four.",
+      "start": 539.32,
+      "duration": 8.64
+    },
+    {
+      "text": "Let's expand our left-hand side. We will",
+      "start": 543.76,
+      "duration": 7.0
+    },
+    {
+      "text": "first consider",
+      "start": 547.96,
+      "duration": 4.76
+    },
+    {
+      "text": "a, okay?",
+      "start": 550.76,
+      "duration": 5.52
+    },
+    {
+      "text": "So, that would be",
+      "start": 552.72,
+      "duration": 10.68
+    },
+    {
+      "text": "a squared plus ab plus ag plus ad.",
+      "start": 556.28,
+      "duration": 11.2
+    },
+    {
+      "text": "Next value, let's consider",
+      "start": 563.4,
+      "duration": 7.16
+    },
+    {
+      "text": "b, okay?",
+      "start": 567.48,
+      "duration": 8.04
+    },
+    {
+      "text": "So, we will get plus ab plus b squared",
+      "start": 570.56,
+      "duration": 9.44
+    },
+    {
+      "text": "plus bg plus bd.",
+      "start": 575.52,
+      "duration": 8.32
+    },
+    {
+      "text": "Next, let's consider",
+      "start": 580.0,
+      "duration": 9.32
+    },
+    {
+      "text": "G. Okay, expansion for G",
+      "start": 583.84,
+      "duration": 5.48
+    },
+    {
+      "text": "So, that would be",
+      "start": 589.92,
+      "duration": 10.64
+    },
+    {
+      "text": "+ AG + BG + G squared + GD",
+      "start": 591.76,
+      "duration": 8.8
+    },
+    {
+      "text": "Last one Let's consider",
+      "start": 601.2,
+      "duration": 8.92
+    },
+    {
+      "text": "expansion of D. So, we will get",
+      "start": 605.04,
+      "duration": 5.08
+    },
+    {
+      "text": "+ AD +",
+      "start": 610.44,
+      "duration": 8.52
+    },
+    {
+      "text": "BD + GD + D squared",
+      "start": 613.48,
+      "duration": 9.08
+    },
+    {
+      "text": "All of this is equal to A squared over",
+      "start": 618.96,
+      "duration": 4.84
+    },
+    {
+      "text": "4.",
+      "start": 622.56,
+      "duration": 4.36
+    },
+    {
+      "text": "Let's arrange this in order. Let's start",
+      "start": 623.8,
+      "duration": 5.88
+    },
+    {
+      "text": "with the square. So, I have A squared",
+      "start": 626.92,
+      "duration": 7.96
+    },
+    {
+      "text": "+ B squared + G squared + D squared",
+      "start": 629.68,
+      "duration": 7.52
+    },
+    {
+      "text": "So, that would be",
+      "start": 634.88,
+      "duration": 7.36
+    },
+    {
+      "text": "A squared + B squared + G squared + D",
+      "start": 637.2,
+      "duration": 6.6
+    },
+    {
+      "text": "squared",
+      "start": 642.24,
+      "duration": 4.32
+    },
+    {
+      "text": "Next",
+      "start": 643.8,
+      "duration": 2.76
+    },
+    {
+      "text": "+",
+      "start": 646.96,
+      "duration": 2.52
+    },
+    {
+      "text": "Okay.",
+      "start": 648.4,
+      "duration": 9.04
+    },
+    {
+      "text": "I have AB and AB here. So, 2 AB",
+      "start": 649.48,
+      "duration": 7.96
+    },
+    {
+      "text": "K + AG and AG So, + 2 AG",
+      "start": 658.2,
+      "duration": 10.72
+    },
+    {
+      "text": "AD and",
+      "start": 666.28,
+      "duration": 3.88
+    },
+    {
+      "text": "AD",
+      "start": 668.92,
+      "duration": 4.68
+    },
+    {
+      "text": "So, + 2 AD",
+      "start": 670.16,
+      "duration": 6.24
+    },
+    {
+      "text": "Next, + BG",
+      "start": 673.6,
+      "duration": 7.4
+    },
+    {
+      "text": "and BG. So, 2 BG",
+      "start": 676.4,
+      "duration": 8.56
+    },
+    {
+      "text": "+ BD and BD",
+      "start": 681.0,
+      "duration": 8.2
+    },
+    {
+      "text": "So, + 2 BD",
+      "start": 684.96,
+      "duration": 4.24
+    },
+    {
+      "text": "I'm going going move it slightly to the",
+      "start": 689.64,
+      "duration": 3.92
+    },
+    {
+      "text": "left.",
+      "start": 691.56,
+      "duration": 7.2
+    },
+    {
+      "text": "Okay, next I have GD plus GD.",
+      "start": 693.56,
+      "duration": 8.88
+    },
+    {
+      "text": "So, that would be plus two GD.",
+      "start": 698.76,
+      "duration": 6.12
+    },
+    {
+      "text": "Equal to",
+      "start": 702.44,
+      "duration": 4.92
+    },
+    {
+      "text": "a squared over",
+      "start": 704.88,
+      "duration": 4.24
+    },
+    {
+      "text": "four.",
+      "start": 707.36,
+      "duration": 7.84
+    },
+    {
+      "text": "Okay, we can substitute the value",
+      "start": 709.12,
+      "duration": 10.56
+    },
+    {
+      "text": "belongs to this, okay, over here.",
+      "start": 715.2,
+      "duration": 9.56
+    },
+    {
+      "text": "So, that would be -3/4",
+      "start": 719.68,
+      "duration": 5.08
+    },
+    {
+      "text": "plus Now, what I would like to do is I'd",
+      "start": 725.36,
+      "duration": 6.6
+    },
+    {
+      "text": "like to factor two out. When I factor",
+      "start": 728.6,
+      "duration": 6.8
+    },
+    {
+      "text": "two out, what would I have? I would have",
+      "start": 731.96,
+      "duration": 7.52
+    },
+    {
+      "text": "AB plus AG",
+      "start": 735.4,
+      "duration": 4.08
+    },
+    {
+      "text": "plus AD plus BG",
+      "start": 740.48,
+      "duration": 5.96
+    },
+    {
+      "text": "plus BD plus",
+      "start": 743.96,
+      "duration": 4.52
+    },
+    {
+      "text": "GD",
+      "start": 746.44,
+      "duration": 5.84
+    },
+    {
+      "text": "equal to a squared over four.",
+      "start": 748.48,
+      "duration": 6.4
+    },
+    {
+      "text": "Okay, we can now use the information",
+      "start": 752.28,
+      "duration": 6.12
+    },
+    {
+      "text": "that we already have. Okay? Here and",
+      "start": 754.88,
+      "duration": 8.32
+    },
+    {
+      "text": "input it there, which is -a/2.",
+      "start": 758.4,
+      "duration": 6.72
+    },
+    {
+      "text": "So, that would be",
+      "start": 763.2,
+      "duration": 3.84
+    },
+    {
+      "text": "-3/4",
+      "start": 765.12,
+      "duration": 3.36
+    },
+    {
+      "text": "plus",
+      "start": 767.04,
+      "duration": 2.76
+    },
+    {
+      "text": "two",
+      "start": 768.48,
+      "duration": 3.32
+    },
+    {
+      "text": "-a/2",
+      "start": 769.8,
+      "duration": 6.08
+    },
+    {
+      "text": "equals to a squared over four.",
+      "start": 771.8,
+      "duration": 6.48
+    },
+    {
+      "text": "So, I will have -",
+      "start": 775.88,
+      "duration": 5.12
+    },
+    {
+      "text": "3/4",
+      "start": 778.28,
+      "duration": 3.8
+    },
+    {
+      "text": "a",
+      "start": 781.0,
+      "duration": 4.48
+    },
+    {
+      "text": "equals to a squared over four.",
+      "start": 782.08,
+      "duration": 7.64
+    },
+    {
+      "text": "Multiply this equation by four",
+      "start": 785.48,
+      "duration": 8.04
+    },
+    {
+      "text": "and I will get -3",
+      "start": 789.72,
+      "duration": 5.8
+    },
+    {
+      "text": "-4a",
+      "start": 793.52,
+      "duration": 5.08
+    },
+    {
+      "text": "equal to a squared. Rearrange it",
+      "start": 795.52,
+      "duration": 5.84
+    },
+    {
+      "text": "Rearrange this, we will get a squared",
+      "start": 798.6,
+      "duration": 8.12
+    },
+    {
+      "text": "plus 4a plus 3 equal to zero. Let's use",
+      "start": 801.36,
+      "duration": 8.04
+    },
+    {
+      "text": "our calculator to find out the value of",
+      "start": 806.72,
+      "duration": 3.68
+    },
+    {
+      "text": "A.",
+      "start": 809.4,
+      "duration": 3.48
+    },
+    {
+      "text": "So, menu",
+      "start": 810.4,
+      "duration": 6.72
+    },
+    {
+      "text": "calculate equation, polynomial, degree",
+      "start": 812.88,
+      "duration": 5.64
+    },
+    {
+      "text": "two",
+      "start": 817.12,
+      "duration": 2.64
+    },
+    {
+      "text": "one",
+      "start": 818.52,
+      "duration": 2.48
+    },
+    {
+      "text": "four",
+      "start": 819.76,
+      "duration": 3.56
+    },
+    {
+      "text": "and three.",
+      "start": 821.0,
+      "duration": 6.48
+    },
+    {
+      "text": "So, the first value of A is -1",
+      "start": 823.32,
+      "duration": 7.92
+    },
+    {
+      "text": "and the second value of A is -3.",
+      "start": 827.48,
+      "duration": 6.08
+    },
+    {
+      "text": "Let's work our way up to show our",
+      "start": 831.24,
+      "duration": 4.56
+    },
+    {
+      "text": "working.",
+      "start": 833.56,
+      "duration": 4.64
+    },
+    {
+      "text": "So, let's rearrange. So, here I will",
+      "start": 835.8,
+      "duration": 6.64
+    },
+    {
+      "text": "get, okay, A + 1",
+      "start": 838.2,
+      "duration": 5.92
+    },
+    {
+      "text": "equal to zero",
+      "start": 842.44,
+      "duration": 5.88
+    },
+    {
+      "text": "and here will be A + 3 equal to zero.",
+      "start": 844.12,
+      "duration": 6.8
+    },
+    {
+      "text": "So, these two will be my",
+      "start": 848.32,
+      "duration": 6.0
+    },
+    {
+      "text": "factors. So, let's write it here. A + 1",
+      "start": 850.92,
+      "duration": 6.68
+    },
+    {
+      "text": "multiply with A + 3",
+      "start": 854.32,
+      "duration": 7.2
+    },
+    {
+      "text": "equal to zero. With that, we are done",
+      "start": 857.6,
+      "duration": 8.28
+    },
+    {
+      "text": "with part B. The two possible values for",
+      "start": 861.52,
+      "duration": 6.8
+    },
+    {
+      "text": "A.",
+      "start": 865.88,
+      "duration": 2.44
+    }
+  ]
+}

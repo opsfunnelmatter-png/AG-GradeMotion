@@ -1,0 +1,1144 @@
+{
+  "id": "zO7g4UAC--o",
+  "paper": "CP1",
+  "question": "Q4",
+  "title": "Second Order Differential Equations",
+  "full_text": "Number four. For question number four, we have a differential equation question. And for part A, they want us to find the general solution. Whereas for part B, they want us to find the particular solution given some conditions. Let's start with part A straight away. In order for us to find a general solution, we must find the complementary function part and also the particular integral part. Let's begin, okay, with finding our complementary function. Complementary function, YC. How do we do this? We must first solve our homogeneous part. And what is that? Our right-hand side equal to zero. So, we will have d2y dx squared - 4 dy dx + 4 y = 0. From here, we will get our auxiliary equation, which is m squared - 4 m + 4. How do I get this? I just take the coefficient of each of this. Okay. Now, what we're going to do is we're going to use our calculator to find the value of m. Okay. Polynomial degree two, coefficient one, -4, +4. Okay, notice that if you look at our calculator here, we have x = 2. It's not x1, it's not x2, it's just x. That means we have a repeated root. So, m is equal to two. If you work our way up to show our working, it will be m - 2 = 0 and our factors is m - 2 squared equal to 0. This is the case of repeated root. Okay, and what is the formula for repeated root? Okay, our yc would be in this form, a + bx e to the power of mx. And what is our m? Our m is equals to 2. Therefore, our yc is a + bx e to the power of 2x. We're done with the first part, which is finding the complementary function. Let's move on to the second step. Our second step is to find our particular integral. Okay, if just now we're considering the left-hand side of our differential equation, now we have to consider our right-hand side, this part. Okay, what is our right-hand side? Okay, our right-hand side is equal to 2e to the power of 3x. That means our yp will be in this form, ce to the power of 3x. What we can do? Okay, next step would be differentiating this. Differentiate this, ddx and we will get dy dx. Okay. >> [snorts] >> If you differentiate Okay, we will get ce3x because of chain rule, then we have to differentiate this, that is three. Just put three at the front. We're Moving on. We have to differentiate another time in order to get our second differentiation. So, it would be d2y dx squared. Okay. So, we will get 3ce3x. And then we're going to have to differentiate 3x and we'll get three. So, our second differentiation would be 9ce3x. So, what we will do next is substitute our y, dy dx, and d2y dx squared into our original equation. Okay. So, we'll substitute all of this into this. We'll begin with d2y dx squared. So, d2y dx squared - 4dy dx + 4y is equal to 2e3x. Why do we do this? We do this because of we want to find the value of constant c. So, from here we will get 9ce3x 4 multiplied by 3ce3x + 4. What is our y? ce3x equal to 2e3x. Okay. We'll continue on this side. Let's just draw a line. Okay. Now, it would be 9ce3x - 12ce3x + 12 c e 3 x + 4 c e 3 x = 2 2 e 3 x. to be substitute back into here. 2 e 3 x. Okay. So, what is our general equation? Our general equation or our general solution general solution is y = yc + yp. a + bx e 2 x + 2 e 3 x. We are done with part a. >> [snorts] >> Okay. Let's just mark this so we know that we already got our answer. Moving on to part b. They want us to find the particular solution. So, let me just copy back this one, a + bx e 2 x + 2 e 3 x. How do we do this? Okay, we just have to substitute our Y and X. So, let Y equals to 5 and X equal to 0. So, if you substitute Y and X, we will get 5 is equal to A + B * 0, that would just be 0 E >> [snorts] >> 2 to the power. Okay, that would be 0 + 2 E to the power of 0. >> [snorts] >> E to the power of 0 is just 1. So, 5 is equals to A + 2. A is equals to 3. Let's rewrite our equation. If we rewrite our equation, we will get Y is equal to 3 + B X E 2 X + 2 E 3 X. What's the next information that they give us? They give us the dy/dx. So, we have to differentiate this before we can substitute the value. But, to make this easier, what we have to do is we have to expand this first. So, let's expand. Okay, so Y is equal to 3 E 2 X + B X E 2 X + 2 E 3 X. Okay. >> [snorts] >> Let's just move all of this to this side. Now, differentiate. dy/dx If you differentiate this, you'll get 3 E 2 X * 2. Why? Because we have to differentiate 2 X. Chain rule. Plus, here notice that you have 1 x here, another x here. So, we have to use product rule. How do we use product rule? We're going to differentiate that one first. B x differentiate, we're going to get B. And then just copy our second part, so e 2 x plus we'll do the opposite. Okay, we'll copy the first part, so B x and then differentiate the second part. Differentiate the second part, we will get e 2 x multiplied by 2. Let's now, okay, differentiate our last term. We will get 2 e 3 x multiplied by 3. Let's simplify our equation. You're going to get 6 e 2 x plus B e 2 x plus 2 B x e 2 x plus 6 e 3 x. Next what we're going to do, we're going to substitute our value. Let dy dx equals to what is it? 12. And x equal to 0. Okay. So, we know that it will be 12 equal to 6 e to the power of 0 plus e plus B e to the power of 0 plus this one will just be 0 because you have x there. Okay. Plus 0 plus 6 e to the power of zero. So 12 is equal to six plus b plus six. Okay, so 12 equals to 12 plus b. Therefore, b is equal to zero. Notice that we already found our a and we already found our b, we can substitute into our general solution. Therefore, our particular solution would be >> [snorts] >> We have two We can opt to substitute into this one or the one that we already expand. Whichever you want, both would be correct. Let me just take from the first part. So y equals to a three plus or b zero. So I can just put plus zero. e 2x plus 2e 3x. So this will become y equal to 3e 2x plus 2e 3x. That's it. Let me just erase this erase this and mark my answer. Okay, that's [snorts] it. With that, we are done finding both the general and particular solution for this differential equation.",
+  "snippets": [
+    {
+      "text": "Number four. For question number four,",
+      "start": 0.48,
+      "duration": 4.24
+    },
+    {
+      "text": "we have a differential equation",
+      "start": 2.88,
+      "duration": 4.8
+    },
+    {
+      "text": "question. And for part A, they want us",
+      "start": 4.72,
+      "duration": 5.88
+    },
+    {
+      "text": "to find the general solution. Whereas",
+      "start": 7.68,
+      "duration": 5.0
+    },
+    {
+      "text": "for part B, they want us to find the",
+      "start": 10.6,
+      "duration": 4.96
+    },
+    {
+      "text": "particular solution given some",
+      "start": 12.68,
+      "duration": 5.72
+    },
+    {
+      "text": "conditions. Let's start with part A",
+      "start": 15.56,
+      "duration": 6.28
+    },
+    {
+      "text": "straight away. In order for us to find a",
+      "start": 18.4,
+      "duration": 7.36
+    },
+    {
+      "text": "general solution, we must find the",
+      "start": 21.84,
+      "duration": 6.72
+    },
+    {
+      "text": "complementary function part and also the",
+      "start": 25.76,
+      "duration": 6.32
+    },
+    {
+      "text": "particular integral part. Let's begin,",
+      "start": 28.56,
+      "duration": 6.88
+    },
+    {
+      "text": "okay, with finding our complementary",
+      "start": 32.08,
+      "duration": 6.16
+    },
+    {
+      "text": "function.",
+      "start": 35.44,
+      "duration": 2.8
+    },
+    {
+      "text": "Complementary function, YC.",
+      "start": 40.92,
+      "duration": 6.4
+    },
+    {
+      "text": "How do we do this? We must first solve",
+      "start": 44.48,
+      "duration": 6.32
+    },
+    {
+      "text": "our homogeneous part. And what is that?",
+      "start": 47.32,
+      "duration": 6.84
+    },
+    {
+      "text": "Our right-hand side equal to zero. So,",
+      "start": 50.8,
+      "duration": 7.88
+    },
+    {
+      "text": "we will have d2y dx squared",
+      "start": 54.16,
+      "duration": 8.28
+    },
+    {
+      "text": "- 4 dy dx",
+      "start": 58.68,
+      "duration": 7.16
+    },
+    {
+      "text": "+ 4 y = 0.",
+      "start": 62.44,
+      "duration": 5.88
+    },
+    {
+      "text": "From here, we will get our auxiliary",
+      "start": 65.84,
+      "duration": 9.16
+    },
+    {
+      "text": "equation, which is m squared - 4 m + 4.",
+      "start": 68.32,
+      "duration": 9.32
+    },
+    {
+      "text": "How do I get this? I just take the",
+      "start": 75.0,
+      "duration": 6.48
+    },
+    {
+      "text": "coefficient of each of this. Okay. Now,",
+      "start": 77.64,
+      "duration": 5.28
+    },
+    {
+      "text": "what we're going to do is we're going to",
+      "start": 81.48,
+      "duration": 4.8
+    },
+    {
+      "text": "use our calculator to find the value of",
+      "start": 82.92,
+      "duration": 5.2
+    },
+    {
+      "text": "m.",
+      "start": 86.28,
+      "duration": 5.48
+    },
+    {
+      "text": "Okay. Polynomial degree two, coefficient",
+      "start": 88.12,
+      "duration": 6.24
+    },
+    {
+      "text": "one, -4,",
+      "start": 91.76,
+      "duration": 5.32
+    },
+    {
+      "text": "+4.",
+      "start": 94.36,
+      "duration": 4.68
+    },
+    {
+      "text": "Okay, notice that",
+      "start": 97.08,
+      "duration": 4.48
+    },
+    {
+      "text": "if you look at our calculator here, we",
+      "start": 99.04,
+      "duration": 6.12
+    },
+    {
+      "text": "have x = 2. It's not x1, it's not x2,",
+      "start": 101.56,
+      "duration": 6.0
+    },
+    {
+      "text": "it's just x. That means we have a",
+      "start": 105.16,
+      "duration": 9.16
+    },
+    {
+      "text": "repeated root. So, m is equal to two.",
+      "start": 107.56,
+      "duration": 6.76
+    },
+    {
+      "text": "If you work our way up to show our",
+      "start": 114.6,
+      "duration": 5.88
+    },
+    {
+      "text": "working, it will be m - 2 = 0",
+      "start": 116.48,
+      "duration": 8.28
+    },
+    {
+      "text": "and our factors is m - 2 squared equal",
+      "start": 120.48,
+      "duration": 6.2
+    },
+    {
+      "text": "to 0.",
+      "start": 124.76,
+      "duration": 7.04
+    },
+    {
+      "text": "This is the case of repeated root.",
+      "start": 126.68,
+      "duration": 5.12
+    },
+    {
+      "text": "Okay, and what is the formula for",
+      "start": 132.959,
+      "duration": 6.521
+    },
+    {
+      "text": "repeated root? Okay, our yc would be in",
+      "start": 135.24,
+      "duration": 9.12
+    },
+    {
+      "text": "this form, a + bx",
+      "start": 139.48,
+      "duration": 4.88
+    },
+    {
+      "text": "e to the power of mx. And what is our m?",
+      "start": 144.48,
+      "duration": 8.479
+    },
+    {
+      "text": "Our m is equals to 2. Therefore, our yc",
+      "start": 148.56,
+      "duration": 5.52
+    },
+    {
+      "text": "is",
+      "start": 152.959,
+      "duration": 2.881
+    },
+    {
+      "text": "a +",
+      "start": 154.08,
+      "duration": 3.8
+    },
+    {
+      "text": "bx",
+      "start": 155.84,
+      "duration": 5.08
+    },
+    {
+      "text": "e to the power of 2x. We're done with",
+      "start": 157.88,
+      "duration": 3.92
+    },
+    {
+      "text": "the",
+      "start": 160.92,
+      "duration": 2.48
+    },
+    {
+      "text": "first part, which is finding the",
+      "start": 161.8,
+      "duration": 4.4
+    },
+    {
+      "text": "complementary function. Let's move on to",
+      "start": 163.4,
+      "duration": 5.88
+    },
+    {
+      "text": "the second step. Our second step is to",
+      "start": 166.2,
+      "duration": 7.92
+    },
+    {
+      "text": "find our particular integral.",
+      "start": 169.28,
+      "duration": 4.84
+    },
+    {
+      "text": "Okay, if just now we're considering the",
+      "start": 174.44,
+      "duration": 5.32
+    },
+    {
+      "text": "left-hand side of our differential",
+      "start": 176.72,
+      "duration": 6.92
+    },
+    {
+      "text": "equation, now we have to consider our",
+      "start": 179.76,
+      "duration": 7.24
+    },
+    {
+      "text": "right-hand side, this part. Okay, what",
+      "start": 183.64,
+      "duration": 5.8
+    },
+    {
+      "text": "is our right-hand side?",
+      "start": 187.0,
+      "duration": 6.239
+    },
+    {
+      "text": "Okay, our right-hand side is equal to",
+      "start": 189.44,
+      "duration": 8.88
+    },
+    {
+      "text": "2e to the power of 3x. That means our yp",
+      "start": 193.239,
+      "duration": 8.841
+    },
+    {
+      "text": "will be in this form, ce to the power of",
+      "start": 198.32,
+      "duration": 7.24
+    },
+    {
+      "text": "3x. What we can do? Okay, next step",
+      "start": 202.08,
+      "duration": 5.8
+    },
+    {
+      "text": "would be differentiating this.",
+      "start": 205.56,
+      "duration": 6.6
+    },
+    {
+      "text": "Differentiate this, ddx",
+      "start": 207.88,
+      "duration": 8.32
+    },
+    {
+      "text": "and we will get dy dx.",
+      "start": 212.16,
+      "duration": 5.302
+    },
+    {
+      "text": "Okay.",
+      "start": 216.2,
+      "duration": 2.759
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 217.462,
+      "duration": 4.578
+    },
+    {
+      "text": ">> If you differentiate Okay, we will get",
+      "start": 218.959,
+      "duration": 5.0
+    },
+    {
+      "text": "ce3x",
+      "start": 222.04,
+      "duration": 4.479
+    },
+    {
+      "text": "because of chain rule, then we have to",
+      "start": 223.959,
+      "duration": 5.761
+    },
+    {
+      "text": "differentiate this, that is three. Just",
+      "start": 226.519,
+      "duration": 6.361
+    },
+    {
+      "text": "put three at the front. We're",
+      "start": 229.72,
+      "duration": 6.0
+    },
+    {
+      "text": "Moving on. We have to differentiate",
+      "start": 232.88,
+      "duration": 6.6
+    },
+    {
+      "text": "another time in order to get our second",
+      "start": 235.72,
+      "duration": 5.52
+    },
+    {
+      "text": "differentiation.",
+      "start": 239.48,
+      "duration": 5.64
+    },
+    {
+      "text": "So, it would be d2y",
+      "start": 241.24,
+      "duration": 10.8
+    },
+    {
+      "text": "dx squared. Okay. So, we will get 3ce3x.",
+      "start": 245.12,
+      "duration": 7.92
+    },
+    {
+      "text": "And then we're going to have to",
+      "start": 252.04,
+      "duration": 4.6
+    },
+    {
+      "text": "differentiate 3x and we'll get",
+      "start": 253.04,
+      "duration": 5.039
+    },
+    {
+      "text": "three.",
+      "start": 256.64,
+      "duration": 3.84
+    },
+    {
+      "text": "So, our second differentiation would be",
+      "start": 258.079,
+      "duration": 5.401
+    },
+    {
+      "text": "9ce3x.",
+      "start": 260.48,
+      "duration": 6.16
+    },
+    {
+      "text": "So, what we will do next is substitute",
+      "start": 263.48,
+      "duration": 8.04
+    },
+    {
+      "text": "our y, dy dx, and d2y dx squared into",
+      "start": 266.64,
+      "duration": 9.76
+    },
+    {
+      "text": "our original equation. Okay. So, we'll",
+      "start": 271.52,
+      "duration": 10.24
+    },
+    {
+      "text": "substitute all of this into this.",
+      "start": 276.4,
+      "duration": 9.56
+    },
+    {
+      "text": "We'll begin with d2y dx squared. So,",
+      "start": 281.76,
+      "duration": 7.84
+    },
+    {
+      "text": "d2y dx squared",
+      "start": 285.96,
+      "duration": 7.68
+    },
+    {
+      "text": "- 4dy dx",
+      "start": 289.6,
+      "duration": 9.68
+    },
+    {
+      "text": "+ 4y is equal to 2e3x.",
+      "start": 293.64,
+      "duration": 9.12
+    },
+    {
+      "text": "Why do we do this? We do this because of",
+      "start": 299.28,
+      "duration": 8.12
+    },
+    {
+      "text": "we want to find the value of constant c.",
+      "start": 302.76,
+      "duration": 7.48
+    },
+    {
+      "text": "So, from here we will get",
+      "start": 307.4,
+      "duration": 5.84
+    },
+    {
+      "text": "9ce3x",
+      "start": 310.24,
+      "duration": 3.0
+    },
+    {
+      "text": "4",
+      "start": 314.919,
+      "duration": 5.121
+    },
+    {
+      "text": "multiplied by 3ce3x",
+      "start": 316.08,
+      "duration": 7.0
+    },
+    {
+      "text": "+ 4. What is our y?",
+      "start": 320.04,
+      "duration": 5.36
+    },
+    {
+      "text": "ce3x",
+      "start": 323.08,
+      "duration": 5.72
+    },
+    {
+      "text": "equal to 2e3x.",
+      "start": 325.4,
+      "duration": 4.84
+    },
+    {
+      "text": "Okay.",
+      "start": 328.8,
+      "duration": 4.36
+    },
+    {
+      "text": "We'll continue on this side. Let's just",
+      "start": 330.24,
+      "duration": 6.36
+    },
+    {
+      "text": "draw a line.",
+      "start": 333.16,
+      "duration": 3.44
+    },
+    {
+      "text": "Okay.",
+      "start": 337.6,
+      "duration": 7.16
+    },
+    {
+      "text": "Now, it would be 9ce3x",
+      "start": 340.16,
+      "duration": 4.6
+    },
+    {
+      "text": "- 12ce3x",
+      "start": 345.08,
+      "duration": 5.92
+    },
+    {
+      "text": "+",
+      "start": 348.52,
+      "duration": 2.48
+    },
+    {
+      "text": "12 c e 3 x + 4 c e 3 x = 2 2 e 3 x. to",
+      "start": 373.64,
+      "duration": 13.32
+    },
+    {
+      "text": "be substitute back into here.",
+      "start": 383.04,
+      "duration": 10.84
+    },
+    {
+      "text": "2 e 3 x. Okay. So, what is our general",
+      "start": 386.96,
+      "duration": 9.44
+    },
+    {
+      "text": "equation?",
+      "start": 393.88,
+      "duration": 5.64
+    },
+    {
+      "text": "Our general equation",
+      "start": 396.4,
+      "duration": 5.08
+    },
+    {
+      "text": "or our",
+      "start": 399.52,
+      "duration": 4.72
+    },
+    {
+      "text": "general solution",
+      "start": 401.48,
+      "duration": 7.68
+    },
+    {
+      "text": "general solution is",
+      "start": 404.24,
+      "duration": 4.92
+    },
+    {
+      "text": "y = yc + yp. a + bx",
+      "start": 410.4,
+      "duration": 11.76
+    },
+    {
+      "text": "e 2 x +",
+      "start": 419.36,
+      "duration": 8.359
+    },
+    {
+      "text": "2 e 3 x. We are done with part a.",
+      "start": 422.16,
+      "duration": 5.64
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 427.719,
+      "duration": 2.521
+    },
+    {
+      "text": ">> Okay.",
+      "start": 427.8,
+      "duration": 2.44
+    },
+    {
+      "text": "Let's just mark this so we know that we",
+      "start": 430.28,
+      "duration": 6.0
+    },
+    {
+      "text": "already got our answer.",
+      "start": 432.96,
+      "duration": 8.4
+    },
+    {
+      "text": "Moving on to part b.",
+      "start": 436.28,
+      "duration": 9.28
+    },
+    {
+      "text": "They want us to find the particular",
+      "start": 441.36,
+      "duration": 7.88
+    },
+    {
+      "text": "solution. So, let me just copy back this",
+      "start": 445.56,
+      "duration": 7.96
+    },
+    {
+      "text": "one, a + bx",
+      "start": 449.24,
+      "duration": 11.24
+    },
+    {
+      "text": "e 2 x + 2 e 3 x. How do we do this?",
+      "start": 453.52,
+      "duration": 10.6
+    },
+    {
+      "text": "Okay, we just have to substitute",
+      "start": 460.48,
+      "duration": 10.08
+    },
+    {
+      "text": "our Y and X. So, let Y equals to 5 and X",
+      "start": 464.12,
+      "duration": 8.76
+    },
+    {
+      "text": "equal to 0.",
+      "start": 470.56,
+      "duration": 5.0
+    },
+    {
+      "text": "So, if you substitute Y and X, we will",
+      "start": 472.88,
+      "duration": 4.04
+    },
+    {
+      "text": "get",
+      "start": 475.56,
+      "duration": 4.04
+    },
+    {
+      "text": "5 is equal to",
+      "start": 476.92,
+      "duration": 6.52
+    },
+    {
+      "text": "A + B * 0, that would just be",
+      "start": 479.6,
+      "duration": 6.415
+    },
+    {
+      "text": "0 E",
+      "start": 483.44,
+      "duration": 3.52
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 486.015,
+      "duration": 4.505
+    },
+    {
+      "text": ">> 2 to the power. Okay, that would be 0 +",
+      "start": 486.96,
+      "duration": 6.915
+    },
+    {
+      "text": "2 E to the power of 0.",
+      "start": 490.52,
+      "duration": 3.6
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 493.875,
+      "duration": 4.245
+    },
+    {
+      "text": ">> E to the power of 0 is just 1. So, 5 is",
+      "start": 494.12,
+      "duration": 6.72
+    },
+    {
+      "text": "equals to A + 2.",
+      "start": 498.12,
+      "duration": 6.84
+    },
+    {
+      "text": "A is equals to 3. Let's rewrite our",
+      "start": 500.84,
+      "duration": 6.24
+    },
+    {
+      "text": "equation.",
+      "start": 504.96,
+      "duration": 5.16
+    },
+    {
+      "text": "If we rewrite our equation,",
+      "start": 507.08,
+      "duration": 6.36
+    },
+    {
+      "text": "we will get Y is equal to",
+      "start": 510.12,
+      "duration": 6.64
+    },
+    {
+      "text": "3 + B X",
+      "start": 513.44,
+      "duration": 6.0
+    },
+    {
+      "text": "E 2 X +",
+      "start": 516.76,
+      "duration": 5.48
+    },
+    {
+      "text": "2 E 3 X.",
+      "start": 519.44,
+      "duration": 4.479
+    },
+    {
+      "text": "What's the next information that they",
+      "start": 522.24,
+      "duration": 3.88
+    },
+    {
+      "text": "give us? They give us the dy/dx. So, we",
+      "start": 523.919,
+      "duration": 4.561
+    },
+    {
+      "text": "have to differentiate this before we can",
+      "start": 526.12,
+      "duration": 5.28
+    },
+    {
+      "text": "substitute the value. But, to make this",
+      "start": 528.48,
+      "duration": 6.0
+    },
+    {
+      "text": "easier, what we have to do is we have to",
+      "start": 531.4,
+      "duration": 8.08
+    },
+    {
+      "text": "expand this first. So, let's expand.",
+      "start": 534.48,
+      "duration": 5.0
+    },
+    {
+      "text": "Okay, so Y is equal to 3 E 2 X",
+      "start": 539.56,
+      "duration": 12.72
+    },
+    {
+      "text": "+ B X E 2 X + 2 E 3 X.",
+      "start": 543.839,
+      "duration": 9.642
+    },
+    {
+      "text": "Okay.",
+      "start": 552.28,
+      "duration": 1.559
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 553.481,
+      "duration": 4.599
+    },
+    {
+      "text": ">> Let's just move all of this to this",
+      "start": 553.839,
+      "duration": 6.321
+    },
+    {
+      "text": "side.",
+      "start": 558.08,
+      "duration": 5.16
+    },
+    {
+      "text": "Now, differentiate.",
+      "start": 560.16,
+      "duration": 6.08
+    },
+    {
+      "text": "dy/dx",
+      "start": 563.24,
+      "duration": 3.0
+    },
+    {
+      "text": "If you differentiate this, you'll get 3",
+      "start": 566.92,
+      "duration": 4.88
+    },
+    {
+      "text": "E 2 X",
+      "start": 569.76,
+      "duration": 4.56
+    },
+    {
+      "text": "* 2. Why? Because we have to",
+      "start": 571.8,
+      "duration": 5.52
+    },
+    {
+      "text": "differentiate 2 X. Chain rule.",
+      "start": 574.32,
+      "duration": 7.56
+    },
+    {
+      "text": "Plus, here notice that you have 1 x",
+      "start": 577.32,
+      "duration": 8.04
+    },
+    {
+      "text": "here, another x here. So, we have to use",
+      "start": 581.88,
+      "duration": 5.76
+    },
+    {
+      "text": "product rule. How do we use product",
+      "start": 585.36,
+      "duration": 3.6
+    },
+    {
+      "text": "rule? We're going to differentiate that",
+      "start": 587.64,
+      "duration": 4.4
+    },
+    {
+      "text": "one first. B x differentiate, we're",
+      "start": 588.96,
+      "duration": 6.08
+    },
+    {
+      "text": "going to get B. And then just copy our",
+      "start": 592.04,
+      "duration": 7.32
+    },
+    {
+      "text": "second part, so e 2 x plus we'll do the",
+      "start": 595.04,
+      "duration": 7.88
+    },
+    {
+      "text": "opposite. Okay, we'll copy the first",
+      "start": 599.36,
+      "duration": 7.28
+    },
+    {
+      "text": "part, so B x and then differentiate the",
+      "start": 602.92,
+      "duration": 5.96
+    },
+    {
+      "text": "second part. Differentiate the second",
+      "start": 606.64,
+      "duration": 9.32
+    },
+    {
+      "text": "part, we will get e 2 x multiplied by 2.",
+      "start": 608.88,
+      "duration": 7.08
+    },
+    {
+      "text": "Let's now, okay,",
+      "start": 616.08,
+      "duration": 8.04
+    },
+    {
+      "text": "differentiate our last term.",
+      "start": 619.0,
+      "duration": 5.12
+    },
+    {
+      "text": "We will get 2 e 3 x multiplied by 3.",
+      "start": 625.44,
+      "duration": 10.24
+    },
+    {
+      "text": "Let's simplify our",
+      "start": 631.52,
+      "duration": 4.16
+    },
+    {
+      "text": "equation.",
+      "start": 636.04,
+      "duration": 6.24
+    },
+    {
+      "text": "You're going to get 6 e 2 x plus",
+      "start": 638.08,
+      "duration": 15.68
+    },
+    {
+      "text": "B e 2 x plus 2 B x e 2 x plus 6 e 3 x.",
+      "start": 642.28,
+      "duration": 13.16
+    },
+    {
+      "text": "Next what we're going to do, we're going",
+      "start": 653.76,
+      "duration": 5.52
+    },
+    {
+      "text": "to substitute our value.",
+      "start": 655.44,
+      "duration": 5.56
+    },
+    {
+      "text": "Let",
+      "start": 659.28,
+      "duration": 6.68
+    },
+    {
+      "text": "dy dx equals to what is it?",
+      "start": 661.0,
+      "duration": 7.2
+    },
+    {
+      "text": "12.",
+      "start": 665.96,
+      "duration": 6.08
+    },
+    {
+      "text": "And x equal to 0.",
+      "start": 668.2,
+      "duration": 8.0
+    },
+    {
+      "text": "Okay. So, we know that it will be 12",
+      "start": 672.04,
+      "duration": 9.28
+    },
+    {
+      "text": "equal to 6 e to the power of 0 plus e",
+      "start": 676.2,
+      "duration": 8.32
+    },
+    {
+      "text": "plus B e to the power of 0",
+      "start": 681.32,
+      "duration": 5.72
+    },
+    {
+      "text": "plus this one will just be 0 because you",
+      "start": 684.52,
+      "duration": 4.64
+    },
+    {
+      "text": "have x there.",
+      "start": 687.04,
+      "duration": 3.24
+    },
+    {
+      "text": "Okay.",
+      "start": 689.16,
+      "duration": 6.92
+    },
+    {
+      "text": "Plus 0 plus 6 e to the power of zero.",
+      "start": 690.28,
+      "duration": 12.0
+    },
+    {
+      "text": "So 12 is equal to six plus b plus six.",
+      "start": 696.08,
+      "duration": 10.52
+    },
+    {
+      "text": "Okay, so 12 equals to 12 plus b.",
+      "start": 702.28,
+      "duration": 8.36
+    },
+    {
+      "text": "Therefore, b is equal to zero. Notice",
+      "start": 706.6,
+      "duration": 6.2
+    },
+    {
+      "text": "that we already found our a and we",
+      "start": 710.64,
+      "duration": 5.88
+    },
+    {
+      "text": "already found our b, we can substitute",
+      "start": 712.8,
+      "duration": 5.4
+    },
+    {
+      "text": "into our",
+      "start": 716.52,
+      "duration": 4.64
+    },
+    {
+      "text": "general solution.",
+      "start": 718.2,
+      "duration": 7.48
+    },
+    {
+      "text": "Therefore, our particular solution would",
+      "start": 721.16,
+      "duration": 7.28
+    },
+    {
+      "text": "be",
+      "start": 725.68,
+      "duration": 2.76
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 731.643,
+      "duration": 3.197
+    },
+    {
+      "text": ">> We have two",
+      "start": 731.76,
+      "duration": 3.08
+    },
+    {
+      "text": "We can opt to substitute into this one",
+      "start": 735.12,
+      "duration": 5.6
+    },
+    {
+      "text": "or the one that we already expand.",
+      "start": 737.72,
+      "duration": 5.48
+    },
+    {
+      "text": "Whichever you want, both would be",
+      "start": 740.72,
+      "duration": 4.52
+    },
+    {
+      "text": "correct. Let me just take from the first",
+      "start": 743.2,
+      "duration": 6.84
+    },
+    {
+      "text": "part. So y equals to a three plus or b",
+      "start": 745.24,
+      "duration": 7.44
+    },
+    {
+      "text": "zero.",
+      "start": 750.04,
+      "duration": 2.64
+    },
+    {
+      "text": "So",
+      "start": 753.08,
+      "duration": 4.04
+    },
+    {
+      "text": "I can just put plus zero.",
+      "start": 754.88,
+      "duration": 7.52
+    },
+    {
+      "text": "e 2x plus 2e 3x.",
+      "start": 757.12,
+      "duration": 9.8
+    },
+    {
+      "text": "So this will become y equal to 3e 2x",
+      "start": 762.4,
+      "duration": 7.76
+    },
+    {
+      "text": "plus 2e 3x.",
+      "start": 766.92,
+      "duration": 6.56
+    },
+    {
+      "text": "That's it. Let me just erase this erase",
+      "start": 770.16,
+      "duration": 5.679
+    },
+    {
+      "text": "this",
+      "start": 773.48,
+      "duration": 7.32
+    },
+    {
+      "text": "and mark my answer.",
+      "start": 775.839,
+      "duration": 4.961
+    },
+    {
+      "text": "Okay,",
+      "start": 782.839,
+      "duration": 2.921
+    },
+    {
+      "text": "that's [snorts] it. With that, we are",
+      "start": 783.96,
+      "duration": 4.72
+    },
+    {
+      "text": "done finding both the general and",
+      "start": 785.76,
+      "duration": 5.04
+    },
+    {
+      "text": "particular solution for this",
+      "start": 788.68,
+      "duration": 5.84
+    },
+    {
+      "text": "differential equation.",
+      "start": 790.8,
+      "duration": 3.72
+    }
+  ]
+}

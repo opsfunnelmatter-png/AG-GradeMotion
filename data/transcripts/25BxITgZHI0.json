@@ -1,0 +1,1199 @@
+{
+  "id": "25BxITgZHI0",
+  "paper": "CP2",
+  "question": "Q3bcd",
+  "title": "Matrix Transformations and Combined Matrices",
+  "full_text": "Moving on to question 3b, describe fully the single geometrical transformation P represented by the matrix B. Okay. So now, what I will write is this, okay? So I have transformation and then represented by which matrix? So what we have here, transformation P matrix B. Let's take a look at question B. So matrix B is equal to -1 0 0 1. So we have values over here. So this will represent our X element and this will represent our Y element. So X you will multiply by -1, which you will get -X. Whereas your Y you will multiply by just one, which is maintained as Y. What type of transformation that transform X to -X but maintain the Y? This is reflection by the Y axis. That's it. That is for question B. Now, is represented by the matrix A to the power of N. Okay. Transformation P is followed. Okay, so for question C, transformation P is followed by transformation Q. This is what we call transformation R. So, we have the next transformation R. And what is R? R is we begin by P and then we have Q. Transformation R is represented by matrix C. So, transformation R, what's the matrix? The matrix is C. So, what we have to be very careful is we have to distinguish between the transformation and also the matrix. Okay. Now, let's take a look what they want us to find. Okay, they want us to find C in terms of N. Okay, so what we want to find? We want to find matrix C. Okay, in terms of N. Okay, so let's take a look. We have transformation P and then followed by Q. So, this is transformation. Now, what is the matrix? You have to know that transformation and matrix will work in inverse way. So, if we have P first for the transformation, okay, and then Q second for the transformation, so this one first and this one second. For our matrix, it will be the other way around. So, this one will be first and this one will be second. So, matrix it will be A to the power of n, we will write that one first and then B. That's it. So, that is C. A to the power of n B. What is A to the power of n? A to the power of n is 1 0 5 open bracket 2 to the power of n minus 1 close bracket 2 to the power of n. Let's multiply by B -1 0 0 1. Let's do our matrix multiplication. Let's consider first matrix first row, second matrix first column. Okay. So, let's write down the element from the first matrix. So, 1 give it a bit of space plus 5 open bracket 2 to the power of n minus 1. Let's consider the elements from the second matrix. It would be -1 here, 0 here. Okay. We will maintain the column from the second matrix, but we will consider the second row for the first matrix. So, this one Okay, let's write down the elements from the first matrix 0 give it a bit of space plus 2 to the power of n. Second matrix Okay, the first bracket would be -1. The second bracket would be 0. Now, next element we will consider first matrix first row, second matrix second column. Okay. Elements from the first matrix 1 give it a bit of space plus 5 open bracket 2 to the power of n minus one. Now elements from the second matrix first bracket would be zero, second bracket would be one. Okay. We will consider first matrix second row. Second matrix second column. So this would be okay, let's begin with the elements from the first matrix zero plus two to the power of n. Okay, the elements from the second matrix open bracket zero open bracket one. So let's simplify all of this. One multiplied by negative one would be negative one. Anything multiplied by zero would be zero. Here would be zero plus zero. Here would be zero plus five open bracket two to the power of n minus one. Here would be zero plus two to the power of n. This one would be negative one zero five open bracket two to the power of n minus one and two to the power of n. With that we are done with question C. Let's take a look at D. Given that for a particular value of n, the transformation R maps the point with coordinate 27 1 to the point with coordinates AA where A is constant. Determine the matrix that represent transformation Q. Okay. So what we want to find okay, we want to find matrix that represent transformation Q. So matrix that represent transformation Q. We want to find what is A to the power of n. But what is the information? We know that, okay, point 27 1 if we performed transformation R, we will get coordinates AA. Okay, transformation R, what is the matrix? The matrix is C from our part C. So, how can we proceed with this question? So, it would be AA, okay, the image is equal to matrix C which is -1 0 5 open bracket 2 to the power of n minus 1 2 to the power of n, okay, multiply with the original coordinate 27 1 equal to Let's perform matrix multiplication. So, this multiply by this. So, this time, okay, let's consider the first row. So, we'll have -1 Give it a bit of space plus 5 open bracket 2 to the power n minus 1. Consider the elements from the second matrix 27 and 1. Moving on to the second row for our first matrix. Okay, that would be 0 Give it a Give it a bit of space plus 2 to the power of n. Now, the elements from the second matrix 27 and 1. Let's simplify our matrix. We will get -27 + 5 open bracket 2 ^ n - 1. And then here will be 0 + 2 ^ n. We can still expand and simplify the first row. So here will be -27 + 5 open bracket 2 ^ n close bracket 5. Okay, this one will be 2 ^ n. Okay, so what we have is this. AA is equal to K -27 - 5, which is 5 bracket 2 ^ n - 32, and this is 2 ^ n. By looking at this, okay, let's name this row, okay, equation one. Oops. Equation one, and this is equation two. So what is equation one? Equation one is 5 2 ^ n - 32 is equals to A. Equation of two Okay, I have 2 ^ n equals to A. So substitution method will be the easiest for this question. So we will sub equation two into one. So we will get Okay, 5 This is 2 to the power of n is a. Okay, minus 32 equals to a. If I rearrange, I will get 5a minus a, that will be 4a equals to 32. A is equal to 8. Let's substitute back into this. So, sub a equals to 8 into equation two. So, we will get 8 is equal to 2 to the power of n, which is equal to 2 to the power of 3. Therefore, n is equal to 3. Okay, now that we know the value of n, which is 3, we can find a to the power of n. Okay, so what is a to the power Wait. A to the power of 3. So, this is equal to 105 open bracket 2 to the power of 3 minus 1 and 2 to the power of 3. This is equal to 105 open bracket 2 cubed minus 1 that is equal to 35. And over here we have 2 cubed that is 8. With that, we are done with part D.",
+  "snippets": [
+    {
+      "text": "Moving on to question 3b,",
+      "start": 2.8,
+      "duration": 6.32
+    },
+    {
+      "text": "describe fully the single geometrical",
+      "start": 6.16,
+      "duration": 5.0
+    },
+    {
+      "text": "transformation P",
+      "start": 9.12,
+      "duration": 6.16
+    },
+    {
+      "text": "represented by the matrix B.",
+      "start": 11.16,
+      "duration": 5.72
+    },
+    {
+      "text": "Okay.",
+      "start": 15.28,
+      "duration": 3.36
+    },
+    {
+      "text": "So now,",
+      "start": 16.88,
+      "duration": 5.68
+    },
+    {
+      "text": "what I will write is this, okay? So I",
+      "start": 18.64,
+      "duration": 7.72
+    },
+    {
+      "text": "have transformation",
+      "start": 22.56,
+      "duration": 3.8
+    },
+    {
+      "text": "and then represented by which matrix? So",
+      "start": 30.76,
+      "duration": 7.32
+    },
+    {
+      "text": "what we have here, transformation P",
+      "start": 34.92,
+      "duration": 6.32
+    },
+    {
+      "text": "matrix B.",
+      "start": 38.08,
+      "duration": 6.24
+    },
+    {
+      "text": "Let's take a look at question B. So",
+      "start": 41.24,
+      "duration": 10.24
+    },
+    {
+      "text": "matrix B is equal to -1 0 0 1.",
+      "start": 44.32,
+      "duration": 11.52
+    },
+    {
+      "text": "So we have values over here.",
+      "start": 51.48,
+      "duration": 8.72
+    },
+    {
+      "text": "So this will represent our X element and",
+      "start": 55.84,
+      "duration": 8.28
+    },
+    {
+      "text": "this will represent our Y element. So X",
+      "start": 60.2,
+      "duration": 7.0
+    },
+    {
+      "text": "you will multiply by -1,",
+      "start": 64.12,
+      "duration": 6.08
+    },
+    {
+      "text": "which you will get -X.",
+      "start": 67.2,
+      "duration": 7.56
+    },
+    {
+      "text": "Whereas your Y you will multiply by",
+      "start": 70.2,
+      "duration": 8.88
+    },
+    {
+      "text": "just one, which is maintained as Y. What",
+      "start": 74.76,
+      "duration": 7.48
+    },
+    {
+      "text": "type of transformation that transform X",
+      "start": 79.08,
+      "duration": 9.2
+    },
+    {
+      "text": "to -X but maintain the Y? This is",
+      "start": 82.24,
+      "duration": 9.04
+    },
+    {
+      "text": "reflection",
+      "start": 88.28,
+      "duration": 3.0
+    },
+    {
+      "text": "by the",
+      "start": 92.32,
+      "duration": 2.72
+    },
+    {
+      "text": "Y axis.",
+      "start": 95.24,
+      "duration": 3.76
+    },
+    {
+      "text": "That's it. That is for",
+      "start": 99.24,
+      "duration": 6.52
+    },
+    {
+      "text": "question B. Now,",
+      "start": 101.72,
+      "duration": 4.04
+    },
+    {
+      "text": "is represented by the matrix A to the",
+      "start": 107.36,
+      "duration": 6.8
+    },
+    {
+      "text": "power of N.",
+      "start": 111.4,
+      "duration": 6.28
+    },
+    {
+      "text": "Okay. Transformation P",
+      "start": 114.16,
+      "duration": 8.76
+    },
+    {
+      "text": "is followed. Okay, so for question C,",
+      "start": 117.68,
+      "duration": 6.88
+    },
+    {
+      "text": "transformation",
+      "start": 122.92,
+      "duration": 3.2
+    },
+    {
+      "text": "P",
+      "start": 124.56,
+      "duration": 5.28
+    },
+    {
+      "text": "is followed by transformation Q.",
+      "start": 126.12,
+      "duration": 8.12
+    },
+    {
+      "text": "This is what we call transformation R.",
+      "start": 129.84,
+      "duration": 7.32
+    },
+    {
+      "text": "So, we have the next transformation R.",
+      "start": 134.24,
+      "duration": 6.6
+    },
+    {
+      "text": "And what is R? R is we begin by P and",
+      "start": 137.16,
+      "duration": 7.48
+    },
+    {
+      "text": "then we have Q.",
+      "start": 140.84,
+      "duration": 3.8
+    },
+    {
+      "text": "Transformation R is represented by",
+      "start": 145.04,
+      "duration": 7.04
+    },
+    {
+      "text": "matrix C. So, transformation R, what's",
+      "start": 148.16,
+      "duration": 6.6
+    },
+    {
+      "text": "the matrix? The matrix is C.",
+      "start": 152.08,
+      "duration": 4.72
+    },
+    {
+      "text": "So, what we have to be very careful is",
+      "start": 154.76,
+      "duration": 5.12
+    },
+    {
+      "text": "we have to distinguish between the",
+      "start": 156.8,
+      "duration": 7.96
+    },
+    {
+      "text": "transformation and also the matrix.",
+      "start": 159.88,
+      "duration": 4.88
+    },
+    {
+      "text": "Okay.",
+      "start": 165.88,
+      "duration": 3.0
+    },
+    {
+      "text": "Now, let's take a look what they want us",
+      "start": 169.8,
+      "duration": 5.56
+    },
+    {
+      "text": "to find.",
+      "start": 172.56,
+      "duration": 2.8
+    },
+    {
+      "text": "Okay, they want us to find",
+      "start": 179.76,
+      "duration": 6.16
+    },
+    {
+      "text": "C in terms of N. Okay, so what we want",
+      "start": 182.16,
+      "duration": 8.16
+    },
+    {
+      "text": "to find? We want to find matrix C.",
+      "start": 185.92,
+      "duration": 7.319
+    },
+    {
+      "text": "Okay, in terms of N. Okay, so let's take",
+      "start": 190.32,
+      "duration": 6.4
+    },
+    {
+      "text": "a look. We have transformation P and",
+      "start": 193.239,
+      "duration": 6.0
+    },
+    {
+      "text": "then followed by Q. So, this is",
+      "start": 196.72,
+      "duration": 5.519
+    },
+    {
+      "text": "transformation.",
+      "start": 199.239,
+      "duration": 3.0
+    },
+    {
+      "text": "Now, what is the matrix?",
+      "start": 205.28,
+      "duration": 5.0
+    },
+    {
+      "text": "You have to know that transformation and",
+      "start": 208.04,
+      "duration": 5.199
+    },
+    {
+      "text": "matrix will work in inverse way. So, if",
+      "start": 210.28,
+      "duration": 6.36
+    },
+    {
+      "text": "we have P first for the transformation,",
+      "start": 213.239,
+      "duration": 5.801
+    },
+    {
+      "text": "okay, and then Q second for the",
+      "start": 216.64,
+      "duration": 4.24
+    },
+    {
+      "text": "transformation,",
+      "start": 219.04,
+      "duration": 3.56
+    },
+    {
+      "text": "so this one",
+      "start": 220.88,
+      "duration": 4.92
+    },
+    {
+      "text": "first and this one second.",
+      "start": 222.6,
+      "duration": 5.359
+    },
+    {
+      "text": "For our matrix, it will be the other way",
+      "start": 225.8,
+      "duration": 4.0
+    },
+    {
+      "text": "around. So, this one will be first and",
+      "start": 227.959,
+      "duration": 4.761
+    },
+    {
+      "text": "this one will be second. So, matrix it",
+      "start": 229.8,
+      "duration": 5.12
+    },
+    {
+      "text": "will be A to the power of n, we will",
+      "start": 232.72,
+      "duration": 5.92
+    },
+    {
+      "text": "write that one first and then B.",
+      "start": 234.92,
+      "duration": 7.48
+    },
+    {
+      "text": "That's it. So, that is C. A to the power",
+      "start": 238.64,
+      "duration": 6.04
+    },
+    {
+      "text": "of n B.",
+      "start": 242.4,
+      "duration": 4.8
+    },
+    {
+      "text": "What is A to the power of n? A to the",
+      "start": 244.68,
+      "duration": 4.44
+    },
+    {
+      "text": "power of n is",
+      "start": 247.2,
+      "duration": 3.759
+    },
+    {
+      "text": "1 0",
+      "start": 249.12,
+      "duration": 5.0
+    },
+    {
+      "text": "5 open bracket 2 to the power of n minus",
+      "start": 250.959,
+      "duration": 7.161
+    },
+    {
+      "text": "1 close bracket 2 to the power of n.",
+      "start": 254.12,
+      "duration": 6.6
+    },
+    {
+      "text": "Let's multiply by B",
+      "start": 258.12,
+      "duration": 7.08
+    },
+    {
+      "text": "-1 0 0 1.",
+      "start": 260.72,
+      "duration": 7.16
+    },
+    {
+      "text": "Let's do our matrix multiplication.",
+      "start": 265.2,
+      "duration": 6.88
+    },
+    {
+      "text": "Let's consider first matrix first row,",
+      "start": 267.88,
+      "duration": 7.8
+    },
+    {
+      "text": "second matrix first column.",
+      "start": 272.08,
+      "duration": 6.4
+    },
+    {
+      "text": "Okay.",
+      "start": 275.68,
+      "duration": 2.8
+    },
+    {
+      "text": "So, let's write down the element from",
+      "start": 278.8,
+      "duration": 4.36
+    },
+    {
+      "text": "the first matrix. So, 1 give it a bit of",
+      "start": 280.72,
+      "duration": 4.72
+    },
+    {
+      "text": "space plus",
+      "start": 283.16,
+      "duration": 6.44
+    },
+    {
+      "text": "5 open bracket 2 to the power of n minus",
+      "start": 285.44,
+      "duration": 5.44
+    },
+    {
+      "text": "1.",
+      "start": 289.6,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's consider the elements from the",
+      "start": 290.88,
+      "duration": 7.2
+    },
+    {
+      "text": "second matrix. It would be -1 here, 0",
+      "start": 292.6,
+      "duration": 7.4
+    },
+    {
+      "text": "here.",
+      "start": 298.08,
+      "duration": 5.8
+    },
+    {
+      "text": "Okay. We will maintain the column from",
+      "start": 300.0,
+      "duration": 6.88
+    },
+    {
+      "text": "the second matrix, but we will consider",
+      "start": 303.88,
+      "duration": 6.44
+    },
+    {
+      "text": "the second row for the first matrix. So,",
+      "start": 306.88,
+      "duration": 5.72
+    },
+    {
+      "text": "this one Okay, let's write down the",
+      "start": 310.32,
+      "duration": 4.96
+    },
+    {
+      "text": "elements from the first matrix 0 give it",
+      "start": 312.6,
+      "duration": 7.0
+    },
+    {
+      "text": "a bit of space plus 2 to the power of n.",
+      "start": 315.28,
+      "duration": 6.12
+    },
+    {
+      "text": "Second matrix",
+      "start": 319.6,
+      "duration": 4.84
+    },
+    {
+      "text": "Okay, the first bracket would be -1. The",
+      "start": 321.4,
+      "duration": 7.28
+    },
+    {
+      "text": "second bracket would be 0.",
+      "start": 324.44,
+      "duration": 4.24
+    },
+    {
+      "text": "Now, next element we will consider",
+      "start": 329.8,
+      "duration": 7.88
+    },
+    {
+      "text": "first matrix first row, second matrix",
+      "start": 333.64,
+      "duration": 6.52
+    },
+    {
+      "text": "second column.",
+      "start": 337.68,
+      "duration": 3.68
+    },
+    {
+      "text": "Okay.",
+      "start": 340.16,
+      "duration": 3.8
+    },
+    {
+      "text": "Elements from the first matrix 1 give it",
+      "start": 341.36,
+      "duration": 5.0
+    },
+    {
+      "text": "a bit of space plus",
+      "start": 343.96,
+      "duration": 6.52
+    },
+    {
+      "text": "5 open bracket 2 to the power of n minus",
+      "start": 346.36,
+      "duration": 5.28
+    },
+    {
+      "text": "one.",
+      "start": 350.48,
+      "duration": 4.72
+    },
+    {
+      "text": "Now elements from the second matrix",
+      "start": 351.64,
+      "duration": 6.08
+    },
+    {
+      "text": "first bracket would be zero, second",
+      "start": 355.2,
+      "duration": 5.0
+    },
+    {
+      "text": "bracket would be one.",
+      "start": 357.72,
+      "duration": 4.24
+    },
+    {
+      "text": "Okay.",
+      "start": 360.2,
+      "duration": 5.48
+    },
+    {
+      "text": "We will consider first matrix second",
+      "start": 361.96,
+      "duration": 4.8
+    },
+    {
+      "text": "row.",
+      "start": 365.68,
+      "duration": 4.68
+    },
+    {
+      "text": "Second matrix second column.",
+      "start": 366.76,
+      "duration": 6.28
+    },
+    {
+      "text": "So this would be okay, let's begin with",
+      "start": 370.36,
+      "duration": 5.64
+    },
+    {
+      "text": "the elements from the first matrix zero",
+      "start": 373.04,
+      "duration": 4.32
+    },
+    {
+      "text": "plus",
+      "start": 376.0,
+      "duration": 4.08
+    },
+    {
+      "text": "two to the power of n. Okay, the",
+      "start": 377.36,
+      "duration": 4.6
+    },
+    {
+      "text": "elements from the second matrix open",
+      "start": 380.08,
+      "duration": 3.72
+    },
+    {
+      "text": "bracket zero",
+      "start": 381.96,
+      "duration": 5.2
+    },
+    {
+      "text": "open bracket one. So let's simplify all",
+      "start": 383.8,
+      "duration": 5.0
+    },
+    {
+      "text": "of this.",
+      "start": 387.16,
+      "duration": 3.6
+    },
+    {
+      "text": "One multiplied by",
+      "start": 388.8,
+      "duration": 4.0
+    },
+    {
+      "text": "negative one would be negative one.",
+      "start": 390.76,
+      "duration": 4.28
+    },
+    {
+      "text": "Anything multiplied by zero would be",
+      "start": 392.8,
+      "duration": 5.84
+    },
+    {
+      "text": "zero. Here would be zero plus zero.",
+      "start": 395.04,
+      "duration": 6.92
+    },
+    {
+      "text": "Here would be zero plus five open",
+      "start": 398.64,
+      "duration": 6.6
+    },
+    {
+      "text": "bracket two to the power of n minus one.",
+      "start": 401.96,
+      "duration": 5.68
+    },
+    {
+      "text": "Here would be zero plus two to the power",
+      "start": 405.24,
+      "duration": 5.0
+    },
+    {
+      "text": "of n.",
+      "start": 407.64,
+      "duration": 6.44
+    },
+    {
+      "text": "This one would be negative one zero",
+      "start": 410.24,
+      "duration": 6.92
+    },
+    {
+      "text": "five open bracket two to the power of n",
+      "start": 414.08,
+      "duration": 7.04
+    },
+    {
+      "text": "minus one and two to the power of n.",
+      "start": 417.16,
+      "duration": 8.28
+    },
+    {
+      "text": "With that we are done with question C.",
+      "start": 421.12,
+      "duration": 8.28
+    },
+    {
+      "text": "Let's take a look at D. Given that for a",
+      "start": 425.44,
+      "duration": 7.16
+    },
+    {
+      "text": "particular value of n, the",
+      "start": 429.4,
+      "duration": 7.519
+    },
+    {
+      "text": "transformation R maps the point with",
+      "start": 432.6,
+      "duration": 7.04
+    },
+    {
+      "text": "coordinate 27 1 to the point with",
+      "start": 436.919,
+      "duration": 6.401
+    },
+    {
+      "text": "coordinates AA where A is constant.",
+      "start": 439.64,
+      "duration": 6.48
+    },
+    {
+      "text": "Determine the matrix that represent",
+      "start": 443.32,
+      "duration": 6.32
+    },
+    {
+      "text": "transformation Q.",
+      "start": 446.12,
+      "duration": 5.32
+    },
+    {
+      "text": "Okay.",
+      "start": 449.64,
+      "duration": 4.64
+    },
+    {
+      "text": "So what we want to find okay, we want to",
+      "start": 451.44,
+      "duration": 5.28
+    },
+    {
+      "text": "find matrix that represent",
+      "start": 454.28,
+      "duration": 5.56
+    },
+    {
+      "text": "transformation Q. So matrix that",
+      "start": 456.72,
+      "duration": 6.24
+    },
+    {
+      "text": "represent transformation Q. We want to",
+      "start": 459.84,
+      "duration": 7.24
+    },
+    {
+      "text": "find what is A to the power of n.",
+      "start": 462.96,
+      "duration": 6.64
+    },
+    {
+      "text": "But what is the information? We know",
+      "start": 467.08,
+      "duration": 6.92
+    },
+    {
+      "text": "that, okay, point 27 1",
+      "start": 469.6,
+      "duration": 8.32
+    },
+    {
+      "text": "if we performed transformation R, we",
+      "start": 474.0,
+      "duration": 7.4
+    },
+    {
+      "text": "will get coordinates AA.",
+      "start": 477.92,
+      "duration": 5.92
+    },
+    {
+      "text": "Okay, transformation R, what is the",
+      "start": 481.4,
+      "duration": 6.8
+    },
+    {
+      "text": "matrix? The matrix is C from our",
+      "start": 483.84,
+      "duration": 6.72
+    },
+    {
+      "text": "part C.",
+      "start": 488.2,
+      "duration": 4.24
+    },
+    {
+      "text": "So, how can we",
+      "start": 490.56,
+      "duration": 4.52
+    },
+    {
+      "text": "proceed with this question? So, it would",
+      "start": 492.44,
+      "duration": 3.92
+    },
+    {
+      "text": "be",
+      "start": 495.08,
+      "duration": 5.88
+    },
+    {
+      "text": "AA, okay, the image is equal to",
+      "start": 496.36,
+      "duration": 7.04
+    },
+    {
+      "text": "matrix C",
+      "start": 500.96,
+      "duration": 7.48
+    },
+    {
+      "text": "which is -1 0 5 open bracket 2 to the",
+      "start": 503.4,
+      "duration": 8.8
+    },
+    {
+      "text": "power of n minus 1 2 to the power of n,",
+      "start": 508.44,
+      "duration": 6.719
+    },
+    {
+      "text": "okay, multiply with the original",
+      "start": 512.2,
+      "duration": 6.32
+    },
+    {
+      "text": "coordinate 27 1",
+      "start": 515.159,
+      "duration": 5.361
+    },
+    {
+      "text": "equal to",
+      "start": 518.52,
+      "duration": 6.639
+    },
+    {
+      "text": "Let's perform matrix multiplication.",
+      "start": 520.52,
+      "duration": 4.639
+    },
+    {
+      "text": "So, this multiply by this.",
+      "start": 525.64,
+      "duration": 8.12
+    },
+    {
+      "text": "So, this time, okay, let's consider the",
+      "start": 529.92,
+      "duration": 5.52
+    },
+    {
+      "text": "first row.",
+      "start": 533.76,
+      "duration": 4.64
+    },
+    {
+      "text": "So, we'll have -1 Give it a bit of space",
+      "start": 535.44,
+      "duration": 4.08
+    },
+    {
+      "text": "plus",
+      "start": 538.4,
+      "duration": 4.0
+    },
+    {
+      "text": "5 open bracket 2 to the power",
+      "start": 539.52,
+      "duration": 6.36
+    },
+    {
+      "text": "n minus 1. Consider the elements from",
+      "start": 542.4,
+      "duration": 8.439
+    },
+    {
+      "text": "the second matrix 27 and 1.",
+      "start": 545.88,
+      "duration": 8.6
+    },
+    {
+      "text": "Moving on to the second row for our",
+      "start": 550.839,
+      "duration": 5.841
+    },
+    {
+      "text": "first matrix.",
+      "start": 554.48,
+      "duration": 6.08
+    },
+    {
+      "text": "Okay, that would be 0 Give it a Give it",
+      "start": 556.68,
+      "duration": 8.8
+    },
+    {
+      "text": "a bit of space plus 2 to the power of n.",
+      "start": 560.56,
+      "duration": 8.2
+    },
+    {
+      "text": "Now, the elements from the second matrix",
+      "start": 565.48,
+      "duration": 4.88
+    },
+    {
+      "text": "27",
+      "start": 568.76,
+      "duration": 4.68
+    },
+    {
+      "text": "and 1.",
+      "start": 570.36,
+      "duration": 3.08
+    },
+    {
+      "text": "Let's simplify our matrix. We will get",
+      "start": 573.64,
+      "duration": 5.92
+    },
+    {
+      "text": "-27",
+      "start": 577.16,
+      "duration": 9.44
+    },
+    {
+      "text": "+ 5 open bracket 2 ^ n - 1.",
+      "start": 579.56,
+      "duration": 11.96
+    },
+    {
+      "text": "And then here will be 0 + 2 ^ n. We can",
+      "start": 586.6,
+      "duration": 8.8
+    },
+    {
+      "text": "still expand and simplify the first row.",
+      "start": 591.52,
+      "duration": 6.4
+    },
+    {
+      "text": "So here will be -27",
+      "start": 595.4,
+      "duration": 3.76
+    },
+    {
+      "text": "+",
+      "start": 597.92,
+      "duration": 6.4
+    },
+    {
+      "text": "5 open bracket 2 ^ n close bracket",
+      "start": 599.16,
+      "duration": 7.56
+    },
+    {
+      "text": "5.",
+      "start": 604.32,
+      "duration": 7.4
+    },
+    {
+      "text": "Okay, this one will be 2 ^ n.",
+      "start": 606.72,
+      "duration": 5.0
+    },
+    {
+      "text": "Okay, so what we have is this. AA is",
+      "start": 613.4,
+      "duration": 7.24
+    },
+    {
+      "text": "equal to",
+      "start": 617.32,
+      "duration": 3.32
+    },
+    {
+      "text": "K -27",
+      "start": 620.76,
+      "duration": 6.72
+    },
+    {
+      "text": "- 5, which is",
+      "start": 623.44,
+      "duration": 9.08
+    },
+    {
+      "text": "5 bracket 2 ^ n - 32,",
+      "start": 627.48,
+      "duration": 8.96
+    },
+    {
+      "text": "and this is 2 ^ n.",
+      "start": 632.52,
+      "duration": 6.32
+    },
+    {
+      "text": "By looking at this, okay, let's name",
+      "start": 636.44,
+      "duration": 3.48
+    },
+    {
+      "text": "this",
+      "start": 638.84,
+      "duration": 4.44
+    },
+    {
+      "text": "row, okay, equation one. Oops.",
+      "start": 639.92,
+      "duration": 7.0
+    },
+    {
+      "text": "Equation one, and this is equation two.",
+      "start": 643.28,
+      "duration": 6.12
+    },
+    {
+      "text": "So what is equation one?",
+      "start": 646.92,
+      "duration": 5.36
+    },
+    {
+      "text": "Equation one is",
+      "start": 649.4,
+      "duration": 9.56
+    },
+    {
+      "text": "5 2 ^ n - 32 is equals to A.",
+      "start": 652.28,
+      "duration": 10.36
+    },
+    {
+      "text": "Equation of two",
+      "start": 658.96,
+      "duration": 3.68
+    },
+    {
+      "text": "Okay, I have",
+      "start": 663.16,
+      "duration": 3.72
+    },
+    {
+      "text": "2 ^ n equals to A.",
+      "start": 668.48,
+      "duration": 7.4
+    },
+    {
+      "text": "So substitution method will be the",
+      "start": 673.88,
+      "duration": 5.52
+    },
+    {
+      "text": "easiest for this question. So we will",
+      "start": 675.88,
+      "duration": 4.84
+    },
+    {
+      "text": "sub",
+      "start": 679.4,
+      "duration": 6.76
+    },
+    {
+      "text": "equation two into one.",
+      "start": 680.72,
+      "duration": 5.44
+    },
+    {
+      "text": "So we will get",
+      "start": 689.76,
+      "duration": 6.16
+    },
+    {
+      "text": "Okay, 5 This is",
+      "start": 692.04,
+      "duration": 6.96
+    },
+    {
+      "text": "2 to the power of n is a.",
+      "start": 695.92,
+      "duration": 6.08
+    },
+    {
+      "text": "Okay, minus 32",
+      "start": 699.0,
+      "duration": 7.68
+    },
+    {
+      "text": "equals to a. If I rearrange, I will get",
+      "start": 702.0,
+      "duration": 8.64
+    },
+    {
+      "text": "5a minus a, that will be 4a equals to",
+      "start": 706.68,
+      "duration": 7.12
+    },
+    {
+      "text": "32. A is equal to",
+      "start": 710.64,
+      "duration": 5.52
+    },
+    {
+      "text": "8.",
+      "start": 713.8,
+      "duration": 5.64
+    },
+    {
+      "text": "Let's substitute back into",
+      "start": 716.16,
+      "duration": 8.48
+    },
+    {
+      "text": "this. So, sub a equals to 8 into",
+      "start": 719.44,
+      "duration": 7.84
+    },
+    {
+      "text": "equation two.",
+      "start": 724.64,
+      "duration": 5.92
+    },
+    {
+      "text": "So, we will get",
+      "start": 727.28,
+      "duration": 3.28
+    },
+    {
+      "text": "8 is equal to 2 to the power of n, which",
+      "start": 731.4,
+      "duration": 8.68
+    },
+    {
+      "text": "is equal to 2 to the power of 3.",
+      "start": 736.04,
+      "duration": 8.92
+    },
+    {
+      "text": "Therefore, n is equal to 3.",
+      "start": 740.08,
+      "duration": 7.48
+    },
+    {
+      "text": "Okay, now that we know the value of n,",
+      "start": 744.96,
+      "duration": 6.12
+    },
+    {
+      "text": "which is 3, we can find",
+      "start": 747.56,
+      "duration": 7.12
+    },
+    {
+      "text": "a to the power of n. Okay, so what is a",
+      "start": 751.08,
+      "duration": 8.0
+    },
+    {
+      "text": "to the power Wait. A to the power of 3.",
+      "start": 754.68,
+      "duration": 7.52
+    },
+    {
+      "text": "So, this is equal to",
+      "start": 759.08,
+      "duration": 5.12
+    },
+    {
+      "text": "105",
+      "start": 762.2,
+      "duration": 5.16
+    },
+    {
+      "text": "open bracket 2 to the power of 3 minus 1",
+      "start": 764.2,
+      "duration": 6.4
+    },
+    {
+      "text": "and 2 to the power of 3. This is equal",
+      "start": 767.36,
+      "duration": 5.6
+    },
+    {
+      "text": "to 105",
+      "start": 770.6,
+      "duration": 5.84
+    },
+    {
+      "text": "open bracket 2 cubed",
+      "start": 772.96,
+      "duration": 5.64
+    },
+    {
+      "text": "minus 1",
+      "start": 776.44,
+      "duration": 5.08
+    },
+    {
+      "text": "that is equal to 35.",
+      "start": 778.6,
+      "duration": 5.8
+    },
+    {
+      "text": "And over here we have 2 cubed",
+      "start": 781.52,
+      "duration": 6.16
+    },
+    {
+      "text": "that is 8.",
+      "start": 784.4,
+      "duration": 8.64
+    },
+    {
+      "text": "With that, we are done with part D.",
+      "start": 787.68,
+      "duration": 5.36
+    }
+  ]
+}

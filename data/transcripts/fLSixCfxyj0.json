@@ -1,0 +1,864 @@
+{
+  "id": "fLSixCfxyj0",
+  "paper": "CP2",
+  "question": "Q9",
+  "title": "Differentiation of Inverse Sine Functions",
+  "full_text": "We will now take a look at question nine. For question nine, we have to find the differentiation of y equal to arc sine 3x. For part B, they give us a curve equation C and they want us to find the differentiation of this curve by giving the answer in the simplest form. For part C, they want us to use the answer in part B to determine the x-coordinate of the point on C at which the gradient is four. Let's now begin from part A. We have y equal to arc sine 3x. Okay. So, we will use the formula that we have in the formula booklet to help us to solve this question. So, here we know that if we differentiate arc sine, we will get this form. So, let's do that. So, differentiation of arc sine is equal to 1 over square root 1 minus x squared. But notice that in this question, we don't have arc sine x. We have arc sine 3x. That means here it would be 3x in the bracket. So, let me just bring it slightly to the side. So, there it is. Okay. Then, I have to multiply with the differentiation of 3x, which is three. Therefore, we will get our dy/dx, which is 3 over square root 1 minus 9x squared. Now, let's move on to part B. For part B, they want us to find, okay, the differentiation of Y equal to cos bracket arc sign 3x. So, we will use substitution method to solve this question. So, what we will do is we will say let U equal to arc sign 3x. Therefore, dU dx will be equal to 3 over square root 1 minus 9x squared. So, now that we have U equal to arc sign 3x, what will happen to our Y? Our Y would be Y equal to cos U. Let's now differentiate this. dY dU would be equal to negative sin U. You will now replace back U with arc sign 3x. So, we will get sin bracket arc sign arc sign 3x. Now, what is arc sign? Arc sign is sin inverse. And what we have here is sin. So, when sin and sin inverse meet with each other, what will happen? It will cancel each other. So, what we will get for our dY dU, it will be equal to negative 3x. This question would like us to find our dY dx. So, we will use chain rule. So, dY dx is equal to dy/du multiply with du/dx. What is dy/du? dy/du is -3x. And what is du/dx? du/dx is 3/ square root 1 - 9x squared. Okay, we can combine these two and our answer will become -9x over square root 1 - 9x squared. With that, we are done with part B. Okay. Let's move on to part C. So, this is our dy/dx. So, what is part C? Part C, they want us to find the x-coordinate of the point on C which the gradient is 4. So, gradient is dy/dx. So, what we would like to find now for part C? See, dy/dx is equal to 4. Therefore, -9x over square root 1 - 9x squared is equal to 4. Okay, our next step would be to bring our denominator to the right-hand side, so it will become -9x equal to 4 square root 1 - 9x squared. What I would like to do now is square both sides. And we will get 81x squared equal to 16 open bracket 1 - 9x squared. So, let's expand and simplify our right-hand side and we will get 16 minus 144 x squared. Let's collect all of our x squared on our left hand side, so we will get 225 x squared equal to 16. Therefore, x squared is equal to 16 over 225. X would be equal to plus minus square root 16 over 225. So, x is equal to plus minus Okay, let's find out 16 over 225. So, we will get 4 over 15. Let's refer back to our question. Hence, determine the x coordinate of the point. So, we only have one point. We're not supposed to have two answers. So, what we have to do? Let's substitute back our x value into our dy dx. So, subs Okay. x equal to plus minus 4 over 15 into dy dx. So, the first substitution Okay, so we will get dy dx equal to -9 4 over 15 over square root 1 minus 9 bracket 4 over 15 squared. So, what I'm going to write in my calculator, it will be negative Okay, 9 alpha x over square root 1 minus 9 over x squared. So I will press calc button calculation. So what's the value of x? 4 over 15. So press equal. So we will get dy dx equals to -4. What we want dy dx equals to 4. So this answer would be rejected. x equal to 4 over 15 is rejected. So let's check another value. So dy dx is equal to -9 bracket -4 over 15 over square root 1 minus 9 open bracket -4 over 15 squared. This is equal to let's press our calc button calculate again but now we change it to -4 over 15. Press equal twice and we'll get dy dx equals to 4. Let's now write down our conclusion. Therefore x is equal to -4 over 15. With that we are done with question 9. Okay. For 9a we got this as our answer and then this is the answer for 9b and for 9c we have x equal to -4 over 15.",
+  "snippets": [
+    {
+      "text": "We will now take a look at question",
+      "start": 2.16,
+      "duration": 4.72
+    },
+    {
+      "text": "nine. For question nine, we have to find",
+      "start": 4.04,
+      "duration": 6.2
+    },
+    {
+      "text": "the differentiation of y equal to arc",
+      "start": 6.88,
+      "duration": 7.16
+    },
+    {
+      "text": "sine 3x. For part B, they give us a",
+      "start": 10.24,
+      "duration": 7.12
+    },
+    {
+      "text": "curve equation C and they want us to",
+      "start": 14.04,
+      "duration": 5.68
+    },
+    {
+      "text": "find the differentiation of this curve",
+      "start": 17.36,
+      "duration": 4.4
+    },
+    {
+      "text": "by giving the answer in the simplest",
+      "start": 19.72,
+      "duration": 4.48
+    },
+    {
+      "text": "form. For part C, they want us to use",
+      "start": 21.76,
+      "duration": 5.04
+    },
+    {
+      "text": "the answer in part B to determine the",
+      "start": 24.2,
+      "duration": 6.24
+    },
+    {
+      "text": "x-coordinate of the point on C at which",
+      "start": 26.8,
+      "duration": 6.0
+    },
+    {
+      "text": "the gradient is four.",
+      "start": 30.44,
+      "duration": 4.12
+    },
+    {
+      "text": "Let's now begin",
+      "start": 32.8,
+      "duration": 9.28
+    },
+    {
+      "text": "from part A. We have y equal to arc sine",
+      "start": 34.56,
+      "duration": 7.52
+    },
+    {
+      "text": "3x.",
+      "start": 43.6,
+      "duration": 5.92
+    },
+    {
+      "text": "Okay. So, we will use the formula that",
+      "start": 45.92,
+      "duration": 6.8
+    },
+    {
+      "text": "we have in the formula booklet to help",
+      "start": 49.52,
+      "duration": 5.92
+    },
+    {
+      "text": "us to solve this question. So, here we",
+      "start": 52.72,
+      "duration": 5.28
+    },
+    {
+      "text": "know that if we differentiate arc sine,",
+      "start": 55.44,
+      "duration": 4.8
+    },
+    {
+      "text": "we will get this form.",
+      "start": 58.0,
+      "duration": 7.08
+    },
+    {
+      "text": "So, let's do that. So, differentiation",
+      "start": 60.24,
+      "duration": 4.84
+    },
+    {
+      "text": "of arc sine is equal to 1 over",
+      "start": 65.16,
+      "duration": 6.24
+    },
+    {
+      "text": "square root",
+      "start": 69.32,
+      "duration": 6.48
+    },
+    {
+      "text": "1 minus x squared. But notice that in",
+      "start": 71.4,
+      "duration": 6.96
+    },
+    {
+      "text": "this question, we don't have arc sine x.",
+      "start": 75.8,
+      "duration": 6.76
+    },
+    {
+      "text": "We have arc sine 3x. That means here it",
+      "start": 78.36,
+      "duration": 7.84
+    },
+    {
+      "text": "would be 3x in the bracket. So, let me",
+      "start": 82.56,
+      "duration": 6.76
+    },
+    {
+      "text": "just bring it slightly to the side. So,",
+      "start": 86.2,
+      "duration": 6.08
+    },
+    {
+      "text": "there it is. Okay. Then, I have to",
+      "start": 89.32,
+      "duration": 6.84
+    },
+    {
+      "text": "multiply with the differentiation of 3x,",
+      "start": 92.28,
+      "duration": 7.4
+    },
+    {
+      "text": "which is three.",
+      "start": 96.16,
+      "duration": 3.52
+    },
+    {
+      "text": "Therefore, we will get our dy/dx, which",
+      "start": 102.36,
+      "duration": 5.6
+    },
+    {
+      "text": "is 3 over",
+      "start": 105.64,
+      "duration": 4.24
+    },
+    {
+      "text": "square root",
+      "start": 107.96,
+      "duration": 6.48
+    },
+    {
+      "text": "1 minus 9x squared.",
+      "start": 109.88,
+      "duration": 8.2
+    },
+    {
+      "text": "Now, let's move on to part B. For part",
+      "start": 114.44,
+      "duration": 6.88
+    },
+    {
+      "text": "B, they want us to find, okay, the",
+      "start": 118.08,
+      "duration": 8.8
+    },
+    {
+      "text": "differentiation of Y equal to cos",
+      "start": 121.32,
+      "duration": 5.56
+    },
+    {
+      "text": "bracket arc sign",
+      "start": 128.399,
+      "duration": 6.201
+    },
+    {
+      "text": "3x.",
+      "start": 131.6,
+      "duration": 3.0
+    },
+    {
+      "text": "So, we will use",
+      "start": 135.68,
+      "duration": 5.68
+    },
+    {
+      "text": "substitution method to solve this",
+      "start": 139.08,
+      "duration": 4.48
+    },
+    {
+      "text": "question. So, what we will do is we will",
+      "start": 141.36,
+      "duration": 5.24
+    },
+    {
+      "text": "say let U equal to",
+      "start": 143.56,
+      "duration": 6.84
+    },
+    {
+      "text": "arc sign 3x.",
+      "start": 146.6,
+      "duration": 8.6
+    },
+    {
+      "text": "Therefore, dU dx will be equal to",
+      "start": 150.4,
+      "duration": 6.8
+    },
+    {
+      "text": "3 over",
+      "start": 155.2,
+      "duration": 3.88
+    },
+    {
+      "text": "square root",
+      "start": 157.2,
+      "duration": 6.28
+    },
+    {
+      "text": "1 minus 9x squared.",
+      "start": 159.08,
+      "duration": 7.84
+    },
+    {
+      "text": "So, now that we have U equal to arc sign",
+      "start": 163.48,
+      "duration": 6.72
+    },
+    {
+      "text": "3x, what will happen to our Y? Our Y",
+      "start": 166.92,
+      "duration": 7.28
+    },
+    {
+      "text": "would be Y equal to cos U. Let's now",
+      "start": 170.2,
+      "duration": 8.16
+    },
+    {
+      "text": "differentiate this. dY dU would be equal",
+      "start": 174.2,
+      "duration": 8.48
+    },
+    {
+      "text": "to negative sin U.",
+      "start": 178.36,
+      "duration": 7.68
+    },
+    {
+      "text": "You will now replace back U with",
+      "start": 182.68,
+      "duration": 7.32
+    },
+    {
+      "text": "arc sign 3x. So, we will get sin",
+      "start": 186.04,
+      "duration": 8.04
+    },
+    {
+      "text": "bracket arc sign",
+      "start": 190.0,
+      "duration": 4.08
+    },
+    {
+      "text": "arc sign",
+      "start": 195.239,
+      "duration": 3.121
+    },
+    {
+      "text": "3x.",
+      "start": 198.68,
+      "duration": 6.08
+    },
+    {
+      "text": "Now, what is arc sign? Arc sign is sin",
+      "start": 200.519,
+      "duration": 6.041
+    },
+    {
+      "text": "inverse.",
+      "start": 204.76,
+      "duration": 5.12
+    },
+    {
+      "text": "And what we have here is sin. So, when",
+      "start": 206.56,
+      "duration": 5.48
+    },
+    {
+      "text": "sin and sin inverse meet with each",
+      "start": 209.88,
+      "duration": 3.96
+    },
+    {
+      "text": "other, what will happen? It will cancel",
+      "start": 212.04,
+      "duration": 5.52
+    },
+    {
+      "text": "each other. So, what we will get for our",
+      "start": 213.84,
+      "duration": 9.44
+    },
+    {
+      "text": "dY dU, it will be equal to negative 3x.",
+      "start": 217.56,
+      "duration": 9.0
+    },
+    {
+      "text": "This question would like us to find our",
+      "start": 223.28,
+      "duration": 7.36
+    },
+    {
+      "text": "dY dx. So, we will use chain rule. So,",
+      "start": 226.56,
+      "duration": 8.96
+    },
+    {
+      "text": "dY dx is equal to dy/du",
+      "start": 230.64,
+      "duration": 9.12
+    },
+    {
+      "text": "multiply with du/dx.",
+      "start": 235.52,
+      "duration": 4.24
+    },
+    {
+      "text": "What is dy/du? dy/du is -3x.",
+      "start": 239.92,
+      "duration": 9.08
+    },
+    {
+      "text": "And what is du/dx? du/dx is 3/",
+      "start": 244.6,
+      "duration": 6.2
+    },
+    {
+      "text": "square root",
+      "start": 249.0,
+      "duration": 5.959
+    },
+    {
+      "text": "1 - 9x squared.",
+      "start": 250.8,
+      "duration": 6.88
+    },
+    {
+      "text": "Okay, we can combine these two and our",
+      "start": 254.959,
+      "duration": 6.241
+    },
+    {
+      "text": "answer will become -9x",
+      "start": 257.68,
+      "duration": 4.6
+    },
+    {
+      "text": "over",
+      "start": 261.2,
+      "duration": 2.56
+    },
+    {
+      "text": "square root",
+      "start": 262.28,
+      "duration": 6.2
+    },
+    {
+      "text": "1 - 9x squared. With that, we are done",
+      "start": 263.76,
+      "duration": 7.6
+    },
+    {
+      "text": "with part B.",
+      "start": 268.48,
+      "duration": 5.72
+    },
+    {
+      "text": "Okay.",
+      "start": 271.36,
+      "duration": 2.84
+    },
+    {
+      "text": "Let's move on to part C.",
+      "start": 274.72,
+      "duration": 9.52
+    },
+    {
+      "text": "So, this is our dy/dx.",
+      "start": 279.32,
+      "duration": 4.92
+    },
+    {
+      "text": "So, what is part C? Part C, they want us",
+      "start": 285.16,
+      "duration": 5.56
+    },
+    {
+      "text": "to find the x-coordinate of the point on",
+      "start": 287.56,
+      "duration": 6.24
+    },
+    {
+      "text": "C which the gradient is 4. So, gradient",
+      "start": 290.72,
+      "duration": 5.56
+    },
+    {
+      "text": "is dy/dx. So, what we would like to find",
+      "start": 293.8,
+      "duration": 4.04
+    },
+    {
+      "text": "now for part C?",
+      "start": 296.28,
+      "duration": 4.08
+    },
+    {
+      "text": "See, dy/dx",
+      "start": 297.84,
+      "duration": 4.48
+    },
+    {
+      "text": "is equal to 4.",
+      "start": 300.36,
+      "duration": 4.8
+    },
+    {
+      "text": "Therefore, -9x",
+      "start": 302.32,
+      "duration": 4.16
+    },
+    {
+      "text": "over",
+      "start": 305.16,
+      "duration": 6.28
+    },
+    {
+      "text": "square root 1 - 9x squared is equal to",
+      "start": 306.48,
+      "duration": 6.28
+    },
+    {
+      "text": "4.",
+      "start": 311.44,
+      "duration": 3.44
+    },
+    {
+      "text": "Okay, our next step would be to bring",
+      "start": 312.76,
+      "duration": 5.08
+    },
+    {
+      "text": "our denominator to the right-hand side,",
+      "start": 314.88,
+      "duration": 6.2
+    },
+    {
+      "text": "so it will become -9x",
+      "start": 317.84,
+      "duration": 5.36
+    },
+    {
+      "text": "equal to 4",
+      "start": 321.08,
+      "duration": 3.96
+    },
+    {
+      "text": "square root",
+      "start": 323.2,
+      "duration": 4.76
+    },
+    {
+      "text": "1 - 9x squared.",
+      "start": 325.04,
+      "duration": 4.96
+    },
+    {
+      "text": "What I would like to do now is square",
+      "start": 327.96,
+      "duration": 5.12
+    },
+    {
+      "text": "both sides.",
+      "start": 330.0,
+      "duration": 3.08
+    },
+    {
+      "text": "And we will get",
+      "start": 333.36,
+      "duration": 8.24
+    },
+    {
+      "text": "81x squared equal to 16 open bracket 1 -",
+      "start": 335.4,
+      "duration": 8.56
+    },
+    {
+      "text": "9x squared.",
+      "start": 341.6,
+      "duration": 4.44
+    },
+    {
+      "text": "So, let's expand and simplify our",
+      "start": 343.96,
+      "duration": 7.12
+    },
+    {
+      "text": "right-hand side and we will get 16 minus",
+      "start": 346.04,
+      "duration": 7.24
+    },
+    {
+      "text": "144",
+      "start": 351.08,
+      "duration": 5.08
+    },
+    {
+      "text": "x squared. Let's collect all of our x",
+      "start": 353.28,
+      "duration": 5.64
+    },
+    {
+      "text": "squared on our left hand side, so we",
+      "start": 356.16,
+      "duration": 3.96
+    },
+    {
+      "text": "will get",
+      "start": 358.92,
+      "duration": 3.2
+    },
+    {
+      "text": "225",
+      "start": 360.12,
+      "duration": 3.4
+    },
+    {
+      "text": "x squared",
+      "start": 362.12,
+      "duration": 4.28
+    },
+    {
+      "text": "equal to 16.",
+      "start": 363.52,
+      "duration": 7.12
+    },
+    {
+      "text": "Therefore, x squared is equal to 16 over",
+      "start": 366.4,
+      "duration": 6.68
+    },
+    {
+      "text": "225.",
+      "start": 370.64,
+      "duration": 5.76
+    },
+    {
+      "text": "X would be equal to plus minus square",
+      "start": 373.08,
+      "duration": 8.56
+    },
+    {
+      "text": "root 16 over 225.",
+      "start": 376.4,
+      "duration": 5.24
+    },
+    {
+      "text": "So, x is equal to plus minus Okay, let's",
+      "start": 382.56,
+      "duration": 8.2
+    },
+    {
+      "text": "find out 16 over 225.",
+      "start": 386.16,
+      "duration": 8.48
+    },
+    {
+      "text": "So, we will get 4 over 15.",
+      "start": 390.76,
+      "duration": 6.64
+    },
+    {
+      "text": "Let's refer back to our question. Hence,",
+      "start": 394.64,
+      "duration": 6.52
+    },
+    {
+      "text": "determine the x coordinate of the point.",
+      "start": 397.4,
+      "duration": 5.28
+    },
+    {
+      "text": "So, we only have one point. We're not",
+      "start": 401.16,
+      "duration": 4.16
+    },
+    {
+      "text": "supposed to have two answers. So, what",
+      "start": 402.68,
+      "duration": 5.16
+    },
+    {
+      "text": "we have to do? Let's substitute back our",
+      "start": 405.32,
+      "duration": 7.76
+    },
+    {
+      "text": "x value into our dy dx.",
+      "start": 407.84,
+      "duration": 7.92
+    },
+    {
+      "text": "So, subs",
+      "start": 413.08,
+      "duration": 3.88
+    },
+    {
+      "text": "Okay.",
+      "start": 415.76,
+      "duration": 8.76
+    },
+    {
+      "text": "x equal to plus minus 4 over 15 into",
+      "start": 416.96,
+      "duration": 10.92
+    },
+    {
+      "text": "dy dx.",
+      "start": 424.52,
+      "duration": 3.36
+    },
+    {
+      "text": "So, the first substitution Okay, so we",
+      "start": 428.24,
+      "duration": 5.08
+    },
+    {
+      "text": "will get",
+      "start": 431.2,
+      "duration": 4.719
+    },
+    {
+      "text": "dy dx",
+      "start": 433.32,
+      "duration": 5.92
+    },
+    {
+      "text": "equal to -9",
+      "start": 435.919,
+      "duration": 6.281
+    },
+    {
+      "text": "4 over 15",
+      "start": 439.24,
+      "duration": 4.32
+    },
+    {
+      "text": "over",
+      "start": 442.2,
+      "duration": 3.6
+    },
+    {
+      "text": "square root",
+      "start": 443.56,
+      "duration": 9.28
+    },
+    {
+      "text": "1 minus 9 bracket 4 over 15 squared.",
+      "start": 445.8,
+      "duration": 8.119
+    },
+    {
+      "text": "So, what I'm going to write in my",
+      "start": 452.84,
+      "duration": 3.96
+    },
+    {
+      "text": "calculator, it will be negative",
+      "start": 453.919,
+      "duration": 5.921
+    },
+    {
+      "text": "Okay, 9 alpha x",
+      "start": 456.8,
+      "duration": 7.64
+    },
+    {
+      "text": "over square root 1 minus 9 over x",
+      "start": 459.84,
+      "duration": 7.56
+    },
+    {
+      "text": "squared. So I will press calc button",
+      "start": 464.44,
+      "duration": 5.68
+    },
+    {
+      "text": "calculation. So what's the value of x?",
+      "start": 467.4,
+      "duration": 6.28
+    },
+    {
+      "text": "4 over 15.",
+      "start": 470.12,
+      "duration": 5.64
+    },
+    {
+      "text": "So press equal.",
+      "start": 473.68,
+      "duration": 6.12
+    },
+    {
+      "text": "So we will get dy dx equals to -4. What",
+      "start": 475.76,
+      "duration": 6.72
+    },
+    {
+      "text": "we want dy dx equals to 4. So this",
+      "start": 479.8,
+      "duration": 6.84
+    },
+    {
+      "text": "answer would be rejected. x equal to 4",
+      "start": 482.48,
+      "duration": 5.8
+    },
+    {
+      "text": "over 15",
+      "start": 486.64,
+      "duration": 5.16
+    },
+    {
+      "text": "is rejected.",
+      "start": 488.28,
+      "duration": 3.52
+    },
+    {
+      "text": "So let's check another value. So dy dx",
+      "start": 492.2,
+      "duration": 6.68
+    },
+    {
+      "text": "is equal to -9",
+      "start": 495.88,
+      "duration": 7.44
+    },
+    {
+      "text": "bracket -4 over 15",
+      "start": 498.88,
+      "duration": 6.039
+    },
+    {
+      "text": "over",
+      "start": 503.32,
+      "duration": 5.28
+    },
+    {
+      "text": "square root 1 minus 9",
+      "start": 504.919,
+      "duration": 7.401
+    },
+    {
+      "text": "open bracket -4 over 15",
+      "start": 508.6,
+      "duration": 6.559
+    },
+    {
+      "text": "squared. This is equal to let's press",
+      "start": 512.32,
+      "duration": 5.12
+    },
+    {
+      "text": "our calc button calculate again but now",
+      "start": 515.159,
+      "duration": 7.041
+    },
+    {
+      "text": "we change it to -4 over 15.",
+      "start": 517.44,
+      "duration": 8.399
+    },
+    {
+      "text": "Press equal twice and we'll get dy dx",
+      "start": 522.2,
+      "duration": 7.32
+    },
+    {
+      "text": "equals to 4. Let's now write down our",
+      "start": 525.839,
+      "duration": 8.401
+    },
+    {
+      "text": "conclusion. Therefore x is equal to -4",
+      "start": 529.52,
+      "duration": 7.2
+    },
+    {
+      "text": "over 15.",
+      "start": 534.24,
+      "duration": 6.72
+    },
+    {
+      "text": "With that we are done with question 9.",
+      "start": 536.72,
+      "duration": 5.96
+    },
+    {
+      "text": "Okay.",
+      "start": 540.96,
+      "duration": 3.68
+    },
+    {
+      "text": "For 9a",
+      "start": 542.68,
+      "duration": 5.04
+    },
+    {
+      "text": "we got this as our answer",
+      "start": 544.64,
+      "duration": 6.48
+    },
+    {
+      "text": "and then this is the answer for 9b and",
+      "start": 547.72,
+      "duration": 6.68
+    },
+    {
+      "text": "for 9c we have x equal to",
+      "start": 551.12,
+      "duration": 7.48
+    },
+    {
+      "text": "-4 over 15.",
+      "start": 554.4,
+      "duration": 4.2
+    }
+  ]
+}

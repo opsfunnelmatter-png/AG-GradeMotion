@@ -1,0 +1,1184 @@
+{
+  "id": "llLqFVduG0A",
+  "paper": "CP2",
+  "question": "Q7bc",
+  "title": "Polar Area and Cosine Rule Applications",
+  "full_text": "We are done with 7A and from 7A we have found our polar coordinates for point A and B. So, this is our R radius for both and this is the theta for each point. So, what does it means? It means that if I connect this line here to B and this line here to A, our radius or the length would be 3/2 A. And here is also 3/2 A. The theta definition is the angle from the initial point to the radius line. So, here it would be 1/6 pi. Whereas, from the initial line to A, that would be 5/6 pi. Let's draw that triangle outside. So, it's because it's already crowded there. So, it would look like this. And what do we know? Here would be 3/2 A. Here would be 3/2 A. Here we will have 10. And the angle in the middle would be 5/6 pi minus 1/6 pi, which is equal to 2/3 pi. Now, we want to find the value of A. How can we find the value of A? We have three sides and one angle. That means we can use cos rule. So, A squared is equal to B squared plus C squared minus 2 BC cos A. So, this will be our A because it is opposite of the known angle. So, this will be B and C. So here we will have tan squared equals to okay, over here we will get 3 over 2 A squared plus 3 over 2 A squared. Minus 2 3 over 2 A 3 over 2 A cos 2 over 3 pi. The reason why I use three colors because we will calculate each of these color independently. So over here on our left hand side we will get 100 equal. Now moving on to our purple group. So that would be 3 over 2 squared plus 3 over 2 squared. We will have 9 over 2 A squared. Let's compute our orange group. So negative 2 multiply with 3 over 2 3 over 2 cos 2 over 3 pi. Remember to close our bracket. So that would be equal to positive 9 over 4 A squared. So I will multiply okay, our equation by 4 to eliminate fraction. So I will have 9 A squared plus 18 A squared equals to 400. 27 A squared is equal to 400. A squared is equal to 400 over 27. From here, we know that A is equals to plus minus root 400 over 27. Which is equals to square root 400 over 27. Okay, that would be plus minus 20 root 3 over 9. Let's refer back with the information that we have here. R is equals to 3 over 2 A. So, we have radius. That means A must be more than zero. So, we will only choose A equals to 20 root 3 over 9. We are done with part Oh, this is not A. This is actually part B. Now, we will move on to part C where they want us to use integration to find the surface area of the swimming pool. What is the formula for surface area using integration? So, area is equals to 1 over 2 integral R squared d theta. Okay. So, let's work on this side to find our R squared. So, R is equals to A, which is 20 root 3 over 9. Okay, bracket 1 plus sine theta. Let's square both sides. So, square and square this. I will get R squared equals to Okay. 400 over 27. Okay, the one in the bracket would be 1 + 2 sin theta + sin squared theta. Let's expand. So, we will have 400 over 27 + 800 over 27 sin theta + 400 over 27 sin squared theta. We know that we have to proceed with integration after this. So, we do not want to work with sin squared. So, instead we want to use our double angle identities to substitute into our sin squared to ease out our integration. We know that cos 2 x is equal to 1 - 2 sin squared x. So, if we rearrange, we will get 2 sin squared x equals to 1 - cos 2 x. Okay. Sin squared x is equal to 1 over 2 - 1 over 2 cos 2 x. So, that would be what we would like to substitute into here. So, over here we will have 1 over 2 1 over 2 cos 2 theta. Okay. Let's rewrite the other part. So, we'll have 400 over 27 + 800 over 27 sine theta plus 400 over 27. Let's simplify this some more. So, we will have 100 over 27 plus with 400 over 27 multiply with 1 over 2. So, for our constant, we will get 200 Oh, let's use like this part. 200 over 9 plus 800 over 27 sine theta plus Oh, that will be minus. 400 over 27 multiply with 1 over 2. So, that will be 200 over 27 cos 2 theta. We can now continue with our integration. So, area is equals to 1 over 2 integral sign. Okay, so from where to where? Refer to our domain negative pi until pi. So, here negative pi until pi. Next, what is our r squared? So, r squared would be here. So, copy and let me paste it here. So, paste. And here, it will be d theta. So, here will be 1 over 2 integral. The first one will be 200 over 9 theta. So, negative 800 over 27 cos theta 200 over 27 sin 2 theta. Okay, differentiate this. So, divide by two. So, let's put brackets. This is from - pi until pi. Let's now simplify what we get here. So, over here it would be, okay, 1 over 2 * with 200 over 9, that would be 100 over 9 theta. Okay, 1 over 2 * 800 over 27, that would be 400 over 27 cos theta. Over here, I have 1 over 2 multiply with 200 over 27 * with 1 over 2 and that would be - 50 over 27 sin 2 theta. We will substitute - pi and pi. So, let's start substitution. So, we will have Okay. 100 over 9 pi 400 over 27 cos pi - 50 over 27 sin 2 pi. The next part we have to minus, okay? So, we will swap all of the signs. Here, it would be 100 over 9 multiply with -5 + 400 over 27 cos - pi. Okay, I need some more space. Okay. + 50 over 27 sin -2 pi. Okay, we will start by computing our constant first here. So, that would be 100 over 9 pi + 100 over 9. So, we will get 200 over 9 pi. Let's compute the rest. So, -400 over 27 cos pi -20 over 27 sin 2 pi + 400 over 27 cos pi + 50 over 50 over 27 sin -2 pi close bracket. That would be zero. So, + 0. Therefore, area is equals to 200 over 9 pi. That's it. Let's just mark our answers so that we can see the answers clearly. So, this is for part B and this is for part C. With that, we are done with question seven.",
+  "snippets": [
+    {
+      "text": "We are done with 7A and from 7A we have",
+      "start": 2.88,
+      "duration": 7.24
+    },
+    {
+      "text": "found our polar coordinates for point A",
+      "start": 6.48,
+      "duration": 7.76
+    },
+    {
+      "text": "and B. So, this is our R radius for both",
+      "start": 10.12,
+      "duration": 7.28
+    },
+    {
+      "text": "and this is the theta for each point.",
+      "start": 14.24,
+      "duration": 6.24
+    },
+    {
+      "text": "So, what does it means? It means that if",
+      "start": 17.4,
+      "duration": 6.4
+    },
+    {
+      "text": "I connect this line here to B and this",
+      "start": 20.48,
+      "duration": 7.16
+    },
+    {
+      "text": "line here to A, our radius or the length",
+      "start": 23.8,
+      "duration": 5.24
+    },
+    {
+      "text": "would be",
+      "start": 27.64,
+      "duration": 3.72
+    },
+    {
+      "text": "3/2",
+      "start": 29.04,
+      "duration": 3.28
+    },
+    {
+      "text": "A.",
+      "start": 31.36,
+      "duration": 4.96
+    },
+    {
+      "text": "And here is also 3/2 A. The theta",
+      "start": 32.32,
+      "duration": 6.48
+    },
+    {
+      "text": "definition is the angle from the initial",
+      "start": 36.32,
+      "duration": 6.32
+    },
+    {
+      "text": "point to the radius line. So, here it",
+      "start": 38.8,
+      "duration": 5.92
+    },
+    {
+      "text": "would be 1/6",
+      "start": 42.64,
+      "duration": 3.72
+    },
+    {
+      "text": "pi.",
+      "start": 44.72,
+      "duration": 3.24
+    },
+    {
+      "text": "Whereas,",
+      "start": 46.36,
+      "duration": 4.28
+    },
+    {
+      "text": "from the initial line to A, that would",
+      "start": 47.96,
+      "duration": 3.6
+    },
+    {
+      "text": "be",
+      "start": 50.64,
+      "duration": 5.16
+    },
+    {
+      "text": "5/6 pi.",
+      "start": 51.56,
+      "duration": 6.52
+    },
+    {
+      "text": "Let's draw that triangle",
+      "start": 55.8,
+      "duration": 3.96
+    },
+    {
+      "text": "outside. So, it's because it's already",
+      "start": 58.08,
+      "duration": 4.72
+    },
+    {
+      "text": "crowded there. So, it would look like",
+      "start": 59.76,
+      "duration": 5.6
+    },
+    {
+      "text": "this.",
+      "start": 62.8,
+      "duration": 2.56
+    },
+    {
+      "text": "And what do we know? Here would be 3/2",
+      "start": 65.68,
+      "duration": 7.04
+    },
+    {
+      "text": "A. Here would be 3/2 A. Here we will",
+      "start": 68.64,
+      "duration": 7.4
+    },
+    {
+      "text": "have 10. And the angle in the middle",
+      "start": 72.72,
+      "duration": 6.2
+    },
+    {
+      "text": "would be 5/6",
+      "start": 76.04,
+      "duration": 4.12
+    },
+    {
+      "text": "pi",
+      "start": 78.92,
+      "duration": 4.32
+    },
+    {
+      "text": "minus 1/6",
+      "start": 80.16,
+      "duration": 5.48
+    },
+    {
+      "text": "pi,",
+      "start": 83.24,
+      "duration": 6.76
+    },
+    {
+      "text": "which is equal to 2/3 pi.",
+      "start": 85.64,
+      "duration": 7.6
+    },
+    {
+      "text": "Now, we want to find the value of A. How",
+      "start": 90.0,
+      "duration": 6.64
+    },
+    {
+      "text": "can we find the value of A? We have",
+      "start": 93.24,
+      "duration": 6.44
+    },
+    {
+      "text": "three sides and one angle. That means we",
+      "start": 96.64,
+      "duration": 6.68
+    },
+    {
+      "text": "can use cos rule. So, A squared is equal",
+      "start": 99.68,
+      "duration": 9.24
+    },
+    {
+      "text": "to B squared plus C squared minus 2 BC",
+      "start": 103.32,
+      "duration": 7.36
+    },
+    {
+      "text": "cos A.",
+      "start": 108.92,
+      "duration": 3.76
+    },
+    {
+      "text": "So, this will be our A because it is",
+      "start": 110.68,
+      "duration": 5.0
+    },
+    {
+      "text": "opposite of the known angle. So, this",
+      "start": 112.68,
+      "duration": 6.44
+    },
+    {
+      "text": "will be B and C. So here we will have",
+      "start": 115.68,
+      "duration": 6.2
+    },
+    {
+      "text": "tan squared equals to",
+      "start": 119.12,
+      "duration": 8.0
+    },
+    {
+      "text": "okay, over here we will get 3 over 2 A",
+      "start": 121.88,
+      "duration": 12.52
+    },
+    {
+      "text": "squared plus 3 over 2 A squared.",
+      "start": 127.12,
+      "duration": 7.28
+    },
+    {
+      "text": "Minus",
+      "start": 135.88,
+      "duration": 3.04
+    },
+    {
+      "text": "2",
+      "start": 137.4,
+      "duration": 4.559
+    },
+    {
+      "text": "3 over 2 A",
+      "start": 138.92,
+      "duration": 6.16
+    },
+    {
+      "text": "3 over 2 A",
+      "start": 141.959,
+      "duration": 5.561
+    },
+    {
+      "text": "cos",
+      "start": 145.08,
+      "duration": 5.72
+    },
+    {
+      "text": "2 over 3 pi.",
+      "start": 147.52,
+      "duration": 5.28
+    },
+    {
+      "text": "The reason why I use three colors",
+      "start": 150.8,
+      "duration": 4.92
+    },
+    {
+      "text": "because we will calculate each of these",
+      "start": 152.8,
+      "duration": 7.08
+    },
+    {
+      "text": "color independently. So over here on our",
+      "start": 155.72,
+      "duration": 7.96
+    },
+    {
+      "text": "left hand side we will get 100 equal.",
+      "start": 159.88,
+      "duration": 6.4
+    },
+    {
+      "text": "Now moving on to our purple group. So",
+      "start": 163.68,
+      "duration": 8.48
+    },
+    {
+      "text": "that would be 3 over 2 squared plus 3",
+      "start": 166.28,
+      "duration": 7.32
+    },
+    {
+      "text": "over 2",
+      "start": 172.16,
+      "duration": 3.799
+    },
+    {
+      "text": "squared.",
+      "start": 173.6,
+      "duration": 6.44
+    },
+    {
+      "text": "We will have 9 over 2 A squared. Let's",
+      "start": 175.959,
+      "duration": 8.321
+    },
+    {
+      "text": "compute our orange group. So negative 2",
+      "start": 180.04,
+      "duration": 8.04
+    },
+    {
+      "text": "multiply with 3 over 2",
+      "start": 184.28,
+      "duration": 7.4
+    },
+    {
+      "text": "3 over 2",
+      "start": 188.08,
+      "duration": 6.52
+    },
+    {
+      "text": "cos 2 over 3",
+      "start": 191.68,
+      "duration": 4.4
+    },
+    {
+      "text": "pi.",
+      "start": 194.6,
+      "duration": 4.96
+    },
+    {
+      "text": "Remember to close our bracket.",
+      "start": 196.08,
+      "duration": 7.64
+    },
+    {
+      "text": "So that would be equal to positive 9",
+      "start": 199.56,
+      "duration": 5.64
+    },
+    {
+      "text": "over 4",
+      "start": 203.72,
+      "duration": 4.239
+    },
+    {
+      "text": "A squared.",
+      "start": 205.2,
+      "duration": 5.44
+    },
+    {
+      "text": "So I will multiply",
+      "start": 207.959,
+      "duration": 6.601
+    },
+    {
+      "text": "okay, our equation by 4 to eliminate",
+      "start": 210.64,
+      "duration": 9.08
+    },
+    {
+      "text": "fraction. So I will have 9 A squared",
+      "start": 214.56,
+      "duration": 11.36
+    },
+    {
+      "text": "plus 18 A squared equals to 400.",
+      "start": 219.72,
+      "duration": 12.12
+    },
+    {
+      "text": "27 A squared is equal to 400.",
+      "start": 225.92,
+      "duration": 13.28
+    },
+    {
+      "text": "A squared is equal to 400 over 27.",
+      "start": 231.84,
+      "duration": 10.76
+    },
+    {
+      "text": "From here, we know that A is equals to",
+      "start": 239.2,
+      "duration": 6.48
+    },
+    {
+      "text": "plus minus root",
+      "start": 242.6,
+      "duration": 4.72
+    },
+    {
+      "text": "400",
+      "start": 245.68,
+      "duration": 5.2
+    },
+    {
+      "text": "over 27.",
+      "start": 247.32,
+      "duration": 8.72
+    },
+    {
+      "text": "Which is equals to square root 400 over",
+      "start": 250.88,
+      "duration": 7.079
+    },
+    {
+      "text": "27.",
+      "start": 256.04,
+      "duration": 7.16
+    },
+    {
+      "text": "Okay, that would be plus minus 20 root 3",
+      "start": 257.959,
+      "duration": 7.841
+    },
+    {
+      "text": "over 9.",
+      "start": 263.2,
+      "duration": 4.84
+    },
+    {
+      "text": "Let's refer back with the information",
+      "start": 265.8,
+      "duration": 6.2
+    },
+    {
+      "text": "that we have here. R is equals to 3 over",
+      "start": 268.04,
+      "duration": 7.84
+    },
+    {
+      "text": "2 A. So, we have radius. That means A",
+      "start": 272.0,
+      "duration": 6.96
+    },
+    {
+      "text": "must be more than zero.",
+      "start": 275.88,
+      "duration": 7.8
+    },
+    {
+      "text": "So, we will only choose A equals to 20",
+      "start": 278.96,
+      "duration": 8.12
+    },
+    {
+      "text": "root 3 over 9.",
+      "start": 283.68,
+      "duration": 6.56
+    },
+    {
+      "text": "We are done with part Oh, this is not A.",
+      "start": 287.08,
+      "duration": 7.04
+    },
+    {
+      "text": "This is actually part B.",
+      "start": 290.24,
+      "duration": 7.36
+    },
+    {
+      "text": "Now, we will move on to part C where",
+      "start": 294.12,
+      "duration": 7.44
+    },
+    {
+      "text": "they want us to use integration to find",
+      "start": 297.6,
+      "duration": 6.96
+    },
+    {
+      "text": "the surface area of the swimming pool.",
+      "start": 301.56,
+      "duration": 5.48
+    },
+    {
+      "text": "What is the formula for surface area",
+      "start": 304.56,
+      "duration": 6.44
+    },
+    {
+      "text": "using integration? So, area is equals to",
+      "start": 307.04,
+      "duration": 11.04
+    },
+    {
+      "text": "1 over 2 integral R squared d theta.",
+      "start": 311.0,
+      "duration": 8.4
+    },
+    {
+      "text": "Okay.",
+      "start": 318.08,
+      "duration": 4.44
+    },
+    {
+      "text": "So, let's work on this side to find our",
+      "start": 319.4,
+      "duration": 7.72
+    },
+    {
+      "text": "R squared. So, R is equals to A,",
+      "start": 322.52,
+      "duration": 6.28
+    },
+    {
+      "text": "which is",
+      "start": 327.12,
+      "duration": 4.92
+    },
+    {
+      "text": "20 root 3",
+      "start": 328.8,
+      "duration": 10.36
+    },
+    {
+      "text": "over 9. Okay, bracket 1 plus sine theta.",
+      "start": 332.04,
+      "duration": 9.92
+    },
+    {
+      "text": "Let's square both sides.",
+      "start": 339.16,
+      "duration": 5.96
+    },
+    {
+      "text": "So, square and square this.",
+      "start": 341.96,
+      "duration": 7.32
+    },
+    {
+      "text": "I will get R squared equals to",
+      "start": 345.12,
+      "duration": 8.24
+    },
+    {
+      "text": "Okay. 400",
+      "start": 349.28,
+      "duration": 4.08
+    },
+    {
+      "text": "over 27.",
+      "start": 353.72,
+      "duration": 6.16
+    },
+    {
+      "text": "Okay, the one in the bracket would be",
+      "start": 356.24,
+      "duration": 12.08
+    },
+    {
+      "text": "1 + 2 sin theta + sin squared theta.",
+      "start": 359.88,
+      "duration": 10.48
+    },
+    {
+      "text": "Let's expand.",
+      "start": 368.32,
+      "duration": 5.4
+    },
+    {
+      "text": "So, we will have",
+      "start": 370.36,
+      "duration": 3.36
+    },
+    {
+      "text": "400",
+      "start": 373.8,
+      "duration": 5.0
+    },
+    {
+      "text": "over 27",
+      "start": 375.32,
+      "duration": 8.64
+    },
+    {
+      "text": "+ 800 over 27",
+      "start": 378.8,
+      "duration": 7.56
+    },
+    {
+      "text": "sin theta",
+      "start": 383.96,
+      "duration": 7.56
+    },
+    {
+      "text": "+ 400 over 27",
+      "start": 386.36,
+      "duration": 7.8
+    },
+    {
+      "text": "sin squared theta.",
+      "start": 391.52,
+      "duration": 4.52
+    },
+    {
+      "text": "We know that we have to proceed with",
+      "start": 394.16,
+      "duration": 4.6
+    },
+    {
+      "text": "integration after this. So, we do not",
+      "start": 396.04,
+      "duration": 5.24
+    },
+    {
+      "text": "want to work with sin squared. So,",
+      "start": 398.76,
+      "duration": 5.2
+    },
+    {
+      "text": "instead we want to use our double angle",
+      "start": 401.28,
+      "duration": 6.0
+    },
+    {
+      "text": "identities to substitute into our sin",
+      "start": 403.96,
+      "duration": 7.0
+    },
+    {
+      "text": "squared to ease out our integration.",
+      "start": 407.28,
+      "duration": 8.12
+    },
+    {
+      "text": "We know that cos 2 x is equal to",
+      "start": 410.96,
+      "duration": 7.64
+    },
+    {
+      "text": "1 - 2 sin squared",
+      "start": 415.4,
+      "duration": 7.519
+    },
+    {
+      "text": "x. So, if we rearrange, we will get",
+      "start": 418.6,
+      "duration": 11.68
+    },
+    {
+      "text": "2 sin squared x equals to 1 - cos 2 x.",
+      "start": 422.919,
+      "duration": 13.641
+    },
+    {
+      "text": "Okay. Sin squared x is equal to 1 over 2",
+      "start": 430.28,
+      "duration": 11.44
+    },
+    {
+      "text": "- 1 over 2 cos 2 x. So, that would be",
+      "start": 436.56,
+      "duration": 8.359
+    },
+    {
+      "text": "what we would like to substitute into",
+      "start": 441.72,
+      "duration": 7.0
+    },
+    {
+      "text": "here. So, over here we will have 1 over",
+      "start": 444.919,
+      "duration": 5.361
+    },
+    {
+      "text": "2",
+      "start": 448.72,
+      "duration": 6.64
+    },
+    {
+      "text": "1 over 2 cos 2 theta. Okay. Let's",
+      "start": 450.28,
+      "duration": 7.76
+    },
+    {
+      "text": "rewrite the other part. So, we'll have",
+      "start": 455.36,
+      "duration": 5.88
+    },
+    {
+      "text": "400 over 27",
+      "start": 458.04,
+      "duration": 5.36
+    },
+    {
+      "text": "+ 800",
+      "start": 461.24,
+      "duration": 4.16
+    },
+    {
+      "text": "over 27",
+      "start": 463.4,
+      "duration": 9.64
+    },
+    {
+      "text": "sine theta plus 400 over 27.",
+      "start": 465.4,
+      "duration": 7.64
+    },
+    {
+      "text": "Let's",
+      "start": 473.24,
+      "duration": 4.64
+    },
+    {
+      "text": "simplify this some more. So, we will",
+      "start": 474.36,
+      "duration": 7.8
+    },
+    {
+      "text": "have 100 over 27",
+      "start": 477.88,
+      "duration": 8.88
+    },
+    {
+      "text": "plus with 400 over 27",
+      "start": 482.16,
+      "duration": 8.6
+    },
+    {
+      "text": "multiply with 1 over 2.",
+      "start": 486.76,
+      "duration": 7.64
+    },
+    {
+      "text": "So, for our constant, we will get 200",
+      "start": 490.76,
+      "duration": 5.84
+    },
+    {
+      "text": "Oh, let's use like this part.",
+      "start": 494.4,
+      "duration": 5.24
+    },
+    {
+      "text": "200 over 9",
+      "start": 496.6,
+      "duration": 5.319
+    },
+    {
+      "text": "plus 800",
+      "start": 499.64,
+      "duration": 5.8
+    },
+    {
+      "text": "over 27",
+      "start": 501.919,
+      "duration": 3.521
+    },
+    {
+      "text": "sine theta",
+      "start": 505.76,
+      "duration": 5.52
+    },
+    {
+      "text": "plus Oh, that will be minus.",
+      "start": 508.0,
+      "duration": 6.719
+    },
+    {
+      "text": "400 over 27",
+      "start": 511.28,
+      "duration": 8.08
+    },
+    {
+      "text": "multiply with 1 over 2. So, that will be",
+      "start": 514.719,
+      "duration": 7.88
+    },
+    {
+      "text": "200 over 27",
+      "start": 519.36,
+      "duration": 6.12
+    },
+    {
+      "text": "cos 2 theta.",
+      "start": 522.599,
+      "duration": 5.001
+    },
+    {
+      "text": "We can now continue with our",
+      "start": 525.48,
+      "duration": 4.52
+    },
+    {
+      "text": "integration.",
+      "start": 527.6,
+      "duration": 7.68
+    },
+    {
+      "text": "So, area is equals to 1 over 2 integral",
+      "start": 530.0,
+      "duration": 7.68
+    },
+    {
+      "text": "sign. Okay, so from where to where?",
+      "start": 535.28,
+      "duration": 5.72
+    },
+    {
+      "text": "Refer to our",
+      "start": 537.68,
+      "duration": 7.08
+    },
+    {
+      "text": "domain negative pi until pi. So, here",
+      "start": 541.0,
+      "duration": 6.68
+    },
+    {
+      "text": "negative pi until pi.",
+      "start": 544.76,
+      "duration": 6.6
+    },
+    {
+      "text": "Next, what is our r squared? So, r",
+      "start": 547.68,
+      "duration": 7.84
+    },
+    {
+      "text": "squared would be here.",
+      "start": 551.36,
+      "duration": 4.16
+    },
+    {
+      "text": "So, copy and let me paste it here. So,",
+      "start": 555.64,
+      "duration": 9.64
+    },
+    {
+      "text": "paste. And here, it will be d theta.",
+      "start": 560.48,
+      "duration": 9.96
+    },
+    {
+      "text": "So, here will be 1 over 2 integral.",
+      "start": 565.28,
+      "duration": 9.88
+    },
+    {
+      "text": "The first one will be 200 over 9 theta.",
+      "start": 570.44,
+      "duration": 9.08
+    },
+    {
+      "text": "So, negative 800 over 27",
+      "start": 575.16,
+      "duration": 8.04
+    },
+    {
+      "text": "cos theta",
+      "start": 579.52,
+      "duration": 3.68
+    },
+    {
+      "text": "200 over 27",
+      "start": 584.0,
+      "duration": 7.6
+    },
+    {
+      "text": "sin 2 theta.",
+      "start": 588.0,
+      "duration": 6.08
+    },
+    {
+      "text": "Okay, differentiate this.",
+      "start": 591.6,
+      "duration": 5.84
+    },
+    {
+      "text": "So, divide by two. So, let's put",
+      "start": 594.08,
+      "duration": 6.08
+    },
+    {
+      "text": "brackets.",
+      "start": 597.44,
+      "duration": 2.72
+    },
+    {
+      "text": "This is from - pi until pi.",
+      "start": 603.28,
+      "duration": 8.28
+    },
+    {
+      "text": "Let's now simplify what we get here. So,",
+      "start": 608.12,
+      "duration": 7.64
+    },
+    {
+      "text": "over here it would be, okay, 1 over 2 *",
+      "start": 611.56,
+      "duration": 8.04
+    },
+    {
+      "text": "with 200 over 9, that would be 100 over",
+      "start": 615.76,
+      "duration": 6.4
+    },
+    {
+      "text": "9 theta.",
+      "start": 619.6,
+      "duration": 6.8
+    },
+    {
+      "text": "Okay, 1 over 2 * 800 over 27, that would",
+      "start": 622.16,
+      "duration": 6.28
+    },
+    {
+      "text": "be",
+      "start": 626.4,
+      "duration": 5.92
+    },
+    {
+      "text": "400 over 27",
+      "start": 628.44,
+      "duration": 6.56
+    },
+    {
+      "text": "cos theta.",
+      "start": 632.32,
+      "duration": 6.0
+    },
+    {
+      "text": "Over here, I have 1 over 2",
+      "start": 635.0,
+      "duration": 8.16
+    },
+    {
+      "text": "multiply with 200 over 27",
+      "start": 638.32,
+      "duration": 7.44
+    },
+    {
+      "text": "* with 1 over 2",
+      "start": 643.16,
+      "duration": 5.08
+    },
+    {
+      "text": "and that would be",
+      "start": 645.76,
+      "duration": 6.88
+    },
+    {
+      "text": "- 50 over 27",
+      "start": 648.24,
+      "duration": 7.32
+    },
+    {
+      "text": "sin 2 theta.",
+      "start": 652.64,
+      "duration": 5.32
+    },
+    {
+      "text": "We will substitute",
+      "start": 655.56,
+      "duration": 6.12
+    },
+    {
+      "text": "- pi and pi. So, let's start",
+      "start": 657.96,
+      "duration": 5.36
+    },
+    {
+      "text": "substitution.",
+      "start": 661.68,
+      "duration": 5.159
+    },
+    {
+      "text": "So, we will have Okay.",
+      "start": 663.32,
+      "duration": 8.4
+    },
+    {
+      "text": "100 over 9 pi",
+      "start": 666.839,
+      "duration": 8.721
+    },
+    {
+      "text": "400 over 27",
+      "start": 671.72,
+      "duration": 10.04
+    },
+    {
+      "text": "cos pi - 50 over 27",
+      "start": 675.56,
+      "duration": 10.12
+    },
+    {
+      "text": "sin 2 pi.",
+      "start": 681.76,
+      "duration": 3.92
+    },
+    {
+      "text": "The next part we have to minus, okay?",
+      "start": 686.12,
+      "duration": 6.0
+    },
+    {
+      "text": "So, we will swap all of the signs. Here,",
+      "start": 689.08,
+      "duration": 5.16
+    },
+    {
+      "text": "it would be",
+      "start": 692.12,
+      "duration": 7.4
+    },
+    {
+      "text": "100 over 9 multiply with -5",
+      "start": 694.24,
+      "duration": 9.72
+    },
+    {
+      "text": "+ 400 over 27",
+      "start": 699.52,
+      "duration": 7.48
+    },
+    {
+      "text": "cos - pi.",
+      "start": 703.96,
+      "duration": 6.84
+    },
+    {
+      "text": "Okay, I need some more space.",
+      "start": 707.0,
+      "duration": 3.8
+    },
+    {
+      "text": "Okay.",
+      "start": 714.64,
+      "duration": 5.36
+    },
+    {
+      "text": "+ 50 over 27",
+      "start": 716.0,
+      "duration": 6.28
+    },
+    {
+      "text": "sin -2",
+      "start": 720.0,
+      "duration": 5.76
+    },
+    {
+      "text": "pi. Okay, we will start by computing our",
+      "start": 722.28,
+      "duration": 8.36
+    },
+    {
+      "text": "constant first here. So, that would be",
+      "start": 725.76,
+      "duration": 11.28
+    },
+    {
+      "text": "100 over 9 pi + 100 over 9.",
+      "start": 730.64,
+      "duration": 11.24
+    },
+    {
+      "text": "So, we will get 200 over 9",
+      "start": 737.04,
+      "duration": 7.04
+    },
+    {
+      "text": "pi.",
+      "start": 741.88,
+      "duration": 3.92
+    },
+    {
+      "text": "Let's compute",
+      "start": 744.08,
+      "duration": 4.6
+    },
+    {
+      "text": "the rest. So, -400",
+      "start": 745.8,
+      "duration": 5.68
+    },
+    {
+      "text": "over 27",
+      "start": 748.68,
+      "duration": 5.68
+    },
+    {
+      "text": "cos pi",
+      "start": 751.48,
+      "duration": 4.56
+    },
+    {
+      "text": "-20",
+      "start": 754.36,
+      "duration": 4.44
+    },
+    {
+      "text": "over 27",
+      "start": 756.04,
+      "duration": 6.36
+    },
+    {
+      "text": "sin 2 pi",
+      "start": 758.8,
+      "duration": 5.76
+    },
+    {
+      "text": "+ 400",
+      "start": 762.4,
+      "duration": 5.08
+    },
+    {
+      "text": "over 27",
+      "start": 764.56,
+      "duration": 4.92
+    },
+    {
+      "text": "cos",
+      "start": 767.48,
+      "duration": 4.24
+    },
+    {
+      "text": "pi",
+      "start": 769.48,
+      "duration": 5.2
+    },
+    {
+      "text": "+ 50 over",
+      "start": 771.72,
+      "duration": 6.68
+    },
+    {
+      "text": "50 over 27",
+      "start": 774.68,
+      "duration": 5.28
+    },
+    {
+      "text": "sin",
+      "start": 778.4,
+      "duration": 3.76
+    },
+    {
+      "text": "-2",
+      "start": 779.96,
+      "duration": 3.48
+    },
+    {
+      "text": "pi",
+      "start": 782.16,
+      "duration": 5.72
+    },
+    {
+      "text": "close bracket. That would be zero.",
+      "start": 783.44,
+      "duration": 10.44
+    },
+    {
+      "text": "So, + 0. Therefore, area is equals to",
+      "start": 787.88,
+      "duration": 10.68
+    },
+    {
+      "text": "200 over 9 pi.",
+      "start": 793.88,
+      "duration": 7.04
+    },
+    {
+      "text": "That's it. Let's just mark our answers",
+      "start": 798.56,
+      "duration": 4.88
+    },
+    {
+      "text": "so that we can see the answers clearly.",
+      "start": 800.92,
+      "duration": 5.84
+    },
+    {
+      "text": "So, this is for part B and this is for",
+      "start": 803.44,
+      "duration": 6.12
+    },
+    {
+      "text": "part C. With that, we are done with",
+      "start": 806.76,
+      "duration": 6.16
+    },
+    {
+      "text": "question seven.",
+      "start": 809.56,
+      "duration": 3.36
+    }
+  ]
+}

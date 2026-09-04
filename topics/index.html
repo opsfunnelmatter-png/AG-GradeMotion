@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function() {
+        var gtmLoaded = false;
+        function loadGtag() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18375169008';
+          script.async = true;
+          document.head.appendChild(script);
+          gtag('js', new Date());
+          gtag('config', 'AW-18375169008');
+        }
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(e) {
+          window.addEventListener(e, loadGtag, { once: true, passive: true });
+        });
+        setTimeout(loadGtag, 3500);
+      })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>A-Level Further Mathematics Topic Guides &amp; Syllabus Hub | GradeMotion</title>
+    <meta name="description" content="In-depth guides for A-Level Further Maths: Matrices, Complex Numbers, Differential Equations, Hyperbolic Functions, and Polar Coordinates for Edexcel and CIE.">
+    <link rel="canonical" href="https://www.grademotion.com/topics">
+    
+    <!-- Open Graph & Social -->
+    <meta property="og:site_name" content="GradeMotion">
+    <meta property="og:title" content="A-Level Further Mathematics Topic Guides &amp; Syllabus Hub">
+    <meta property="og:description" content="In-depth guides for A-Level Further Maths: Matrices, Complex Numbers, Differential Equations, Hyperbolic Functions, and Polar Coordinates for Edexcel and CIE.">
+    <meta property="og:url" content="https://www.grademotion.com/topics">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="A-Level Further Mathematics Topic Guides &amp; Syllabus Hub">
+    <meta name="twitter:description" content="In-depth guides for A-Level Further Maths: Matrices, Complex Numbers, Differential Equations, Hyperbolic Functions, and Polar Coordinates for Edexcel and CIE.">
+
+    <!-- Fonts & Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- KaTeX Mathematical Typography -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+            onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "A-Level Further Mathematics Topic Guides | GradeMotion",
+  "url": "https://www.grademotion.com/topics"
+}
+</script>
+
+    <style>
+        :root {
+            --bg-body: #FBF9FF;
+            --bg-surface: #FFFFFF;
+            --bg-subtle: #F6F0FD;
+            --header-bg: rgba(251, 249, 255, 0.92);
+            --purple-main: #7B2CBF;
+            --purple-deep: #170A2C;
+            --purple-hover: #5A189A;
+            --pink-accent: #FF4A95;
+            --pink-soft: rgba(255, 74, 149, 0.08);
+            --border-subtle: rgba(123, 44, 191, 0.12);
+            --border-strong: rgba(123, 44, 191, 0.22);
+            --text-main: #170A2C;
+            --text-muted: #5C4D75;
+            --text-light: #7E6F95;
+            --card-shadow: 0 10px 30px rgba(123, 44, 191, 0.05);
+            --hover-shadow: 0 16px 36px rgba(123, 44, 191, 0.12);
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; -webkit-tap-highlight-color: transparent; }
+        body { background: var(--bg-body); color: var(--text-main); line-height: 1.65; min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+        
+        /* Navbar */
+        .site-header { position: sticky; top: 0; z-index: 1000; background: var(--header-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-subtle); }
+        .nav-inner { max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+        .nav-logo { display: flex; align-items: center; text-decoration: none; }
+        .nav-logo img { height: 38px; width: auto; }
+        .nav-links { display: flex; align-items: center; gap: 24px; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 14.5px; font-weight: 600; text-decoration: none; transition: color 0.2s ease; }
+        .nav-links a:hover, .nav-links a.active { color: var(--purple-main); }
+        .nav-btn { background: var(--purple-main); color: #fff !important; padding: 9px 18px; border-radius: 999px; font-weight: 700; font-size: 13.5px; transition: all 0.2s ease; }
+        .nav-btn:hover { background: var(--purple-hover); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(123, 44, 191, 0.25); }
+
+        /* Breadcrumbs */
+        .breadcrumbs-bar { max-width: 1240px; margin: 0 auto; padding: 18px 24px 0 24px; width: 100%; }
+        .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13px; color: var(--text-light); list-style: none; }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; font-weight: 500; }
+        .breadcrumbs a:hover { color: var(--purple-main); text-decoration: underline; }
+        .breadcrumbs .sep { color: var(--border-strong); }
+        .breadcrumbs .current { color: var(--purple-main); font-weight: 600; }
+
+        /* Container */
+        .main-content { max-width: 1240px; margin: 0 auto; padding: 24px 24px 60px 24px; width: 100%; flex: 1; }
+        
+        /* Typography */
+        h1 { font-size: 32px; font-weight: 800; line-height: 1.25; color: var(--purple-deep); letter-spacing: -0.02em; margin-bottom: 12px; }
+        h2 { font-size: 22px; font-weight: 700; color: var(--purple-deep); letter-spacing: -0.01em; margin: 32px 0 16px 0; display: flex; align-items: center; gap: 10px; }
+        h3 { font-size: 17px; font-weight: 700; color: var(--purple-main); margin-bottom: 8px; }
+        p { margin-bottom: 14px; font-size: 15.5px; color: var(--text-muted); }
+
+        /* Badges */
+        .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+        .badge-purple { background: rgba(123, 44, 191, 0.08); color: var(--purple-main); border: 1px solid rgba(123, 44, 191, 0.18); }
+        .badge-pink { background: rgba(255, 74, 149, 0.08); color: var(--pink-accent); border: 1px solid rgba(255, 74, 149, 0.2); }
+        .badge-zinc { background: rgba(0, 0, 0, 0.04); color: #4B5563; border: 1px solid rgba(0, 0, 0, 0.08); }
+
+        /* CIE Cross-Board Notice */
+        .cross-board-banner { background: #FFFFFF; border: 1px solid var(--border-subtle); border-left: 4px solid var(--purple-main); border-radius: var(--radius-md); padding: 14px 18px; margin-bottom: 24px; box-shadow: var(--card-shadow); display: flex; gap: 14px; align-items: flex-start; }
+        .cross-board-icon { font-size: 20px; line-height: 1; }
+        .cross-board-text { font-size: 13.5px; color: var(--text-muted); line-height: 1.55; }
+        .cross-board-text strong { color: var(--purple-deep); }
+
+        /* Layout Grid */
+        .layout-grid { display: grid; grid-template-columns: 1fr 340px; gap: 32px; align-items: start; }
+        @media (max-width: 960px) {
+            .layout-grid { grid-template-columns: 1fr; }
+            .site-header .nav-links { display: none; }
+            h1 { font-size: 26px; }
+        }
+
+        /* Video Player Card */
+        .video-card { background: #000; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 16px 40px rgba(23, 10, 44, 0.18); position: relative; padding-top: 56.25%; margin-bottom: 28px; }
+        .video-card iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+        /* Content Cards */
+        .content-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; margin-bottom: 24px; box-shadow: var(--card-shadow); }
+        
+        /* Math Blocks */
+        .formula-box { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 16px 20px; margin: 16px 0; overflow-x: auto; }
+        .formula-box .title { font-size: 13px; font-weight: 700; color: var(--purple-main); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+
+        /* Examiner Traps */
+        .trap-card { background: #FFF5F7; border: 1px solid rgba(255, 74, 149, 0.25); border-left: 4px solid var(--pink-accent); border-radius: var(--radius-md); padding: 18px 20px; margin: 20px 0; }
+        .trap-card h3 { color: #C2185B; display: flex; align-items: center; gap: 8px; font-size: 15px; margin-bottom: 10px; }
+        .trap-card ul { padding-left: 20px; margin: 0; }
+        .trap-card li { font-size: 14px; color: #6E1A34; margin-bottom: 8px; line-height: 1.55; }
+
+        /* Solution Steps */
+        .step-item { border-left: 2px solid var(--purple-main); padding-left: 18px; margin: 20px 0; position: relative; }
+        .step-item::before { content: ''; position: absolute; left: -6px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: var(--purple-main); }
+        .step-item h4 { font-size: 15.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 6px; }
+        .step-item p { font-size: 14.5px; margin-bottom: 8px; }
+
+        /* Transcript Accordion */
+        details.transcript-details { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px 18px; margin-top: 24px; }
+        details.transcript-details summary { font-size: 14px; font-weight: 700; color: var(--purple-deep); cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; }
+        details.transcript-details .transcript-body { margin-top: 14px; font-size: 13.5px; color: var(--text-muted); line-height: 1.7; max-height: 320px; overflow-y: auto; padding-right: 10px; }
+
+        /* Prev / Next Question Nav */
+        .pager-nav { display: flex; justify-content: space-between; gap: 16px; margin: 36px 0; padding-top: 20px; border-top: 1px solid var(--border-subtle); }
+        .pager-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: var(--radius-md); background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-main); text-decoration: none; font-size: 14px; font-weight: 600; transition: all 0.2s ease; box-shadow: var(--card-shadow); }
+        .pager-btn:hover { border-color: var(--purple-main); color: var(--purple-main); transform: translateY(-1px); }
+
+        /* Sticky Sidebar */
+        .sidebar { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 20px; }
+        .tutor-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 24px; box-shadow: var(--card-shadow); text-align: center; }
+        .tutor-card img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(123, 44, 191, 0.15); margin-bottom: 12px; }
+        .tutor-name { font-size: 17px; font-weight: 800; color: var(--purple-deep); margin-bottom: 2px; }
+        .tutor-title { font-size: 13px; color: var(--purple-main); font-weight: 600; margin-bottom: 12px; }
+        .tutor-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 18px; text-align: left; }
+
+        .cta-box { background: linear-gradient(135deg, #7B2CBF 0%, #5A189A 100%); color: #fff; border-radius: var(--radius-lg); padding: 24px; box-shadow: 0 14px 32px rgba(123, 44, 191, 0.28); }
+        .cta-box h3 { color: #fff; font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+        .cta-box p { color: rgba(255, 255, 255, 0.88); font-size: 13px; line-height: 1.5; margin-bottom: 18px; }
+        .cta-box .btn-main { display: block; text-align: center; background: #fff; color: var(--purple-main); font-weight: 800; font-size: 14px; padding: 12px 18px; border-radius: 999px; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+        .cta-box .btn-main:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(0,0,0,0.18); }
+        .cta-box .guarantee { font-size: 11.5px; color: rgba(255, 255, 255, 0.75); text-align: center; margin-top: 10px; }
+
+        .related-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--card-shadow); }
+        .related-card h4 { font-size: 14.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 14px; }
+        .related-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+        .related-list a { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--text-muted); text-decoration: none; line-height: 1.4; transition: color 0.2s ease; }
+        .related-list a:hover { color: var(--purple-main); }
+        .related-list a .num { font-weight: 700; color: var(--purple-main); min-width: 26px; }
+
+        /* Footer */
+        .site-footer { background: #110524; color: #B3A4C8; padding: 48px 24px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 60px; font-size: 13.5px; }
+        .footer-inner { max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; }
+        .footer-col h5 { color: #fff; font-size: 15px; font-weight: 700; margin-bottom: 14px; }
+        .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+        .footer-col a { color: #B3A4C8; text-decoration: none; }
+        .footer-col a:hover { color: #fff; }
+        .footer-bottom { max-width: 1240px; margin: 32px auto 0 auto; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; font-size: 12px; color: #7B6894; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo" aria-label="GradeMotion Home">
+            <img src="/gm1.webp" alt="GradeMotion" width="108" height="45">
+        </a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/solutions" class="">Past Paper Solutions</a></li>
+            <li><a href="/topics" class="active">Topic Guides</a></li>
+            <li><a href="/schedule">1-on-1 Schedule</a></li>
+            <li><a href="https://forms.gle/grademotion-free-diagnostic" target="_blank" class="nav-btn">Free Diagnostic &rarr;</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="breadcrumbs-bar">
+    <nav aria-label="Breadcrumb">
+        <ol class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li class="sep">/</li>
+            <li class="current">Topic Guides</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="main-content">
+    <div class="badge-row">
+        <span class="badge badge-purple">GradeMotion Syllabus Hub</span>
+        <span class="badge badge-zinc">Edexcel 9FM0 &bull; CIE 9231</span>
+        <span class="badge badge-pink">Evergreen Architecture</span>
+    </div>
+
+    <h1>A-Level Further Mathematics Topic Guides</h1>
+    <p style="font-size: 16.5px; max-width: 820px; margin-bottom: 32px;">
+        Deep-dive conceptual masteries, essential formula sheets, examiner mark-scheme pitfalls, and real past exam question walkthroughs.
+    </p>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 24px;">
+        
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">4 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">3x3 Matrices, Determinants, Inverses &amp; Transformations</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Master 3x3 matrix multiplication, determinants, singular matrix conditions, inverse matrix calculation using minors, cofactors, and adjugate, as well as 2D/3D geometric transformations and systems of linear planes.</p>
+                </div>
+                <a href="/topics/matrices-and-linear-transformations" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">4 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">Complex Numbers: Argand Loci, Cubic Roots &amp; De Moivre's Proofs</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Comprehensive guide to complex numbers in A-Level Further Maths: Euler's formula, modulus-argument arithmetic, loci in the Argand plane (circles, half-lines, angle boundaries), and complex conjugate root theorems for polynomials.</p>
+                </div>
+                <a href="/topics/complex-numbers-loci-and-roots" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">2 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">First &amp; Second Order Differential Equations &amp; Physical Modelling</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Master analytical methods for solving 1st order differential equations using integrating factors, and 2nd order linear non-homogeneous differential equations using auxiliary equations, complementary functions, and particular integrals.</p>
+                </div>
+                <a href="/topics/differential-equations" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">4 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">Hyperbolic Functions, Maclaurin Series &amp; Inverse Trigonometry</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Comprehensive breakdown of hyperbolic functions $(\sinh, \cosh, \tanh)$, logarithmic forms of inverse hyperbolics, Maclaurin and Taylor expansions, and derivatives of inverse trigonometric functions.</p>
+                </div>
+                <a href="/topics/hyperbolic-functions-and-calculus" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">2 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">Polar Coordinates: Curves, Tangents &amp; Area Integration</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Understand polar curve sketching ($r = f(\theta)$ like cardioids, limaçons, and lemniscates), vertical and horizontal tangents via Cartesian conversion $(x = r\cos\theta, y = r\sin\theta)$, and polar bounded area calculation.</p>
+                </div>
+                <a href="/topics/polar-coordinates-and-area" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; justify-content: space-between;">
+                <div>
+                    <div style="display: flex; gap: 8px; margin-bottom: 10px;">
+                        <span class="badge badge-purple">Further Pure Mathematics</span>
+                        <span class="badge badge-zinc">6 Walkthroughs</span>
+                    </div>
+                    <h3 style="font-size: 18px; color: var(--purple-deep); margin-bottom: 10px;">Summation of Series, Method of Differences &amp; Vectors in 3D</h3>
+                    <p style="font-size: 14px; color: var(--text-muted); line-height: 1.55; margin-bottom: 16px;">Techniques for evaluating finite series using standard summation formulas $\sum r, \sum r^2, \sum r^3$ and method of differences (telescoping series), alongside 3D vectors (skew lines, planes, dot &amp; cross products) and polynomial root relations.</p>
+                </div>
+                <a href="/topics/series-proof-and-integration" class="nav-btn" style="text-align: center; display: block; width: 100%;">
+                    Open Topic Guide &rarr;
+                </a>
+            </div>
+            
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-col" style="max-width: 380px;">
+            <h5>GradeMotion</h5>
+            <p style="font-size: 13px; line-height: 1.6; color: #B3A4C8; margin-bottom: 12px;">
+                Elite 1-on-1 tutoring for Cambridge International (CIE 9231) and Edexcel (9FM0) A-Level Further Mathematics. Directed by Tutor Sheefa (10+ years, 42 IB points).
+            </p>
+            <div style="font-size: 12px; color: #7B6894;">
+                &copy; 2026 GradeMotion. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-col">
+            <h5>Past Paper Walkthroughs</h5>
+            <ul>
+                <li><a href="/solutions">May 2025 Edexcel CP1 & CP2 Solutions</a></li>
+                <li><a href="/topics/matrices-and-linear-transformations">3x3 Matrices & Determinants</a></li>
+                <li><a href="/topics/complex-numbers-loci-and-roots">Complex Numbers & Argand Loci</a></li>
+                <li><a href="/topics/differential-equations">Differential Equations Guide</a></li>
+                <li><a href="/topics/hyperbolic-functions-and-calculus">Hyperbolic Functions & Calculus</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h5>Admissions & Tutoring</h5>
+            <ul>
+                <li><a href="/schedule">Book 1-on-1 Lesson Slot</a></li>
+                <li><a href="/pay/usd/trial">2-Hour Evaluation Trial ($210 USD)</a></li>
+                <li><a href="/pay/my/trial">2-Hour Evaluation Trial (RM 380 MYR)</a></li>
+                <li><a href="https://www.youtube.com/@tutorsheefa" target="_blank" rel="noopener">YouTube: @tutorsheefa</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Cambridge Assessment International Education and Pearson Edexcel are registered trademarks. GradeMotion is an independent elite tutoring consultancy and is not affiliated with or endorsed by Cambridge International or Pearson.
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <!-- Core Static Pages -->
+  <url>
+    <loc>https://www.grademotion.com/</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/schedule</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Evergreen Topic Hubs -->
+  <url>
+    <loc>https://www.grademotion.com/topics/matrices-and-linear-transformations</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics/complex-numbers-loci-and-roots</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics/differential-equations</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics/hyperbolic-functions-and-calculus</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics/polar-coordinates-and-area</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/topics/series-proof-and-integration</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Past Paper Solution Pages with Rich Video Sitemap Tags -->
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q1-matrices-singular-inverse</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/2La5fjgOZfw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q1: Matrices (Singular &amp; Inverse Matrix)</video:title>
+      <video:description>Step-by-step worked solution for Edexcel Further Maths CP1 May 2025 Q1. Learn how to find when a 3x3 matrix is singular and calculate the matrix inverse with Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/2La5fjgOZfw</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q2-hyperbolic-functions-exact-values</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uiFGdDFbvIg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q2: Hyperbolic Functions (Exact Values)</video:title>
+      <video:description>Worked solution for Edexcel Further Maths CP1 May 2025 Question 2 on hyperbolic functions. Tutor Sheefa explains exact value calculations using exponential definitions.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/uiFGdDFbvIg</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q3-complex-numbers-purely-imaginary-proof</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/INF0JSk88dc/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q3: Complex Numbers (Purely Imaginary Proof)</video:title>
+      <video:description>Edexcel CP1 May 2025 Question 3 full walkthrough: proving an expression is purely imaginary using complex conjugates and algebraic substitution.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/INF0JSk88dc</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q4-second-order-differential-equations</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/zO7g4UAC--o/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q4: Second Order Differential Equations</video:title>
+      <video:description>Edexcel Further Maths May 2025 CP1 Question 4 worked solution. Learn how to solve non-homogeneous 2nd order differential equations with Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/zO7g4UAC--o</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q5-method-of-differences-summation-proof</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/6ZNaOB4TucA/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q5: Method of Differences (Summation Proof)</video:title>
+      <video:description>May 2025 CP1 Q5 step-by-step solution: Method of Differences summation proof. Watch Tutor Sheefa show how to telescope terms and secure full marks.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/6ZNaOB4TucA</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q6-complex-numbers-cubic-roots-argand</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1ZsITmrhHIw/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q6: Complex Numbers (Cubic Roots &amp; Argand Diagrams)</video:title>
+      <video:description>Edexcel CP1 May 2025 Question 6 worked solution on cubic roots of polynomials with complex conjugates and Argand plane plotting.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1ZsITmrhHIw</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q7a-partial-fractions-improper</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/O_AN-GuxrYs/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q7(a): Partial Fractions (Improper Fractions)</video:title>
+      <video:description>Edexcel CP1 May 2025 Q7(a) solution. How to handle improper rational expressions with algebraic division before partial fractions.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/O_AN-GuxrYs</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q7b-definite-integration-natural-logs</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/tfTDvCVdSnk/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q7(b): Definite Integration &amp; Natural Logs</video:title>
+      <video:description>Edexcel CP1 May 2025 Q7(b) solution: Definite integration leading to exact natural logarithms. Step-by-step walkthrough by Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/tfTDvCVdSnk</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q8-differential-equations-integrating-factor-modelling</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/DU4p24nh3pY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q8: Differential Equations (Modelling &amp; Integrating Factor)</video:title>
+      <video:description>Edexcel CP1 May 2025 Question 8 worked solution: First order linear differential equations with integrating factor and physical rate modelling.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/DU4p24nh3pY</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q9-hyperbolic-functions-integration</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/y9_rkSUzQto/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration</video:title>
+      <video:description>Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/y9_rkSUzQto</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q10-volumes-of-revolution-trig</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/lCgUg77yqis/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP1 Q10: Volumes of Revolution (Trigonometric Identities)</video:title>
+      <video:description>Edexcel CP1 May 2025 Question 10 worked solution: Calculating exact volumes of revolution rotated $2\pi$ radians around the x-axis using trigonometric identities.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/lCgUg77yqis</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q1-complex-numbers-modulus-argument</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/1smjwIDMQXU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q1: Complex Numbers (Modulus &amp; Argument Properties)</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 1 worked solution: Modulus and argument properties of complex numbers explained step-by-step by Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/1smjwIDMQXU</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q2-vectors-lines-planes</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/g6cUklAUg7Q/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q2: 3D Vectors (Lines and Planes)</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 2 worked solution: Lines and planes in 3D, intersections, and shortest distance calculations with Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/g6cUklAUg7Q</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q3a-mathematical-induction-matrices</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/X5zWDanSgIY/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q3(a): Mathematical Induction (Matrix Powers)</video:title>
+      <video:description>Edexcel CP2 May 2025 Q3(a) proof by mathematical induction for matrix powers $M^n$. Full step-by-step deduction by Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/X5zWDanSgIY</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q3bcd-matrix-transformations-combined</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/25BxITgZHI0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry</video:title>
+      <video:description>Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/25BxITgZHI0</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q4-complex-numbers-argand-loci</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/LeTeo4ppaxU/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q4: Complex Numbers (Equations &amp; Argand Loci)</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 4 worked solution: Argand loci equations, intersecting geometric regions, and minimum distance calculations.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/LeTeo4ppaxU</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q5-simultaneous-equations-planes-sheaf</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/uvgfNhLMbJ0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q5: Simultaneous Equations (Planes &amp; Sheaf)</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 5 worked solution: Solving systems of 3 planes, determinant conditions for consistency, and identifying a sheaf of planes.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/uvgfNhLMbJ0</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q6-roots-of-polynomials-quartic</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/RmpPp80YdSg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q6: Roots of Polynomials (Quartic Equations)</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 6 worked solution: Roots of quartic equations, Vieta&apos;s formulas, and polynomial transformations with Tutor Sheefa.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/RmpPp80YdSg</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q7a-polar-coordinates-vertical-tangents</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/r6RBCZ6TRG0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q7(a): Polar Coordinates (Vertical Tangents)</video:title>
+      <video:description>Edexcel CP2 May 2025 Q7(a) solution: Finding vertical tangents perpendicular to the initial line on a polar curve $r = f(\theta)$.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/r6RBCZ6TRG0</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q7bc-polar-area-cosine-rule</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/llLqFVduG0A/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q7(b,c): Polar Area &amp; Cosine Rule Applications</video:title>
+      <video:description>Edexcel CP2 May 2025 Q7(b,c) worked solution: Polar area integration and applying the cosine rule to find chord lengths across polar loops.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/llLqFVduG0A</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q8-maclaurin-series-hyperbolic-differentiation</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/mq08Fx6D0tM/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q8: Maclaurin Series &amp; Hyperbolic Differentiation</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 8 worked solution: Deriving Maclaurin series using successive differentiation of hyperbolic composite functions.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/mq08Fx6D0tM</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q9-differentiation-inverse-sine</loc>
+    <lastmod>2026-09-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/fLSixCfxyj0/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Edexcel Further Maths May 2025 CP2 Q9: Differentiation of Inverse Sine Functions</video:title>
+      <video:description>Edexcel CP2 May 2025 Question 9 worked solution: Differentiating inverse trigonometric functions (arcsin) and Leibniz&apos;s theorem differential equations.</video:description>
+      <video:player_loc>https://www.youtube-nocookie.com/embed/fLSixCfxyj0</video:player_loc>
+      <video:publication_date>2025-05-20T00:00:00Z</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+    </video:video>
+  </url>
+</urlset>

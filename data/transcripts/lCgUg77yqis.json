@@ -1,0 +1,1399 @@
+{
+  "id": "lCgUg77yqis",
+  "paper": "CP1",
+  "question": "Q10",
+  "title": "Volumes of Revolution (Trigonometric Identities)",
+  "full_text": "Let's now take a look at question 10. Okay, for part A, they give us these two statements here and they want us to use these to show that 8 sin to the power of 4 theta is equal to cos 4 theta minus 4 cos 2 theta plus 3. That is for 10 A. Moving on to part B, okay, we can see this drawing here. We have figure 1 and figure 2. Figure 1 is the central vertical cross-section of a of an ornament. Whereas figure 2 shows the curve with this equation. Okay, they also give us the range value of Y. The region R shown shaded in figure 2 is bounded by the curve, the line with the equation Y equals to 8 pi over 5 and the Y axis. The ornament is modeled by the solid of revolution formed when R is rotated 360° about the Y axis. The units are in centimeters. So, what happened? We are rotating it here 360 degree. Using algebraic integration and the result in part A, determine in cm cubed the volume of the wood needed to make the ornament. So, we want to find the volume by using integration and result in part A. We want the answer okay, up to two significant figures only. Now, moving on to part C, they want us to comment on the suitability of the model given the density and the mass of the ornament. Let's now begin with part A. What we want to do is we want to find sin power of 4 here. So, because of sin, that means we have to use this one. So, what we're going to do is we will get take Z minus 1 over Z to the power of 4. Okay. So, we'll do two types of computation. On our right-hand side, we will use binomial expansion. Whereas for our left-hand side, we will use our definition. So, this will use definition. So, let's expand this. So, it would be 4 C 0 Z to the power of 4 -1 over Z to the power of 0 plus 4 C 1 Z to the power of 3 -1 over Z to the power of 1 plus 4 C 2 Z squared -1 over Z squared Okay. plus 4 C 3 Okay, Z to the power of 1 -1 over Z cubed plus 4 C 4 Z to the power of 0 and -1 over Z to the power of 4. So, that is our right-hand side. Next line we will use the definition. So, what's the definition? Okay, for power of 4, so it would be 2 i sin theta to the power of 4. So, that is from our definition here. Okay. So, let's do this. 4 C 0. That would be 1. So, Z to the power of 4. Here [snorts] would be minus 4 C 1 that would [snorts] be 4. We'll get Z cubed over Z plus 4 C 2 Okay, so that would be 6. Z squared over Z squared. I do not need to compute the rest because it would be like 4 and then it would be 1 as the coefficient. So, this one would be Z over Z cubed plus 1. Okay. And then it would be 1 over Z to the power of 4. Now, let's expand our left-hand side. So, we have 2 to the power of 4 i to the power of 4 and sin theta to the power of 4. And what happened for our right-hand side, we will simplify. So, this one would be Z4 minus 4 Z squared plus 6 minus 4 1 over Z squared plus 1 over Z to the power of 4. Now, let's write down okay, let's solve our left-hand side. 2 to the power of 4 is 2 to the power of 4 is 16. Okay, we know that i squared is -1. -1 squared is 1. So, here would be sin to the power of 4 theta equals to Now, for our right-hand side, I will start using different colors. Okay, [snorts] so here it would be Z to the power of 4. Okay, I'm going to combine it with plus 1 over Z to the power of 4. Next Okay, I will have minus 4 Z squared minus 4 1 over Z squared and then I can use like the previous color back plus 6. Okay, so our left-hand side would be 16 sin to the power of 4 theta equals to Okay, the red one would be Z [snorts] to the power of 4 plus 1 over Z to the power of 4. Okay, now I will take out the common >> [snorts] >> term. So, it I will take out -4 and we will get Z squared plus 1 over Z squared. Next, it would be plus 6. We are done with our left-hand side. We're not going to simplify that anymore. That's it. Okay, now what we're going to do is we're going to use our definition here. So, we know that Okay, when it is Z to the power of n, okay, that would be equal to 2 cos n theta. In this case, your n is 4. So, we'll get 2 cos 4 theta. minus 4 and then bracket Here is also plus, so it will become 2 cos 2 theta. plus 6 Okay, let's expand and simplify. We will get 2 cos 4 theta minus 8 cos 2 theta plus 6. This is actually equal to 16 sin to the power of 4 theta. Okay, let's check our question. Okay, [snorts] our question, they want us to prove that it is 8, not 16. So, what we have to do now? Divide all of this by 2. >> [snorts] >> So, let's divide this by 2. So, we will get 8 sin to the power of 4 theta is equal to cos 4 theta minus 4 cos 2 theta plus 3. That's it. We are done with part A. Moving on to part B, now we want to find the integration of the volume for this one. Okay, what's the formula for volume? So, B, we want to find volume. The formula for volume would be Okay, pi Y1, the limit of Y. Okay, until Y2 X squared dy. So, what we need is X squared. So, let's find that one first. So, what we have here is X. X is equal to sin squared. Okay, half Y. Now, what we want to do is we want to find squared. So, we're going to square this and we're going to square this. So, we will get X [snorts] squared is equal to sin to the power of 4 1 over 2 Y. Now, they want us to use the result that we get here. But notice that the result here we have got 8. So, what we have to do is let's simplify this. Okay, I will put 8 here. Okay, so inside here I should have 8 sin 4 1 over 2 Y. But over here we want our coefficient to be 1. Therefore, we have to multiply by 1 over 8. Okay, so we'll get 1 over 8 here. And then let's let's substitute it what we have in part A. So, here would be cos 4 theta but in this case it's not theta. In this case is half y - 4 cos 2 theta so 2 half y + 3 close bracket. There we go. Let's expand and simplify this one. So, we will get 1 over 8 Okay, cos 2 y 4 over 8 that would be half cos y + 3 over 8. That is the equation for x squared. So, volume is equals to pi y1 to y2. Okay, so what is our y1? Y1 is 0 until 8 pi over 5. And over here it would be 1 over 8 cos 2 y - 1 over 2 cos y + 3 over 8 dy. Okay. So, we can straight away integrate this. Here we will get we'll carry forward 1 over 8 cos 2 y if we integrate we will get sin 2 y. Now, we have to differentiate 2 y we will get 2. 1 over 2 cos 2 y integrate we will get sin y + 3 over 8 y. Okay, what are our limits? 0 and 8 pi over 5. Let's now substitute the value. Okay. So, we have 1 over 16 sin Okay, that would be 16 pi over 5 - 1 over 2 sin 8 pi over 5 + 3 over 8 multiplied by 8 pi over 5. Now, we will substitute 0. Okay, notice that sin 0 is 0. So, when we substitute this one would be 0. This one would be 0 and this one will also be 0. So, that's it. So, I just have to write 0. Let's compute the value. Let's just use our calculator. 1 over 16 Okay, sin 16 pi over 5. Okay, make sure our calculator is in radian mode, yeah. - 1 over 2 sin 8 pi over 5. Oh, why can't Okay, over 5 + 3 over 8 close bracket open bracket 8 pi over 5. Why can't Why we can just simply use our calculator? Because they want us to give the answer up to two significant figures. Don't need like exact value for this question. So, here is 2 3 2 3 7 pi. Now, let's multiply by pi. Okay, multiply by pi and we will get 7.3 This is volume cm cubed. This is up to two significant figures. Okay, we are done with part B. Moving on to C now. Okay. They give us the density and the mass of the ornament and they want us to comment on the suitability. So, let's compute the volume of the actual ornament. So, volume is equal to mass over density. Okay, so what is our mass? Our mass is 6 over 0.85. So, let's compute that 6 over 0.85. So, we will get 7.06 Okay, cm cubed. 7.06 cm cubed and 7.3 cm cubed are closed. Okay. Therefore it is a suitable model. Okay. That's it. We are done with this question.",
+  "snippets": [
+    {
+      "text": "Let's now take a look at question 10.",
+      "start": 0.0,
+      "duration": 5.28
+    },
+    {
+      "text": "Okay, for part A, they give us these two",
+      "start": 2.28,
+      "duration": 6.0
+    },
+    {
+      "text": "statements here and they want us to use",
+      "start": 5.28,
+      "duration": 6.64
+    },
+    {
+      "text": "these to show that 8 sin to the power of",
+      "start": 8.28,
+      "duration": 8.24
+    },
+    {
+      "text": "4 theta is equal to cos 4 theta minus 4",
+      "start": 11.92,
+      "duration": 9.52
+    },
+    {
+      "text": "cos 2 theta plus 3. That is for 10 A.",
+      "start": 16.52,
+      "duration": 8.84
+    },
+    {
+      "text": "Moving on to part B, okay, we can see",
+      "start": 21.44,
+      "duration": 5.96
+    },
+    {
+      "text": "this drawing here. We have figure 1 and",
+      "start": 25.36,
+      "duration": 5.6
+    },
+    {
+      "text": "figure 2. Figure 1 is the central",
+      "start": 27.4,
+      "duration": 6.76
+    },
+    {
+      "text": "vertical cross-section of a of an",
+      "start": 30.96,
+      "duration": 6.2
+    },
+    {
+      "text": "ornament. Whereas figure 2 shows the",
+      "start": 34.16,
+      "duration": 6.4
+    },
+    {
+      "text": "curve with this equation. Okay, they",
+      "start": 37.16,
+      "duration": 7.0
+    },
+    {
+      "text": "also give us the range value of Y.",
+      "start": 40.56,
+      "duration": 6.48
+    },
+    {
+      "text": "The region R shown shaded in figure 2 is",
+      "start": 44.16,
+      "duration": 5.0
+    },
+    {
+      "text": "bounded by the curve, the line with the",
+      "start": 47.04,
+      "duration": 6.24
+    },
+    {
+      "text": "equation Y equals to 8 pi over 5 and the",
+      "start": 49.16,
+      "duration": 5.48
+    },
+    {
+      "text": "Y axis.",
+      "start": 53.28,
+      "duration": 3.6
+    },
+    {
+      "text": "The ornament is modeled by the solid of",
+      "start": 54.64,
+      "duration": 8.04
+    },
+    {
+      "text": "revolution formed when R is rotated 360°",
+      "start": 56.88,
+      "duration": 9.0
+    },
+    {
+      "text": "about the Y axis. The units are in",
+      "start": 62.68,
+      "duration": 5.88
+    },
+    {
+      "text": "centimeters. So, what happened? We are",
+      "start": 65.88,
+      "duration": 4.92
+    },
+    {
+      "text": "rotating it",
+      "start": 68.56,
+      "duration": 4.76
+    },
+    {
+      "text": "here 360",
+      "start": 70.8,
+      "duration": 3.76
+    },
+    {
+      "text": "degree.",
+      "start": 73.32,
+      "duration": 3.32
+    },
+    {
+      "text": "Using algebraic integration and the",
+      "start": 74.56,
+      "duration": 5.64
+    },
+    {
+      "text": "result in part A, determine in cm cubed",
+      "start": 76.64,
+      "duration": 5.56
+    },
+    {
+      "text": "the volume of the wood needed to make",
+      "start": 80.2,
+      "duration": 4.12
+    },
+    {
+      "text": "the ornament. So, we want to find the",
+      "start": 82.2,
+      "duration": 5.8
+    },
+    {
+      "text": "volume by using integration and result",
+      "start": 84.32,
+      "duration": 7.48
+    },
+    {
+      "text": "in part A. We want the answer okay, up",
+      "start": 88.0,
+      "duration": 6.68
+    },
+    {
+      "text": "to two significant figures only.",
+      "start": 91.8,
+      "duration": 6.24
+    },
+    {
+      "text": "Now, moving on to part C, they want us",
+      "start": 94.68,
+      "duration": 5.24
+    },
+    {
+      "text": "to comment on the suitability of the",
+      "start": 98.04,
+      "duration": 6.24
+    },
+    {
+      "text": "model given the density and the mass of",
+      "start": 99.92,
+      "duration": 6.8
+    },
+    {
+      "text": "the ornament.",
+      "start": 104.28,
+      "duration": 5.72
+    },
+    {
+      "text": "Let's now begin with part A. What we",
+      "start": 106.72,
+      "duration": 6.6
+    },
+    {
+      "text": "want to do is we want to find sin power",
+      "start": 110.0,
+      "duration": 6.04
+    },
+    {
+      "text": "of 4 here. So, because of sin, that",
+      "start": 113.32,
+      "duration": 5.28
+    },
+    {
+      "text": "means we have to use this one.",
+      "start": 116.04,
+      "duration": 5.6
+    },
+    {
+      "text": "So, what we're going to do is we will",
+      "start": 118.6,
+      "duration": 8.24
+    },
+    {
+      "text": "get take Z minus 1 over Z to the power",
+      "start": 121.64,
+      "duration": 9.08
+    },
+    {
+      "text": "of 4. Okay. So, we'll do two types of",
+      "start": 126.84,
+      "duration": 6.84
+    },
+    {
+      "text": "computation. On our right-hand side, we",
+      "start": 130.72,
+      "duration": 7.36
+    },
+    {
+      "text": "will use binomial expansion. Whereas for",
+      "start": 133.68,
+      "duration": 8.28
+    },
+    {
+      "text": "our left-hand side, we will use our",
+      "start": 138.08,
+      "duration": 6.16
+    },
+    {
+      "text": "definition. So, this will use",
+      "start": 141.96,
+      "duration": 5.28
+    },
+    {
+      "text": "definition.",
+      "start": 144.24,
+      "duration": 3.0
+    },
+    {
+      "text": "So, let's expand this. So, it would be 4",
+      "start": 147.8,
+      "duration": 7.88
+    },
+    {
+      "text": "C 0 Z to the power of 4",
+      "start": 151.12,
+      "duration": 8.64
+    },
+    {
+      "text": "-1 over Z to the power of 0",
+      "start": 155.68,
+      "duration": 6.12
+    },
+    {
+      "text": "plus",
+      "start": 159.76,
+      "duration": 8.04
+    },
+    {
+      "text": "4 C 1 Z to the power of 3 -1 over Z to",
+      "start": 161.8,
+      "duration": 10.92
+    },
+    {
+      "text": "the power of 1 plus 4 C 2",
+      "start": 167.8,
+      "duration": 6.8
+    },
+    {
+      "text": "Z squared",
+      "start": 172.72,
+      "duration": 5.28
+    },
+    {
+      "text": "-1 over Z squared",
+      "start": 174.6,
+      "duration": 7.16
+    },
+    {
+      "text": "Okay. plus",
+      "start": 178.0,
+      "duration": 3.76
+    },
+    {
+      "text": "4 C 3",
+      "start": 183.92,
+      "duration": 7.44
+    },
+    {
+      "text": "Okay, Z to the power of 1 -1 over Z",
+      "start": 186.68,
+      "duration": 6.0
+    },
+    {
+      "text": "cubed",
+      "start": 191.36,
+      "duration": 4.68
+    },
+    {
+      "text": "plus 4 C 4",
+      "start": 192.68,
+      "duration": 7.8
+    },
+    {
+      "text": "Z to the power of 0 and -1 over Z to the",
+      "start": 196.04,
+      "duration": 8.44
+    },
+    {
+      "text": "power of 4. So, that is our right-hand",
+      "start": 200.48,
+      "duration": 6.92
+    },
+    {
+      "text": "side. Next line we will use the",
+      "start": 204.48,
+      "duration": 5.52
+    },
+    {
+      "text": "definition. So, what's the definition?",
+      "start": 207.4,
+      "duration": 6.92
+    },
+    {
+      "text": "Okay, for power of 4, so it would be 2 i",
+      "start": 210.0,
+      "duration": 6.56
+    },
+    {
+      "text": "sin theta",
+      "start": 214.32,
+      "duration": 5.68
+    },
+    {
+      "text": "to the power of 4. So, that is from our",
+      "start": 216.56,
+      "duration": 6.44
+    },
+    {
+      "text": "definition here.",
+      "start": 220.0,
+      "duration": 8.88
+    },
+    {
+      "text": "Okay. So, let's do this. 4 C 0. That",
+      "start": 223.0,
+      "duration": 10.16
+    },
+    {
+      "text": "would be 1. So, Z to the power of 4.",
+      "start": 228.88,
+      "duration": 6.76
+    },
+    {
+      "text": "Here [snorts] would be minus",
+      "start": 233.16,
+      "duration": 4.92
+    },
+    {
+      "text": "4 C 1",
+      "start": 235.64,
+      "duration": 4.52
+    },
+    {
+      "text": "that would [snorts] be 4.",
+      "start": 238.08,
+      "duration": 6.24
+    },
+    {
+      "text": "We'll get Z cubed over Z",
+      "start": 240.16,
+      "duration": 5.6
+    },
+    {
+      "text": "plus",
+      "start": 244.32,
+      "duration": 3.8
+    },
+    {
+      "text": "4 C 2",
+      "start": 245.76,
+      "duration": 5.68
+    },
+    {
+      "text": "Okay, so that would be 6.",
+      "start": 248.12,
+      "duration": 6.72
+    },
+    {
+      "text": "Z squared over Z squared. I do not need",
+      "start": 251.44,
+      "duration": 5.2
+    },
+    {
+      "text": "to compute the rest because it would be",
+      "start": 254.84,
+      "duration": 3.0
+    },
+    {
+      "text": "like 4",
+      "start": 256.64,
+      "duration": 2.92
+    },
+    {
+      "text": "and then it would be 1 as the",
+      "start": 257.84,
+      "duration": 4.48
+    },
+    {
+      "text": "coefficient. So, this one would be Z",
+      "start": 259.56,
+      "duration": 5.44
+    },
+    {
+      "text": "over Z cubed",
+      "start": 262.32,
+      "duration": 4.6
+    },
+    {
+      "text": "plus 1.",
+      "start": 265.0,
+      "duration": 5.68
+    },
+    {
+      "text": "Okay. And then it would be 1 over Z to",
+      "start": 266.92,
+      "duration": 6.48
+    },
+    {
+      "text": "the power of 4.",
+      "start": 270.68,
+      "duration": 5.48
+    },
+    {
+      "text": "Now, let's expand our left-hand side.",
+      "start": 273.4,
+      "duration": 6.92
+    },
+    {
+      "text": "So, we have 2 to the power of 4 i to the",
+      "start": 276.16,
+      "duration": 8.96
+    },
+    {
+      "text": "power of 4 and sin theta to the power of",
+      "start": 280.32,
+      "duration": 5.88
+    },
+    {
+      "text": "4.",
+      "start": 285.12,
+      "duration": 4.4
+    },
+    {
+      "text": "And what happened for our",
+      "start": 286.2,
+      "duration": 6.24
+    },
+    {
+      "text": "right-hand side, we will simplify. So,",
+      "start": 289.52,
+      "duration": 8.32
+    },
+    {
+      "text": "this one would be Z4 minus 4 Z squared",
+      "start": 292.44,
+      "duration": 12.84
+    },
+    {
+      "text": "plus 6 minus 4 1 over Z squared plus 1",
+      "start": 297.84,
+      "duration": 10.96
+    },
+    {
+      "text": "over Z to the power of 4.",
+      "start": 305.28,
+      "duration": 5.92
+    },
+    {
+      "text": "Now, let's write down okay, let's solve",
+      "start": 308.8,
+      "duration": 6.88
+    },
+    {
+      "text": "our left-hand side. 2 to the power of 4",
+      "start": 311.2,
+      "duration": 5.6
+    },
+    {
+      "text": "is",
+      "start": 315.68,
+      "duration": 6.0
+    },
+    {
+      "text": "2 to the power of 4 is 16.",
+      "start": 316.8,
+      "duration": 9.64
+    },
+    {
+      "text": "Okay, we know that i squared is -1. -1",
+      "start": 321.68,
+      "duration": 7.52
+    },
+    {
+      "text": "squared is 1.",
+      "start": 326.44,
+      "duration": 6.52
+    },
+    {
+      "text": "So, here would be sin to the power of 4",
+      "start": 329.2,
+      "duration": 7.92
+    },
+    {
+      "text": "theta equals to Now, for our right-hand",
+      "start": 332.96,
+      "duration": 6.52
+    },
+    {
+      "text": "side, I will start using different",
+      "start": 337.12,
+      "duration": 4.88
+    },
+    {
+      "text": "colors.",
+      "start": 339.48,
+      "duration": 2.52
+    },
+    {
+      "text": "Okay, [snorts] so here it would be",
+      "start": 342.44,
+      "duration": 6.96
+    },
+    {
+      "text": "Z to the power of 4. Okay, I'm going to",
+      "start": 346.92,
+      "duration": 6.04
+    },
+    {
+      "text": "combine it with plus 1 over Z to the",
+      "start": 349.4,
+      "duration": 5.72
+    },
+    {
+      "text": "power of 4.",
+      "start": 352.96,
+      "duration": 3.44
+    },
+    {
+      "text": "Next",
+      "start": 355.12,
+      "duration": 3.32
+    },
+    {
+      "text": "Okay, I will have",
+      "start": 356.4,
+      "duration": 5.16
+    },
+    {
+      "text": "minus 4 Z squared",
+      "start": 358.44,
+      "duration": 7.08
+    },
+    {
+      "text": "minus 4 1 over Z squared",
+      "start": 361.56,
+      "duration": 5.52
+    },
+    {
+      "text": "and then I can use like the previous",
+      "start": 365.52,
+      "duration": 4.52
+    },
+    {
+      "text": "color back plus 6.",
+      "start": 367.08,
+      "duration": 7.4
+    },
+    {
+      "text": "Okay, so our left-hand side would be 16",
+      "start": 370.04,
+      "duration": 5.96
+    },
+    {
+      "text": "sin",
+      "start": 374.48,
+      "duration": 5.44
+    },
+    {
+      "text": "to the power of 4 theta equals to Okay,",
+      "start": 376.0,
+      "duration": 6.32
+    },
+    {
+      "text": "the red one would be Z [snorts] to the",
+      "start": 379.92,
+      "duration": 6.16
+    },
+    {
+      "text": "power of 4 plus 1 over Z",
+      "start": 382.32,
+      "duration": 6.92
+    },
+    {
+      "text": "to the power of 4. Okay, now I will take",
+      "start": 386.08,
+      "duration": 4.959
+    },
+    {
+      "text": "out the common",
+      "start": 389.24,
+      "duration": 2.2
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 391.039,
+      "duration": 3.401
+    },
+    {
+      "text": ">> term. So, it I will take out -4 and we",
+      "start": 391.44,
+      "duration": 5.12
+    },
+    {
+      "text": "will get",
+      "start": 394.44,
+      "duration": 7.4
+    },
+    {
+      "text": "Z squared plus 1 over Z squared.",
+      "start": 396.56,
+      "duration": 9.32
+    },
+    {
+      "text": "Next, it would be plus 6. We are done",
+      "start": 401.84,
+      "duration": 5.16
+    },
+    {
+      "text": "with our left-hand side. We're not going",
+      "start": 405.88,
+      "duration": 3.88
+    },
+    {
+      "text": "to simplify that anymore. That's it.",
+      "start": 407.0,
+      "duration": 4.64
+    },
+    {
+      "text": "Okay, now what we're going to do is",
+      "start": 409.76,
+      "duration": 5.12
+    },
+    {
+      "text": "we're going to use our definition here.",
+      "start": 411.64,
+      "duration": 5.32
+    },
+    {
+      "text": "So, we know that",
+      "start": 414.88,
+      "duration": 4.48
+    },
+    {
+      "text": "Okay, when it is Z to the power of n,",
+      "start": 416.96,
+      "duration": 4.8
+    },
+    {
+      "text": "okay, that would be equal to 2 cos n",
+      "start": 419.36,
+      "duration": 7.28
+    },
+    {
+      "text": "theta. In this case, your n is 4. So,",
+      "start": 421.76,
+      "duration": 10.48
+    },
+    {
+      "text": "we'll get 2 cos 4 theta.",
+      "start": 426.64,
+      "duration": 10.56
+    },
+    {
+      "text": "minus 4 and then bracket Here is also",
+      "start": 432.24,
+      "duration": 11.08
+    },
+    {
+      "text": "plus, so it will become 2 cos 2 theta.",
+      "start": 437.2,
+      "duration": 6.12
+    },
+    {
+      "text": "plus 6",
+      "start": 443.88,
+      "duration": 3.8
+    },
+    {
+      "text": "Okay, let's expand and simplify. We will",
+      "start": 445.6,
+      "duration": 4.68
+    },
+    {
+      "text": "get 2 cos 4 theta",
+      "start": 447.68,
+      "duration": 7.6
+    },
+    {
+      "text": "minus 8 cos 2 theta plus 6. This is",
+      "start": 450.28,
+      "duration": 8.68
+    },
+    {
+      "text": "actually equal to 16 sin",
+      "start": 455.28,
+      "duration": 6.52
+    },
+    {
+      "text": "to the power of 4 theta. Okay, let's",
+      "start": 458.96,
+      "duration": 5.28
+    },
+    {
+      "text": "check our question.",
+      "start": 461.8,
+      "duration": 4.04
+    },
+    {
+      "text": "Okay, [snorts] our question, they want",
+      "start": 464.24,
+      "duration": 4.76
+    },
+    {
+      "text": "us to prove that it is 8, not 16. So,",
+      "start": 465.84,
+      "duration": 5.6
+    },
+    {
+      "text": "what we have to do now? Divide all of",
+      "start": 469.0,
+      "duration": 5.225
+    },
+    {
+      "text": "this by 2.",
+      "start": 471.44,
+      "duration": 3.08
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 474.225,
+      "duration": 3.055
+    },
+    {
+      "text": ">> So, let's divide this by 2. So, we will",
+      "start": 474.52,
+      "duration": 5.16
+    },
+    {
+      "text": "get 8 sin",
+      "start": 477.28,
+      "duration": 6.0
+    },
+    {
+      "text": "to the power of 4 theta is equal to cos",
+      "start": 479.68,
+      "duration": 10.0
+    },
+    {
+      "text": "4 theta minus 4 cos 2 theta plus 3.",
+      "start": 483.28,
+      "duration": 10.12
+    },
+    {
+      "text": "That's it. We are done with part A.",
+      "start": 489.68,
+      "duration": 7.52
+    },
+    {
+      "text": "Moving on to part B, now we want to find",
+      "start": 493.4,
+      "duration": 6.96
+    },
+    {
+      "text": "the integration of the volume for this",
+      "start": 497.2,
+      "duration": 4.92
+    },
+    {
+      "text": "one. Okay, what's the formula for",
+      "start": 500.36,
+      "duration": 3.16
+    },
+    {
+      "text": "volume?",
+      "start": 502.12,
+      "duration": 4.24
+    },
+    {
+      "text": "So, B, we want to find volume. The",
+      "start": 503.52,
+      "duration": 7.56
+    },
+    {
+      "text": "formula for volume would be Okay, pi",
+      "start": 506.36,
+      "duration": 8.6
+    },
+    {
+      "text": "Y1, the limit of Y. Okay, until Y2 X",
+      "start": 511.08,
+      "duration": 7.519
+    },
+    {
+      "text": "squared dy. So, what we need is X",
+      "start": 514.96,
+      "duration": 7.48
+    },
+    {
+      "text": "squared. So, let's find that one first.",
+      "start": 518.599,
+      "duration": 6.681
+    },
+    {
+      "text": "So, what we have here is X. X is equal",
+      "start": 522.44,
+      "duration": 8.36
+    },
+    {
+      "text": "to sin squared. Okay, half Y.",
+      "start": 525.28,
+      "duration": 7.52
+    },
+    {
+      "text": "Now, what we want to do is we want to",
+      "start": 530.8,
+      "duration": 4.32
+    },
+    {
+      "text": "find squared. So, we're going to square",
+      "start": 532.8,
+      "duration": 5.16
+    },
+    {
+      "text": "this and we're going to square this. So,",
+      "start": 535.12,
+      "duration": 4.52
+    },
+    {
+      "text": "we will get",
+      "start": 537.96,
+      "duration": 2.32
+    },
+    {
+      "text": "X [snorts]",
+      "start": 539.64,
+      "duration": 4.48
+    },
+    {
+      "text": "squared is equal to sin to the power of",
+      "start": 540.28,
+      "duration": 8.88
+    },
+    {
+      "text": "4 1 over 2 Y. Now, they want us to use",
+      "start": 544.12,
+      "duration": 7.76
+    },
+    {
+      "text": "the result that we get here. But notice",
+      "start": 549.16,
+      "duration": 6.24
+    },
+    {
+      "text": "that the result here we have got 8. So,",
+      "start": 551.88,
+      "duration": 5.6
+    },
+    {
+      "text": "what we have to do is let's simplify",
+      "start": 555.4,
+      "duration": 6.44
+    },
+    {
+      "text": "this. Okay, I will put 8 here.",
+      "start": 557.48,
+      "duration": 8.56
+    },
+    {
+      "text": "Okay, so inside here I should have 8 sin",
+      "start": 561.84,
+      "duration": 9.4
+    },
+    {
+      "text": "4 1 over 2 Y. But over here we want our",
+      "start": 566.04,
+      "duration": 8.88
+    },
+    {
+      "text": "coefficient to be 1. Therefore, we have",
+      "start": 571.24,
+      "duration": 8.24
+    },
+    {
+      "text": "to multiply by 1 over 8.",
+      "start": 574.92,
+      "duration": 10.12
+    },
+    {
+      "text": "Okay, so we'll get 1 over 8 here.",
+      "start": 579.48,
+      "duration": 5.56
+    },
+    {
+      "text": "And then let's let's substitute it what",
+      "start": 585.56,
+      "duration": 5.64
+    },
+    {
+      "text": "we have in part A. So, here would be cos",
+      "start": 587.68,
+      "duration": 6.88
+    },
+    {
+      "text": "4 theta but in this case it's not theta.",
+      "start": 591.2,
+      "duration": 4.96
+    },
+    {
+      "text": "In this case is",
+      "start": 594.56,
+      "duration": 4.0
+    },
+    {
+      "text": "half y",
+      "start": 596.16,
+      "duration": 4.92
+    },
+    {
+      "text": "- 4 cos",
+      "start": 598.56,
+      "duration": 6.12
+    },
+    {
+      "text": "2 theta so 2 half y",
+      "start": 601.08,
+      "duration": 8.36
+    },
+    {
+      "text": "+ 3 close bracket. There we go.",
+      "start": 604.68,
+      "duration": 7.84
+    },
+    {
+      "text": "Let's expand and simplify this one. So,",
+      "start": 609.44,
+      "duration": 6.52
+    },
+    {
+      "text": "we will get 1 over 8",
+      "start": 612.52,
+      "duration": 5.56
+    },
+    {
+      "text": "Okay, cos",
+      "start": 615.96,
+      "duration": 4.24
+    },
+    {
+      "text": "2 y",
+      "start": 618.08,
+      "duration": 4.92
+    },
+    {
+      "text": "4 over 8 that would be half",
+      "start": 620.2,
+      "duration": 4.84
+    },
+    {
+      "text": "cos y",
+      "start": 623.0,
+      "duration": 6.68
+    },
+    {
+      "text": "+ 3 over 8. That is the equation for x",
+      "start": 625.04,
+      "duration": 6.08
+    },
+    {
+      "text": "squared.",
+      "start": 629.68,
+      "duration": 6.76
+    },
+    {
+      "text": "So, volume is equals to pi y1 to y2.",
+      "start": 631.12,
+      "duration": 8.44
+    },
+    {
+      "text": "Okay, so what is our y1? Y1 is 0",
+      "start": 636.44,
+      "duration": 6.72
+    },
+    {
+      "text": "until 8 pi over 5.",
+      "start": 639.56,
+      "duration": 8.32
+    },
+    {
+      "text": "And over here it would be 1 over 8 cos 2",
+      "start": 643.16,
+      "duration": 14.56
+    },
+    {
+      "text": "y - 1 over 2 cos y + 3 over 8 dy.",
+      "start": 647.88,
+      "duration": 13.6
+    },
+    {
+      "text": "Okay. So, we can straight away integrate",
+      "start": 657.72,
+      "duration": 4.84
+    },
+    {
+      "text": "this.",
+      "start": 661.48,
+      "duration": 3.28
+    },
+    {
+      "text": "Here we will get we'll carry forward 1",
+      "start": 662.56,
+      "duration": 5.12
+    },
+    {
+      "text": "over 8 cos 2 y if we integrate we will",
+      "start": 664.76,
+      "duration": 5.92
+    },
+    {
+      "text": "get sin 2 y. Now, we have to",
+      "start": 667.68,
+      "duration": 7.159
+    },
+    {
+      "text": "differentiate 2 y we will get 2.",
+      "start": 670.68,
+      "duration": 4.159
+    },
+    {
+      "text": "1 over 2 cos 2 y integrate we will get",
+      "start": 675.48,
+      "duration": 9.84
+    },
+    {
+      "text": "sin y + 3 over 8 y. Okay, what are our",
+      "start": 679.08,
+      "duration": 12.28
+    },
+    {
+      "text": "limits? 0 and 8 pi over 5.",
+      "start": 685.32,
+      "duration": 9.8
+    },
+    {
+      "text": "Let's now substitute the value. Okay.",
+      "start": 691.36,
+      "duration": 7.04
+    },
+    {
+      "text": "So, we have 1 over 16",
+      "start": 695.12,
+      "duration": 5.04
+    },
+    {
+      "text": "sin",
+      "start": 698.4,
+      "duration": 4.52
+    },
+    {
+      "text": "Okay, that would be 16",
+      "start": 700.16,
+      "duration": 5.2
+    },
+    {
+      "text": "pi over 5",
+      "start": 702.92,
+      "duration": 6.12
+    },
+    {
+      "text": "- 1 over 2 sin",
+      "start": 705.36,
+      "duration": 6.64
+    },
+    {
+      "text": "8 pi over 5",
+      "start": 709.04,
+      "duration": 10.08
+    },
+    {
+      "text": "+ 3 over 8 multiplied by 8 pi over 5.",
+      "start": 712.0,
+      "duration": 10.36
+    },
+    {
+      "text": "Now, we will substitute 0. Okay, notice",
+      "start": 719.12,
+      "duration": 6.719
+    },
+    {
+      "text": "that sin 0 is 0. So, when we substitute",
+      "start": 722.36,
+      "duration": 7.56
+    },
+    {
+      "text": "this one would be 0. This one would be 0",
+      "start": 725.839,
+      "duration": 8.401
+    },
+    {
+      "text": "and this one will also be 0.",
+      "start": 729.92,
+      "duration": 4.32
+    },
+    {
+      "text": "So, that's it. So, I just have to write",
+      "start": 736.56,
+      "duration": 5.68
+    },
+    {
+      "text": "0.",
+      "start": 739.76,
+      "duration": 5.04
+    },
+    {
+      "text": "Let's compute",
+      "start": 742.24,
+      "duration": 4.44
+    },
+    {
+      "text": "the value. Let's just use our",
+      "start": 744.8,
+      "duration": 5.76
+    },
+    {
+      "text": "calculator. 1 over 16",
+      "start": 746.68,
+      "duration": 8.96
+    },
+    {
+      "text": "Okay, sin 16 pi over 5. Okay, make sure",
+      "start": 750.56,
+      "duration": 7.16
+    },
+    {
+      "text": "our calculator is in radian mode, yeah.",
+      "start": 755.64,
+      "duration": 4.68
+    },
+    {
+      "text": "- 1 over 2",
+      "start": 757.72,
+      "duration": 3.68
+    },
+    {
+      "text": "sin",
+      "start": 760.32,
+      "duration": 5.48
+    },
+    {
+      "text": "8 pi over 5.",
+      "start": 761.4,
+      "duration": 8.68
+    },
+    {
+      "text": "Oh, why can't Okay, over 5",
+      "start": 765.8,
+      "duration": 6.32
+    },
+    {
+      "text": "+",
+      "start": 770.08,
+      "duration": 3.92
+    },
+    {
+      "text": "3 over 8",
+      "start": 772.12,
+      "duration": 6.52
+    },
+    {
+      "text": "close bracket open bracket 8 pi",
+      "start": 774.0,
+      "duration": 7.2
+    },
+    {
+      "text": "over 5. Why can't Why we can just simply",
+      "start": 778.64,
+      "duration": 4.8
+    },
+    {
+      "text": "use our calculator? Because they want us",
+      "start": 781.2,
+      "duration": 4.56
+    },
+    {
+      "text": "to give the answer up to two significant",
+      "start": 783.44,
+      "duration": 4.36
+    },
+    {
+      "text": "figures. Don't need like exact value for",
+      "start": 785.76,
+      "duration": 6.32
+    },
+    {
+      "text": "this question. So, here is 2 3 2",
+      "start": 787.8,
+      "duration": 10.4
+    },
+    {
+      "text": "3 7 pi. Now, let's multiply by",
+      "start": 792.08,
+      "duration": 10.88
+    },
+    {
+      "text": "pi. Okay, multiply by pi and we will get",
+      "start": 798.2,
+      "duration": 7.16
+    },
+    {
+      "text": "7.3",
+      "start": 802.96,
+      "duration": 3.72
+    },
+    {
+      "text": "This is",
+      "start": 805.36,
+      "duration": 5.28
+    },
+    {
+      "text": "volume cm cubed. This is up to two",
+      "start": 806.68,
+      "duration": 7.64
+    },
+    {
+      "text": "significant figures. Okay, we are done",
+      "start": 810.64,
+      "duration": 9.199
+    },
+    {
+      "text": "with part B. Moving on to C now.",
+      "start": 814.32,
+      "duration": 7.16
+    },
+    {
+      "text": "Okay.",
+      "start": 819.839,
+      "duration": 4.961
+    },
+    {
+      "text": "They give us the density and the mass of",
+      "start": 821.48,
+      "duration": 4.16
+    },
+    {
+      "text": "the",
+      "start": 824.8,
+      "duration": 3.92
+    },
+    {
+      "text": "ornament and they want us to comment on",
+      "start": 825.64,
+      "duration": 6.08
+    },
+    {
+      "text": "the suitability. So, let's compute the",
+      "start": 828.72,
+      "duration": 6.96
+    },
+    {
+      "text": "volume of the actual ornament. So,",
+      "start": 831.72,
+      "duration": 7.44
+    },
+    {
+      "text": "volume is equal to mass over",
+      "start": 835.68,
+      "duration": 6.12
+    },
+    {
+      "text": "density.",
+      "start": 839.16,
+      "duration": 5.76
+    },
+    {
+      "text": "Okay, so what is our mass? Our mass is 6",
+      "start": 841.8,
+      "duration": 6.12
+    },
+    {
+      "text": "over 0.85.",
+      "start": 844.92,
+      "duration": 6.24
+    },
+    {
+      "text": "So, let's compute that 6 over",
+      "start": 847.92,
+      "duration": 5.039
+    },
+    {
+      "text": "0.85.",
+      "start": 851.16,
+      "duration": 3.88
+    },
+    {
+      "text": "So, we will get",
+      "start": 852.959,
+      "duration": 5.081
+    },
+    {
+      "text": "7.06",
+      "start": 855.04,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay, cm cubed. 7.06",
+      "start": 858.8,
+      "duration": 6.4
+    },
+    {
+      "text": "cm cubed",
+      "start": 863.24,
+      "duration": 3.4
+    },
+    {
+      "text": "and",
+      "start": 865.2,
+      "duration": 4.84
+    },
+    {
+      "text": "7.3 cm cubed",
+      "start": 866.64,
+      "duration": 5.0
+    },
+    {
+      "text": "are",
+      "start": 870.04,
+      "duration": 3.88
+    },
+    {
+      "text": "closed.",
+      "start": 871.64,
+      "duration": 3.439
+    },
+    {
+      "text": "Okay.",
+      "start": 873.92,
+      "duration": 4.0
+    },
+    {
+      "text": "Therefore",
+      "start": 875.079,
+      "duration": 2.841
+    },
+    {
+      "text": "it is",
+      "start": 878.16,
+      "duration": 4.679
+    },
+    {
+      "text": "a suitable",
+      "start": 879.88,
+      "duration": 5.8
+    },
+    {
+      "text": "model.",
+      "start": 882.839,
+      "duration": 2.841
+    },
+    {
+      "text": "Okay.",
+      "start": 886.4,
+      "duration": 4.64
+    },
+    {
+      "text": "That's it. We are done with this",
+      "start": 888.0,
+      "duration": 5.6
+    },
+    {
+      "text": "question.",
+      "start": 891.04,
+      "duration": 2.56
+    }
+  ]
+}

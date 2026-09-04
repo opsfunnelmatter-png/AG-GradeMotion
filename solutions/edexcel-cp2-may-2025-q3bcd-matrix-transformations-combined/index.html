@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function() {
+        var gtmLoaded = false;
+        function loadGtag() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18375169008';
+          script.async = true;
+          document.head.appendChild(script);
+          gtag('js', new Date());
+          gtag('config', 'AW-18375169008');
+        }
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(e) {
+          window.addEventListener(e, loadGtag, { once: true, passive: true });
+        });
+        setTimeout(loadGtag, 3500);
+      })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry | GradeMotion</title>
+    <meta name="description" content="Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.">
+    <link rel="canonical" href="https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q3bcd-matrix-transformations-combined">
+    
+    <!-- Open Graph & Social -->
+    <meta property="og:site_name" content="GradeMotion">
+    <meta property="og:title" content="Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry">
+    <meta property="og:description" content="Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.">
+    <meta property="og:url" content="https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q3bcd-matrix-transformations-combined">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry">
+    <meta name="twitter:description" content="Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.">
+
+    <!-- Fonts & Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- KaTeX Mathematical Typography -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+            onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.grademotion.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Solutions",
+          "item": "https://www.grademotion.com/solutions"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Edexcel 2025 Core Pure 2 (CP2)",
+          "item": "https://www.grademotion.com/solutions#core-pure-2-(cp2)"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Q3bcd Solution",
+          "item": "https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q3bcd-matrix-transformations-combined"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations & Combined Geometry",
+      "description": "Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/25BxITgZHI0/hqdefault.jpg",
+      "uploadDate": "2025-05-20T00:00:00Z",
+      "contentUrl": "https://www.youtube.com/watch?v=25BxITgZHI0",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/25BxITgZHI0",
+      "publisher": {
+        "@type": "Organization",
+        "name": "GradeMotion",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.grademotion.com/gm1.webp"
+        }
+      }
+    },
+    {
+      "@type": "EducationalWebPage",
+      "name": "Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations & Combined Geometry",
+      "description": "Edexcel CP2 May 2025 Q3 parts b, c, d: Linear transformations in 2D, combined matrix multiplication order, and invariant lines/points.",
+      "learningResourceType": "Exam Solution Walkthrough",
+      "educationalLevel": "A-Level Further Mathematics",
+      "assesses": "3x3 Matrices, Determinants, Inverses & Transformations"
+    }
+  ]
+}
+</script>
+
+    <style>
+        :root {
+            --bg-body: #FBF9FF;
+            --bg-surface: #FFFFFF;
+            --bg-subtle: #F6F0FD;
+            --header-bg: rgba(251, 249, 255, 0.92);
+            --purple-main: #7B2CBF;
+            --purple-deep: #170A2C;
+            --purple-hover: #5A189A;
+            --pink-accent: #FF4A95;
+            --pink-soft: rgba(255, 74, 149, 0.08);
+            --border-subtle: rgba(123, 44, 191, 0.12);
+            --border-strong: rgba(123, 44, 191, 0.22);
+            --text-main: #170A2C;
+            --text-muted: #5C4D75;
+            --text-light: #7E6F95;
+            --card-shadow: 0 10px 30px rgba(123, 44, 191, 0.05);
+            --hover-shadow: 0 16px 36px rgba(123, 44, 191, 0.12);
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; -webkit-tap-highlight-color: transparent; }
+        body { background: var(--bg-body); color: var(--text-main); line-height: 1.65; min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+        
+        /* Navbar */
+        .site-header { position: sticky; top: 0; z-index: 1000; background: var(--header-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-subtle); }
+        .nav-inner { max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+        .nav-logo { display: flex; align-items: center; text-decoration: none; }
+        .nav-logo img { height: 38px; width: auto; }
+        .nav-links { display: flex; align-items: center; gap: 24px; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 14.5px; font-weight: 600; text-decoration: none; transition: color 0.2s ease; }
+        .nav-links a:hover, .nav-links a.active { color: var(--purple-main); }
+        .nav-btn { background: var(--purple-main); color: #fff !important; padding: 9px 18px; border-radius: 999px; font-weight: 700; font-size: 13.5px; transition: all 0.2s ease; }
+        .nav-btn:hover { background: var(--purple-hover); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(123, 44, 191, 0.25); }
+
+        /* Breadcrumbs */
+        .breadcrumbs-bar { max-width: 1240px; margin: 0 auto; padding: 18px 24px 0 24px; width: 100%; }
+        .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13px; color: var(--text-light); list-style: none; }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; font-weight: 500; }
+        .breadcrumbs a:hover { color: var(--purple-main); text-decoration: underline; }
+        .breadcrumbs .sep { color: var(--border-strong); }
+        .breadcrumbs .current { color: var(--purple-main); font-weight: 600; }
+
+        /* Container */
+        .main-content { max-width: 1240px; margin: 0 auto; padding: 24px 24px 60px 24px; width: 100%; flex: 1; }
+        
+        /* Typography */
+        h1 { font-size: 32px; font-weight: 800; line-height: 1.25; color: var(--purple-deep); letter-spacing: -0.02em; margin-bottom: 12px; }
+        h2 { font-size: 22px; font-weight: 700; color: var(--purple-deep); letter-spacing: -0.01em; margin: 32px 0 16px 0; display: flex; align-items: center; gap: 10px; }
+        h3 { font-size: 17px; font-weight: 700; color: var(--purple-main); margin-bottom: 8px; }
+        p { margin-bottom: 14px; font-size: 15.5px; color: var(--text-muted); }
+
+        /* Badges */
+        .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+        .badge-purple { background: rgba(123, 44, 191, 0.08); color: var(--purple-main); border: 1px solid rgba(123, 44, 191, 0.18); }
+        .badge-pink { background: rgba(255, 74, 149, 0.08); color: var(--pink-accent); border: 1px solid rgba(255, 74, 149, 0.2); }
+        .badge-zinc { background: rgba(0, 0, 0, 0.04); color: #4B5563; border: 1px solid rgba(0, 0, 0, 0.08); }
+
+        /* CIE Cross-Board Notice */
+        .cross-board-banner { background: #FFFFFF; border: 1px solid var(--border-subtle); border-left: 4px solid var(--purple-main); border-radius: var(--radius-md); padding: 14px 18px; margin-bottom: 24px; box-shadow: var(--card-shadow); display: flex; gap: 14px; align-items: flex-start; }
+        .cross-board-icon { font-size: 20px; line-height: 1; }
+        .cross-board-text { font-size: 13.5px; color: var(--text-muted); line-height: 1.55; }
+        .cross-board-text strong { color: var(--purple-deep); }
+
+        /* Layout Grid */
+        .layout-grid { display: grid; grid-template-columns: 1fr 340px; gap: 32px; align-items: start; }
+        @media (max-width: 960px) {
+            .layout-grid { grid-template-columns: 1fr; }
+            .site-header .nav-links { display: none; }
+            h1 { font-size: 26px; }
+        }
+
+        /* Video Player Card */
+        .video-card { background: #000; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 16px 40px rgba(23, 10, 44, 0.18); position: relative; padding-top: 56.25%; margin-bottom: 28px; }
+        .video-card iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+        /* Content Cards */
+        .content-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; margin-bottom: 24px; box-shadow: var(--card-shadow); }
+        
+        /* Math Blocks */
+        .formula-box { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 16px 20px; margin: 16px 0; overflow-x: auto; }
+        .formula-box .title { font-size: 13px; font-weight: 700; color: var(--purple-main); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+
+        /* Examiner Traps */
+        .trap-card { background: #FFF5F7; border: 1px solid rgba(255, 74, 149, 0.25); border-left: 4px solid var(--pink-accent); border-radius: var(--radius-md); padding: 18px 20px; margin: 20px 0; }
+        .trap-card h3 { color: #C2185B; display: flex; align-items: center; gap: 8px; font-size: 15px; margin-bottom: 10px; }
+        .trap-card ul { padding-left: 20px; margin: 0; }
+        .trap-card li { font-size: 14px; color: #6E1A34; margin-bottom: 8px; line-height: 1.55; }
+
+        /* Solution Steps */
+        .step-item { border-left: 2px solid var(--purple-main); padding-left: 18px; margin: 20px 0; position: relative; }
+        .step-item::before { content: ''; position: absolute; left: -6px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: var(--purple-main); }
+        .step-item h4 { font-size: 15.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 6px; }
+        .step-item p { font-size: 14.5px; margin-bottom: 8px; }
+
+        /* Transcript Accordion */
+        details.transcript-details { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px 18px; margin-top: 24px; }
+        details.transcript-details summary { font-size: 14px; font-weight: 700; color: var(--purple-deep); cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; }
+        details.transcript-details .transcript-body { margin-top: 14px; font-size: 13.5px; color: var(--text-muted); line-height: 1.7; max-height: 320px; overflow-y: auto; padding-right: 10px; }
+
+        /* Prev / Next Question Nav */
+        .pager-nav { display: flex; justify-content: space-between; gap: 16px; margin: 36px 0; padding-top: 20px; border-top: 1px solid var(--border-subtle); }
+        .pager-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: var(--radius-md); background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-main); text-decoration: none; font-size: 14px; font-weight: 600; transition: all 0.2s ease; box-shadow: var(--card-shadow); }
+        .pager-btn:hover { border-color: var(--purple-main); color: var(--purple-main); transform: translateY(-1px); }
+
+        /* Sticky Sidebar */
+        .sidebar { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 20px; }
+        .tutor-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 24px; box-shadow: var(--card-shadow); text-align: center; }
+        .tutor-card img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(123, 44, 191, 0.15); margin-bottom: 12px; }
+        .tutor-name { font-size: 17px; font-weight: 800; color: var(--purple-deep); margin-bottom: 2px; }
+        .tutor-title { font-size: 13px; color: var(--purple-main); font-weight: 600; margin-bottom: 12px; }
+        .tutor-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 18px; text-align: left; }
+
+        .cta-box { background: linear-gradient(135deg, #7B2CBF 0%, #5A189A 100%); color: #fff; border-radius: var(--radius-lg); padding: 24px; box-shadow: 0 14px 32px rgba(123, 44, 191, 0.28); }
+        .cta-box h3 { color: #fff; font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+        .cta-box p { color: rgba(255, 255, 255, 0.88); font-size: 13px; line-height: 1.5; margin-bottom: 18px; }
+        .cta-box .btn-main { display: block; text-align: center; background: #fff; color: var(--purple-main); font-weight: 800; font-size: 14px; padding: 12px 18px; border-radius: 999px; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+        .cta-box .btn-main:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(0,0,0,0.18); }
+        .cta-box .guarantee { font-size: 11.5px; color: rgba(255, 255, 255, 0.75); text-align: center; margin-top: 10px; }
+
+        .related-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--card-shadow); }
+        .related-card h4 { font-size: 14.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 14px; }
+        .related-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+        .related-list a { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--text-muted); text-decoration: none; line-height: 1.4; transition: color 0.2s ease; }
+        .related-list a:hover { color: var(--purple-main); }
+        .related-list a .num { font-weight: 700; color: var(--purple-main); min-width: 26px; }
+
+        /* Footer */
+        .site-footer { background: #110524; color: #B3A4C8; padding: 48px 24px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 60px; font-size: 13.5px; }
+        .footer-inner { max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; }
+        .footer-col h5 { color: #fff; font-size: 15px; font-weight: 700; margin-bottom: 14px; }
+        .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+        .footer-col a { color: #B3A4C8; text-decoration: none; }
+        .footer-col a:hover { color: #fff; }
+        .footer-bottom { max-width: 1240px; margin: 32px auto 0 auto; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; font-size: 12px; color: #7B6894; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo" aria-label="GradeMotion Home">
+            <img src="/gm1.webp" alt="GradeMotion" width="108" height="45">
+        </a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/solutions" class="active">Past Paper Solutions</a></li>
+            <li><a href="/topics" class="">Topic Guides</a></li>
+            <li><a href="/schedule">1-on-1 Schedule</a></li>
+            <li><a href="https://forms.gle/grademotion-free-diagnostic" target="_blank" class="nav-btn">Free Diagnostic &rarr;</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="breadcrumbs-bar">
+    <nav aria-label="Breadcrumb">
+        <ol class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li class="sep">/</li>
+            <li><a href="/solutions">Past Paper Solutions</a></li>
+            <li class="sep">/</li>
+            <li><a href="/solutions">Edexcel 2025 Core Pure 2 (CP2)</a></li>
+            <li class="sep">/</li>
+            <li class="current">Q3bcd: 3x3 Matrices, Determinants, Inverses &amp; Transformations</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="main-content">
+    <div class="badge-row">
+        <span class="badge badge-purple">Edexcel GCE A-Level</span>
+        <span class="badge badge-zinc">Core Pure 2 (CP2) (9FM0/02)</span>
+        <span class="badge badge-pink">May/June 2025 &bull; Q3bcd</span>
+    </div>
+
+    <h1>Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry</h1>
+    <p style="font-size: 16px; margin-bottom: 24px;">
+        Comprehensive worked solution and examiner mark-scheme analysis by <strong>Tutor Sheefa</strong>. Focuses on mark allocation, algebraic traps, and step-by-step mathematical reasoning.
+    </p>
+
+    <!-- Cross-Board Notice -->
+    <div class="cross-board-banner">
+        <div class="cross-board-icon">&#128204;</div>
+        <div class="cross-board-text">
+            <strong>Studying Cambridge International (CIE 9231)?</strong> While this question was set in the Edexcel Further Maths examination, the underlying mathematical theory and examiner rubric for <em>3x3 Matrices, Determinants, Inverses &amp; Transformations</em> are <strong>100% applicable to CIE Paper 1 & 2</strong>.
+        </div>
+    </div>
+
+    <div class="layout-grid">
+        <!-- Main Column -->
+        <div>
+            <!-- Video Player -->
+            <div class="video-card">
+                <iframe src="https://www.youtube-nocookie.com/embed/25BxITgZHI0?rel=0" title="Edexcel Further Maths May 2025 CP2 Q3(b-d): Matrix Transformations &amp; Combined Geometry" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+
+            <!-- Archetype Box -->
+            <div class="content-card">
+                <h2>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    The Exam Archetype: Combined 2D Geometric Transformations &amp; Invariants
+                </h2>
+                <p>
+                    Examiners do not invent new mathematics each year &mdash; they test <strong>consistent structural archetypes</strong>. In this paper, Q3bcd tests your ability to navigate the boundary between conceptual algebra and precise numerical computation.
+                </p>
+                <div class="formula-box">
+                    <div class="title">Core Formulae Tested</div>
+                    <p style="margin-bottom: 6px; font-size: 16px;">$$T = BA \text{ (Transformation } A \text{ followed by } B)$$</p><p style="margin-bottom: 6px; font-size: 16px;">$$\det(T) = \text{Area scale factor of transformation}$$</p>
+                </div>
+            </div>
+
+            <!-- Examiner Traps & Common Penalties -->
+            <div class="trap-card">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C2185B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    Examiner Traps &amp; Common Mark-Scheme Penalties
+                </h3>
+                <ul>
+                    <li>Multiplying transformation matrices in the wrong order: doing $A$ followed by $B$ requires $BA$, not $AB$.</li>
+                </ul>
+            </div>
+
+            <!-- Step by step solution -->
+            <div class="content-card">
+                <h2>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                    Formal Mathematical Solution
+                </h2>
+                <p style="margin-bottom: 20px;">
+                    Below is the full step-by-step derivation meeting official mark-scheme criteria for method (M) and accuracy (A) marks:
+                </p>
+
+                
+                    <div class="step-item">
+                        <h4>Computing the Composite Transformation Matrix</h4>
+                        <p>Remember transformations apply from right to left on coordinate vectors.</p>
+                        <div class="formula-box" style="margin: 8px 0 14px 0;">
+                            $$T = M_2 M_1 \implies \begin{pmatrix} a & b \\ c & d \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} x' \\ y' \end{pmatrix}$$
+                        </div>
+                    </div>
+                
+            </div>
+
+            <!-- Spoken Audio Transcript (Collapsible) -->
+            
+            <details class="transcript-details">
+                <summary>
+                    <span>&#127897;&#65039; Read Spoken Video Explanation (238 segments, 1339 words)</span>
+                    <span style="font-size: 12px; color: var(--purple-main);">&#9662; Expand</span>
+                </summary>
+                <div class="transcript-body">
+                    <p style="font-style: italic; margin-bottom: 12px; font-size: 12.5px; color: var(--text-light);">
+                        Unedited transcript of Tutor Sheefa's spoken audio instructions during the walkthrough:
+                    </p>
+                    <p>Moving on to question 3b, describe fully the single geometrical transformation P represented by the matrix B. Okay. So now, what I will write is this, okay? So I have transformation and then represented by which matrix? So what we have here, transformation P matrix B. Let's take a look at question B. So matrix B is equal to -1 0 0 1. So we have values over here. So this will represent our X element and this will represent our Y element. So X you will multiply by -1, which you will get -X. Whereas your Y you will multiply by just one, which is maintained as Y. What type of transformation that transform X to -X but maintain the Y? This is reflection by the Y axis. That's it. That is for question B. Now, is represented by the matrix A to the power of N. Okay. Transformation P is followed. Okay, so for question C, transformation P is followed by transformation Q. This is what we call transformation R. So, we have the next transformation R. And what is R? R is we begin by P and then we have Q. Transformation R is represented by matrix C. So, transformation R, what's the matrix? The matrix is C. So, what we have to be very careful is we have to distinguish between the transformation and also the matrix. Okay. Now, let's take a look what they want us to find. Okay, they want us to find C in terms of N. Okay, so what we want to find? We want to find matrix C. Okay, in terms of N. Okay, so let's take a look. We have transformation P and then followed by Q. So, this is transformation. Now, what is the matrix? You have to know that transformation and matrix will work in inverse way. So, if we have P first for the transformation, okay, and then Q second for the transformation, so this one first and this one second. For our matrix, it will be the other way around. So, this one will be first and this one will be second. So, matrix it will be A to the power of n, we will write that one first and then B. That's it. So, that is C. A to the power of n B. What is A to the power of n? A to the power of n is 1 0 5 open bracket 2 to the power of n minus 1 close bracket 2 to the power of n. Let's multiply by B -1 0 0 1. Let's do our matrix multiplication. Let's consider first matrix first row, second matrix first column. Okay. So, let's write down the element from the first matrix. So, 1 give it a bit of space plus 5 open bracket 2 to the power of n minus 1. Let's consider the elements from the second matrix. It would be -1 here, 0 here. Okay. We will maintain the column from the second matrix, but we will consider the second row for the first matrix. So, this one Okay, let's write down the elements from the first matrix 0 give it a bit of space plus 2 to the power of n. Second matrix Okay, the first bracket would be -1. The second bracket would be 0. Now, next element we will consider first matrix first row, second matrix second column. Okay. Elements from the first matrix 1 give it a bit of space plus 5 open bracket 2 to the power of n minus one. Now elements from the second matrix first bracket would be zero, second bracket would be one. Okay. We will consider first matrix second row. Second matrix second column. So this would be okay, let's begin with the elements from the first matrix zero plus two to the power of n. Okay, the elements from the second matrix open bracket zero open bracket one. So let's simplify all of this. One multiplied by negative one would be negative one. Anything multiplied by zero would be zero. Here would be zero plus zero. Here would be zero plus five open bracket two to the power of n minus one. Here would be zero plus two to the power of n. This one would be negative one zero five open bracket two to the power of n minus one and two to the power of n. With that we are done with question C. Let's take a look at D. Given that for a particular value of n, the transformation R maps the point with coordinate 27 1 to the point with coordinates AA where A is constant. Determine the matrix that represent transformation Q. Okay. So what we want to find okay, we want to find matrix that represent transformation Q. So matrix that represent transformation Q. We want to find what is A to the power of n. But what is the information? We know that, okay, point 27 1 if we performed transformation R, we will get coordinates AA. Okay, transformation R, what is the matrix? The matrix is C from our part C. So, how can we proceed with this question? So, it would be AA, okay, the image is equal to matrix C which is -1 0 5 open bracket 2 to the power of n minus 1 2 to the power of n, okay, multiply with the original coordinate 27 1 equal to Let's perform matrix multiplication. So, this multiply by this. So, this time, okay, let's consider the first row. So, we'll have -1 Give it a bit of space plus 5 open bracket 2 to the power n minus 1. Consider the elements from the second matrix 27 and 1. Moving on to the second row for our first matrix. Okay, that would be 0 Give it a Give it a bit of space plus 2 to the power of n. Now, the elements from the second matrix 27 and 1. Let's simplify our matrix. We will get -27 + 5 open bracket 2 ^ n - 1. And then here will be 0 + 2 ^ n. We can still expand and simplify the first row. So here will be -27 + 5 open bracket 2 ^ n close bracket 5. Okay, this one will be 2 ^ n. Okay, so what we have is this. AA is equal to K -27 - 5, which is 5 bracket 2 ^ n - 32, and this is 2 ^ n. By looking at this, okay, let's name this row, okay, equation one. Oops. Equation one, and this is equation two. So what is equation one? Equation one is 5 2 ^ n - 32 is equals to A. Equation of two Okay, I have 2 ^ n equals to A. So substitution method will be the easiest for this question. So we will sub equation two into one. So we will get Okay, 5 This is 2 to the power of n is a. Okay, minus 32 equals to a. If I rearrange, I will get 5a minus a, that will be 4a equals to 32. A is equal to 8. Let's substitute back into this. So, sub a equals to 8 into equation two. So, we will get 8 is equal to 2 to the power of n, which is equal to 2 to the power of 3. Therefore, n is equal to 3. Okay, now that we know the value of n, which is 3, we can find a to the power of n. Okay, so what is a to the power Wait. A to the power of 3. So, this is equal to 105 open bracket 2 to the power of 3 minus 1 and 2 to the power of 3. This is equal to 105 open bracket 2 cubed minus 1 that is equal to 35. And over here we have 2 cubed that is 8. With that, we are done with part D.</p>
+                </div>
+            </details>
+            
+
+            <!-- Previous / Next Pager -->
+            <div class="pager-nav">
+                <div>
+                    
+                    <a href="/solutions/edexcel-cp2-may-2025-q3a-mathematical-induction-matrices" class="pager-btn">
+                        &larr; Previous: Q3a
+                    </a>
+                </div>
+                <div>
+                    
+                    <a href="/solutions/edexcel-cp2-may-2025-q4-complex-numbers-argand-loci" class="pager-btn">
+                        Next: Q4 &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Tutor Card -->
+            <div class="tutor-card">
+                <img src="/Tutor%20Sheefa.webp" alt="Tutor Sheefa" width="88" height="88">
+                <div class="tutor-name">Tutor Sheefa</div>
+                <div class="tutor-title">Further Mathematics Specialist</div>
+                <p class="tutor-desc">
+                    10+ years of high-ticket coaching with an 80% A/A* track record for CIE 9231 &amp; Edexcel IAL students entering Imperial, Cambridge, Oxford, and UCL.
+                </p>
+                <a href="/schedule" class="nav-btn" style="display: block; width: 100%;">View Lesson Availability &rarr;</a>
+            </div>
+
+            <!-- Direct CTA Box -->
+            <div class="cta-box">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Evaluation Session</div>
+                <h3>Stuck on 3x3 Matrices, Determinants, Inverses &amp; Transformations?</h3>
+                <p>
+                    Book a private 2-Hour Evaluation Session. We diagnose your exact syllabus gaps and install university-grade exam technique.
+                </p>
+                <a href="/pay/usd/trial" class="btn-main">Enrol Trial ($210 USD) &rarr;</a>
+                <div style="margin-top: 8px; text-align: center;">
+                    <a href="/pay/my/trial" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">Or Enrol in MYR (RM 380) &rarr;</a>
+                </div>
+                <div class="guarantee">&#128737;&#65039; 100% Rollover Credit Guarantee toward sprint upgrades</div>
+            </div>
+
+            <!-- Evergreen Topic Link -->
+            <div class="related-card">
+                <h4>Evergreen Topic Guide</h4>
+                <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
+                    Understand the broader conceptual framework behind this question:
+                </p>
+                <a href="/topics/matrices-and-linear-transformations" style="display: block; background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 12px 14px; text-decoration: none; color: var(--purple-main); font-weight: 700; font-size: 13.5px;">
+                    3x3 Matrices, Determinants, Inverses &amp; Transformations &rarr;
+                </a>
+            </div>
+
+            <!-- All Questions in Paper -->
+            <div class="related-card">
+                <h4>All Questions in Core Pure 2 (CP2)</h4>
+                <ul class="related-list">
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q1-complex-numbers-modulus-argument" style="">
+                                <span class="num">Q1</span>
+                                <span> Complex Numbers (Modulus &amp; Argument Properties)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q2-vectors-lines-planes" style="">
+                                <span class="num">Q2</span>
+                                <span> 3D Vectors (Lines and Planes)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q3a-mathematical-induction-matrices" style="">
+                                <span class="num">Q3a</span>
+                                <span> Mathematical Induction (Matrix Powers)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q3bcd-matrix-transformations-combined" style="color: var(--purple-main); font-weight: 700;">
+                                <span class="num">Q3bcd</span>
+                                <span> Matrix Transformations &amp; Combined Geometry</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q4-complex-numbers-argand-loci" style="">
+                                <span class="num">Q4</span>
+                                <span> Complex Numbers (Equations &amp; Argand Loci)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q5-simultaneous-equations-planes-sheaf" style="">
+                                <span class="num">Q5</span>
+                                <span> Simultaneous Equations (Planes &amp; Sheaf)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q6-roots-of-polynomials-quartic" style="">
+                                <span class="num">Q6</span>
+                                <span> Roots of Polynomials (Quartic Equations)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q7a-polar-coordinates-vertical-tangents" style="">
+                                <span class="num">Q7a</span>
+                                <span> Polar Coordinates (Vertical Tangents)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q7bc-polar-area-cosine-rule" style="">
+                                <span class="num">Q7bc</span>
+                                <span> Polar Area &amp; Cosine Rule Applications</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q8-maclaurin-series-hyperbolic-differentiation" style="">
+                                <span class="num">Q8</span>
+                                <span> Maclaurin Series &amp; Hyperbolic Differentiation</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp2-may-2025-q9-differentiation-inverse-sine" style="">
+                                <span class="num">Q9</span>
+                                <span> Differentiation of Inverse Sine Functions</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </aside>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-col" style="max-width: 380px;">
+            <h5>GradeMotion</h5>
+            <p style="font-size: 13px; line-height: 1.6; color: #B3A4C8; margin-bottom: 12px;">
+                Elite 1-on-1 tutoring for Cambridge International (CIE 9231) and Edexcel (9FM0) A-Level Further Mathematics. Directed by Tutor Sheefa (10+ years, 42 IB points).
+            </p>
+            <div style="font-size: 12px; color: #7B6894;">
+                &copy; 2026 GradeMotion. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-col">
+            <h5>Past Paper Walkthroughs</h5>
+            <ul>
+                <li><a href="/solutions">May 2025 Edexcel CP1 & CP2 Solutions</a></li>
+                <li><a href="/topics/matrices-and-linear-transformations">3x3 Matrices & Determinants</a></li>
+                <li><a href="/topics/complex-numbers-loci-and-roots">Complex Numbers & Argand Loci</a></li>
+                <li><a href="/topics/differential-equations">Differential Equations Guide</a></li>
+                <li><a href="/topics/hyperbolic-functions-and-calculus">Hyperbolic Functions & Calculus</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h5>Admissions & Tutoring</h5>
+            <ul>
+                <li><a href="/schedule">Book 1-on-1 Lesson Slot</a></li>
+                <li><a href="/pay/usd/trial">2-Hour Evaluation Trial ($210 USD)</a></li>
+                <li><a href="/pay/my/trial">2-Hour Evaluation Trial (RM 380 MYR)</a></li>
+                <li><a href="https://www.youtube.com/@tutorsheefa" target="_blank" rel="noopener">YouTube: @tutorsheefa</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Cambridge Assessment International Education and Pearson Edexcel are registered trademarks. GradeMotion is an independent elite tutoring consultancy and is not affiliated with or endorsed by Cambridge International or Pearson.
+    </div>
+</footer>
+</body>
+</html>

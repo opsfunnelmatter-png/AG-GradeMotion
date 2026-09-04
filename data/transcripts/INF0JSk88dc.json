@@ -1,0 +1,564 @@
+{
+  "id": "INF0JSk88dc",
+  "paper": "CP1",
+  "question": "Q3",
+  "title": "Complex Numbers (Purely Imaginary Proof)",
+  "full_text": "Question number three. We have a complex number Z equals to A + B I where A and B are real constants. Given that Z over Z conjugate is purely imaginary. For part A, we must show that A² is equal to B². For part B, given also that Z * Z conjugate is equals to 50. Determine the possible complex numbers for Z. Okay, let's begin with part A. Okay, Z is equals to A + B I. Therefore, Z conjugate would be A minus B I. Z over Z conjugate it will be A + B I over A minus B I to rationalize this okay we will multiply both our denominator and numerator with a + b I let's expand For our numerator we will get a² + a b i + a b i + b² i² over a² + a b i - a b i - b² i². Okay, we do know that. Okay, note I² is equ= to -1. So that is what will be replaced here and here. So for our numerator we will get a² + 2 a b i + oh wait multiply by -1 so it will be - b² over a² a b i - a b i those terms will eliminate each other so here it b + b². What we're going to do is we're going to rearrange okay the real numbers together and the imaginary numbers together. So we will get for our real part a² - b² over a² + b² and then we + 2 a b over a² + b² i. What did they say? They say that Z over Z conjugate is purely imaginary. That means the real part here would be equal to zero. So that would be our next step. Okay. The real part for Z over Z conjugate is equal to zero. a² - b² over a² + b² = 0. Okay, I'll move this up a bit here. When we multiply our denominator and bring it to the other side, it will be zero. So, we'll get a² - b² = 0. Therefore, a² is equal to b². We got exactly what we wanted to show. Okay, moving on to part B. Okay, I'm going to erase this so that we have space for the working for part B. given also that Z ult* by Z conjugate is 50. So B A + B I multiply okay a - b I is equals to 50. So let's expand this. We will get oh we've done this before a + b i it will be a² + b². So here it will be a² + b² is equ= to 50. Okay. So we have a quadratic equation. A² is equ= to B² and another one is A² + B square is equals to 50. Okay. So let's name this. So a² is equ= to b². We'll name this as equation one. And here would be equation number two. So let 1 into 2. So we will get a² + a² is = 50. 2 a² is = 50. And then a² is = 25. A is equ= to + - 5 because of A² is equ= to B² that means B will also be b² is also 25 and B is also + - 5. Okay. So therefore we have two values for a and two values for b. So what are the possible equation? It will be when a is positive 5 it will be a oh wait it will be 5 + 5 i. That's one option. It can also be 5 - 5 i. And then when a is negative it will be -5 + 5 I and then -5 - 5 I. So these four are all positive options for Z's. So Z1, Z2, Z3 and Z number four. Okay, with that we are done with this part. We managed to show that a square is equals to b² and we also managed to find all four possible complex numbers for z.",
+  "snippets": [
+    {
+      "text": "Question number three. We have a complex",
+      "start": 0.8,
+      "duration": 7.36
+    },
+    {
+      "text": "number Z equals to A + B I where A and B",
+      "start": 3.04,
+      "duration": 8.559
+    },
+    {
+      "text": "are real constants. Given that Z over Z",
+      "start": 8.16,
+      "duration": 7.12
+    },
+    {
+      "text": "conjugate is purely imaginary. For part",
+      "start": 11.599,
+      "duration": 8.561
+    },
+    {
+      "text": "A, we must show that A² is equal to B².",
+      "start": 15.28,
+      "duration": 9.2
+    },
+    {
+      "text": "For part B, given also that Z * Z",
+      "start": 20.16,
+      "duration": 7.279
+    },
+    {
+      "text": "conjugate is equals to 50.",
+      "start": 24.48,
+      "duration": 6.24
+    },
+    {
+      "text": "Determine the possible complex numbers",
+      "start": 27.439,
+      "duration": 7.681
+    },
+    {
+      "text": "for Z. Okay, let's begin",
+      "start": 30.72,
+      "duration": 10.04
+    },
+    {
+      "text": "with part A. Okay,",
+      "start": 35.12,
+      "duration": 5.64
+    },
+    {
+      "text": "Z is equals to A + B I. Therefore, Z",
+      "start": 41.12,
+      "duration": 12.4
+    },
+    {
+      "text": "conjugate would be A minus B I. Z over Z",
+      "start": 46.239,
+      "duration": 9.361
+    },
+    {
+      "text": "conjugate",
+      "start": 53.52,
+      "duration": 10.48
+    },
+    {
+      "text": "it will be A + B I over A minus B I to",
+      "start": 55.6,
+      "duration": 12.0
+    },
+    {
+      "text": "rationalize this okay we will multiply",
+      "start": 64.0,
+      "duration": 6.08
+    },
+    {
+      "text": "both our denominator",
+      "start": 67.6,
+      "duration": 9.32
+    },
+    {
+      "text": "and numerator with a + b I",
+      "start": 70.08,
+      "duration": 6.84
+    },
+    {
+      "text": "let's expand",
+      "start": 78.0,
+      "duration": 9.04
+    },
+    {
+      "text": "For our numerator we will get a² + a b i",
+      "start": 80.799,
+      "duration": 11.201
+    },
+    {
+      "text": "+ a b i + b²",
+      "start": 87.04,
+      "duration": 7.039
+    },
+    {
+      "text": "i²",
+      "start": 92.0,
+      "duration": 5.119
+    },
+    {
+      "text": "over a²",
+      "start": 94.079,
+      "duration": 12.72
+    },
+    {
+      "text": "+ a b i - a b i - b² i².",
+      "start": 97.119,
+      "duration": 14.96
+    },
+    {
+      "text": "Okay, we do know that. Okay,",
+      "start": 106.799,
+      "duration": 7.68
+    },
+    {
+      "text": "note",
+      "start": 112.079,
+      "duration": 7.601
+    },
+    {
+      "text": "I² is equ= to -1. So that is what will",
+      "start": 114.479,
+      "duration": 11.521
+    },
+    {
+      "text": "be replaced here and here. So for our",
+      "start": 119.68,
+      "duration": 10.639
+    },
+    {
+      "text": "numerator we will get a²",
+      "start": 126.0,
+      "duration": 8.56
+    },
+    {
+      "text": "+ 2 a b i",
+      "start": 130.319,
+      "duration": 8.961
+    },
+    {
+      "text": "+ oh wait multiply by -1 so it will be -",
+      "start": 134.56,
+      "duration": 7.36
+    },
+    {
+      "text": "b²",
+      "start": 139.28,
+      "duration": 6.4
+    },
+    {
+      "text": "over a²",
+      "start": 141.92,
+      "duration": 7.679
+    },
+    {
+      "text": "a b i - a b i",
+      "start": 145.68,
+      "duration": 7.199
+    },
+    {
+      "text": "those terms will eliminate each other so",
+      "start": 149.599,
+      "duration": 7.521
+    },
+    {
+      "text": "here it b + b².",
+      "start": 152.879,
+      "duration": 5.761
+    },
+    {
+      "text": "What we're going to do is we're going to",
+      "start": 157.12,
+      "duration": 4.72
+    },
+    {
+      "text": "rearrange okay the real numbers together",
+      "start": 158.64,
+      "duration": 6.72
+    },
+    {
+      "text": "and the imaginary numbers together. So",
+      "start": 161.84,
+      "duration": 10.0
+    },
+    {
+      "text": "we will get for our real part a² - b²",
+      "start": 165.36,
+      "duration": 8.239
+    },
+    {
+      "text": "over",
+      "start": 171.84,
+      "duration": 6.2
+    },
+    {
+      "text": "a² + b²",
+      "start": 173.599,
+      "duration": 4.441
+    },
+    {
+      "text": "and then we + 2 a b over",
+      "start": 178.239,
+      "duration": 11.521
+    },
+    {
+      "text": "a² + b² i. What did they say? They say",
+      "start": 183.599,
+      "duration": 11.121
+    },
+    {
+      "text": "that Z over Z conjugate is purely",
+      "start": 189.76,
+      "duration": 8.96
+    },
+    {
+      "text": "imaginary. That means the real part here",
+      "start": 194.72,
+      "duration": 7.92
+    },
+    {
+      "text": "would be equal to zero.",
+      "start": 198.72,
+      "duration": 7.76
+    },
+    {
+      "text": "So that would be our next step.",
+      "start": 202.64,
+      "duration": 8.879
+    },
+    {
+      "text": "Okay. The real part for Z over Z",
+      "start": 206.48,
+      "duration": 6.72
+    },
+    {
+      "text": "conjugate",
+      "start": 211.519,
+      "duration": 4.64
+    },
+    {
+      "text": "is equal to zero.",
+      "start": 213.2,
+      "duration": 7.28
+    },
+    {
+      "text": "a² - b² over",
+      "start": 216.159,
+      "duration": 10.921
+    },
+    {
+      "text": "a² + b² = 0.",
+      "start": 220.48,
+      "duration": 6.6
+    },
+    {
+      "text": "Okay, I'll move this up a bit",
+      "start": 227.92,
+      "duration": 7.28
+    },
+    {
+      "text": "here. When we multiply our denominator",
+      "start": 232.0,
+      "duration": 5.599
+    },
+    {
+      "text": "and bring it to the other side, it will",
+      "start": 235.2,
+      "duration": 8.48
+    },
+    {
+      "text": "be zero. So, we'll get a² - b² = 0.",
+      "start": 237.599,
+      "duration": 10.881
+    },
+    {
+      "text": "Therefore, a² is equal to b².",
+      "start": 243.68,
+      "duration": 9.68
+    },
+    {
+      "text": "We got exactly what we wanted to show.",
+      "start": 248.48,
+      "duration": 6.56
+    },
+    {
+      "text": "Okay,",
+      "start": 253.36,
+      "duration": 8.159
+    },
+    {
+      "text": "moving on to part B.",
+      "start": 255.04,
+      "duration": 8.96
+    },
+    {
+      "text": "Okay, I'm going to erase this so that we",
+      "start": 261.519,
+      "duration": 8.321
+    },
+    {
+      "text": "have space for the working for part B.",
+      "start": 264.0,
+      "duration": 11.28
+    },
+    {
+      "text": "given also that Z ult* by Z conjugate is",
+      "start": 269.84,
+      "duration": 6.96
+    },
+    {
+      "text": "50.",
+      "start": 275.28,
+      "duration": 4.08
+    },
+    {
+      "text": "So B",
+      "start": 276.8,
+      "duration": 6.56
+    },
+    {
+      "text": "A + B I",
+      "start": 279.36,
+      "duration": 11.76
+    },
+    {
+      "text": "multiply okay a - b I is equals to 50.",
+      "start": 283.36,
+      "duration": 12.92
+    },
+    {
+      "text": "So let's expand this. We will get",
+      "start": 291.12,
+      "duration": 5.16
+    },
+    {
+      "text": "oh we've done this before a + b i it",
+      "start": 296.4,
+      "duration": 7.76
+    },
+    {
+      "text": "will be a² + b².",
+      "start": 300.4,
+      "duration": 9.84
+    },
+    {
+      "text": "So here it will be a² + b² is equ= to",
+      "start": 304.16,
+      "duration": 8.879
+    },
+    {
+      "text": "50.",
+      "start": 310.24,
+      "duration": 6.959
+    },
+    {
+      "text": "Okay. So we have a quadratic equation.",
+      "start": 313.039,
+      "duration": 5.681
+    },
+    {
+      "text": "A²",
+      "start": 317.199,
+      "duration": 7.44
+    },
+    {
+      "text": "is equ= to B² and another one is A² + B",
+      "start": 318.72,
+      "duration": 10.96
+    },
+    {
+      "text": "square is equals to 50.",
+      "start": 324.639,
+      "duration": 8.721
+    },
+    {
+      "text": "Okay. So let's name this. So a² is equ=",
+      "start": 329.68,
+      "duration": 5.519
+    },
+    {
+      "text": "to b².",
+      "start": 333.36,
+      "duration": 5.279
+    },
+    {
+      "text": "We'll name this as equation",
+      "start": 335.199,
+      "duration": 6.44
+    },
+    {
+      "text": "one.",
+      "start": 338.639,
+      "duration": 3.0
+    },
+    {
+      "text": "And here would be equation number two.",
+      "start": 341.84,
+      "duration": 8.4
+    },
+    {
+      "text": "So let 1",
+      "start": 346.24,
+      "duration": 7.959
+    },
+    {
+      "text": "into 2.",
+      "start": 350.24,
+      "duration": 3.959
+    },
+    {
+      "text": "So we will get",
+      "start": 354.72,
+      "duration": 8.56
+    },
+    {
+      "text": "a² + a² is = 50.",
+      "start": 357.12,
+      "duration": 11.76
+    },
+    {
+      "text": "2 a² is = 50.",
+      "start": 363.28,
+      "duration": 10.8
+    },
+    {
+      "text": "And then a² is = 25.",
+      "start": 368.88,
+      "duration": 10.24
+    },
+    {
+      "text": "A is equ= to + - 5",
+      "start": 374.08,
+      "duration": 9.2
+    },
+    {
+      "text": "because of A² is equ= to B²",
+      "start": 379.12,
+      "duration": 10.639
+    },
+    {
+      "text": "that means B will also be b² is also",
+      "start": 383.28,
+      "duration": 8.16
+    },
+    {
+      "text": "25",
+      "start": 389.759,
+      "duration": 6.16
+    },
+    {
+      "text": "and B is also + -",
+      "start": 391.44,
+      "duration": 7.479
+    },
+    {
+      "text": "5.",
+      "start": 395.919,
+      "duration": 3.0
+    },
+    {
+      "text": "Okay. So therefore we have two values",
+      "start": 401.84,
+      "duration": 6.4
+    },
+    {
+      "text": "for a and two values for b. So what are",
+      "start": 405.28,
+      "duration": 6.8
+    },
+    {
+      "text": "the possible equation? It will be when a",
+      "start": 408.24,
+      "duration": 10.0
+    },
+    {
+      "text": "is positive 5 it will be a oh wait",
+      "start": 412.08,
+      "duration": 8.8
+    },
+    {
+      "text": "it will be",
+      "start": 418.24,
+      "duration": 7.92
+    },
+    {
+      "text": "5 + 5 i. That's one option. It can also",
+      "start": 420.88,
+      "duration": 11.92
+    },
+    {
+      "text": "be 5 - 5 i. And then when a is negative",
+      "start": 426.16,
+      "duration": 16.08
+    },
+    {
+      "text": "it will be -5 + 5 I and then -5 - 5 I.",
+      "start": 432.8,
+      "duration": 14.799
+    },
+    {
+      "text": "So these four are all positive options",
+      "start": 442.24,
+      "duration": 9.12
+    },
+    {
+      "text": "for Z's. So Z1,",
+      "start": 447.599,
+      "duration": 6.081
+    },
+    {
+      "text": "Z2,",
+      "start": 451.36,
+      "duration": 3.92
+    },
+    {
+      "text": "Z3",
+      "start": 453.68,
+      "duration": 6.28
+    },
+    {
+      "text": "and Z number four.",
+      "start": 455.28,
+      "duration": 4.68
+    },
+    {
+      "text": "Okay,",
+      "start": 460.24,
+      "duration": 4.88
+    },
+    {
+      "text": "with that we are done with this part. We",
+      "start": 462.56,
+      "duration": 6.0
+    },
+    {
+      "text": "managed to show that a square is equals",
+      "start": 465.12,
+      "duration": 8.32
+    },
+    {
+      "text": "to b² and we also managed to find all",
+      "start": 468.56,
+      "duration": 11.6
+    },
+    {
+      "text": "four possible complex numbers for z.",
+      "start": 473.44,
+      "duration": 6.72
+    }
+  ]
+}

@@ -1,0 +1,1454 @@
+{
+  "id": "DU4p24nh3pY",
+  "paper": "CP1",
+  "question": "Q8",
+  "title": "Differential Equations (Modelling & Integrating Factor)",
+  "full_text": "Have a word problem. A rambler start a walk at the bottom of the hill at 10:00 a.m. So, at the bottom of the hill at 10:00 a.m. And then he goes up to the top and then turns around and walk back down. The this differential equation used to model the vertical displacement that is our X, vertical displacement in meter. And then T is time taken in hours. Now, given that after 1 hour, the rambler has a vertical displacement of 213 and the dX/dt of 273.2. So, T is equal to 1, X is equal to 213, dX/dt is equal to 273. 2. Question A, find the value of A to three significant figures. We just have to substitute all three values T, X, and dX/dt into our differential equation. So, it will be sin 1 * 273.2 - 213 cos 1 = A sin 2 sin 1. Let's put this in into our calculator. Sin 1 * 273.2 - 213 cos 1 alpha equal alpha A sin 2 * sin 1. So, shift solve. Solve for A equal. >> [snorts] >> So, A is equal to 150.04. We want it to be only up until three SF, so A is 150. For B, hence determine the particular solution of this differential equation giving in this form. Okay. Let's write down our differential equation. sin t dx dt x cos t = 150 sin 2t sin t. Now we have our DE, we want to rewrite this in standard linear form. Standard linear looks like this. Okay, dx dt + p t x = q t. Notice that we don't want to have sin t in front of that. So what we going to do, we going to divide everything by sin t. Okay, we will get dx dt cos t over sin t x >> [snorts] >> = 150 sin 2t. This sin t will cancel with this sin t. Why do we write in this form? Because it is easier for us to find the integrating factor. And what is our integrating factor? Integrating factor is e to the power of integral p t dt. Include the negative. This is our p t. Integrating factor is equal to e integrate negative cos t over sin t dt. How can we integrate this? Let's use substitution method. Let u equal to sin t. Therefore, [snorts] du dt is equal to cos t. dt is equal to du over cos t. This one would be equal to e negative cos t over u du over cos t. So, we can cancel this, cancel this. And we will get e integration of negative one over u du, which is equal to e negative ln u. Let's now substitute back our u. We will get e negative ln sin t. Okay. Let's bring the negative up. We will get e ln sin t the whole thing negative one. We can now cancel the e and ln. So, we will get integrating factor equal to sin t negative one or one over sin t. Now we have our integrating factor. What we will do next is we will multiply, okay, this equation by our integrating factor, which is one over sin t. We will get one over sin t dx dt minus cos t sin squared t x equal to 150 sin 2t over sin t. Okay. Now, what we have on our left-hand side is actually an expansion of product rule. Here is our u and here is our dvdt. Here is our dudt and here is our v. So, we have plus here. So, this is product rule. This is equal to ddt u multiplied by v. Okay, so I'm going to put this at the top here. So, this is what we have on our left-hand side. Left-hand side will be ddt u. What is our u? U is 1 over sin t. Multiply by v. What is our v? Our v is x. Equal to 150 sin 2t over sin t. What we're going to do next is we will integrate both sides. So, integrate dt. Integrate dt. For our left-hand side, this is quite straightforward. Integration and ddt will cancel each other. So, we will get 1 over sin t x equal to 150 over sin t. Now, we can expand sine 2t. Sine 2t is actually equal to 2 sine t cos t. We still have to do the integration. Okay. So we'll cancel this sine t sine t and we'll get integration of 300 cos t dt. So this is equal to 300 sine t plus c. x over sine t. Now substitute the values that we know. We will let t equals to 1 and x equal to What is it? 213. So 213 over sine 1 equal to 300 sine 1 plus c. Okay, let's use our calculator. AC 1. alpha equal 300 Okay, alpha equal 300 sine 1 plus alpha c. Now shift solve. Oh, error. Let's see. Oh, we don't have Let's close this. Okay, that's it. Shift solve. c is equal to 0.6 873 significant figures. So x over sine t is equal to 300 sine t plus 0.687. I would like to multiply everything by sine t because we want to leave our answer with x as the subject formula. So we'll get 300 sine squared t plus 0.687 sine t. Done with part B. Moving on to part C. Use the model to determine the time which the rambler will return to the bottom of the hill. So bottom of the hill that means x is equal to zero. So 300 sine squared t plus 0.687 sine t equal to zero. Let's factor out sine t. So 300 sine t plus 0.687 equal to zero. So we have sine t equal to zero. Sine t equal to -0.687 over 300. From here we will get two answers. T equal to zero and t is equals to pi. So this is when you go up so you will reject. So this is the beginning. So this might be it. Okay, let's take a look at the second part. We have a negative answer. So this one would be in the third quadrant. So your t would be pi plus inverse sine 0.687 over 300. So it will be more than pi. So we will reject this as well. The rambler only go down once so we should take the first value which is pi. So t is equals to pi which is equal to 3.14 1. If we write it in hour and minute, it would be 3 hours 8 minutes. It would be times is equal to 10 plus 0308. That would be 1308 or we can write it as 108 p.m. Moving on to D. Given that the vertical displacement of the top of the hill is 300.68 use the model to find the value of T when the rambler reach the top of the hill. We have, okay, X is equal to 300.68. So, our equation would be 300 sin squared T plus 0.687 sin T equal to 300.68. Let's bring everything to one side, so we'll get 300 sin squared T plus 0.687 sin T minus 300.68 equal to zero. Menu equation polynomial degree 2 300 0.687 -300.68. Okay, the first value is I would say 0.999988. And the other one is T is equal to -1.00227. So, this one will be sin T and this one will be sin T. But, the second value will be rejected because it's more than one. >> [snorts] >> So, now we want to find the value of T, so it will be inverse sin 0.999988. There we go. Menu one. So, shift sin 0.999988. T is equal to 1.57 to three significant figures. Let's take a look at the last answer. Using your answers to part C and D, give a limitation to the model. So, this model assumes that the time taken to go up and down are the same. In reality, it will be different.",
+  "snippets": [
+    {
+      "text": "Have a word problem. A rambler start a",
+      "start": 0.0,
+      "duration": 4.12
+    },
+    {
+      "text": "walk at the bottom of the hill at 10:00",
+      "start": 2.08,
+      "duration": 4.92
+    },
+    {
+      "text": "a.m. So, at the bottom of the hill at",
+      "start": 4.12,
+      "duration": 5.24
+    },
+    {
+      "text": "10:00 a.m.",
+      "start": 7.0,
+      "duration": 5.76
+    },
+    {
+      "text": "And then he goes up to the top and then",
+      "start": 9.36,
+      "duration": 6.28
+    },
+    {
+      "text": "turns around and walk back down. The",
+      "start": 12.76,
+      "duration": 6.04
+    },
+    {
+      "text": "this differential equation used to model",
+      "start": 15.64,
+      "duration": 4.2
+    },
+    {
+      "text": "the",
+      "start": 18.8,
+      "duration": 3.76
+    },
+    {
+      "text": "vertical displacement that is our X,",
+      "start": 19.84,
+      "duration": 6.4
+    },
+    {
+      "text": "vertical displacement",
+      "start": 22.56,
+      "duration": 3.68
+    },
+    {
+      "text": "in meter.",
+      "start": 28.76,
+      "duration": 3.44
+    },
+    {
+      "text": "And then T is time",
+      "start": 32.24,
+      "duration": 8.4
+    },
+    {
+      "text": "taken in hours. Now, given that after 1",
+      "start": 35.72,
+      "duration": 6.6
+    },
+    {
+      "text": "hour, the rambler has a vertical",
+      "start": 40.64,
+      "duration": 5.28
+    },
+    {
+      "text": "displacement of 213 and the dX/dt of",
+      "start": 42.32,
+      "duration": 6.04
+    },
+    {
+      "text": "273.2.",
+      "start": 45.92,
+      "duration": 6.56
+    },
+    {
+      "text": "So, T is equal to 1, X is equal to 213,",
+      "start": 48.36,
+      "duration": 7.04
+    },
+    {
+      "text": "dX/dt is equal to",
+      "start": 52.48,
+      "duration": 5.12
+    },
+    {
+      "text": "273.",
+      "start": 55.4,
+      "duration": 3.64
+    },
+    {
+      "text": "2.",
+      "start": 57.6,
+      "duration": 3.8
+    },
+    {
+      "text": "Question A, find the value of A to three",
+      "start": 59.04,
+      "duration": 4.92
+    },
+    {
+      "text": "significant figures. We just have to",
+      "start": 61.4,
+      "duration": 4.56
+    },
+    {
+      "text": "substitute",
+      "start": 63.96,
+      "duration": 5.16
+    },
+    {
+      "text": "all three values T, X, and dX/dt into",
+      "start": 65.96,
+      "duration": 5.8
+    },
+    {
+      "text": "our differential equation. So, it will",
+      "start": 69.12,
+      "duration": 5.24
+    },
+    {
+      "text": "be sin 1",
+      "start": 71.76,
+      "duration": 6.08
+    },
+    {
+      "text": "* 273.2",
+      "start": 74.36,
+      "duration": 6.24
+    },
+    {
+      "text": "- 213",
+      "start": 77.84,
+      "duration": 10.32
+    },
+    {
+      "text": "cos 1 = A sin 2 sin 1.",
+      "start": 80.6,
+      "duration": 10.32
+    },
+    {
+      "text": "Let's put this in into our calculator.",
+      "start": 88.16,
+      "duration": 6.04
+    },
+    {
+      "text": "Sin 1 * 273.2",
+      "start": 90.92,
+      "duration": 6.08
+    },
+    {
+      "text": "- 213",
+      "start": 94.2,
+      "duration": 5.88
+    },
+    {
+      "text": "cos 1",
+      "start": 97.0,
+      "duration": 5.36
+    },
+    {
+      "text": "alpha equal",
+      "start": 100.08,
+      "duration": 6.08
+    },
+    {
+      "text": "alpha A sin 2",
+      "start": 102.36,
+      "duration": 6.48
+    },
+    {
+      "text": "* sin 1.",
+      "start": 106.16,
+      "duration": 6.501
+    },
+    {
+      "text": "So, shift solve. Solve for A equal.",
+      "start": 108.84,
+      "duration": 4.0
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 112.661,
+      "duration": 3.019
+    },
+    {
+      "text": ">> So, A is equal to",
+      "start": 112.84,
+      "duration": 5.84
+    },
+    {
+      "text": "150.04.",
+      "start": 115.68,
+      "duration": 5.84
+    },
+    {
+      "text": "We want it to be only up until three SF,",
+      "start": 118.68,
+      "duration": 5.84
+    },
+    {
+      "text": "so A is 150.",
+      "start": 121.52,
+      "duration": 4.76
+    },
+    {
+      "text": "For B,",
+      "start": 124.52,
+      "duration": 4.32
+    },
+    {
+      "text": "hence determine the particular solution",
+      "start": 126.28,
+      "duration": 4.96
+    },
+    {
+      "text": "of this differential equation giving in",
+      "start": 128.84,
+      "duration": 5.44
+    },
+    {
+      "text": "this form. Okay.",
+      "start": 131.24,
+      "duration": 4.92
+    },
+    {
+      "text": "Let's write down our differential",
+      "start": 134.28,
+      "duration": 3.56
+    },
+    {
+      "text": "equation.",
+      "start": 136.16,
+      "duration": 3.56
+    },
+    {
+      "text": "sin t",
+      "start": 137.84,
+      "duration": 4.2
+    },
+    {
+      "text": "dx dt",
+      "start": 139.72,
+      "duration": 4.6
+    },
+    {
+      "text": "x cos t",
+      "start": 142.04,
+      "duration": 4.88
+    },
+    {
+      "text": "= 150",
+      "start": 144.32,
+      "duration": 6.76
+    },
+    {
+      "text": "sin 2t sin t.",
+      "start": 146.92,
+      "duration": 8.08
+    },
+    {
+      "text": "Now we have our DE, we want to rewrite",
+      "start": 151.08,
+      "duration": 7.44
+    },
+    {
+      "text": "this in standard linear form. Standard",
+      "start": 155.0,
+      "duration": 6.44
+    },
+    {
+      "text": "linear",
+      "start": 158.52,
+      "duration": 2.92
+    },
+    {
+      "text": "looks like this. Okay, dx dt",
+      "start": 161.8,
+      "duration": 9.76
+    },
+    {
+      "text": "+ p t x =",
+      "start": 166.88,
+      "duration": 6.72
+    },
+    {
+      "text": "q t.",
+      "start": 171.56,
+      "duration": 4.0
+    },
+    {
+      "text": "Notice that we don't want to have sin t",
+      "start": 173.6,
+      "duration": 4.12
+    },
+    {
+      "text": "in front of that. So what we going to",
+      "start": 175.56,
+      "duration": 6.12
+    },
+    {
+      "text": "do, we going to divide everything by sin",
+      "start": 177.72,
+      "duration": 5.0
+    },
+    {
+      "text": "t.",
+      "start": 181.68,
+      "duration": 6.32
+    },
+    {
+      "text": "Okay, we will get dx dt",
+      "start": 182.72,
+      "duration": 9.852
+    },
+    {
+      "text": "cos t over sin t x",
+      "start": 188.0,
+      "duration": 4.68
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 192.572,
+      "duration": 3.268
+    },
+    {
+      "text": ">> = 150",
+      "start": 192.68,
+      "duration": 5.4
+    },
+    {
+      "text": "sin 2t.",
+      "start": 195.84,
+      "duration": 6.24
+    },
+    {
+      "text": "This sin t will cancel with this sin t.",
+      "start": 198.08,
+      "duration": 7.2
+    },
+    {
+      "text": "Why do we write in this form? Because it",
+      "start": 202.08,
+      "duration": 6.12
+    },
+    {
+      "text": "is easier for us to find the integrating",
+      "start": 205.28,
+      "duration": 4.64
+    },
+    {
+      "text": "factor. And what is our integrating",
+      "start": 208.2,
+      "duration": 3.96
+    },
+    {
+      "text": "factor? Integrating factor is",
+      "start": 209.92,
+      "duration": 6.24
+    },
+    {
+      "text": "e to the power of integral",
+      "start": 212.16,
+      "duration": 4.0
+    },
+    {
+      "text": "p t",
+      "start": 216.239,
+      "duration": 3.761
+    },
+    {
+      "text": "dt.",
+      "start": 218.16,
+      "duration": 5.52
+    },
+    {
+      "text": "Include the negative. This is our p t.",
+      "start": 220.0,
+      "duration": 7.28
+    },
+    {
+      "text": "Integrating factor is equal to e",
+      "start": 223.68,
+      "duration": 7.64
+    },
+    {
+      "text": "integrate negative cos t over",
+      "start": 227.28,
+      "duration": 7.68
+    },
+    {
+      "text": "sin t dt.",
+      "start": 231.32,
+      "duration": 7.56
+    },
+    {
+      "text": "How can we integrate this? Let's use",
+      "start": 234.96,
+      "duration": 7.64
+    },
+    {
+      "text": "substitution method. Let u equal to sin",
+      "start": 238.88,
+      "duration": 5.4
+    },
+    {
+      "text": "t. Therefore, [snorts]",
+      "start": 242.6,
+      "duration": 4.92
+    },
+    {
+      "text": "du dt is equal to",
+      "start": 244.28,
+      "duration": 5.4
+    },
+    {
+      "text": "cos t.",
+      "start": 247.52,
+      "duration": 7.64
+    },
+    {
+      "text": "dt is equal to du over cos t.",
+      "start": 249.68,
+      "duration": 9.8
+    },
+    {
+      "text": "This one would be equal to e negative",
+      "start": 255.16,
+      "duration": 7.16
+    },
+    {
+      "text": "cos t over u",
+      "start": 259.48,
+      "duration": 5.96
+    },
+    {
+      "text": "du over cos t.",
+      "start": 262.32,
+      "duration": 6.76
+    },
+    {
+      "text": "So, we can cancel this, cancel this.",
+      "start": 265.44,
+      "duration": 5.8
+    },
+    {
+      "text": "And we will get",
+      "start": 269.08,
+      "duration": 6.8
+    },
+    {
+      "text": "e integration of negative one over u du,",
+      "start": 271.24,
+      "duration": 8.28
+    },
+    {
+      "text": "which is equal to e",
+      "start": 275.88,
+      "duration": 8.12
+    },
+    {
+      "text": "negative ln u. Let's now substitute back",
+      "start": 279.52,
+      "duration": 9.36
+    },
+    {
+      "text": "our u. We will get e negative ln",
+      "start": 284.0,
+      "duration": 8.44
+    },
+    {
+      "text": "sin t.",
+      "start": 288.88,
+      "duration": 3.56
+    },
+    {
+      "text": "Okay.",
+      "start": 292.68,
+      "duration": 3.84
+    },
+    {
+      "text": "Let's bring the negative up. We will get",
+      "start": 294.4,
+      "duration": 7.72
+    },
+    {
+      "text": "e ln sin t the whole thing negative one.",
+      "start": 296.52,
+      "duration": 8.52
+    },
+    {
+      "text": "We can now cancel the e and ln.",
+      "start": 302.12,
+      "duration": 5.04
+    },
+    {
+      "text": "So, we will get",
+      "start": 305.04,
+      "duration": 6.52
+    },
+    {
+      "text": "integrating factor equal to",
+      "start": 307.16,
+      "duration": 6.6
+    },
+    {
+      "text": "sin t",
+      "start": 311.56,
+      "duration": 8.76
+    },
+    {
+      "text": "negative one or one over sin t.",
+      "start": 313.76,
+      "duration": 6.56
+    },
+    {
+      "text": "Now we have our integrating factor. What",
+      "start": 321.12,
+      "duration": 7.4
+    },
+    {
+      "text": "we will do next is we will multiply,",
+      "start": 325.0,
+      "duration": 5.88
+    },
+    {
+      "text": "okay, this equation",
+      "start": 328.52,
+      "duration": 6.96
+    },
+    {
+      "text": "by our integrating factor, which is one",
+      "start": 330.88,
+      "duration": 8.0
+    },
+    {
+      "text": "over sin t. We will get",
+      "start": 335.48,
+      "duration": 7.12
+    },
+    {
+      "text": "one over sin t",
+      "start": 338.88,
+      "duration": 7.44
+    },
+    {
+      "text": "dx dt",
+      "start": 342.6,
+      "duration": 3.72
+    },
+    {
+      "text": "minus cos t",
+      "start": 347.6,
+      "duration": 8.4
+    },
+    {
+      "text": "sin squared t",
+      "start": 351.56,
+      "duration": 7.28
+    },
+    {
+      "text": "x equal to",
+      "start": 356.0,
+      "duration": 4.8
+    },
+    {
+      "text": "150",
+      "start": 358.84,
+      "duration": 7.8
+    },
+    {
+      "text": "sin 2t over sin t. Okay. Now, what we",
+      "start": 360.8,
+      "duration": 7.44
+    },
+    {
+      "text": "have on",
+      "start": 366.64,
+      "duration": 3.92
+    },
+    {
+      "text": "our left-hand side is actually an",
+      "start": 368.24,
+      "duration": 7.32
+    },
+    {
+      "text": "expansion of product rule. Here is our u",
+      "start": 370.56,
+      "duration": 8.32
+    },
+    {
+      "text": "and here is our dvdt.",
+      "start": 375.56,
+      "duration": 6.0
+    },
+    {
+      "text": "Here is our",
+      "start": 378.88,
+      "duration": 4.56
+    },
+    {
+      "text": "dudt",
+      "start": 381.56,
+      "duration": 4.6
+    },
+    {
+      "text": "and here is our v.",
+      "start": 383.44,
+      "duration": 4.68
+    },
+    {
+      "text": "So, we have plus here.",
+      "start": 386.16,
+      "duration": 4.36
+    },
+    {
+      "text": "So, this is product rule. This is equal",
+      "start": 388.12,
+      "duration": 3.32
+    },
+    {
+      "text": "to",
+      "start": 390.52,
+      "duration": 3.16
+    },
+    {
+      "text": "ddt",
+      "start": 391.44,
+      "duration": 5.64
+    },
+    {
+      "text": "u multiplied by v.",
+      "start": 393.68,
+      "duration": 6.28
+    },
+    {
+      "text": "Okay, so I'm going to put this",
+      "start": 397.08,
+      "duration": 6.16
+    },
+    {
+      "text": "at the top here. So, this is what we",
+      "start": 399.96,
+      "duration": 8.12
+    },
+    {
+      "text": "have on our left-hand side.",
+      "start": 403.24,
+      "duration": 8.12
+    },
+    {
+      "text": "Left-hand side will be ddt",
+      "start": 408.08,
+      "duration": 9.12
+    },
+    {
+      "text": "u. What is our u? U is 1 over sin t.",
+      "start": 411.36,
+      "duration": 9.0
+    },
+    {
+      "text": "Multiply by v. What is our v? Our v is",
+      "start": 417.2,
+      "duration": 4.28
+    },
+    {
+      "text": "x.",
+      "start": 420.36,
+      "duration": 3.64
+    },
+    {
+      "text": "Equal to",
+      "start": 421.48,
+      "duration": 4.24
+    },
+    {
+      "text": "150",
+      "start": 424.0,
+      "duration": 4.12
+    },
+    {
+      "text": "sin 2t",
+      "start": 425.72,
+      "duration": 5.88
+    },
+    {
+      "text": "over sin t.",
+      "start": 428.12,
+      "duration": 6.0
+    },
+    {
+      "text": "What we're going to do next is we will",
+      "start": 431.6,
+      "duration": 7.76
+    },
+    {
+      "text": "integrate both sides. So, integrate dt.",
+      "start": 434.12,
+      "duration": 8.04
+    },
+    {
+      "text": "Integrate dt.",
+      "start": 439.36,
+      "duration": 4.52
+    },
+    {
+      "text": "For our left-hand side, this is quite",
+      "start": 442.16,
+      "duration": 4.28
+    },
+    {
+      "text": "straightforward. Integration and ddt",
+      "start": 443.88,
+      "duration": 6.6
+    },
+    {
+      "text": "will cancel each other. So, we will get",
+      "start": 446.44,
+      "duration": 7.24
+    },
+    {
+      "text": "1 over sin t",
+      "start": 450.48,
+      "duration": 5.8
+    },
+    {
+      "text": "x equal to",
+      "start": 453.68,
+      "duration": 4.12
+    },
+    {
+      "text": "150",
+      "start": 456.28,
+      "duration": 4.8
+    },
+    {
+      "text": "over sin t.",
+      "start": 457.8,
+      "duration": 6.72
+    },
+    {
+      "text": "Now, we can expand sine 2t. Sine 2t is",
+      "start": 461.08,
+      "duration": 5.16
+    },
+    {
+      "text": "actually equal to",
+      "start": 464.52,
+      "duration": 5.48
+    },
+    {
+      "text": "2 sine t cos t.",
+      "start": 466.24,
+      "duration": 7.04
+    },
+    {
+      "text": "We still have to do the integration.",
+      "start": 470.0,
+      "duration": 4.6
+    },
+    {
+      "text": "Okay.",
+      "start": 473.28,
+      "duration": 4.04
+    },
+    {
+      "text": "So we'll cancel this sine t sine t and",
+      "start": 474.6,
+      "duration": 5.52
+    },
+    {
+      "text": "we'll get",
+      "start": 477.32,
+      "duration": 6.52
+    },
+    {
+      "text": "integration of 300",
+      "start": 480.12,
+      "duration": 6.76
+    },
+    {
+      "text": "cos t dt.",
+      "start": 483.84,
+      "duration": 6.92
+    },
+    {
+      "text": "So this is equal to 300",
+      "start": 486.88,
+      "duration": 5.96
+    },
+    {
+      "text": "sine t",
+      "start": 490.76,
+      "duration": 4.12
+    },
+    {
+      "text": "plus c.",
+      "start": 492.84,
+      "duration": 5.48
+    },
+    {
+      "text": "x over sine t.",
+      "start": 494.88,
+      "duration": 6.6
+    },
+    {
+      "text": "Now substitute the values that we know.",
+      "start": 498.32,
+      "duration": 7.64
+    },
+    {
+      "text": "We will let t equals to 1",
+      "start": 501.48,
+      "duration": 10.32
+    },
+    {
+      "text": "and x equal to What is it? 213.",
+      "start": 505.96,
+      "duration": 5.84
+    },
+    {
+      "text": "So 213",
+      "start": 511.919,
+      "duration": 4.361
+    },
+    {
+      "text": "over sine 1",
+      "start": 513.719,
+      "duration": 4.961
+    },
+    {
+      "text": "equal to 300",
+      "start": 516.28,
+      "duration": 4.319
+    },
+    {
+      "text": "sine 1",
+      "start": 518.68,
+      "duration": 3.919
+    },
+    {
+      "text": "plus c.",
+      "start": 520.599,
+      "duration": 5.321
+    },
+    {
+      "text": "Okay, let's use our calculator. AC",
+      "start": 522.599,
+      "duration": 6.321
+    },
+    {
+      "text": "1.",
+      "start": 525.92,
+      "duration": 3.0
+    },
+    {
+      "text": "alpha equal 300",
+      "start": 529.96,
+      "duration": 4.28
+    },
+    {
+      "text": "Okay, alpha equal 300",
+      "start": 534.72,
+      "duration": 6.0
+    },
+    {
+      "text": "sine 1",
+      "start": 538.6,
+      "duration": 4.32
+    },
+    {
+      "text": "plus alpha c.",
+      "start": 540.72,
+      "duration": 4.48
+    },
+    {
+      "text": "Now shift solve.",
+      "start": 542.92,
+      "duration": 4.88
+    },
+    {
+      "text": "Oh, error. Let's see. Oh, we don't have",
+      "start": 545.2,
+      "duration": 4.8
+    },
+    {
+      "text": "Let's close this.",
+      "start": 547.8,
+      "duration": 3.56
+    },
+    {
+      "text": "Okay, that's it.",
+      "start": 550.0,
+      "duration": 3.44
+    },
+    {
+      "text": "Shift solve.",
+      "start": 551.36,
+      "duration": 5.8
+    },
+    {
+      "text": "c is equal to",
+      "start": 553.44,
+      "duration": 3.72
+    },
+    {
+      "text": "0.6",
+      "start": 558.56,
+      "duration": 6.68
+    },
+    {
+      "text": "873 significant figures.",
+      "start": 560.6,
+      "duration": 11.16
+    },
+    {
+      "text": "So x over sine t is equal to 300",
+      "start": 565.24,
+      "duration": 11.64
+    },
+    {
+      "text": "sine t plus 0.687.",
+      "start": 571.76,
+      "duration": 5.12
+    },
+    {
+      "text": "I would like to multiply everything by",
+      "start": 577.2,
+      "duration": 4.24
+    },
+    {
+      "text": "sine t because we want to leave our",
+      "start": 579.44,
+      "duration": 3.2
+    },
+    {
+      "text": "answer",
+      "start": 581.44,
+      "duration": 4.24
+    },
+    {
+      "text": "with x as the subject formula. So we'll",
+      "start": 582.64,
+      "duration": 5.84
+    },
+    {
+      "text": "get 300 sine squared t",
+      "start": 585.68,
+      "duration": 5.28
+    },
+    {
+      "text": "plus 0.687",
+      "start": 588.48,
+      "duration": 5.4
+    },
+    {
+      "text": "sine t.",
+      "start": 590.96,
+      "duration": 6.96
+    },
+    {
+      "text": "Done with part B. Moving on to part C.",
+      "start": 593.88,
+      "duration": 7.0
+    },
+    {
+      "text": "Use the model to determine the time",
+      "start": 597.92,
+      "duration": 5.16
+    },
+    {
+      "text": "which the rambler will return to the",
+      "start": 600.88,
+      "duration": 4.12
+    },
+    {
+      "text": "bottom of the hill.",
+      "start": 603.08,
+      "duration": 4.6
+    },
+    {
+      "text": "So bottom of the hill that means x is",
+      "start": 605.0,
+      "duration": 5.2
+    },
+    {
+      "text": "equal to zero.",
+      "start": 607.68,
+      "duration": 4.52
+    },
+    {
+      "text": "So 300",
+      "start": 610.2,
+      "duration": 7.28
+    },
+    {
+      "text": "sine squared t plus 0.687",
+      "start": 612.2,
+      "duration": 8.8
+    },
+    {
+      "text": "sine t equal to zero.",
+      "start": 617.48,
+      "duration": 7.12
+    },
+    {
+      "text": "Let's factor out sine t.",
+      "start": 621.0,
+      "duration": 6.92
+    },
+    {
+      "text": "So 300 sine t",
+      "start": 624.6,
+      "duration": 6.52
+    },
+    {
+      "text": "plus 0.687",
+      "start": 627.92,
+      "duration": 5.24
+    },
+    {
+      "text": "equal to zero.",
+      "start": 631.12,
+      "duration": 6.16
+    },
+    {
+      "text": "So we have sine t equal to zero.",
+      "start": 633.16,
+      "duration": 9.36
+    },
+    {
+      "text": "Sine t equal to -0.687",
+      "start": 637.28,
+      "duration": 5.24
+    },
+    {
+      "text": "over 300.",
+      "start": 642.839,
+      "duration": 5.361
+    },
+    {
+      "text": "From here we will get two answers. T",
+      "start": 645.88,
+      "duration": 5.24
+    },
+    {
+      "text": "equal to zero and t is equals to pi. So",
+      "start": 648.2,
+      "duration": 5.32
+    },
+    {
+      "text": "this is when you go up so you will",
+      "start": 651.12,
+      "duration": 5.12
+    },
+    {
+      "text": "reject. So this is the beginning. So",
+      "start": 653.52,
+      "duration": 5.04
+    },
+    {
+      "text": "this might be it. Okay, let's take a",
+      "start": 656.24,
+      "duration": 4.92
+    },
+    {
+      "text": "look at the second part. We have a",
+      "start": 658.56,
+      "duration": 6.16
+    },
+    {
+      "text": "negative answer. So this one would be in",
+      "start": 661.16,
+      "duration": 6.84
+    },
+    {
+      "text": "the third quadrant. So your t would be",
+      "start": 664.72,
+      "duration": 7.8
+    },
+    {
+      "text": "pi plus inverse sine",
+      "start": 668.0,
+      "duration": 6.52
+    },
+    {
+      "text": "0.687",
+      "start": 672.52,
+      "duration": 6.08
+    },
+    {
+      "text": "over 300. So it will be more than pi. So",
+      "start": 674.52,
+      "duration": 6.48
+    },
+    {
+      "text": "we will reject this as well. The rambler",
+      "start": 678.6,
+      "duration": 5.8
+    },
+    {
+      "text": "only go down once so we should take the",
+      "start": 681.0,
+      "duration": 6.48
+    },
+    {
+      "text": "first value which is pi.",
+      "start": 684.4,
+      "duration": 8.28
+    },
+    {
+      "text": "So t is equals to pi which is equal to",
+      "start": 687.48,
+      "duration": 7.4
+    },
+    {
+      "text": "3.14",
+      "start": 692.68,
+      "duration": 5.56
+    },
+    {
+      "text": "1. If we write it in hour and minute, it",
+      "start": 694.88,
+      "duration": 4.76
+    },
+    {
+      "text": "would be",
+      "start": 698.24,
+      "duration": 3.6
+    },
+    {
+      "text": "3 hours",
+      "start": 699.64,
+      "duration": 4.72
+    },
+    {
+      "text": "8 minutes.",
+      "start": 701.84,
+      "duration": 5.24
+    },
+    {
+      "text": "It would be times",
+      "start": 704.36,
+      "duration": 5.8
+    },
+    {
+      "text": "is equal to 10",
+      "start": 707.08,
+      "duration": 7.12
+    },
+    {
+      "text": "plus 0308.",
+      "start": 710.16,
+      "duration": 4.04
+    },
+    {
+      "text": "That would be",
+      "start": 715.28,
+      "duration": 4.52
+    },
+    {
+      "text": "1308",
+      "start": 717.36,
+      "duration": 4.6
+    },
+    {
+      "text": "or we can write it as",
+      "start": 719.8,
+      "duration": 5.44
+    },
+    {
+      "text": "108 p.m.",
+      "start": 721.96,
+      "duration": 6.2
+    },
+    {
+      "text": "Moving on to D.",
+      "start": 725.24,
+      "duration": 5.28
+    },
+    {
+      "text": "Given that the vertical displacement of",
+      "start": 728.16,
+      "duration": 5.8
+    },
+    {
+      "text": "the top of the hill is 300.68",
+      "start": 730.52,
+      "duration": 7.2
+    },
+    {
+      "text": "use the model to find the value of T",
+      "start": 733.96,
+      "duration": 5.84
+    },
+    {
+      "text": "when the rambler reach the top of the",
+      "start": 737.72,
+      "duration": 3.56
+    },
+    {
+      "text": "hill.",
+      "start": 739.8,
+      "duration": 7.8
+    },
+    {
+      "text": "We have, okay, X is equal to 300.68.",
+      "start": 741.28,
+      "duration": 6.32
+    },
+    {
+      "text": "So, our equation would be 300 sin",
+      "start": 749.12,
+      "duration": 5.04
+    },
+    {
+      "text": "squared T",
+      "start": 752.48,
+      "duration": 4.84
+    },
+    {
+      "text": "plus 0.687",
+      "start": 754.16,
+      "duration": 6.92
+    },
+    {
+      "text": "sin T equal to",
+      "start": 757.32,
+      "duration": 6.76
+    },
+    {
+      "text": "300.68.",
+      "start": 761.08,
+      "duration": 3.0
+    },
+    {
+      "text": "Let's bring everything to one side, so",
+      "start": 765.8,
+      "duration": 4.24
+    },
+    {
+      "text": "we'll get 300",
+      "start": 768.0,
+      "duration": 6.8
+    },
+    {
+      "text": "sin squared T plus 0.687",
+      "start": 770.04,
+      "duration": 7.28
+    },
+    {
+      "text": "sin T minus",
+      "start": 774.8,
+      "duration": 4.68
+    },
+    {
+      "text": "300.68",
+      "start": 777.32,
+      "duration": 3.6
+    },
+    {
+      "text": "equal to",
+      "start": 779.48,
+      "duration": 3.76
+    },
+    {
+      "text": "zero.",
+      "start": 780.92,
+      "duration": 4.56
+    },
+    {
+      "text": "Menu",
+      "start": 783.24,
+      "duration": 7.92
+    },
+    {
+      "text": "equation polynomial degree 2 300 0.687",
+      "start": 785.48,
+      "duration": 8.6
+    },
+    {
+      "text": "-300.68.",
+      "start": 791.16,
+      "duration": 6.52
+    },
+    {
+      "text": "Okay, the first value is I would say",
+      "start": 794.08,
+      "duration": 6.6
+    },
+    {
+      "text": "0.999988.",
+      "start": 797.68,
+      "duration": 3.0
+    },
+    {
+      "text": "And the other one is",
+      "start": 803.96,
+      "duration": 7.12
+    },
+    {
+      "text": "T is equal to",
+      "start": 807.0,
+      "duration": 7.08
+    },
+    {
+      "text": "-1.00227.",
+      "start": 811.08,
+      "duration": 3.0
+    },
+    {
+      "text": "So, this one will be sin T and this one",
+      "start": 816.96,
+      "duration": 6.96
+    },
+    {
+      "text": "will be sin T. But, the second value",
+      "start": 821.2,
+      "duration": 5.16
+    },
+    {
+      "text": "will be rejected because it's more than",
+      "start": 823.92,
+      "duration": 3.354
+    },
+    {
+      "text": "one.",
+      "start": 826.36,
+      "duration": 1.2
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 827.274,
+      "duration": 3.446
+    },
+    {
+      "text": ">> So, now we want to find the value of T,",
+      "start": 827.56,
+      "duration": 6.12
+    },
+    {
+      "text": "so it will be inverse sin",
+      "start": 830.72,
+      "duration": 5.96
+    },
+    {
+      "text": "0.999988.",
+      "start": 833.68,
+      "duration": 3.0
+    },
+    {
+      "text": "There we go. Menu one. So, shift sin",
+      "start": 838.24,
+      "duration": 7.04
+    },
+    {
+      "text": "0.999988.",
+      "start": 842.28,
+      "duration": 3.0
+    },
+    {
+      "text": "T is equal to",
+      "start": 846.12,
+      "duration": 4.92
+    },
+    {
+      "text": "1.57",
+      "start": 849.08,
+      "duration": 3.88
+    },
+    {
+      "text": "to three significant",
+      "start": 851.04,
+      "duration": 4.96
+    },
+    {
+      "text": "figures. Let's take a look at the last",
+      "start": 852.96,
+      "duration": 5.88
+    },
+    {
+      "text": "answer. Using your answers to part C and",
+      "start": 856.0,
+      "duration": 5.72
+    },
+    {
+      "text": "D, give a limitation to the",
+      "start": 858.84,
+      "duration": 5.88
+    },
+    {
+      "text": "model.",
+      "start": 861.72,
+      "duration": 3.0
+    },
+    {
+      "text": "So, this model",
+      "start": 865.72,
+      "duration": 3.72
+    },
+    {
+      "text": "assumes",
+      "start": 869.72,
+      "duration": 5.64
+    },
+    {
+      "text": "that the time",
+      "start": 872.36,
+      "duration": 4.96
+    },
+    {
+      "text": "taken",
+      "start": 875.36,
+      "duration": 5.6
+    },
+    {
+      "text": "to go up and down",
+      "start": 877.32,
+      "duration": 3.64
+    },
+    {
+      "text": "are the same.",
+      "start": 883.0,
+      "duration": 5.88
+    },
+    {
+      "text": "In reality,",
+      "start": 885.839,
+      "duration": 3.041
+    },
+    {
+      "text": "it will be",
+      "start": 890.08,
+      "duration": 5.16
+    },
+    {
+      "text": "different.",
+      "start": 892.6,
+      "duration": 2.64
+    }
+  ]
+}

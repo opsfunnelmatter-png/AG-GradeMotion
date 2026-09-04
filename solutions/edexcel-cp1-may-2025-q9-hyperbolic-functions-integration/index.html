@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function() {
+        var gtmLoaded = false;
+        function loadGtag() {
+          if (gtmLoaded) return;
+          gtmLoaded = true;
+          var script = document.createElement('script');
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=AW-18375169008';
+          script.async = true;
+          document.head.appendChild(script);
+          gtag('js', new Date());
+          gtag('config', 'AW-18375169008');
+        }
+        ['touchstart', 'scroll', 'mousemove', 'keydown'].forEach(function(e) {
+          window.addEventListener(e, loadGtag, { once: true, passive: true });
+        });
+        setTimeout(loadGtag, 3500);
+      })();
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration | GradeMotion</title>
+    <meta name="description" content="Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.">
+    <link rel="canonical" href="https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q9-hyperbolic-functions-integration">
+    
+    <!-- Open Graph & Social -->
+    <meta property="og:site_name" content="GradeMotion">
+    <meta property="og:title" content="Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration">
+    <meta property="og:description" content="Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.">
+    <meta property="og:url" content="https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q9-hyperbolic-functions-integration">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration">
+    <meta name="twitter:description" content="Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.">
+
+    <!-- Fonts & Favicon -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+    <!-- KaTeX Mathematical Typography -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+            onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true}, {left: '$', right: '$', display: false}], throwOnError: false});"></script>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.grademotion.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Solutions",
+          "item": "https://www.grademotion.com/solutions"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Edexcel 2025 Core Pure 1 (CP1)",
+          "item": "https://www.grademotion.com/solutions#core-pure-1-(cp1)"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Q9 Solution",
+          "item": "https://www.grademotion.com/solutions/edexcel-cp1-may-2025-q9-hyperbolic-functions-integration"
+        }
+      ]
+    },
+    {
+      "@type": "VideoObject",
+      "name": "Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions & Integration",
+      "description": "Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.",
+      "thumbnailUrl": "https://i.ytimg.com/vi/y9_rkSUzQto/hqdefault.jpg",
+      "uploadDate": "2025-05-20T00:00:00Z",
+      "contentUrl": "https://www.youtube.com/watch?v=y9_rkSUzQto",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/y9_rkSUzQto",
+      "publisher": {
+        "@type": "Organization",
+        "name": "GradeMotion",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.grademotion.com/gm1.webp"
+        }
+      }
+    },
+    {
+      "@type": "EducationalWebPage",
+      "name": "Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions & Integration",
+      "description": "Full walkthrough of Edexcel CP1 May 2025 Question 9 on integrating powers of hyperbolic functions and hyperbolic substitutions by Tutor Sheefa.",
+      "learningResourceType": "Exam Solution Walkthrough",
+      "educationalLevel": "A-Level Further Mathematics",
+      "assesses": "Hyperbolic Functions, Maclaurin Series & Inverse Trigonometry"
+    }
+  ]
+}
+</script>
+
+    <style>
+        :root {
+            --bg-body: #FBF9FF;
+            --bg-surface: #FFFFFF;
+            --bg-subtle: #F6F0FD;
+            --header-bg: rgba(251, 249, 255, 0.92);
+            --purple-main: #7B2CBF;
+            --purple-deep: #170A2C;
+            --purple-hover: #5A189A;
+            --pink-accent: #FF4A95;
+            --pink-soft: rgba(255, 74, 149, 0.08);
+            --border-subtle: rgba(123, 44, 191, 0.12);
+            --border-strong: rgba(123, 44, 191, 0.22);
+            --text-main: #170A2C;
+            --text-muted: #5C4D75;
+            --text-light: #7E6F95;
+            --card-shadow: 0 10px 30px rgba(123, 44, 191, 0.05);
+            --hover-shadow: 0 16px 36px rgba(123, 44, 191, 0.12);
+            --radius-md: 14px;
+            --radius-lg: 20px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; -webkit-tap-highlight-color: transparent; }
+        body { background: var(--bg-body); color: var(--text-main); line-height: 1.65; min-height: 100vh; display: flex; flex-direction: column; -webkit-font-smoothing: antialiased; }
+        
+        /* Navbar */
+        .site-header { position: sticky; top: 0; z-index: 1000; background: var(--header-bg); backdrop-filter: blur(16px); border-bottom: 1px solid var(--border-subtle); }
+        .nav-inner { max-width: 1240px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; }
+        .nav-logo { display: flex; align-items: center; text-decoration: none; }
+        .nav-logo img { height: 38px; width: auto; }
+        .nav-links { display: flex; align-items: center; gap: 24px; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 14.5px; font-weight: 600; text-decoration: none; transition: color 0.2s ease; }
+        .nav-links a:hover, .nav-links a.active { color: var(--purple-main); }
+        .nav-btn { background: var(--purple-main); color: #fff !important; padding: 9px 18px; border-radius: 999px; font-weight: 700; font-size: 13.5px; transition: all 0.2s ease; }
+        .nav-btn:hover { background: var(--purple-hover); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(123, 44, 191, 0.25); }
+
+        /* Breadcrumbs */
+        .breadcrumbs-bar { max-width: 1240px; margin: 0 auto; padding: 18px 24px 0 24px; width: 100%; }
+        .breadcrumbs { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; font-size: 13px; color: var(--text-light); list-style: none; }
+        .breadcrumbs a { color: var(--text-muted); text-decoration: none; font-weight: 500; }
+        .breadcrumbs a:hover { color: var(--purple-main); text-decoration: underline; }
+        .breadcrumbs .sep { color: var(--border-strong); }
+        .breadcrumbs .current { color: var(--purple-main); font-weight: 600; }
+
+        /* Container */
+        .main-content { max-width: 1240px; margin: 0 auto; padding: 24px 24px 60px 24px; width: 100%; flex: 1; }
+        
+        /* Typography */
+        h1 { font-size: 32px; font-weight: 800; line-height: 1.25; color: var(--purple-deep); letter-spacing: -0.02em; margin-bottom: 12px; }
+        h2 { font-size: 22px; font-weight: 700; color: var(--purple-deep); letter-spacing: -0.01em; margin: 32px 0 16px 0; display: flex; align-items: center; gap: 10px; }
+        h3 { font-size: 17px; font-weight: 700; color: var(--purple-main); margin-bottom: 8px; }
+        p { margin-bottom: 14px; font-size: 15.5px; color: var(--text-muted); }
+
+        /* Badges */
+        .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+        .badge { display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; font-size: 12px; font-weight: 700; }
+        .badge-purple { background: rgba(123, 44, 191, 0.08); color: var(--purple-main); border: 1px solid rgba(123, 44, 191, 0.18); }
+        .badge-pink { background: rgba(255, 74, 149, 0.08); color: var(--pink-accent); border: 1px solid rgba(255, 74, 149, 0.2); }
+        .badge-zinc { background: rgba(0, 0, 0, 0.04); color: #4B5563; border: 1px solid rgba(0, 0, 0, 0.08); }
+
+        /* CIE Cross-Board Notice */
+        .cross-board-banner { background: #FFFFFF; border: 1px solid var(--border-subtle); border-left: 4px solid var(--purple-main); border-radius: var(--radius-md); padding: 14px 18px; margin-bottom: 24px; box-shadow: var(--card-shadow); display: flex; gap: 14px; align-items: flex-start; }
+        .cross-board-icon { font-size: 20px; line-height: 1; }
+        .cross-board-text { font-size: 13.5px; color: var(--text-muted); line-height: 1.55; }
+        .cross-board-text strong { color: var(--purple-deep); }
+
+        /* Layout Grid */
+        .layout-grid { display: grid; grid-template-columns: 1fr 340px; gap: 32px; align-items: start; }
+        @media (max-width: 960px) {
+            .layout-grid { grid-template-columns: 1fr; }
+            .site-header .nav-links { display: none; }
+            h1 { font-size: 26px; }
+        }
+
+        /* Video Player Card */
+        .video-card { background: #000; border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 16px 40px rgba(23, 10, 44, 0.18); position: relative; padding-top: 56.25%; margin-bottom: 28px; }
+        .video-card iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+        /* Content Cards */
+        .content-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 26px; margin-bottom: 24px; box-shadow: var(--card-shadow); }
+        
+        /* Math Blocks */
+        .formula-box { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 16px 20px; margin: 16px 0; overflow-x: auto; }
+        .formula-box .title { font-size: 13px; font-weight: 700; color: var(--purple-main); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+
+        /* Examiner Traps */
+        .trap-card { background: #FFF5F7; border: 1px solid rgba(255, 74, 149, 0.25); border-left: 4px solid var(--pink-accent); border-radius: var(--radius-md); padding: 18px 20px; margin: 20px 0; }
+        .trap-card h3 { color: #C2185B; display: flex; align-items: center; gap: 8px; font-size: 15px; margin-bottom: 10px; }
+        .trap-card ul { padding-left: 20px; margin: 0; }
+        .trap-card li { font-size: 14px; color: #6E1A34; margin-bottom: 8px; line-height: 1.55; }
+
+        /* Solution Steps */
+        .step-item { border-left: 2px solid var(--purple-main); padding-left: 18px; margin: 20px 0; position: relative; }
+        .step-item::before { content: ''; position: absolute; left: -6px; top: 4px; width: 10px; height: 10px; border-radius: 50%; background: var(--purple-main); }
+        .step-item h4 { font-size: 15.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 6px; }
+        .step-item p { font-size: 14.5px; margin-bottom: 8px; }
+
+        /* Transcript Accordion */
+        details.transcript-details { background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 14px 18px; margin-top: 24px; }
+        details.transcript-details summary { font-size: 14px; font-weight: 700; color: var(--purple-deep); cursor: pointer; user-select: none; display: flex; align-items: center; justify-content: space-between; }
+        details.transcript-details .transcript-body { margin-top: 14px; font-size: 13.5px; color: var(--text-muted); line-height: 1.7; max-height: 320px; overflow-y: auto; padding-right: 10px; }
+
+        /* Prev / Next Question Nav */
+        .pager-nav { display: flex; justify-content: space-between; gap: 16px; margin: 36px 0; padding-top: 20px; border-top: 1px solid var(--border-subtle); }
+        .pager-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; border-radius: var(--radius-md); background: var(--bg-surface); border: 1px solid var(--border-subtle); color: var(--text-main); text-decoration: none; font-size: 14px; font-weight: 600; transition: all 0.2s ease; box-shadow: var(--card-shadow); }
+        .pager-btn:hover { border-color: var(--purple-main); color: var(--purple-main); transform: translateY(-1px); }
+
+        /* Sticky Sidebar */
+        .sidebar { position: sticky; top: 86px; display: flex; flex-direction: column; gap: 20px; }
+        .tutor-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 24px; box-shadow: var(--card-shadow); text-align: center; }
+        .tutor-card img { width: 88px; height: 88px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(123, 44, 191, 0.15); margin-bottom: 12px; }
+        .tutor-name { font-size: 17px; font-weight: 800; color: var(--purple-deep); margin-bottom: 2px; }
+        .tutor-title { font-size: 13px; color: var(--purple-main); font-weight: 600; margin-bottom: 12px; }
+        .tutor-desc { font-size: 13px; color: var(--text-muted); line-height: 1.5; margin-bottom: 18px; text-align: left; }
+
+        .cta-box { background: linear-gradient(135deg, #7B2CBF 0%, #5A189A 100%); color: #fff; border-radius: var(--radius-lg); padding: 24px; box-shadow: 0 14px 32px rgba(123, 44, 191, 0.28); }
+        .cta-box h3 { color: #fff; font-size: 18px; font-weight: 800; margin-bottom: 8px; }
+        .cta-box p { color: rgba(255, 255, 255, 0.88); font-size: 13px; line-height: 1.5; margin-bottom: 18px; }
+        .cta-box .btn-main { display: block; text-align: center; background: #fff; color: var(--purple-main); font-weight: 800; font-size: 14px; padding: 12px 18px; border-radius: 999px; text-decoration: none; transition: all 0.2s ease; box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+        .cta-box .btn-main:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(0,0,0,0.18); }
+        .cta-box .guarantee { font-size: 11.5px; color: rgba(255, 255, 255, 0.75); text-align: center; margin-top: 10px; }
+
+        .related-card { background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--card-shadow); }
+        .related-card h4 { font-size: 14.5px; font-weight: 700; color: var(--purple-deep); margin-bottom: 14px; }
+        .related-list { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+        .related-list a { display: flex; align-items: flex-start; gap: 8px; font-size: 13px; color: var(--text-muted); text-decoration: none; line-height: 1.4; transition: color 0.2s ease; }
+        .related-list a:hover { color: var(--purple-main); }
+        .related-list a .num { font-weight: 700; color: var(--purple-main); min-width: 26px; }
+
+        /* Footer */
+        .site-footer { background: #110524; color: #B3A4C8; padding: 48px 24px; border-top: 1px solid rgba(255,255,255,0.08); margin-top: 60px; font-size: 13.5px; }
+        .footer-inner { max-width: 1240px; margin: 0 auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 32px; }
+        .footer-col h5 { color: #fff; font-size: 15px; font-weight: 700; margin-bottom: 14px; }
+        .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+        .footer-col a { color: #B3A4C8; text-decoration: none; }
+        .footer-col a:hover { color: #fff; }
+        .footer-bottom { max-width: 1240px; margin: 32px auto 0 auto; padding-top: 24px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; font-size: 12px; color: #7B6894; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <div class="nav-inner">
+        <a href="/" class="nav-logo" aria-label="GradeMotion Home">
+            <img src="/gm1.webp" alt="GradeMotion" width="108" height="45">
+        </a>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/solutions" class="active">Past Paper Solutions</a></li>
+            <li><a href="/topics" class="">Topic Guides</a></li>
+            <li><a href="/schedule">1-on-1 Schedule</a></li>
+            <li><a href="https://forms.gle/grademotion-free-diagnostic" target="_blank" class="nav-btn">Free Diagnostic &rarr;</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="breadcrumbs-bar">
+    <nav aria-label="Breadcrumb">
+        <ol class="breadcrumbs">
+            <li><a href="/">Home</a></li>
+            <li class="sep">/</li>
+            <li><a href="/solutions">Past Paper Solutions</a></li>
+            <li class="sep">/</li>
+            <li><a href="/solutions">Edexcel 2025 Core Pure 1 (CP1)</a></li>
+            <li class="sep">/</li>
+            <li class="current">Q9: Hyperbolic Functions, Maclaurin Series &amp; Inverse Trigonometry</li>
+        </ol>
+    </nav>
+</div>
+
+<main class="main-content">
+    <div class="badge-row">
+        <span class="badge badge-purple">Edexcel GCE A-Level</span>
+        <span class="badge badge-zinc">Core Pure 1 (CP1) (9FM0/01)</span>
+        <span class="badge badge-pink">May/June 2025 &bull; Q9</span>
+    </div>
+
+    <h1>Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration</h1>
+    <p style="font-size: 16px; margin-bottom: 24px;">
+        Comprehensive worked solution and examiner mark-scheme analysis by <strong>Tutor Sheefa</strong>. Focuses on mark allocation, algebraic traps, and step-by-step mathematical reasoning.
+    </p>
+
+    <!-- Cross-Board Notice -->
+    <div class="cross-board-banner">
+        <div class="cross-board-icon">&#128204;</div>
+        <div class="cross-board-text">
+            <strong>Studying Cambridge International (CIE 9231)?</strong> While this question was set in the Edexcel Further Maths examination, the underlying mathematical theory and examiner rubric for <em>Hyperbolic Functions, Maclaurin Series &amp; Inverse Trigonometry</em> are <strong>100% applicable to CIE Paper 1 & 2</strong>.
+        </div>
+    </div>
+
+    <div class="layout-grid">
+        <!-- Main Column -->
+        <div>
+            <!-- Video Player -->
+            <div class="video-card">
+                <iframe src="https://www.youtube-nocookie.com/embed/y9_rkSUzQto?rel=0" title="Edexcel Further Maths May 2025 CP1 Q9: Hyperbolic Functions &amp; Integration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+
+            <!-- Archetype Box -->
+            <div class="content-card">
+                <h2>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    The Exam Archetype: Hyperbolic Trigonometric Substitution
+                </h2>
+                <p>
+                    Examiners do not invent new mathematics each year &mdash; they test <strong>consistent structural archetypes</strong>. In this paper, Q9 tests your ability to navigate the boundary between conceptual algebra and precise numerical computation.
+                </p>
+                <div class="formula-box">
+                    <div class="title">Core Formulae Tested</div>
+                    <p style="margin-bottom: 6px; font-size: 16px;">$$\cosh^2 x - \sinh^2 x = 1$$</p><p style="margin-bottom: 6px; font-size: 16px;">$$\int \sinh^2 x \, dx = \int \frac{\cosh(2x) - 1}{2} dx$$</p>
+                </div>
+            </div>
+
+            <!-- Examiner Traps & Common Penalties -->
+            <div class="trap-card">
+                <h3>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C2185B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    Examiner Traps &amp; Common Mark-Scheme Penalties
+                </h3>
+                <ul>
+                    <li>Using $\cos^2 + \sin^2 = 1$ formulas instead of hyperbolic double angle formulas.</li><li>Neglecting the constant of integration in indefinite integrals.</li>
+                </ul>
+            </div>
+
+            <!-- Step by step solution -->
+            <div class="content-card">
+                <h2>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"></polyline><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+                    Formal Mathematical Solution
+                </h2>
+                <p style="margin-bottom: 20px;">
+                    Below is the full step-by-step derivation meeting official mark-scheme criteria for method (M) and accuracy (A) marks:
+                </p>
+
+                
+                    <div class="step-item">
+                        <h4>Hyperbolic Double Angle Identity</h4>
+                        <p>Substitute the identity into the integral and integrate each term directly.</p>
+                        <div class="formula-box" style="margin: 8px 0 14px 0;">
+                            $$\cosh(2x) = 2\sinh^2 x + 1 \implies \sinh^2 x = \frac{\cosh(2x) - 1}{2}$$
+                        </div>
+                    </div>
+                
+            </div>
+
+            <!-- Spoken Audio Transcript (Collapsible) -->
+            
+            <details class="transcript-details">
+                <summary>
+                    <span>&#127897;&#65039; Read Spoken Video Explanation (202 segments, 1410 words)</span>
+                    <span style="font-size: 12px; color: var(--purple-main);">&#9662; Expand</span>
+                </summary>
+                <div class="transcript-body">
+                    <p style="font-style: italic; margin-bottom: 12px; font-size: 12.5px; color: var(--text-light);">
+                        Unedited transcript of Tutor Sheefa's spoken audio instructions during the walkthrough:
+                    </p>
+                    <p>Let's take a look at question nine. For nine part one, we have a trigle function. Okay. And they want us to solve this. They tell us that these are the equation for two curves that intersect at just one point P. For part A, they want us to use algebra to show that the xcoordinate of P satisfy this equation. For part B, they want us to show that e ^ x = 3 is the solution to this equation. And for part C, they want us to state the exact coordinate of B. Whereas for part two, they want us to solve an integration question. Let's begin from for question nine part one 8. Okay. Now we want to find intersection. Whenever we want to find intersection, we have to equate the two equation. So 3 over 4 shine x is equal to tang x + 1 over 5. Okay. So 3 over 4. Let's substitute the definition. So this is e ^ x - e ^ -x / 2. Okay. Equal to the definition of tang x would be e to the^ x - e^ -x over e ^ x + e ^ -x + 1 5. Now we want to eliminate the fraction to simplify this equation. So we'll multiply with the LCM. On the left hand side we have 8 okay in the denominator. Whereas for our right hand side we have five bracket e x + e -x. So the LCM for 8 and 5 would be 40. And for the expression will be e x + e -x. Okay, let's begin. Now here we will have 3 over8 e x - e -x. Okay, let's copy back what we multiply. Okay. Copy paste. Okay. Now this is equal to e x - e -x over e x + e -x. Okay. Base multiply by 40. Okay. So + 1 over 5. Now let's paste that multiply by 40 and a x. Okay, let's simplify this equation wherever we can. So let's see 8 and 40 that will be five. So this and this will cancel each other and this one will be eight. So what we have here is this 15 e^ of x - e -x e x + e -x = to we can expand this 40 e x - 40 e to of -x + 8 e x + 8 e X. Okay. What we have over here is the expansion for difference of two squares. So if we want to factor it, it will be e to the^ 2x - e to the power of -2x = to 40 e x + 8 e x we'll get 48 e to the^ x -40 + 8 that will be -32 e to the power of x. Okay. expand the left hand side and change any of our exponential that's supposed to be a fraction. So it will be 15 e to 2x - 15 over e ^ 2x = 48 e to the^ x - 32 / e ^ x. We want to eliminate the fraction. So we'll multiply by the LCM which is e to the^ 2x. So for the first term when we multiply e^ of 2x * with e of 2x that would be e to the power of 4x - 15. These two will just cancel each other. So it will be just 15 equal to 48. So e^ of x * with e^ of 2x that will be e ^ of 3x - 32 and this one it will cancel one of the e x. So we will get e to the power of x. Let's rearrange and make everything equal to zero. So 15 e ^ 4x - 48 e to the^ of 3x + 32 e to the^ x - 15 is equal to zero. Let's zoom out. See that is exactly what they want us to find. That's it. We are done with part A. Moving on to part B. To part B. Right. In part B, they want us to prove that e x = 3 is a solution to this equation. So we'll start from the left hand side and we'll substitute this value. So 15 3 ^ 4 - 48 3 cubed + 32 * 3 - 15. This is equal to 15 * 3 ^ of 415 - 48 * 3 cubed that is 296 + 32 * 3 that is 96 - 1515 - 1296 + 96 6 - 15 that is equal to zero which is our right hand side. Therefore, e x = 3 is proven to be the solution. Okay, moving on to part C. In part C, they want us to find the exact coordinate of P. So we know E X is equal to 3. Therefore X is equal to lawn 3. Let's find out our Y value. So what is our Y value? Let's take this one. This one already expand. So 3 over 4 bracket. Okay. e x - e -x / 2. So this is equal to 3 over 4 3 - 1 / 3 over 2. Okay, let's use our calculator. 3 over 4 3 - 1 / 3 over 2. Okay, let's close our bracket. Equal to 1. Day 4 P is equal to lawn 3 1. We are done with part one. Moving on to part two. Now we have an integration question. -4 to 0 e to the power of 1 /x / x² dx. We want to prove that this should be equal to e to the power of -1 /4. Okay, let's start by um substituting. Okay, we're going to use substitution method. So let u = 1 /x which is x = -1. If we differentiate right du dx we will get -x -2 which is -1 / x². By rearranging this we will get dx is =x² d u. Let's replace this into our integration. Okay. So now we will get e u over x² here will be x² du. Okay, we can cancel this but we still have the negative. Be cautious of that. So we have negative okay e u d u when we integrate this we will get e u neative eu. Remember that we have to substitute back our okay we have to substitute back so that uh our equation or our answer will be in x. So it will be e1 / x. Now we can write down the limit. The limit is -4 and zero. But if we replace zero into this you notice that we're going to get 1 / 0. We cannot have that. So what we going to do instead is this. Okay. So it would be limit t to zero. Okay. E to p. Okay. Minus - e. Okay. - e -1 / 4. So here I will get limit. Okay. Or here it should be 1 / t. Okay. T close to zero. e 1 / t + e to the power of -1 /4. Let's figure out our first term. Okay. Now let's refer to our limit. Our limit is from -4 to 0. Right? So -4 to 0. So that means we're approaching zero from the negative side. So as t get closer to zero from the negative side, what will happen to our 1 / t? Okay. So let's recap our 1 / t function. 1 / t function. Okay. Let's draw this. rational function would look like this. This is where our zero is. So if we approach to the zero from the negative side, it will be okay negative infinity. Okay. Next as we approach okay as 1 / t approach negative infinity what will happen to e okay to the power of 1 / t. So now we will refer to our exponential function. Exponential function look like this. But now we want to approach to negative infinity. So it will get closer and closer to zero. So this one would be zero. Now we can conclude that this one is 0 + e1 / 4. Therefore this is equal to e to the power of -1 /4. We are done with this question. Let's just mark all the answers. Okay. So this is the answer for part one. A. Okay. We have proven. So B nothing. Okay. C is that one. And two we also proven that it looks like this. That's it.</p>
+                </div>
+            </details>
+            
+
+            <!-- Previous / Next Pager -->
+            <div class="pager-nav">
+                <div>
+                    
+                    <a href="/solutions/edexcel-cp1-may-2025-q8-differential-equations-integrating-factor-modelling" class="pager-btn">
+                        &larr; Previous: Q8
+                    </a>
+                </div>
+                <div>
+                    
+                    <a href="/solutions/edexcel-cp1-may-2025-q10-volumes-of-revolution-trig" class="pager-btn">
+                        Next: Q10 &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <!-- Tutor Card -->
+            <div class="tutor-card">
+                <img src="/Tutor%20Sheefa.webp" alt="Tutor Sheefa" width="88" height="88">
+                <div class="tutor-name">Tutor Sheefa</div>
+                <div class="tutor-title">Further Mathematics Specialist</div>
+                <p class="tutor-desc">
+                    10+ years of high-ticket coaching with an 80% A/A* track record for CIE 9231 &amp; Edexcel IAL students entering Imperial, Cambridge, Oxford, and UCL.
+                </p>
+                <a href="/schedule" class="nav-btn" style="display: block; width: 100%;">View Lesson Availability &rarr;</a>
+            </div>
+
+            <!-- Direct CTA Box -->
+            <div class="cta-box">
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Evaluation Session</div>
+                <h3>Stuck on Hyperbolic Functions, Maclaurin Series &amp; Inverse Trigonometry?</h3>
+                <p>
+                    Book a private 2-Hour Evaluation Session. We diagnose your exact syllabus gaps and install university-grade exam technique.
+                </p>
+                <a href="/pay/usd/trial" class="btn-main">Enrol Trial ($210 USD) &rarr;</a>
+                <div style="margin-top: 8px; text-align: center;">
+                    <a href="/pay/my/trial" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">Or Enrol in MYR (RM 380) &rarr;</a>
+                </div>
+                <div class="guarantee">&#128737;&#65039; 100% Rollover Credit Guarantee toward sprint upgrades</div>
+            </div>
+
+            <!-- Evergreen Topic Link -->
+            <div class="related-card">
+                <h4>Evergreen Topic Guide</h4>
+                <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">
+                    Understand the broader conceptual framework behind this question:
+                </p>
+                <a href="/topics/hyperbolic-functions-and-calculus" style="display: block; background: var(--bg-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: 12px 14px; text-decoration: none; color: var(--purple-main); font-weight: 700; font-size: 13.5px;">
+                    Hyperbolic Functions, Maclaurin Series &amp; Inverse Trigonometry &rarr;
+                </a>
+            </div>
+
+            <!-- All Questions in Paper -->
+            <div class="related-card">
+                <h4>All Questions in Core Pure 1 (CP1)</h4>
+                <ul class="related-list">
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q1-matrices-singular-inverse" style="">
+                                <span class="num">Q1</span>
+                                <span> Matrices (Singular &amp; Inverse Matrix)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q2-hyperbolic-functions-exact-values" style="">
+                                <span class="num">Q2</span>
+                                <span> Hyperbolic Functions (Exact Values)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q3-complex-numbers-purely-imaginary-proof" style="">
+                                <span class="num">Q3</span>
+                                <span> Complex Numbers (Purely Imaginary Proof)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q4-second-order-differential-equations" style="">
+                                <span class="num">Q4</span>
+                                <span> Second Order Differential Equations</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q5-method-of-differences-summation-proof" style="">
+                                <span class="num">Q5</span>
+                                <span> Method of Differences (Summation Proof)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q6-complex-numbers-cubic-roots-argand" style="">
+                                <span class="num">Q6</span>
+                                <span> Complex Numbers (Cubic Roots &amp; Argand Diagrams)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q7a-partial-fractions-improper" style="">
+                                <span class="num">Q7a</span>
+                                <span> Partial Fractions (Improper Fractions)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q7b-definite-integration-natural-logs" style="">
+                                <span class="num">Q7b</span>
+                                <span> Definite Integration &amp; Natural Logs</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q8-differential-equations-integrating-factor-modelling" style="">
+                                <span class="num">Q8</span>
+                                <span> Differential Equations (Modelling &amp; Integrating Factor)</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q9-hyperbolic-functions-integration" style="color: var(--purple-main); font-weight: 700;">
+                                <span class="num">Q9</span>
+                                <span> Hyperbolic Functions &amp; Integration</span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="/solutions/edexcel-cp1-may-2025-q10-volumes-of-revolution-trig" style="">
+                                <span class="num">Q10</span>
+                                <span> Volumes of Revolution (Trigonometric Identities)</span>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        </aside>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-col" style="max-width: 380px;">
+            <h5>GradeMotion</h5>
+            <p style="font-size: 13px; line-height: 1.6; color: #B3A4C8; margin-bottom: 12px;">
+                Elite 1-on-1 tutoring for Cambridge International (CIE 9231) and Edexcel (9FM0) A-Level Further Mathematics. Directed by Tutor Sheefa (10+ years, 42 IB points).
+            </p>
+            <div style="font-size: 12px; color: #7B6894;">
+                &copy; 2026 GradeMotion. All rights reserved.
+            </div>
+        </div>
+        <div class="footer-col">
+            <h5>Past Paper Walkthroughs</h5>
+            <ul>
+                <li><a href="/solutions">May 2025 Edexcel CP1 & CP2 Solutions</a></li>
+                <li><a href="/topics/matrices-and-linear-transformations">3x3 Matrices & Determinants</a></li>
+                <li><a href="/topics/complex-numbers-loci-and-roots">Complex Numbers & Argand Loci</a></li>
+                <li><a href="/topics/differential-equations">Differential Equations Guide</a></li>
+                <li><a href="/topics/hyperbolic-functions-and-calculus">Hyperbolic Functions & Calculus</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h5>Admissions & Tutoring</h5>
+            <ul>
+                <li><a href="/schedule">Book 1-on-1 Lesson Slot</a></li>
+                <li><a href="/pay/usd/trial">2-Hour Evaluation Trial ($210 USD)</a></li>
+                <li><a href="/pay/my/trial">2-Hour Evaluation Trial (RM 380 MYR)</a></li>
+                <li><a href="https://www.youtube.com/@tutorsheefa" target="_blank" rel="noopener">YouTube: @tutorsheefa</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        Cambridge Assessment International Education and Pearson Edexcel are registered trademarks. GradeMotion is an independent elite tutoring consultancy and is not affiliated with or endorsed by Cambridge International or Pearson.
+    </div>
+</footer>
+</body>
+</html>

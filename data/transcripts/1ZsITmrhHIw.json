@@ -1,0 +1,889 @@
+{
+  "id": "1ZsITmrhHIw",
+  "paper": "CP1",
+  "question": "Q6",
+  "title": "Complex Numbers (Cubic Roots and Argand Diagrams)",
+  "full_text": "We have a complex number question. They give us, okay, a cubic equation with all real constants. They tell us the roots of the equations are Z1, Z2, and Z3. They give us the information Z1 is equal to 2 + 4i and the area of a triangle is 12. Okay, [snorts] determine the two possible functions for FZ. So, let's start. If we know our Z1, okay, [clears throat] 2 + 4i, automatically the second root would be its conjugate, which is 2 - 4i. So, what we have here, it would be, okay, Z minus 2 + 4i, so this which is equals to Z minus 2 minus 4i. This is my first factor for this cubic, and the second factor would be Z minus 2 minus 4i. Okay, it will be Z minus 2 plus 4i. Next, we need to find our third root, okay? If we have all um all real constants for our cubic equation, that means our third root must be real number. This one must be real number. We don't know yet what this is. What they say is when we plot all these three points on an Argand diagram, it will be the vertices of a triangle whose area is 12. So, let's draw our Argand diagram first. Let's see. Okay. So, this is real number. This is imaginary. We have two real, right? And then -4 and then +4. Let's make it Okay, [snorts] so let's say -4 is here. So, +4 is here. So, our two points would be one This is for Z1. And here this is your Z2. From here, I can draw the base. Okay. So, this is four units. This is four units. That means my base, okay, the base is eight. Let's do some computation on the side. So, area of a triangle is equals to 12. This is equal to 1/2 * base * height = 12. So, 1/2 * 8 * height = 12. So, 4 H is equals to 12, our height is equals to three. We know that, okay, our third point will be on the x axis or on the real line because it's a real number. We know the height is three, so that means we have to move three units to this side or three units to this side. So, three units to one side, it would be negative one. So, this is one possible value. Z3 can be negative one. Or two options, right? Okay, three units to this side, so two plus three, that would be five. That's it. I'm going to move this slightly below, okay. So, our third I'm going to use a different color. My third factor would either be Z plus one or Z minus the minus five. Okay. Let's find out our what our cubic equation. Let's begin by expanding our two complex root. Okay. [snorts and groaning] Complex factors will expect this one first. So, it will be Z squared minus 2 Z plus 4 Z I minus 2 Z plus 4 minus 8 I minus 4 Z I Okay. plus [snorts] 8 I minus 16 I squared Okay. >> [snorts] >> That's good. Let's see. This plus 4 Z I and minus 4 Z I will cancel each other. >> [clears throat] >> Just like this one, -8 I and +8 I. Whereas, okay this one I squared refer to negative one. So, let's simplify. Here we will get Z squared minus 2 Z minus 2 Z, that's 4 Z. Okay. plus 4 plus 16 That is plus 20. We are done. Okay. For the final answer, we have to say, okay F Z option one. So, [snorts] we will take this one. We'll take Z plus one, our first option, and multiply with our quadratic function here. Okay. We will get Z cubed minus 4 Z squared plus 20 Z plus Z squared minus 4 Z plus 20. This is equal to Z cubed minus 3 Z squared plus 16 Z plus 20. First answer. Second, F Z option two. Okay, we have Z minus Let's leave a space. Z minus 5 Z squared minus 4 Z plus 20. Okay, this would be Z cubed minus 4 Z squared plus 20 Z minus 5 Z squared plus 20 Z minus 100. Let's simplify this. Z cubed minus 9 Z squared 20 20 plus 40 Z minus 100. Okay. Let's make it make a rectangle so that we know which one is our final answer. So, that's it. Two answers for this question.",
+  "snippets": [
+    {
+      "text": "We have a complex number question. They",
+      "start": 0.64,
+      "duration": 7.8
+    },
+    {
+      "text": "give us, okay, a cubic equation with all",
+      "start": 4.0,
+      "duration": 6.8
+    },
+    {
+      "text": "real constants.",
+      "start": 8.44,
+      "duration": 4.96
+    },
+    {
+      "text": "They tell us the roots of the equations",
+      "start": 10.8,
+      "duration": 5.92
+    },
+    {
+      "text": "are Z1, Z2, and Z3.",
+      "start": 13.4,
+      "duration": 6.32
+    },
+    {
+      "text": "They give us the information Z1 is equal",
+      "start": 16.72,
+      "duration": 5.44
+    },
+    {
+      "text": "to 2 + 4i",
+      "start": 19.72,
+      "duration": 5.72
+    },
+    {
+      "text": "and the area of a triangle is 12.",
+      "start": 22.16,
+      "duration": 4.2
+    },
+    {
+      "text": "Okay, [snorts]",
+      "start": 25.44,
+      "duration": 4.36
+    },
+    {
+      "text": "determine the two possible functions for",
+      "start": 26.36,
+      "duration": 5.44
+    },
+    {
+      "text": "FZ.",
+      "start": 29.8,
+      "duration": 5.16
+    },
+    {
+      "text": "So, let's start.",
+      "start": 31.8,
+      "duration": 6.16
+    },
+    {
+      "text": "If we know our Z1, okay, [clears throat]",
+      "start": 34.96,
+      "duration": 5.28
+    },
+    {
+      "text": "2 + 4i,",
+      "start": 37.96,
+      "duration": 5.72
+    },
+    {
+      "text": "automatically the second root would be",
+      "start": 40.24,
+      "duration": 9.32
+    },
+    {
+      "text": "its conjugate, which is 2 - 4i.",
+      "start": 43.68,
+      "duration": 8.0
+    },
+    {
+      "text": "So, what we have here, it would be,",
+      "start": 49.56,
+      "duration": 3.64
+    },
+    {
+      "text": "okay, Z",
+      "start": 51.68,
+      "duration": 4.16
+    },
+    {
+      "text": "minus",
+      "start": 53.2,
+      "duration": 6.8
+    },
+    {
+      "text": "2 + 4i, so this",
+      "start": 55.84,
+      "duration": 10.2
+    },
+    {
+      "text": "which is equals to Z minus 2 minus 4i.",
+      "start": 60.0,
+      "duration": 9.72
+    },
+    {
+      "text": "This is my first factor for this cubic,",
+      "start": 66.04,
+      "duration": 6.96
+    },
+    {
+      "text": "and the second factor would be",
+      "start": 69.72,
+      "duration": 8.08
+    },
+    {
+      "text": "Z minus 2 minus 4i.",
+      "start": 73.0,
+      "duration": 8.64
+    },
+    {
+      "text": "Okay, it will be Z minus 2",
+      "start": 77.8,
+      "duration": 7.64
+    },
+    {
+      "text": "plus 4i.",
+      "start": 81.64,
+      "duration": 3.8
+    },
+    {
+      "text": "Next, we need to find our",
+      "start": 86.0,
+      "duration": 4.92
+    },
+    {
+      "text": "third",
+      "start": 89.72,
+      "duration": 5.48
+    },
+    {
+      "text": "root, okay? If we have all",
+      "start": 90.92,
+      "duration": 9.52
+    },
+    {
+      "text": "um all real constants for our cubic",
+      "start": 95.2,
+      "duration": 7.08
+    },
+    {
+      "text": "equation,",
+      "start": 100.44,
+      "duration": 5.56
+    },
+    {
+      "text": "that means our third root must be",
+      "start": 102.28,
+      "duration": 5.68
+    },
+    {
+      "text": "real number.",
+      "start": 106.0,
+      "duration": 6.84
+    },
+    {
+      "text": "This one must be real number.",
+      "start": 107.96,
+      "duration": 4.88
+    },
+    {
+      "text": "We don't know yet what this is.",
+      "start": 116.6,
+      "duration": 6.84
+    },
+    {
+      "text": "What they say is when we plot all these",
+      "start": 119.28,
+      "duration": 7.28
+    },
+    {
+      "text": "three points on an Argand diagram, it",
+      "start": 123.44,
+      "duration": 7.319
+    },
+    {
+      "text": "will be the vertices of a triangle whose",
+      "start": 126.56,
+      "duration": 8.48
+    },
+    {
+      "text": "area is 12. So, let's draw our Argand",
+      "start": 130.759,
+      "duration": 6.881
+    },
+    {
+      "text": "diagram first.",
+      "start": 135.04,
+      "duration": 6.0
+    },
+    {
+      "text": "Let's see.",
+      "start": 137.64,
+      "duration": 3.4
+    },
+    {
+      "text": "Okay.",
+      "start": 141.64,
+      "duration": 6.4
+    },
+    {
+      "text": "So, this is real number. This is",
+      "start": 143.959,
+      "duration": 6.401
+    },
+    {
+      "text": "imaginary.",
+      "start": 148.04,
+      "duration": 4.6
+    },
+    {
+      "text": "We have two",
+      "start": 150.36,
+      "duration": 7.2
+    },
+    {
+      "text": "real, right? And then -4",
+      "start": 152.64,
+      "duration": 10.36
+    },
+    {
+      "text": "and then +4. Let's make it",
+      "start": 157.56,
+      "duration": 5.44
+    },
+    {
+      "text": "Okay, [snorts] so let's say -4 is here.",
+      "start": 163.64,
+      "duration": 5.88
+    },
+    {
+      "text": "So, +4 is here.",
+      "start": 166.84,
+      "duration": 4.119
+    },
+    {
+      "text": "So, our",
+      "start": 169.52,
+      "duration": 5.439
+    },
+    {
+      "text": "two points would be",
+      "start": 170.959,
+      "duration": 4.0
+    },
+    {
+      "text": "one",
+      "start": 175.72,
+      "duration": 3.48
+    },
+    {
+      "text": "This is for Z1.",
+      "start": 177.0,
+      "duration": 3.56
+    },
+    {
+      "text": "And here",
+      "start": 179.2,
+      "duration": 5.52
+    },
+    {
+      "text": "this is your Z2.",
+      "start": 180.56,
+      "duration": 4.16
+    },
+    {
+      "text": "From here, I can draw",
+      "start": 185.0,
+      "duration": 6.4
+    },
+    {
+      "text": "the base.",
+      "start": 188.2,
+      "duration": 3.2
+    },
+    {
+      "text": "Okay.",
+      "start": 191.68,
+      "duration": 4.64
+    },
+    {
+      "text": "So, this is four units. This is four",
+      "start": 192.6,
+      "duration": 4.88
+    },
+    {
+      "text": "units.",
+      "start": 196.32,
+      "duration": 6.4
+    },
+    {
+      "text": "That means my base, okay,",
+      "start": 197.48,
+      "duration": 5.24
+    },
+    {
+      "text": "the base is",
+      "start": 202.959,
+      "duration": 3.841
+    },
+    {
+      "text": "eight.",
+      "start": 205.12,
+      "duration": 5.56
+    },
+    {
+      "text": "Let's do some computation on the side.",
+      "start": 206.8,
+      "duration": 9.24
+    },
+    {
+      "text": "So, area of a triangle is equals to 12.",
+      "start": 210.68,
+      "duration": 11.2
+    },
+    {
+      "text": "This is equal to 1/2 * base * height =",
+      "start": 216.04,
+      "duration": 10.479
+    },
+    {
+      "text": "12. So, 1/2",
+      "start": 221.88,
+      "duration": 4.639
+    },
+    {
+      "text": "* 8 * height = 12.",
+      "start": 228.04,
+      "duration": 9.24
+    },
+    {
+      "text": "So, 4 H is equals to 12,",
+      "start": 233.56,
+      "duration": 7.32
+    },
+    {
+      "text": "our height is equals to three.",
+      "start": 237.28,
+      "duration": 7.88
+    },
+    {
+      "text": "We know that, okay, our third point will",
+      "start": 240.88,
+      "duration": 7.4
+    },
+    {
+      "text": "be on the",
+      "start": 245.16,
+      "duration": 6.72
+    },
+    {
+      "text": "x axis or on the real line because it's",
+      "start": 248.28,
+      "duration": 6.56
+    },
+    {
+      "text": "a real number.",
+      "start": 251.88,
+      "duration": 5.04
+    },
+    {
+      "text": "We know the height is three, so that",
+      "start": 254.84,
+      "duration": 4.56
+    },
+    {
+      "text": "means we have to move three units to",
+      "start": 256.92,
+      "duration": 6.72
+    },
+    {
+      "text": "this side or three units to this side.",
+      "start": 259.4,
+      "duration": 8.2
+    },
+    {
+      "text": "So, three units to one side, it would be",
+      "start": 263.64,
+      "duration": 8.56
+    },
+    {
+      "text": "negative one. So, this is one possible",
+      "start": 267.6,
+      "duration": 5.96
+    },
+    {
+      "text": "value.",
+      "start": 272.2,
+      "duration": 5.8
+    },
+    {
+      "text": "Z3 can be negative one.",
+      "start": 273.56,
+      "duration": 5.8
+    },
+    {
+      "text": "Or",
+      "start": 278.0,
+      "duration": 4.48
+    },
+    {
+      "text": "two options, right? Okay, three units to",
+      "start": 279.36,
+      "duration": 4.52
+    },
+    {
+      "text": "this side,",
+      "start": 282.48,
+      "duration": 4.4
+    },
+    {
+      "text": "so two plus three, that would be",
+      "start": 283.88,
+      "duration": 6.0
+    },
+    {
+      "text": "five.",
+      "start": 286.88,
+      "duration": 3.0
+    },
+    {
+      "text": "That's it.",
+      "start": 290.24,
+      "duration": 2.84
+    },
+    {
+      "text": "I'm going to move this slightly below,",
+      "start": 294.72,
+      "duration": 5.04
+    },
+    {
+      "text": "okay.",
+      "start": 298.28,
+      "duration": 3.639
+    },
+    {
+      "text": "So, our third I'm going to use a",
+      "start": 299.76,
+      "duration": 3.88
+    },
+    {
+      "text": "different color.",
+      "start": 301.919,
+      "duration": 6.641
+    },
+    {
+      "text": "My third factor would either be",
+      "start": 303.64,
+      "duration": 8.88
+    },
+    {
+      "text": "Z plus one",
+      "start": 308.56,
+      "duration": 6.2
+    },
+    {
+      "text": "or",
+      "start": 312.52,
+      "duration": 5.28
+    },
+    {
+      "text": "Z minus the",
+      "start": 314.76,
+      "duration": 6.36
+    },
+    {
+      "text": "minus five. Okay.",
+      "start": 317.8,
+      "duration": 8.2
+    },
+    {
+      "text": "Let's find out our what our cubic",
+      "start": 321.12,
+      "duration": 7.32
+    },
+    {
+      "text": "equation.",
+      "start": 326.0,
+      "duration": 6.52
+    },
+    {
+      "text": "Let's begin by expanding our",
+      "start": 328.44,
+      "duration": 6.24
+    },
+    {
+      "text": "two",
+      "start": 332.52,
+      "duration": 5.08
+    },
+    {
+      "text": "complex root.",
+      "start": 334.68,
+      "duration": 4.239
+    },
+    {
+      "text": "Okay. [snorts and groaning]",
+      "start": 337.6,
+      "duration": 4.48
+    },
+    {
+      "text": "Complex factors will",
+      "start": 338.919,
+      "duration": 6.521
+    },
+    {
+      "text": "expect this one first.",
+      "start": 342.08,
+      "duration": 6.76
+    },
+    {
+      "text": "So, it will be Z squared",
+      "start": 345.44,
+      "duration": 6.48
+    },
+    {
+      "text": "minus 2 Z",
+      "start": 348.84,
+      "duration": 7.24
+    },
+    {
+      "text": "plus 4 Z I",
+      "start": 351.92,
+      "duration": 7.24
+    },
+    {
+      "text": "minus 2 Z",
+      "start": 356.08,
+      "duration": 6.2
+    },
+    {
+      "text": "plus 4",
+      "start": 359.16,
+      "duration": 6.44
+    },
+    {
+      "text": "minus 8 I",
+      "start": 362.28,
+      "duration": 8.8
+    },
+    {
+      "text": "minus 4 Z I",
+      "start": 365.6,
+      "duration": 5.48
+    },
+    {
+      "text": "Okay.",
+      "start": 373.6,
+      "duration": 2.64
+    },
+    {
+      "text": "plus [snorts]",
+      "start": 375.16,
+      "duration": 3.2
+    },
+    {
+      "text": "8 I",
+      "start": 376.24,
+      "duration": 7.16
+    },
+    {
+      "text": "minus 16 I squared",
+      "start": 378.36,
+      "duration": 5.474
+    },
+    {
+      "text": "Okay.",
+      "start": 383.4,
+      "duration": 1.04
+    },
+    {
+      "text": ">> [snorts]",
+      "start": 383.834,
+      "duration": 2.006
+    },
+    {
+      "text": ">> That's good.",
+      "start": 384.44,
+      "duration": 4.24
+    },
+    {
+      "text": "Let's see.",
+      "start": 385.84,
+      "duration": 2.84
+    },
+    {
+      "text": "This plus 4 Z I and minus 4 Z I will",
+      "start": 389.28,
+      "duration": 8.309
+    },
+    {
+      "text": "cancel each other.",
+      "start": 395.08,
+      "duration": 2.72
+    },
+    {
+      "text": ">> [clears throat]",
+      "start": 397.589,
+      "duration": 7.691
+    },
+    {
+      "text": ">> Just like this one, -8 I and +8 I.",
+      "start": 397.8,
+      "duration": 7.48
+    },
+    {
+      "text": "Whereas, okay this one I squared refer",
+      "start": 405.88,
+      "duration": 10.28
+    },
+    {
+      "text": "to negative one. So, let's simplify.",
+      "start": 411.16,
+      "duration": 8.08
+    },
+    {
+      "text": "Here we will get Z squared",
+      "start": 416.16,
+      "duration": 4.68
+    },
+    {
+      "text": "minus",
+      "start": 419.24,
+      "duration": 6.24
+    },
+    {
+      "text": "2 Z minus 2 Z, that's 4 Z.",
+      "start": 420.84,
+      "duration": 6.48
+    },
+    {
+      "text": "Okay.",
+      "start": 425.48,
+      "duration": 3.32
+    },
+    {
+      "text": "plus",
+      "start": 427.32,
+      "duration": 2.96
+    },
+    {
+      "text": "4",
+      "start": 428.8,
+      "duration": 4.2
+    },
+    {
+      "text": "plus 16",
+      "start": 430.28,
+      "duration": 6.88
+    },
+    {
+      "text": "That is plus 20.",
+      "start": 433.0,
+      "duration": 6.68
+    },
+    {
+      "text": "We are done. Okay.",
+      "start": 437.16,
+      "duration": 6.04
+    },
+    {
+      "text": "For the final answer, we have to say,",
+      "start": 439.68,
+      "duration": 6.239
+    },
+    {
+      "text": "okay",
+      "start": 443.2,
+      "duration": 2.719
+    },
+    {
+      "text": "F Z",
+      "start": 446.76,
+      "duration": 7.64
+    },
+    {
+      "text": "option one.",
+      "start": 450.8,
+      "duration": 3.6
+    },
+    {
+      "text": "So, [snorts] we will take this one.",
+      "start": 455.88,
+      "duration": 7.76
+    },
+    {
+      "text": "We'll take Z plus one, our first option,",
+      "start": 459.6,
+      "duration": 6.8
+    },
+    {
+      "text": "and multiply with our",
+      "start": 463.64,
+      "duration": 7.4
+    },
+    {
+      "text": "quadratic function here.",
+      "start": 466.4,
+      "duration": 4.64
+    },
+    {
+      "text": "Okay.",
+      "start": 473.24,
+      "duration": 7.68
+    },
+    {
+      "text": "We will get Z cubed minus 4 Z squared",
+      "start": 474.48,
+      "duration": 9.56
+    },
+    {
+      "text": "plus 20 Z",
+      "start": 480.92,
+      "duration": 5.64
+    },
+    {
+      "text": "plus Z squared",
+      "start": 484.04,
+      "duration": 5.24
+    },
+    {
+      "text": "minus 4 Z",
+      "start": 486.56,
+      "duration": 5.44
+    },
+    {
+      "text": "plus 20.",
+      "start": 489.28,
+      "duration": 8.4
+    },
+    {
+      "text": "This is equal to Z cubed minus 3 Z",
+      "start": 492.0,
+      "duration": 7.28
+    },
+    {
+      "text": "squared",
+      "start": 497.68,
+      "duration": 4.6
+    },
+    {
+      "text": "plus 16 Z",
+      "start": 499.28,
+      "duration": 5.84
+    },
+    {
+      "text": "plus 20.",
+      "start": 502.28,
+      "duration": 4.76
+    },
+    {
+      "text": "First answer.",
+      "start": 505.12,
+      "duration": 3.32
+    },
+    {
+      "text": "Second,",
+      "start": 507.04,
+      "duration": 3.32
+    },
+    {
+      "text": "F Z",
+      "start": 508.44,
+      "duration": 5.84
+    },
+    {
+      "text": "option two.",
+      "start": 510.36,
+      "duration": 3.92
+    },
+    {
+      "text": "Okay, we have Z minus",
+      "start": 514.8,
+      "duration": 6.76
+    },
+    {
+      "text": "Let's leave a space.",
+      "start": 518.479,
+      "duration": 7.041
+    },
+    {
+      "text": "Z minus 5",
+      "start": 521.56,
+      "duration": 3.96
+    },
+    {
+      "text": "Z squared minus 4 Z plus 20.",
+      "start": 526.28,
+      "duration": 8.16
+    },
+    {
+      "text": "Okay, this would be",
+      "start": 532.44,
+      "duration": 4.08
+    },
+    {
+      "text": "Z cubed",
+      "start": 534.44,
+      "duration": 5.6
+    },
+    {
+      "text": "minus 4 Z squared",
+      "start": 536.52,
+      "duration": 6.56
+    },
+    {
+      "text": "plus 20 Z",
+      "start": 540.04,
+      "duration": 6.84
+    },
+    {
+      "text": "minus 5 Z squared",
+      "start": 543.08,
+      "duration": 9.4
+    },
+    {
+      "text": "plus 20 Z minus 100.",
+      "start": 546.88,
+      "duration": 11.6
+    },
+    {
+      "text": "Let's simplify this. Z cubed minus 9 Z",
+      "start": 552.48,
+      "duration": 7.8
+    },
+    {
+      "text": "squared",
+      "start": 558.48,
+      "duration": 6.04
+    },
+    {
+      "text": "20 20 plus 40 Z",
+      "start": 560.28,
+      "duration": 7.32
+    },
+    {
+      "text": "minus 100.",
+      "start": 564.52,
+      "duration": 5.92
+    },
+    {
+      "text": "Okay.",
+      "start": 567.6,
+      "duration": 2.84
+    },
+    {
+      "text": "Let's make it make a rectangle so that",
+      "start": 571.52,
+      "duration": 7.04
+    },
+    {
+      "text": "we know which one is our final",
+      "start": 574.76,
+      "duration": 5.8
+    },
+    {
+      "text": "answer.",
+      "start": 578.56,
+      "duration": 3.72
+    },
+    {
+      "text": "So, that's it.",
+      "start": 580.56,
+      "duration": 6.68
+    },
+    {
+      "text": "Two answers for this question.",
+      "start": 582.28,
+      "duration": 4.96
+    }
+  ]
+}

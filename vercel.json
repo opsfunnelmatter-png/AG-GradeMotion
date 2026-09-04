@@ -2,7 +2,7 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "buildCommand": "node build.js",
+  "buildCommand": "npm run build",
   "outputDirectory": ".",
   "routes": [
     { "src": "/thank-you", "dest": "/thank-you.html" },
@@ -29,6 +29,11 @@
     { "src": "/pay/exam-readiness", "dest": "/pay/exam-readiness.html" },
     { "src": "/pay/intensive-bootcamp", "dest": "/pay/bootcamp.html" },
     { "src": "/pay/bootcamp", "dest": "/pay/bootcamp.html" },
+    { "src": "/solutions", "dest": "/solutions/index.html" },
+    { "src": "/solutions/(.*)", "dest": "/solutions/$1/index.html" },
+    { "src": "/topics", "dest": "/topics/index.html" },
+    { "src": "/topics/(.*)", "dest": "/topics/$1/index.html" },
+    { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
