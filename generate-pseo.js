@@ -54,6 +54,7 @@ function getHead(title, description, canonicalPath, schemaJson) {
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="google-site-verification" content="6i9WnFjYPC8PO_egd7pTwFnHvjRH8VlzptKxlKoSiBw">
     <title>${escapeHtml(title)} | GradeMotion</title>
     <meta name="description" content="${escapeHtml(description)}">
     <link rel="canonical" href="https://www.grademotion.com${canonicalPath}">
