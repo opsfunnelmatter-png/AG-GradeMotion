@@ -283,17 +283,13 @@
 
         <!-- Session Tabs -->
         <nav class="session-tabs-wrap" aria-label="Session Type">
-            <button id="btn-eval" class="tab-btn active" onclick="loadSession('evaluation')">
-                <span>🎯 2-Hour Evaluation Session</span>
-                <span class="tab-duration">(120 Mins)</span>
-            </button>
-            <button id="btn-diag" class="tab-btn" onclick="loadSession('diagnostic')">
+            <button id="btn-diag" class="tab-btn active" onclick="loadSession('diagnostic')">
                 <span>🩺 Diagnostic Assessment</span>
-                <span class="tab-duration">(30 Mins)</span>
+                <span class="tab-duration">(1 Hour)</span>
             </button>
-            <button id="btn-sprint" class="tab-btn" onclick="loadSession('sprint-lesson')">
-                <span>⚡ Sprint Tutoring Lesson</span>
-                <span class="tab-duration">(60 Mins)</span>
+            <button id="btn-class" class="tab-btn" onclick="loadSession('class')">
+                <span>📚 1-on-1 Tutoring Class</span>
+                <span class="tab-duration">(2 Hours)</span>
             </button>
         </nav>
 
@@ -302,7 +298,7 @@
             <div class="calendar-meta-bar">
                 <div class="calendar-meta-left">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-                    <span>Active Session: <strong id="active-session-name">2-Hour Evaluation Session</strong></span>
+                    <span>Active Session: <strong id="active-session-name">Diagnostic Assessment Session (1 Hour)</strong></span>
                 </div>
                 <div>
                     🛡️ Confirmed slots are locked instantly & synced to Google Calendar
@@ -315,7 +311,7 @@
 
         <div class="guarantee-note">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <span>Evaluation sessions include our 100% Rollover Upgrade Guarantee toward any full sprint package.</span>
+            <span>All sessions are conducted 1-on-1 live with Tutor Sheefa. Time slots adjust automatically to your timezone.</span>
         </div>
     </main>
 
@@ -355,20 +351,20 @@
         Cal("init", {origin:"https://cal.com"});
 
         const EVENT_SLUGS = {
-            'evaluation': 'grademotion-education-e3u8yd/evaluation',
             'diagnostic': 'grademotion-education-e3u8yd/diagnostic',
-            'sprint-lesson': 'grademotion-education-e3u8yd/sprint-lesson',
-            'sprint': 'grademotion-education-e3u8yd/sprint-lesson'
+            'class': 'grademotion-education-e3u8yd/class',
+            'lesson': 'grademotion-education-e3u8yd/class',
+            'evaluation': 'grademotion-education-e3u8yd/evaluation'
         };
 
         const EVENT_NAMES = {
-            'evaluation': '2-Hour Evaluation Session (120 Mins)',
-            'diagnostic': 'Diagnostic Assessment Session (30 Mins)',
-            'sprint-lesson': 'Sprint Tutoring Lesson (60 Mins)',
-            'sprint': 'Sprint Tutoring Lesson (60 Mins)'
+            'diagnostic': 'Diagnostic Assessment Session (1 Hour)',
+            'class': '1-on-1 Tutoring Class (2 Hours)',
+            'lesson': '1-on-1 Tutoring Class (2 Hours)',
+            'evaluation': '2-Hour Evaluation Session (2 Hours)'
         };
 
-        let currentSession = 'evaluation';
+        let currentSession = 'diagnostic';
 
         function loadSession(slug) {
             currentSession = slug;
@@ -377,9 +373,11 @@
 
             // Update UI tabs
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-            if (slug === 'evaluation') document.getElementById('btn-eval').classList.add('active');
-            else if (slug === 'diagnostic') document.getElementById('btn-diag').classList.add('active');
-            else document.getElementById('btn-sprint').classList.add('active');
+            if (slug === 'diagnostic') {
+                document.getElementById('btn-diag').classList.add('active');
+            } else {
+                document.getElementById('btn-class').classList.add('active');
+            }
 
             document.getElementById('active-session-name').innerText = sessionName;
 
@@ -403,14 +401,14 @@
             });
         }
 
-        // Check URL query param (e.g. ?type=diagnostic or ?type=evaluation)
+        // Check URL query param (e.g. ?type=diagnostic or ?type=class)
         document.addEventListener('DOMContentLoaded', () => {
             const params = new URLSearchParams(window.location.search);
             const typeParam = params.get('type') || params.get('session');
             if (typeParam && EVENT_SLUGS[typeParam.toLowerCase()]) {
                 loadSession(typeParam.toLowerCase());
             } else {
-                loadSession('evaluation');
+                loadSession('diagnostic');
             }
         });
     </script>
