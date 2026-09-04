@@ -231,8 +231,7 @@
                 subtext: '$2,980 total (40-hour bootcamp)',
                 desc: '<strong>Complete syllabus overhaul.</strong> High-intensity daily/weekly sessions (up to 2 hrs/day, 5 days/wk) to rebuild grades from C/B to guaranteed A*.',
                 btn: 'Intensive Bootcamp ($2,980) &rarr;'
-            },
-            toggleText: '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">Local Malaysian student? View domestic rates (MYR)</a>'
+            }
         },
         MYR: {
             title: 'Transparent Tuition Rates (MYR). <span class="gradient-highlight">No Hidden Fees.</span>',
@@ -262,10 +261,17 @@
                 subtext: 'RM 5,600 total (40-hour bootcamp)',
                 desc: '<strong>Complete syllabus overhaul.</strong> High-intensity daily/weekly sessions (up to 2 hrs/day, 5 days/wk) to rebuild grades from C/B to guaranteed A*.',
                 btn: 'Intensive Bootcamp (RM 5,600) &rarr;'
-            },
-            toggleText: '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">International student? View global tuition rates (USD)</a>'
+            }
         }
     };
+
+    function isMalaysiaTimezone() {
+        try {
+            return Intl.DateTimeFormat().resolvedOptions().timeZone === 'Asia/Kuala_Lumpur';
+        } catch(e) {
+            return false;
+        }
+    }
 
     function detectUserCurrency() {
         const urlParams = new URLSearchParams(window.location.search);
@@ -278,18 +284,16 @@
             }
         }
 
-        try {
-            const saved = localStorage.getItem('gm_currency');
-            if (saved === 'USD' || saved === 'MYR') return saved;
-        } catch(e) {}
+        const isLocal = isMalaysiaTimezone();
+        if (isLocal) {
+            try {
+                const saved = localStorage.getItem('gm_currency');
+                if (saved === 'USD' || saved === 'MYR') return saved;
+            } catch(e) {}
+            return 'MYR';
+        }
 
-        try {
-            const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-            if (tz === 'Asia/Kuala_Lumpur') {
-                return 'MYR';
-            }
-        } catch(e) {}
-
+        // Strictly enforce USD for anyone outside Malaysia!
         return 'USD';
     }
 
@@ -348,18 +352,33 @@
         if (t3Desc) t3Desc.innerHTML = cfg.tier3.desc;
         if (t3Btn) t3Btn.innerHTML = cfg.tier3.btn;
 
-        // Discreet toggle note
+        // Discreet toggle note: ONLY show to Malaysian users for price anchoring!
         const noteEl = document.getElementById('pricing-currency-note');
         if (noteEl) {
-            noteEl.innerHTML = cfg.toggleText;
-            const toggleBtn = document.getElementById('switch-currency-btn');
-            if (toggleBtn) {
-                toggleBtn.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const newCurrency = (currency === 'USD') ? 'MYR' : 'USD';
-                    try { localStorage.setItem('gm_currency', newCurrency); } catch(err) {}
-                    applyCurrency(newCurrency);
-                });
+            const urlParams = new URLSearchParams(window.location.search);
+            const forcedParam = urlParams.get('currency');
+            const isLocal = isMalaysiaTimezone();
+
+            if (!isLocal && !forcedParam) {
+                // Completely hide and remove toggle for international visitors
+                noteEl.innerHTML = '';
+                noteEl.style.display = 'none';
+            } else {
+                noteEl.style.display = 'block';
+                if (currency === 'MYR') {
+                    noteEl.innerHTML = '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">International student? View global tuition rates (USD)</a>';
+                } else {
+                    noteEl.innerHTML = '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">&larr; Back to Malaysian domestic rates (MYR)</a>';
+                }
+                const toggleBtn = document.getElementById('switch-currency-btn');
+                if (toggleBtn) {
+                    toggleBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const newCurrency = (currency === 'USD') ? 'MYR' : 'USD';
+                        try { localStorage.setItem('gm_currency', newCurrency); } catch(err) {}
+                        applyCurrency(newCurrency);
+                    });
+                }
             }
         }
     }
