@@ -33,7 +33,6 @@
             flex-direction: column;
             -webkit-font-smoothing: antialiased;
         }
-        /* Top Navigation Header */
         .pay-header-outer {
             width: 100%;
             background: rgba(255, 255, 255, 0.9);
@@ -74,7 +73,6 @@
             border-radius: 20px;
             border: 1px solid rgba(43, 112, 25, 0.2);
         }
-        /* Main Enrolment Container */
         .pay-main {
             max-width: 1120px;
             margin: 0 auto;
@@ -87,7 +85,7 @@
             border: 1px solid rgba(123, 44, 191, 0.2);
             border-radius: 14px;
             padding: 14px 20px;
-            margin-bottom: 28px;
+            margin-bottom: 24px;
             display: flex;
             align-items: center;
             gap: 12px;
@@ -99,6 +97,7 @@
             font-size: 22px;
             flex-shrink: 0;
         }
+        
         .pay-hero {
             margin-bottom: 32px;
         }
@@ -129,7 +128,6 @@
             line-height: 1.6;
             max-width: 700px;
         }
-        /* Layout Grid */
         .enrol-grid {
             display: grid;
             grid-template-columns: 1.3fr 0.9fr;
@@ -145,7 +143,6 @@
                 font-size: 26px;
             }
         }
-        /* Left Column: Deliverables Card */
         .deliverables-card {
             background: var(--surface);
             border: 1px solid var(--line);
@@ -198,7 +195,6 @@
             color: var(--text-muted);
             line-height: 1.5;
         }
-        /* Onboarding Next Steps Box */
         .onboarding-box {
             margin-top: 30px;
             padding-top: 24px;
@@ -238,7 +234,6 @@
             justify-content: center;
             flex-shrink: 0;
         }
-        /* Right Column: Checkout Summary Card */
         .checkout-box-sticky {
             position: sticky;
             top: 90px;
@@ -247,41 +242,28 @@
             background: linear-gradient(135deg, #ffffff 0%, rgba(251, 249, 255, 0.95) 100%);
             border: 2px solid var(--purple);
             border-radius: 24px;
-            padding: 30px 26px;
+            padding: 32px 26px;
             box-shadow: 0 16px 40px rgba(123, 44, 191, 0.12);
         }
-        /* Currency Switcher Tabs */
-        .currency-tabs {
-            display: flex;
+        .currency-tag-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
             background: rgba(123, 44, 191, 0.08);
-            border-radius: 12px;
-            padding: 4px;
-            margin-bottom: 22px;
-            gap: 4px;
-        }
-        .currency-tab {
-            flex: 1;
-            padding: 8px 12px;
-            font-size: 12px;
-            font-weight: 700;
-            color: var(--text-muted);
-            border: none;
-            background: transparent;
-            border-radius: 8px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            text-align: center;
-        }
-        .currency-tab.active {
-            background: #ffffff;
-            color: var(--dark-purple);
-            box-shadow: 0 2px 8px rgba(23, 10, 44, 0.08);
+            color: var(--purple);
+            font-size: 11.5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 12px;
+            border-radius: 20px;
+            margin-bottom: 18px;
         }
         .price-display-block {
             text-align: center;
-            padding-bottom: 20px;
+            padding-bottom: 22px;
             border-bottom: 1px solid var(--line);
-            margin-bottom: 20px;
+            margin-bottom: 22px;
         }
         .price-label-sub {
             font-size: 11.5px;
@@ -292,10 +274,10 @@
             margin-bottom: 6px;
         }
         .price-main-val {
-            font-size: 38px;
+            font-size: 42px;
             font-weight: 800;
             color: var(--dark-purple);
-            letter-spacing: -1px;
+            letter-spacing: -1.2px;
             line-height: 1;
             margin-bottom: 6px;
         }
@@ -306,7 +288,7 @@
         }
         .enrol-specs-table {
             width: 100%;
-            margin-bottom: 22px;
+            margin-bottom: 24px;
             font-size: 13px;
         }
         .enrol-specs-row {
@@ -317,14 +299,13 @@
         }
         .specs-lbl { color: var(--text-muted); font-weight: 500; }
         .specs-val { color: var(--dark-purple); font-weight: 700; text-align: right; }
-        /* CTA Button */
         .btn-checkout-proceed {
             width: 100%;
             background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
             color: #ffffff;
             font-size: 14.5px;
             font-weight: 800;
-            padding: 15px 20px;
+            padding: 16px 20px;
             border-radius: 12px;
             text-decoration: none;
             display: flex;
@@ -363,7 +344,6 @@
             font-weight: 600;
             margin-top: 2px;
         }
-        /* Footer */
         .pay-footer {
             margin-top: auto;
             border-top: 1px solid var(--line);
@@ -377,7 +357,6 @@
 </head>
 <body>
 
-    <!-- Header Navigation -->
     <header class="pay-header-outer">
         <div class="pay-header">
             <a href="/" class="pay-logo" aria-label="GradeMotion Home">
@@ -389,16 +368,16 @@
         </div>
     </header>
 
-    <!-- Main Content -->
     <main class="pay-main">
         
-        <!-- Diagnostic Verified Notification Banner -->
         <div class="diagnostic-verified-banner">
             <div class="verified-icon">🎯</div>
             <div>
                 <strong>Post-Diagnostic Enrolment Invitation:</strong> Your diagnostic call evaluation has been reviewed. Confirm your learning credits below to lock in Tutor Sheefa's schedule before slots close.
             </div>
         </div>
+
+        
 
         <div class="pay-hero">
             <span class="pay-badge">Limited Slots • 40 Hours Credit</span>
@@ -408,7 +387,6 @@
 
         <div class="enrol-grid">
             
-            <!-- Left: Deliverables Breakdown -->
             <div class="deliverables-card">
                 <h3 class="card-heading">📋 What is Included in Your 40 Hours Package:</h3>
                 <ul class="features-list">
@@ -457,7 +435,6 @@
                     </li>
                 </ul>
 
-                <!-- What happens next -->
                 <div class="onboarding-box">
                     <h4 class="onboarding-title">🚀 What Happens After Payment?</h4>
                     <div class="steps-mini-stack">
@@ -467,34 +444,31 @@
                         </div>
                         <div class="step-mini-row">
                             <div class="step-mini-badge">2</div>
-                            <div>Tutor Sheefa messages you directly on WhatsApp within 2–4 hours to finalize your weekly class times.</div>
+                            <div>Tutor Sheefa messages you directly on WhatsApp within 2–4 hours to finalize your lesson times.</div>
                         </div>
                         <div class="step-mini-row">
                             <div class="step-mini-badge">3</div>
-                            <div>Personal Google Drive folder shared with you containing syllabus topical roadmaps & lesson notes.</div>
+                            <div>Personal Google Drive folder shared with you containing topical materials & lesson whiteboard notes.</div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Right: Investment & Stripe Checkout Action Card -->
             <div class="checkout-box-sticky">
                 <div class="checkout-card">
                     
-                    <!-- Currency Switcher Tabs -->
-                    <div class="currency-tabs">
-                        <button type="button" class="currency-tab" id="tab-usd" onclick="switchPayCurrency('USD')">Global (USD)</button>
-                        <button type="button" class="currency-tab" id="tab-myr" onclick="switchPayCurrency('MYR')">Malaysia (MYR)</button>
+                    <div style="text-align: center;">
+                        <span class="currency-tag-badge">
+                            <span>💳</span> Official Global Rates (USD)
+                        </span>
                     </div>
 
-                    <!-- Price Display -->
                     <div class="price-display-block">
                         <div class="price-label-sub">Total Package Investment</div>
-                        <div class="price-main-val" id="price-val">$2,980</div>
-                        <div class="price-hourly-note" id="price-rate">$74.50/hr (40 Hours Learning Credit)</div>
+                        <div class="price-main-val">$2,980</div>
+                        <div class="price-hourly-note">$74.50/hr (40 Hours Learning Credit)</div>
                     </div>
 
-                    <!-- Enrolment Details -->
                     <div class="enrol-specs-table">
                         <div class="enrol-specs-row">
                             <span class="specs-lbl">Tutoring Mode</span>
@@ -506,7 +480,7 @@
                         </div>
                         <div class="enrol-specs-row">
                             <span class="specs-lbl">Credit Hours</span>
-                            <span class="specs-val">40 Hours Flexible</span>
+                            <span class="specs-val">40 Hours</span>
                         </div>
                         <div class="enrol-specs-row">
                             <span class="specs-lbl">Billing Type</span>
@@ -514,20 +488,18 @@
                         </div>
                     </div>
 
-                    <!-- Primary Action Button -->
-                    <a href="https://buy.stripe.com/4gMcMXczY0Z83hQcm74ZG0t" id="btn-stripe-link" class="btn-checkout-proceed" target="_blank">
-                        Proceed to Stripe Checkout &rarr;
+                    <a href="https://buy.stripe.com/4gMcMXczY0Z83hQcm74ZG0t" class="btn-checkout-proceed" target="_blank">
+                        Proceed to Stripe Checkout ($2,980) &rarr;
                     </a>
 
-                    <!-- Security Strip -->
                     <div class="trust-micro-strip">
                         <span>🔒 100% Encrypted & Protected by Stripe</span>
                         <div class="pay-methods-icons">
                             <span>Visa</span> &bull;
                             <span>Mastercard</span> &bull;
                             <span>Apple Pay</span> &bull;
-                            <span>Google Pay</span> &bull;
-                            <span>GrabPay / FPX</span>
+                            <span>Google Pay</span>
+                            
                         </div>
                     </div>
 
@@ -538,71 +510,9 @@
 
     </main>
 
-    <!-- Footer -->
     <footer class="pay-footer">
         <p>&copy; 2026 GradeMotion &bull; A-Level Further Mathematics Specialist Tuition</p>
     </footer>
 
-    <!-- Currency Detection & Switching Script -->
-    <script>
-    (function() {
-        const PRICING = {
-            USD: {
-                total: '$2,980',
-                rate: '$74.50/hr (40 Hours Learning Credit)',
-                link: 'https://buy.stripe.com/4gMcMXczY0Z83hQcm74ZG0t',
-                btnText: 'Proceed to Stripe Checkout ($2,980) &rarr;'
-            },
-            MYR: {
-                total: 'RM 5,600',
-                rate: 'RM 140/hr (40 Hours Learning Credit)',
-                link: 'https://buy.stripe.com/00w28j8jI9vEbOm0Dp4ZG0u',
-                btnText: 'Proceed to Stripe Checkout (RM 5,600) &rarr;'
-            }
-        };
-
-        function getInitialCurrency() {
-            const params = new URLSearchParams(window.location.search);
-            const q = params.get('currency');
-            if (q && (q.toUpperCase() === 'MYR' || q.toUpperCase() === 'USD')) {
-                return q.toUpperCase();
-            }
-            try {
-                const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
-                if (tz === 'Asia/Kuala_Lumpur') return 'MYR';
-            } catch(e) {}
-            return 'USD';
-        }
-
-        function setCurrency(curr) {
-            const data = PRICING[curr] || PRICING.USD;
-            document.getElementById('price-val').innerText = data.total;
-            document.getElementById('price-rate').innerText = data.rate;
-            
-            const btn = document.getElementById('btn-stripe-link');
-            btn.href = data.link;
-            btn.innerHTML = data.btnText;
-
-            const tabUsd = document.getElementById('tab-usd');
-            const tabMyr = document.getElementById('tab-myr');
-            if (curr === 'MYR') {
-                tabMyr.classList.add('active');
-                tabUsd.classList.remove('active');
-            } else {
-                tabUsd.classList.add('active');
-                tabMyr.classList.remove('active');
-            }
-        }
-
-        window.switchPayCurrency = function(curr) {
-            setCurrency(curr);
-        };
-
-        document.addEventListener('DOMContentLoaded', function() {
-            const initCurr = getInitialCurrency();
-            setCurrency(initCurr);
-        });
-    })();
-    </script>
 </body>
 </html>
