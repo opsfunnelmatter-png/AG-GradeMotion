@@ -33,6 +33,8 @@
     { "src": "/solutions/(.*)", "dest": "/solutions/$1/index.html" },
     { "src": "/topics", "dest": "/topics/index.html" },
     { "src": "/topics/(.*)", "dest": "/topics/$1/index.html" },
+    { "src": "/tutor", "dest": "/tutor/index.html" },
+    { "src": "/tutor/(.*)", "dest": "/tutor/$1/index.html" },
     { "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/(.*)", "dest": "/$1" }

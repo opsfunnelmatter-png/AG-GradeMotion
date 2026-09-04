@@ -927,6 +927,20 @@ let sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.grademotion.com/tutor</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- International Tutoring Hubs (Geo-Targeted) -->
+${(fs.existsSync(path.join(__dirname, 'data', 'locations.json')) ? JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'locations.json'), 'utf8')) : []).map(l => `  <url>
+    <loc>https://www.grademotion.com/tutor/${l.slug}</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>`).join('\n')}
 
   <!-- Evergreen Topic Hubs -->
 ${topics.map(t => `  <url>

@@ -1,0 +1,357 @@
+[
+  {
+    "slug": "dubai-a-level-further-maths",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "heroTitle": "Premier A-Level Further Maths Tutor in Dubai",
+    "heroSubtitle": "Elite 1-on-1 Cambridge (CIE 9231) & Edexcel (9FM0) Specialist Tutoring for Students at Dubai's Top British Schools.",
+    "metaTitle": "A-Level Further Maths Tutor Dubai | CIE 9231 & Edexcel Specialist | GradeMotion",
+    "metaDescription": "Private 1-on-1 A-Level Further Mathematics tutoring for students in Dubai (Dubai College, Jumeirah College, Kings' Al Barsha). 80% A/A* success rate with Tutor Sheefa. Book a diagnostic assessment.",
+    "currency": "USD",
+    "timezoneName": "Gulf Standard Time (GST, UTC+4)",
+    "timezoneBadge": "GST (UTC+4) • Perfect After-School Alignment",
+    "timezoneDetails": "Dubai students enjoy optimal timing: afternoon and evening sessions between 4:00 PM and 9:00 PM GST align seamlessly with Tutor Sheefa's schedule, ensuring zero conflict with school hours or extracurriculars.",
+    "schools": [
+      "Dubai College",
+      "Jumeirah College",
+      "Kings' School Al Barsha",
+      "GEMS Wellington International School",
+      "Dubai British School (Emirates Hills)",
+      "Repton School Dubai"
+    ],
+    "curriculumFocus": "Edexcel 9FM0 (Core Pure 1 & 2) and Cambridge CIE 9231 (Paper 1 Pure & Paper 2). Intensive focus on mark-scheme accuracy, avoiding chief examiner traps in 3D Vectors, Matrices, and Differential Equations.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Why do students at Dubai College and Jumeirah College choose Tutor Sheefa over general local tutoring agencies?",
+        "a": "General tutoring centres in Dubai typically employ multi-subject tutors who lack deep specialization in Further Pure Mathematics. Tutor Sheefa focuses exclusively on A-Level Further Maths (CIE 9231 & Edexcel 9FM0), with over 15 years of experience, an 80% A/A* track record, and direct mentorship that prepares students for engineering and mathematics admissions at Imperial, Cambridge, and Oxford."
+      },
+      {
+        "q": "How do lesson schedules fit Gulf Standard Time (GST)?",
+        "a": "Dubai (GST, UTC+4) is only 4 hours behind Malaysia (UTC+8). After-school hours from 4:00 PM to 8:30 PM GST correspond to 8:00 PM to 12:30 AM Malaysia Time, providing flexible prime-time slots without students needing to wake up early or sacrifice weekends."
+      },
+      {
+        "q": "What is the 100% Rollover Upgrade Guarantee for Dubai families?",
+        "a": "We understand that families at premier British schools want to evaluate teaching chemistry before committing long-term. You can start with a private 2-Hour Evaluation Session ($210 USD). If you decide to upgrade to an 8-Hour or 16-Hour sprint, the entire $210 fee is credited 100% toward your package."
+      },
+      {
+        "q": "Can Tutor Sheefa help with university entrance exams like STEP, MAT, or TMUA?",
+        "a": "Yes. Students targeting Cambridge, Oxford, Imperial, or Warwick for Mathematics, Computer Science, or Engineering receive integrated training covering STEP, MAT, and TMUA problem-solving frameworks alongside their A-Level Further Maths syllabus."
+      }
+    ]
+  },
+  {
+    "slug": "abu-dhabi-a-level-further-maths",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "flag": "🇦🇪",
+    "heroTitle": "Specialist A-Level Further Maths Tutoring in Abu Dhabi",
+    "heroSubtitle": "Targeted 1-on-1 Preparation for Cambridge CIE 9231 & Edexcel 9FM0 for Students at BSAK, Cranleigh, and Brighton College.",
+    "metaTitle": "A-Level Further Maths Tutor Abu Dhabi | BSAK & Cranleigh Specialist | GradeMotion",
+    "metaDescription": "Specialist 1-on-1 A-Level Further Maths tutoring in Abu Dhabi. Tailored for BSAK, Cranleigh Abu Dhabi, and Brighton College students. 80% A/A* rate. Book your session.",
+    "currency": "USD",
+    "timezoneName": "Gulf Standard Time (GST, UTC+4)",
+    "timezoneBadge": "GST (UTC+4) • Dedicated Gulf Schedule",
+    "timezoneDetails": "Sessions are scheduled to accommodate Abu Dhabi school timetables, allowing students at BSAK and Cranleigh to book after-school slots with real-time dynamic timezone booking.",
+    "schools": [
+      "British School Al Khubairat (BSAK)",
+      "Cranleigh Abu Dhabi",
+      "Brighton College Abu Dhabi",
+      "The British International School Abu Dhabi (BIS Abu Dhabi)",
+      "Aldar Academies (Al Yasmina)"
+    ],
+    "curriculumFocus": "Mastery of Cambridge CIE 9231 and Edexcel Further Mathematics. Deep diagnostics on complex integration, hyperbolic substitutions, and second-order differential equations.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "How does Tutor Sheefa support BSAK and Cranleigh students aiming for UK Russell Group universities?",
+        "a": "Top UK universities require A* grades in Further Maths with strong scores on pure papers. Tutor Sheefa instills university-grade rigour, ensuring students don't just memorize formulas, but understand underlying proofs and examiner mark-scheme allocations."
+      },
+      {
+        "q": "What online tools are used during 1-on-1 sessions?",
+        "a": "Sessions are conducted live via high-definition interactive digital whiteboards with real-time stylus annotations, step-by-step KaTeX LaTeX breakdowns, and instant PDF lesson export for revision."
+      },
+      {
+        "q": "Is the Evaluation Session refundable or transferable?",
+        "a": "The 2-Hour Evaluation Session ($210 USD) comes with our 100% Rollover Upgrade Guarantee. When upgrading to an 8-hr or 16-hr sprint, the initial $210 is fully deducted from your sprint invoice."
+      },
+      {
+        "q": "How does GradeMotion diagnose a student's weak areas?",
+        "a": "Before beginning full sprint lessons, students undergo an extensive syllabus diagnostic assessment that pinpoints exact conceptual gaps across Further Pure, Mechanics, and Statistics."
+      }
+    ]
+  },
+  {
+    "slug": "riyadh-a-level-further-maths",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "heroTitle": "Elite A-Level Further Maths Tutor in Riyadh",
+    "heroSubtitle": "Private 1-on-1 Cambridge (CIE 9231) & Edexcel (9FM0) Specialist Coaching for Students in Riyadh.",
+    "metaTitle": "A-Level Further Maths Tutor Riyadh | BISR & King's College Specialist | GradeMotion",
+    "metaDescription": "Elite 1-on-1 A-Level Further Mathematics tutoring in Riyadh, Saudi Arabia. Tailored for BISR and King's College students. Cambridge CIE 9231 & Edexcel specialist.",
+    "currency": "USD",
+    "timezoneName": "Arabia Standard Time (AST, UTC+3)",
+    "timezoneBadge": "AST (UTC+3) • Smooth Riyadh Afternoons",
+    "timezoneDetails": "Riyadh (AST, UTC+3) has a comfortable 5-hour time difference with Malaysia. After-school lessons between 3:30 PM and 8:30 PM AST are easily accommodated throughout weekdays and weekends.",
+    "schools": [
+      "British International School Riyadh (BISR)",
+      "King's College Riyadh",
+      "Al Hamra International School",
+      "Beech Hall School Riyadh",
+      "Multinational School Riyadh"
+    ],
+    "curriculumFocus": "Cambridge International CIE 9231 Further Pure 1 & 2 and Edexcel IAL Further Maths. Systematic dismantling of high-weighting questions: Argand Loci, De Moivre's Theorem, and Matrix Transformations.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Why is finding an experienced Further Maths tutor in Riyadh challenging?",
+        "a": "Further Mathematics is only taken by the top 2-3% of STEM students. Most local tuition providers in Saudi Arabia only cater to standard IGCSE or Core A-Level Maths. GradeMotion provides access to a dedicated specialist with 15+ years of pure Further Maths expertise."
+      },
+      {
+        "q": "How does Tutor Sheefa accommodate the Riyadh school schedule?",
+        "a": "With a 5-hour time difference, students returning home from BISR at 3:30 PM AST can start their online 1-on-1 sessions at 4:30 PM or 5:00 PM AST comfortably."
+      },
+      {
+        "q": "Can parents receive regular progress updates?",
+        "a": "Yes. Following every session, parents receive a concise summary outlining topics mastered, homework assigned, and next milestones toward exam day."
+      },
+      {
+        "q": "How are payments handled from Saudi Arabia?",
+        "a": "Payments are processed securely in USD via Stripe using Visa, Mastercard, or American Express with instant confirmation and invoice dispatch."
+      }
+    ]
+  },
+  {
+    "slug": "jeddah-a-level-further-maths",
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "flag": "🇸🇦",
+    "heroTitle": "A-Level Further Maths Specialist Tutoring in Jeddah",
+    "heroSubtitle": "1-on-1 Private Tuition for Cambridge CIE 9231 & Edexcel 9FM0 for Students at BISJ & Jeddah Prep.",
+    "metaTitle": "A-Level Further Maths Tutor Jeddah | BISJ & JPGS Specialist | GradeMotion",
+    "metaDescription": "Specialist 1-on-1 A-Level Further Maths tutoring for students in Jeddah (BISJ, Jeddah Prep and Grammar School). 80% A/A* success rate with Tutor Sheefa.",
+    "currency": "USD",
+    "timezoneName": "Arabia Standard Time (AST, UTC+3)",
+    "timezoneBadge": "AST (UTC+3) • Ideal Western Province Hours",
+    "timezoneDetails": "Sessions fit Jeddah family schedules seamlessly with weekend (Friday/Saturday) and after-school slots available across AST timezone.",
+    "schools": [
+      "British International School of Jeddah (BISJ)",
+      "Jeddah Prep and Grammar School (JPGS)",
+      "Continental School Jeddah (DPPS)",
+      "American International School of Jeddah (A-Level stream)"
+    ],
+    "curriculumFocus": "CIE 9231 Further Pure & Mechanics and Edexcel IAL modules. Targeted mark-scheme training and past-paper surgery from 2019 to 2025 series.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Does Tutor Sheefa cover both CIE 9231 and Edexcel exam boards for Jeddah students?",
+        "a": "Yes. Both Cambridge CIE 9231 and Edexcel Further Mathematics are fully supported with board-specific mock examinations, mark schemes, and examiner reports."
+      },
+      {
+        "q": "What is the recommended package for a student aiming for an A* in May/June exams?",
+        "a": "For students aiming for an A*, the 16-Hour Exam Readiness Sprint ($1,360 USD) provides comprehensive past-paper surgery, diagnostic error correction, and timing practice under strict examination conditions."
+      }
+    ]
+  },
+  {
+    "slug": "singapore-a-level-further-maths",
+    "city": "Singapore",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "heroTitle": "Elite A-Level Further Maths Tutor in Singapore",
+    "heroSubtitle": "Specialist 1-on-1 Cambridge (CIE 9231) & Edexcel (9FM0) Coaching for Students at Tanglin Trust, Dulwich, & UWC.",
+    "metaTitle": "A-Level Further Maths Tutor Singapore | Tanglin Trust & Dulwich Specialist | GradeMotion",
+    "metaDescription": "Specialist 1-on-1 A-Level Further Maths tutoring in Singapore. Designed for Tanglin Trust, Dulwich College Singapore, and UWC students. 80% A/A* rate. Book today.",
+    "currency": "USD",
+    "timezoneName": "Singapore Standard Time (SGT, UTC+8)",
+    "timezoneBadge": "SGT (UTC+8) • Same Timezone (Zero Lag)",
+    "timezoneDetails": "Singapore shares the exact same timezone (UTC+8) with Tutor Sheefa. After-school slots, weekends, and holiday intensives are completely synchronized with local school calendars.",
+    "schools": [
+      "Tanglin Trust School",
+      "Dulwich College (Singapore)",
+      "UWC South East Asia (Dover & East)",
+      "St. Joseph's Institution International",
+      "Insworld Institute"
+    ],
+    "curriculumFocus": "Preparation for rigorous UK university placements (Imperial Computing/Engineering, Cambridge NatSci/Maths). Deep dive into complex numbers, hyperbolic trigonometry, and linear algebra.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Why do Tanglin Trust and Dulwich students prefer GradeMotion?",
+        "a": "Singapore students face extreme academic competition for UK university spots. Tutor Sheefa's pedagogy focuses on high-speed exam precision and advanced problem recognition that classroom teachers simply do not have the time to train."
+      },
+      {
+        "q": "Are lesson slots available on weekends in Singapore?",
+        "a": "Yes. Because Singapore and Malaysia are in the identical timezone (UTC+8), morning, afternoon, and evening weekend slots are readily available."
+      },
+      {
+        "q": "How does the 100% Rollover Upgrade Guarantee work for Singapore students?",
+        "a": "Book a 2-Hour Evaluation Session ($210 USD). If you choose to upgrade to an 8-Hour or 16-Hour sprint, the entire $210 is deducted directly from your upgrade package."
+      }
+    ]
+  },
+  {
+    "slug": "hong-kong-a-level-further-maths",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "flag": "🇭🇰",
+    "heroTitle": "Top-Tier A-Level Further Maths Tutor in Hong Kong",
+    "heroSubtitle": "1-on-1 Cambridge (CIE 9231) & Edexcel Specialist Tutoring for Kellett School, Harrow HK, & International Students.",
+    "metaTitle": "A-Level Further Maths Tutor Hong Kong | Kellett & Harrow HK Specialist | GradeMotion",
+    "metaDescription": "Premier 1-on-1 A-Level Further Mathematics tutoring in Hong Kong. Specialized for Kellett School and Harrow International School HK students. 80% A/A* rate.",
+    "currency": "USD",
+    "timezoneName": "Hong Kong Time (HKT, UTC+8)",
+    "timezoneBadge": "HKT (UTC+8) • Exact Timezone Match",
+    "timezoneDetails": "Hong Kong shares the exact same timezone (UTC+8). Students can book seamlessly right after school hours from 4:30 PM HKT onwards.",
+    "schools": [
+      "Kellett School (British International School in Hong Kong)",
+      "Harrow International School Hong Kong",
+      "Island School (ESF)",
+      "South Island School (ESF)",
+      "King George V School (KGV)"
+    ],
+    "curriculumFocus": "Edexcel 9FM0 and Cambridge CIE 9231 mastery. Comprehensive past paper walkthroughs, STEP/MAT extension methods, and examiner mark schemes.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "How does Tutor Sheefa help Hong Kong students preparing for UK medical, engineering, and finance degrees?",
+        "a": "Further Maths is the golden credential for high-tariff UK degree programs at Imperial, Cambridge, and Oxford. We focus on transforming predicted B grades into guaranteed A* results through systematic mark-scheme drilling."
+      },
+      {
+        "q": "What is the fee structure for Hong Kong families?",
+        "a": "All fees are invoiced securely in USD via Stripe ($210 Evaluation Trial, $760 Topic Surgery, $1,360 Exam Readiness, $2,980 Bootcamp) with full support for Hong Kong credit cards."
+      }
+    ]
+  },
+  {
+    "slug": "london-a-level-further-maths",
+    "city": "London",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "heroTitle": "Specialist Online A-Level Further Maths Tutor in London",
+    "heroSubtitle": "Elite 1-on-1 Edexcel (9FM0), OCR MEI, & AQA Further Mathematics Coaching for UK Boarding & Day School Students.",
+    "metaTitle": "A-Level Further Maths Tutor London | Westminster & KCS Specialist | GradeMotion",
+    "metaDescription": "Specialist online A-Level Further Maths tutor for students in London and UK boarding schools (Westminster, KCS Wimbledon, St Paul's). 80% A/A* success rate with Tutor Sheefa.",
+    "currency": "USD",
+    "timezoneName": "British Summer Time / GMT (BST/GMT, UTC+1 / UTC+0)",
+    "timezoneBadge": "BST / GMT • Perfect Morning & Early Afternoon Slots",
+    "timezoneDetails": "London (BST, UTC+1) sits 7 hours behind Malaysia. Early morning and afternoon UK hours match Tutor Sheefa's peak evening teaching hours, offering flexible scheduling for UK day and boarding school pupils.",
+    "schools": [
+      "Westminster School",
+      "King's College School (Wimbledon)",
+      "St Paul's School",
+      "Highgate School",
+      "Eton College",
+      "Winchester College"
+    ],
+    "curriculumFocus": "Edexcel 9FM0 (Core Pure 1 & 2, Further Pure 1, Further Mechanics 1), OCR A, and OCR MEI. Advanced algebraic proof techniques, non-homogeneous ODEs, and matrix eigenvectors.",
+    "pricing": {
+      "currencySymbol": "$",
+      "currencyCode": "USD",
+      "trial": { "price": 210, "url": "/pay/usd/trial" },
+      "surgery": { "price": 760, "url": "/pay/usd/topic-surgery" },
+      "readiness": { "price": 1360, "url": "/pay/usd/exam-readiness" },
+      "bootcamp": { "price": 2980, "url": "/pay/usd/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Why do London families choose an online specialist over in-person London tutors?",
+        "a": "In-person London agencies charge £120–£180/hr while using university students who tutor as a side job. Tutor Sheefa is a full-time academic specialist with 15+ years of pure Further Maths focus and a documented 80% A/A* success rate, delivering superior pedagogy via interactive whiteboards."
+      },
+      {
+        "q": "Does Tutor Sheefa prepare UK students for STEP and MAT?",
+        "a": "Yes. Students applying to Cambridge, Oxford, or Imperial for Mathematics, Engineering, or Computer Science receive integrated university entrance examination preparation."
+      }
+    ]
+  },
+  {
+    "slug": "malaysia-a-level-further-maths",
+    "city": "Kuala Lumpur & Malaysia",
+    "country": "Malaysia",
+    "flag": "🇲🇾",
+    "heroTitle": "Tutor Pakar A-Level Further Mathematics di Malaysia",
+    "heroSubtitle": "Bimbingan 1-on-1 Eksklusif Cambridge (CIE 9231) & Edexcel (9FM0) untuk Pelajar KTJ, GIS, Alice Smith & Epsom.",
+    "metaTitle": "A-Level Further Maths Tutor Malaysia | KTJ, GIS & Alice Smith Specialist | GradeMotion",
+    "metaDescription": "Pakar tuisyen peribadi 1-on-1 A-Level Further Mathematics di Malaysia. Khusus untuk pelajar Kolej Tuanku Ja'afar (KTJ), GIS, Alice Smith & Epsom College. Kadar kejayaan 80% A/A*.",
+    "currency": "MYR",
+    "timezoneName": "Waktu Malaysia (MYT, UTC+8)",
+    "timezoneBadge": "MYT (UTC+8) • Jadual Tempatan Fleksibel",
+    "timezoneDetails": "Waktu pembelajaran tempatan sepenuhnya di zon waktu Malaysia (UTC+8). Pilihan slot petang selepas sekolah dan hujung minggu yang fleksibel.",
+    "schools": [
+      "Kolej Tuanku Ja'afar (KTJ)",
+      "Garden International School (GIS)",
+      "The Alice Smith School",
+      "Epsom College in Malaysia",
+      "Marlborough College Malaysia",
+      "Sunway College A-Level",
+      "HELP Academy"
+    ],
+    "curriculumFocus": "Penguasaan mendalam silibus Cambridge CIE 9231 dan Edexcel 9FM0. Penekanan khas pada teknik menjawab soalan mencabar dan skema pemarkahan pemeriksa untuk mencapai gred A*.",
+    "pricing": {
+      "currencySymbol": "RM",
+      "currencyCode": "MYR",
+      "trial": { "price": 380, "url": "/pay/my/trial" },
+      "surgery": { "price": 1440, "url": "/pay/my/topic-surgery" },
+      "readiness": { "price": 2560, "url": "/pay/my/exam-readiness" },
+      "bootcamp": { "price": 5600, "url": "/pay/my/bootcamp" }
+    },
+    "faqs": [
+      {
+        "q": "Kenapa pelajar KTJ, GIS, dan Alice Smith memilih Tutor Sheefa?",
+        "a": "Silibus Further Mathematics adalah antara subjek paling sukar di peringkat pra-universiti. Tutor Sheefa (42 mata IB) berpengalaman lebih 15 tahun membimbing pelajar sekolah antarabangsa di Malaysia menembusi universiti terkemuka dunia seperti Imperial, Cambridge, Oxford, dan LSE."
+      },
+      {
+        "q": "Apakah Jaminan Rollover 100% untuk Sesi Penilaian (Evaluation Session)?",
+        "a": "Ibu bapa dan pelajar boleh bermula dengan Sesi Penilaian 2-Jam (RM 380). Jika anda membuat keputusan untuk menaik taraf ke Pakej Sprint 8-Jam atau 16-Jam, keseluruhan yuran RM 380 akan ditolak 100% daripada invois pakej anda."
+      },
+      {
+        "q": "Bagaimanakah kaedah pembayaran untuk pelajar di Malaysia?",
+        "a": "Pembayaran diproses secara selamat melalui Stripe menggunakan kad kredit/debit tempatan (Visa & Mastercard) dengan pautan rasmi GradeMotion."
+      }
+    ]
+  }
+]
