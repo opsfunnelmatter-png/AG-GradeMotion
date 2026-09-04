@@ -124,5 +124,8 @@ All student/parent communications are conducted in **100% polished English**, re
     - Directory master hubs at `/solutions` and `/topics`.
   - Dynamic `sitemap.xml` with Google Video Sitemap tags (`<video:video>`).
   - Integrated into static build pipeline (`generate-pseo.js`).
+  - 8 High-Ticket Geo-Targeted Landing Pages (`/tutor/*`): Dubai, Abu Dhabi, Riyadh, Jeddah, Singapore, Hong Kong, London, and Malaysia.
+  - Generative Engine Optimization (GEO) architecture: Schema.org `EducationalOrganization`, `Person`, and `FAQPage` paired with strict currency isolation (100% USD for international vs 100% MYR for Malaysia).
+  - Directory master hub at `/tutor`.
 - [ ] **Phase 6: Automated Post-Payment Workflows & Webhooks**
   - Automated welcome email / WhatsApp onboarding notification upon Stripe webhook receipt.
