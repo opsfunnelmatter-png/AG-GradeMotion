@@ -434,9 +434,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Format phone with country code for delivery clarity
             const fullPhone = `${object.country_code} ${object.phone}`;
 
-            // --- TELEGRAM BOT DIRECT NOTIFICATION ---
-            // Send securely via Vercel Serverless API Route /api/send-telegram
-            fetch("/api/send-telegram", {
+            // 1. Send securely to Telegram Bot via Vercel Serverless API Route
+            const telegramPromise = fetch("/api/send-telegram", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -449,10 +448,17 @@ document.addEventListener("DOMContentLoaded", () => {
                         examDate: object.paper_session || 'N/A'
                     }
                 })
-            })
-            .then(() => { window.location.href = "thank-you.html"; })
-            .catch(err => {
-                console.error("Telegram notification error:", err);
+            }).catch(err => console.error("Telegram notification error:", err));
+
+            // 2. Send email notification to Tutor Sheefa via Web3Forms
+            formData.set("phone", fullPhone);
+            const emailPromise = fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            }).catch(err => console.error("Email notification error:", err));
+
+            // Forward to thank you page once notifications are dispatched
+            Promise.allSettled([telegramPromise, emailPromise]).then(() => {
                 window.location.href = "thank-you.html";
             });
         });
