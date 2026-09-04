@@ -184,15 +184,12 @@
                         <div class="form-group">
                             <label for="student-phone">WhatsApp / Phone Number *</label>
                             <div class="phone-input-group">
-                                <select id="country-code" name="country_code" aria-label="Country Code" required>
-                                    <option value="+60">🇲🇾 +60</option>
-                                    <option value="+65">🇸🇬 +65</option>
-                                    <option value="+44">🇬🇧 +44</option>
-                                    <option value="+1">🇺🇸 +1</option>
-                                    <option value="+61">🇦🇺 +61</option>
-                                    <option value="+971">🇦🇪 +971</option>
-                                    <option value="Other">Other</option>
-                                </select>
+                                <button type="button" class="country-picker-trigger" data-target="country-code" aria-label="Select Country (Default: Malaysia +60)">
+                                    <span class="cp-flag">🇲🇾</span>
+                                    <span class="cp-code">+60</span>
+                                    <span class="cp-arrow">▾</span>
+                                </button>
+                                <input type="hidden" id="country-code" name="country_code" value="+60">
                                 <input type="tel" id="student-phone" name="phone" placeholder="WhatsApp / Phone number" required>
                             </div>
                         </div>
@@ -265,15 +262,12 @@
                         <div class="form-group full-width">
                             <label for="contact-phone">Contact Number *</label>
                             <div class="phone-input-group">
-                                <select id="contact-country-code" name="country_code" aria-label="Country Code" required>
-                                    <option value="+60">Malaysia (+60)</option>
-                                    <option value="+65">Singapore (+65)</option>
-                                    <option value="+44">UK (+44)</option>
-                                    <option value="+1">US/Canada (+1)</option>
-                                    <option value="+61">Australia (+61)</option>
-                                    <option value="+971">UAE (+971)</option>
-                                    <option value="Other">Other</option>
-                                </select>
+                                <button type="button" class="country-picker-trigger" data-target="contact-country-code" aria-label="Select Country (Default: Malaysia +60)">
+                                    <span class="cp-flag">🇲🇾</span>
+                                    <span class="cp-code">+60</span>
+                                    <span class="cp-arrow">▾</span>
+                                </button>
+                                <input type="hidden" id="contact-country-code" name="country_code" value="+60">
                                 <input type="tel" id="contact-phone" name="phone" placeholder="Phone number" required>
                             </div>
                         </div>
@@ -297,6 +291,7 @@
         </div>
     </div>
 
+    <script src="js/country-picker.js" defer></script>
     <script src="js/main.min.js" defer></script>
     <script src="js/page.js" defer></script>
 </body>

@@ -1,9 +1,9 @@
-<section class="telegram-section-outer" id="telegram-community" style="position: relative; padding: 80px 20px; background: linear-gradient(135deg, #170A2C 0%, #2A0E4F 100%); color: #ffffff; overflow: hidden;">
+<section class="telegram-section-outer" id="telegram-community">
     <!-- Background Radial Glows matching Site Theme -->
     <div style="position: absolute; top: -100px; right: -100px; width: 450px; height: 450px; background: radial-gradient(circle, rgba(255, 74, 149, 0.15) 0%, transparent 70%); pointer-events: none; border-radius: 50%;"></div>
     <div style="position: absolute; bottom: -100px; left: -100px; width: 450px; height: 450px; background: radial-gradient(circle, rgba(123, 44, 191, 0.25) 0%, transparent 70%); pointer-events: none; border-radius: 50%;"></div>
 
-    <div class="telegram-community-container" style="max-width: 1200px; width: 100%; margin: 0 auto; position: relative; z-index: 2; box-sizing: border-box;">
+    <div class="telegram-community-container">
         
         <!-- Section Header -->
         <div style="text-align: center; max-width: 780px; margin: 0 auto 50px auto;">
@@ -19,6 +19,15 @@
         </div>
 
         <style>
+        .telegram-section-outer {
+            position: relative;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #170A2C 0%, #2A0E4F 100%);
+            color: #ffffff;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
         .telegram-community-container {
             width: 100% !important;
             max-width: 1200px !important;
@@ -32,6 +41,7 @@
             gap: 24px !important;
             align-items: stretch !important;
             width: 100% !important;
+            box-sizing: border-box !important;
         }
 
         .telegram-cards-left-column {
@@ -42,6 +52,220 @@
             justify-content: space-between !important;
         }
 
+        .telegram-showcase-container {
+            background: rgba(23, 10, 44, 0.75);
+            border: 1px solid rgba(123, 44, 191, 0.3);
+            border-radius: 24px;
+            padding: 32px 20px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+            box-sizing: border-box;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        .tg-tab-buttons-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 8px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            box-sizing: border-box;
+        }
+
+        /* --- CTA BANNER BASE STYLES --- */
+        .tg-cta-banner-card {
+            background: linear-gradient(135deg, rgba(42, 14, 79, 0.9) 0%, rgba(23, 10, 44, 0.95) 100%);
+            border: 1.5px solid rgba(255, 74, 149, 0.4);
+            border-radius: 24px;
+            padding: 40px 36px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(12px);
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+
+        .tg-cta-banner-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tg-cta-banner-left {
+            text-align: left;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tg-instant-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 74, 149, 0.15);
+            color: #FFA0D8;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 800;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+            border: 1px solid rgba(255, 74, 149, 0.3);
+            box-sizing: border-box;
+        }
+
+        .tg-cta-title {
+            font-size: clamp(22px, 2.8vw, 34px);
+            font-weight: 800;
+            color: #ffffff;
+            margin: 0 0 12px 0;
+            line-height: 1.25;
+        }
+
+        .tg-cta-desc {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.88);
+            margin: 0 0 20px 0;
+            line-height: 1.6;
+        }
+
+        .tg-benefits-checklist {
+            display: flex;
+            gap: 20px;
+            font-size: 13.5px;
+            color: rgba(255, 255, 255, 0.85);
+            flex-wrap: wrap;
+        }
+
+        .tg-benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .tg-check-icon {
+            color: #4ade80;
+            font-weight: 800;
+        }
+
+        .tg-cta-banner-right {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tg-cta-form {
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .tg-input-field {
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 1.5px solid rgba(255,255,255,0.25);
+            background: rgba(0,0,0,0.45);
+            color: #ffffff;
+            font-size: 15px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.2s ease;
+        }
+
+        .tg-input-field:focus {
+            border-color: #FF4A95;
+        }
+
+        .tg-phone-row {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            box-sizing: border-box;
+            align-items: center;
+        }
+
+        .tg-country-select,
+        .tg-country-trigger {
+            padding: 15px 12px;
+            border-radius: 12px;
+            border: 1.5px solid rgba(255,255,255,0.25);
+            background: rgba(0,0,0,0.65);
+            color: #ffffff;
+            font-size: 14.5px;
+            outline: none;
+            cursor: pointer;
+            width: 125px;
+            min-width: 125px;
+            flex-shrink: 0;
+            box-sizing: border-box;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 6px;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .tg-country-trigger:hover {
+            border-color: #FF4A95;
+            background: rgba(0,0,0,0.85);
+        }
+
+        .tg-phone-input {
+            flex: 1 1 0%;
+            min-width: 0 !important;
+            width: 100%;
+            padding: 15px 20px;
+            border-radius: 12px;
+            border: 1.5px solid rgba(255,255,255,0.25);
+            background: rgba(0,0,0,0.45);
+            color: #ffffff;
+            font-size: 15px;
+            outline: none;
+            box-sizing: border-box;
+            transition: border-color 0.2s ease;
+        }
+
+        .tg-phone-input:focus {
+            border-color: #FF4A95;
+        }
+
+        .tg-submit-btn {
+            width: 100%;
+            background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
+            color: #ffffff;
+            font-weight: 800;
+            font-size: 16px;
+            padding: 16px 24px;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            box-shadow: 0 8px 25px rgba(255, 74, 149, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-sizing: border-box;
+            white-space: normal;
+            text-align: center;
+        }
+
+        .tg-submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 30px rgba(255, 74, 149, 0.5);
+        }
+
+        /* --- RESPONSIVE BREAKPOINTS --- */
         @media (max-width: 992px) {
             .telegram-showcase-split-grid {
                 grid-template-columns: 1fr !important;
@@ -55,9 +279,138 @@
             }
         }
 
+        @media (max-width: 768px) {
+            .telegram-section-outer {
+                padding: 48px 16px !important;
+            }
+            .tg-cta-banner-card {
+                padding: 26px 18px !important;
+                border-radius: 20px !important;
+            }
+            .tg-cta-banner-grid {
+                grid-template-columns: 1fr !important;
+                gap: 22px !important;
+                text-align: left !important;
+            }
+            .tg-cta-banner-left {
+                text-align: left !important;
+            }
+            .tg-cta-title {
+                font-size: 22px !important;
+                margin-bottom: 8px !important;
+            }
+            .tg-cta-desc {
+                font-size: 14px !important;
+                margin-bottom: 16px !important;
+                line-height: 1.5 !important;
+            }
+            .tg-benefits-checklist {
+                gap: 10px 16px !important;
+                font-size: 13px !important;
+            }
+            .tg-input-field,
+            .tg-phone-input {
+                padding: 13px 14px !important;
+                font-size: 14px !important;
+                border-radius: 10px !important;
+            }
+            .tg-country-select,
+            .tg-country-trigger {
+                width: 100px !important;
+                min-width: 100px !important;
+                padding: 13px 8px !important;
+                font-size: 13.5px !important;
+                border-radius: 10px !important;
+            }
+            .tg-submit-btn {
+                padding: 14px 16px !important;
+                font-size: 14.5px !important;
+                border-radius: 10px !important;
+            }
+            .tg-submit-btn span {
+                font-size: 14px !important;
+            }
+        }
+
         @media (max-width: 600px) {
             .telegram-cards-left-column {
                 grid-template-columns: 1fr !important;
+            }
+            .telegram-showcase-container {
+                padding: 18px 12px !important;
+                border-radius: 18px !important;
+            }
+            .tg-tab-buttons-row {
+                grid-template-columns: 1fr !important;
+            }
+            #video-selector-grid {
+                gap: 6px !important;
+            }
+            .video-select-btn {
+                padding: 10px 4px !important;
+            }
+            .video-select-btn div:first-child {
+                font-size: 16px !important;
+            }
+            .video-select-btn div:last-child {
+                font-size: 10px !important;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .telegram-section-outer {
+                padding: 36px 10px !important;
+            }
+            .tg-cta-banner-card {
+                padding: 20px 12px !important;
+                border-radius: 16px !important;
+            }
+            .tg-cta-title {
+                font-size: 19px !important;
+            }
+            .tg-cta-desc {
+                font-size: 13px !important;
+                line-height: 1.45 !important;
+            }
+            .tg-instant-badge {
+                padding: 4px 12px !important;
+                font-size: 11px !important;
+                margin-bottom: 10px !important;
+            }
+            .tg-phone-row {
+                gap: 6px !important;
+            }
+            .tg-country-select,
+            .tg-country-trigger {
+                width: 86px !important;
+                min-width: 86px !important;
+                padding: 12px 6px !important;
+                font-size: 12.5px !important;
+            }
+            .tg-phone-input,
+            .tg-input-field {
+                padding: 12px 10px !important;
+                font-size: 13px !important;
+            }
+            .tg-submit-btn {
+                padding: 13px 10px !important;
+                font-size: 13.5px !important;
+                gap: 6px !important;
+            }
+            .tg-submit-btn span {
+                font-size: 13px !important;
+            }
+        }
+
+        @media (max-width: 330px) {
+            .tg-phone-row {
+                flex-direction: column !important;
+                gap: 8px !important;
+            }
+            .tg-country-select,
+            .tg-country-trigger {
+                width: 100% !important;
+                min-width: 100% !important;
             }
         }
         </style>
@@ -93,7 +446,7 @@
             </div>
 
             <!-- Right Column: Interactive Samples Showcase -->
-            <div style="background: rgba(23, 10, 44, 0.75); border: 1px solid rgba(123, 44, 191, 0.3); border-radius: 24px; padding: 32px 20px; backdrop-filter: blur(10px); box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);">
+            <div class="telegram-showcase-container">
             
             <!-- Section Header inside Showcase -->
             <div style="margin-bottom: 28px; border-bottom: 1px solid rgba(255, 255, 255, 0.1); padding-bottom: 20px;">
@@ -103,7 +456,7 @@
                 </div>
 
                 <!-- 2 Clear Segmented Content Selector Buttons -->
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; background: rgba(0, 0, 0, 0.4); padding: 8px; border-radius: 16px; border: 1px solid rgba(255, 255, 255, 0.12);">
+                <div class="tg-tab-buttons-row">
                     
                     <!-- Content Button 1: Solved Questions -->
                     <button type="button" id="tab-btn-questions" onclick="switchTelegramTab('questions')" style="background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%); color: #ffffff; border: 2px solid #FF4A95; padding: 14px 18px; border-radius: 12px; font-weight: 800; font-size: 14.5px; cursor: pointer; transition: all 0.25s ease; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 6px 20px rgba(255, 74, 149, 0.3);">
@@ -330,103 +683,60 @@
     </div> <!-- /telegram-showcase-split-grid -->
 
     <!-- Large High-Converting Join Telegram CTA Card (Full 1200px Content Width Banner) -->
-        <div style="background: linear-gradient(135deg, rgba(42, 14, 79, 0.9) 0%, rgba(23, 10, 44, 0.95) 100%); border: 1.5px solid rgba(255, 74, 149, 0.4); border-radius: 24px; padding: 40px 36px; width: 100%; max-width: 1200px; margin: 0 auto; box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4); backdrop-filter: blur(12px); box-sizing: border-box;">
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;" class="tg-cta-banner-grid">
-                
-                <!-- Left Banner Column: Headline & Benefits -->
-                <div style="text-align: left;">
-                    <div style="display: inline-flex; align-items: center; gap: 6px; background: rgba(255, 74, 149, 0.15); color: #FFA0D8; padding: 6px 16px; border-radius: 20px; font-size: 12px; font-weight: 800; text-transform: uppercase; margin-bottom: 14px; border: 1px solid rgba(255, 74, 149, 0.3);">
-                        <span>🚀 Instant Access</span>
+    <div class="tg-cta-banner-card">
+        <div class="tg-cta-banner-grid">
+            
+            <!-- Left Banner Column: Headline & Benefits -->
+            <div class="tg-cta-banner-left">
+                <div class="tg-instant-badge">
+                    <span>🚀 Instant Access</span>
+                </div>
+                <h3 class="tg-cta-title">
+                    Join The VIP Telegram Community!
+                </h3>
+                <p class="tg-cta-desc">
+                    Get instant access to free solved past paper questions, video walkthroughs, calculator speed tricks, and direct support from Tutor Sheefa.
+                </p>
+                <div class="tg-benefits-checklist">
+                    <div class="tg-benefit-item">
+                        <span class="tg-check-icon">✓</span> 100% Free VIP Access
                     </div>
-                    <h3 style="font-size: clamp(24px, 2.8vw, 34px); font-weight: 800; color: #ffffff; margin: 0 0 12px 0; line-height: 1.25;">
-                        Join The VIP Telegram Community!
-                    </h3>
-                    <p style="font-size: 15px; color: rgba(255, 255, 255, 0.88); margin: 0 0 20px 0; line-height: 1.6;">
-                        Get instant access to free solved past paper questions, video walkthroughs, calculator speed tricks, and direct support from Tutor Sheefa.
-                    </p>
-                    <div style="display: flex; gap: 20px; font-size: 13.5px; color: rgba(255, 255, 255, 0.85); flex-wrap: wrap;">
-                        <div style="display: flex; align-items: center; gap: 8px;">
-                            <span style="color: #4ade80; font-weight: 800;">✓</span> 100% Free VIP Access
-                        </div>
-                        <div style="display: flex; align-items: center; gap: 8px;">
-                            <span style="color: #4ade80; font-weight: 800;">✓</span> Instant Telegram Group Link
-                        </div>
+                    <div class="tg-benefit-item">
+                        <span class="tg-check-icon">✓</span> Instant Telegram Group Link
                     </div>
                 </div>
-
-                <!-- Right Banner Column: Form / Direct Button -->
-                <div>
-                    <form id="telegram-optin-form" onsubmit="handleTelegramOptIn(event)" style="display: flex; flex-direction: column; gap: 14px; width: 100%; box-sizing: border-box;">
-                        <input type="text" id="tg-name" name="name" placeholder="Your Full Name" required style="width: 100%; padding: 15px 20px; border-radius: 12px; border: 1.5px solid rgba(255,255,255,0.25); background: rgba(0,0,0,0.45); color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
-                        
-                        <div style="display: flex; gap: 10px; width: 100%; box-sizing: border-box;">
-                            <select id="tg-country-code" style="padding: 15px 12px; border-radius: 12px; border: 1.5px solid rgba(255,255,255,0.25); background: rgba(0,0,0,0.65); color: #ffffff; font-size: 14.5px; outline: none; cursor: pointer; min-width: 105px;">
-                                <option value="+60">🇲🇾 +60 (MY)</option>
-                                <option value="+65">🇸🇬 +65 (SG)</option>
-                                <option value="+44">🇬🇧 +44 (UK)</option>
-                                <option value="+673">🇧🇳 +673 (BN)</option>
-                                <option value="+62">🇮🇩 +62 (ID)</option>
-                                <option value="+66">🇹🇭 +66 (TH)</option>
-                                <option value="+84">🇻🇳 +84 (VN)</option>
-                                <option value="+63">🇵🇭 +63 (PH)</option>
-                                <option value="+86">🇨🇳 +86 (CN)</option>
-                                <option value="+852">🇭🇰 +852 (HK)</option>
-                                <option value="+886">🇹🇼 +886 (TW)</option>
-                                <option value="+91">🇮🇳 +91 (IN)</option>
-                                <option value="+92">🇵🇰 +92 (PK)</option>
-                                <option value="+880">🇧🇩 +880 (BD)</option>
-                                <option value="+94">🇱🇰 +94 (LK)</option>
-                                <option value="+971">🇦🇪 +971 (UAE)</option>
-                                <option value="+966">🇸🇦 +966 (KSA)</option>
-                                <option value="+974">🇶🇦 +974 (QA)</option>
-                                <option value="+968">🇴🇲 +968 (OM)</option>
-                                <option value="+965">🇰🇼 +965 (KW)</option>
-                                <option value="+973">🇧🇭 +973 (BH)</option>
-                                <option value="+20">🇪🇬 +20 (EG)</option>
-                                <option value="+61">🇦🇺 +61 (AU)</option>
-                                <option value="+64">🇳🇿 +64 (NZ)</option>
-                                <option value="+1">🇺🇸 +1 (US/CA)</option>
-                                <option value="+27">🇿🇦 +27 (ZA)</option>
-                                <option value="+234">🇳🇬 +234 (NG)</option>
-                                <option value="+254">🇰🇪 +254 (KE)</option>
-                                <option value="+49">🇩🇪 +49 (DE)</option>
-                                <option value="+33">🇫🇷 +33 (FR)</option>
-                                <option value="+353">🇮🇪 +353 (IE)</option>
-                                <option value="+90">🇹🇷 +90 (TR)</option>
-                                <option value="+81">🇯🇵 +81 (JP)</option>
-                                <option value="+82">🇰🇷 +82 (KR)</option>
-                            </select>
-                            <input type="tel" id="tg-phone" name="phone" placeholder="WhatsApp Number" required style="flex: 1; padding: 15px 20px; border-radius: 12px; border: 1.5px solid rgba(255,255,255,0.25); background: rgba(0,0,0,0.45); color: #ffffff; font-size: 15px; outline: none; box-sizing: border-box;">
-                        </div>
-
-                        <button type="submit" style="width: 100%; background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%); color: #ffffff; font-weight: 800; font-size: 16px; padding: 16px 24px; border: none; border-radius: 12px; cursor: pointer; transition: all 0.25s ease; box-shadow: 0 8px 25px rgba(255, 74, 149, 0.4); display: flex; align-items: center; justify-content: center; gap: 10px; box-sizing: border-box;">
-                            <span>💬 Join Free Telegram Group</span>
-                            <span>&rarr;</span>
-                        </button>
-                    </form>
-
-                    <div id="telegram-success-box" style="display: none; background: rgba(16, 185, 129, 0.2); border: 1.5px solid #10B981; border-radius: 16px; padding: 18px; text-align: center; margin-top: 14px;">
-                        <div style="font-size: 26px; margin-bottom: 4px;">🎉</div>
-                        <h4 style="font-size: 17px; font-weight: 800; color: #4ade80; margin: 0 0 4px 0;">Redirecting to Telegram Group...</h4>
-                        <p style="font-size: 13.5px; color: rgba(255,255,255,0.88); margin: 0;">If the Telegram app did not open, <a href="https://t.me/grademotion_furthermaths" target="_blank" style="color: #4ade80; font-weight: 700; text-decoration: underline;">click here &rarr;</a></p>
-                    </div>
-                </div>
-
             </div>
-        </div>
 
-        <style>
-        @media (max-width: 768px) {
-            .tg-cta-banner-grid {
-                grid-template-columns: 1fr !important;
-                gap: 24px !important;
-                text-align: center !important;
-            }
-            .tg-cta-banner-grid div {
-                text-align: center !important;
-            }
-        }
-        </style>
+            <!-- Right Banner Column: Form / Direct Button -->
+            <div class="tg-cta-banner-right">
+                <form id="telegram-optin-form" onsubmit="handleTelegramOptIn(event)" class="tg-cta-form">
+                    <input type="text" id="tg-name" name="name" placeholder="Your Full Name" required class="tg-input-field">
+                    
+                    <div class="tg-phone-row">
+                        <button type="button" class="country-picker-trigger tg-country-trigger" data-target="tg-country-code" aria-label="Select Country (Default: Malaysia +60)">
+                            <span class="cp-flag">🇲🇾</span>
+                            <span class="cp-code">+60</span>
+                            <span class="cp-arrow">▾</span>
+                        </button>
+                        <input type="hidden" id="tg-country-code" name="country_code" value="+60">
+                        <input type="tel" id="tg-phone" name="phone" placeholder="WhatsApp Number" required class="tg-phone-input">
+                    </div>
+
+                    <button type="submit" class="tg-submit-btn">
+                        <span>💬 Join Free Telegram Group</span>
+                        <span>&rarr;</span>
+                    </button>
+                </form>
+
+                <div id="telegram-success-box" style="display: none; background: rgba(16, 185, 129, 0.2); border: 1.5px solid #10B981; border-radius: 16px; padding: 18px; text-align: center; margin-top: 14px;">
+                    <div style="font-size: 26px; margin-bottom: 4px;">🎉</div>
+                    <h4 style="font-size: 17px; font-weight: 800; color: #4ade80; margin: 0 0 4px 0;">Redirecting to Telegram Group...</h4>
+                    <p style="font-size: 13.5px; color: rgba(255,255,255,0.88); margin: 0;">If the Telegram app did not open, <a href="https://t.me/grademotion_furthermaths" target="_blank" style="color: #4ade80; font-weight: 700; text-decoration: underline;">click here &rarr;</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     </div>
 </section>

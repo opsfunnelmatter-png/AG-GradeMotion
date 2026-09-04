@@ -170,6 +170,7 @@
             .telegram-phone-input {
                 flex: 1 !important;
                 width: auto !important;
+                min-width: 0 !important;
                 height: 44px !important;
                 min-height: 44px !important;
                 max-height: 44px !important;
@@ -208,12 +209,12 @@
                     <input type="text" id="tg-name" class="telegram-form-input" placeholder="Your Full Name *" required>
                     
                     <div class="telegram-phone-group">
-                        <select id="tg-country-code" class="telegram-country-select">
-                            <option value="+60">🇲🇾 +60</option>
-                            <option value="+65">🇸🇬 +65</option>
-                            <option value="+44">🇬🇧 +44</option>
-                            <option value="+1">🇺🇸 +1</option>
-                        </select>
+                        <button type="button" class="country-picker-trigger telegram-country-trigger" data-target="tg-country-code" aria-label="Select Country (Default: Malaysia +60)" style="width: 100px; min-width: 100px; height: 44px; padding: 0 10px; border-radius: 10px; border: 1.5px solid rgba(123, 44, 191, 0.25); background: #ffffff; color: #170A2C; font-size: 13.5px; font-weight: 600; display: inline-flex; align-items: center; justify-content: space-between; cursor: pointer;">
+                            <span class="cp-flag">🇲🇾</span>
+                            <span class="cp-code">+60</span>
+                            <span class="cp-arrow">▾</span>
+                        </button>
+                        <input type="hidden" id="tg-country-code" name="country_code" value="+60">
                         <input type="tel" id="tg-phone" class="telegram-form-input telegram-phone-input" placeholder="WhatsApp / Phone Number *" required>
                     </div>
 
