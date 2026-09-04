@@ -256,31 +256,31 @@ document.addEventListener("DOMContentLoaded", () => {
         if (packageType === "standard") {
             if (curr === 'MYR') {
                 if (titleEl) titleEl.innerText = "Apply for Standard Plan (8 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Standard Plan (RM 1,440) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Standard Plan (RM 1,440) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Standard Plan (RM 1,440 MYR)";
             } else {
                 if (titleEl) titleEl.innerText = "Apply for Topic Surgery Sprint (8 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Topic Surgery ($760) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Topic Surgery ($760) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Topic Surgery Sprint ($760 USD)";
             }
         } else if (packageType === "intensive") {
             if (curr === 'MYR') {
                 if (titleEl) titleEl.innerText = "Apply for Intensive Plan (16 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Plan (RM 2,560) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Intensive Plan (RM 2,560) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Intensive Plan (RM 2,560 MYR)";
             } else {
                 if (titleEl) titleEl.innerText = "Apply for Exam Readiness Sprint (16 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Exam Readiness ($1,360) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Exam Readiness ($1,360) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Exam Readiness Sprint ($1,360 USD)";
             }
         } else if (packageType === "retainer" || packageType === "bootcamp") {
             if (curr === 'MYR') {
                 if (titleEl) titleEl.innerText = "Apply for Intensive Bootcamp (40 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Bootcamp (RM 5,600) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Intensive Bootcamp (RM 5,600) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Intensive Bootcamp (RM 5,600 MYR)";
             } else {
                 if (titleEl) titleEl.innerText = "Apply for Intensive Fast-Track Bootcamp (40 Hours)";
-                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Bootcamp ($2,980) &rarr;";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Intensive Bootcamp ($2,980) &rarr;";
                 if (subjectEl) subjectEl.value = "New Further Math Intensive Bootcamp ($2,980 USD)";
             }
         } else {
