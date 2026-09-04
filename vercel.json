@@ -6,6 +6,9 @@
   "outputDirectory": ".",
   "routes": [
     { "src": "/thank-you", "dest": "/thank-you.html" },
+    { "src": "/desk", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },
+    { "src": "/sheefa", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },
+    { "src": "/hub", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },
     { "src": "/pay/usd/trial", "dest": "/pay/usd/trial.html" },
     { "src": "/pay/usd/evaluation", "dest": "/pay/usd/trial.html" },
     { "src": "/pay/usd/topic-surgery", "dest": "/pay/usd/topic-surgery.html" },

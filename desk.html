@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <title>Closer Hub | GradeMotion Internal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        :root {
+            --bg: #0C0814;
+            --surface: #140E24;
+            --surface-elevated: #1D1533;
+            --surface-card: #18112C;
+            --border: rgba(168, 85, 247, 0.16);
+            --border-hover: rgba(236, 72, 153, 0.35);
+            --text-primary: #FAF5FF;
+            --text-secondary: #C4B5FD;
+            --text-muted: #8B7CA8;
+            --purple: #9333EA;
+            --pink: #EC4899;
+            --green: #10B981;
+            --green-bg: rgba(16, 185, 129, 0.12);
+            --green-border: rgba(16, 185, 129, 0.25);
+            --myr-accent: #3B82F6;
+            --usd-accent: #10B981;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 24px 16px 80px 16px;
+            background-image: 
+                radial-gradient(circle at 10% 10%, rgba(147, 51, 234, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 90%, rgba(236, 72, 153, 0.08) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+        }
+
+        /* Top Header */
+        .top-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 18px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .brand-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-logo {
+            height: 32px;
+            width: auto;
+        }
+
+        .hub-tag {
+            background: linear-gradient(135deg, rgba(147, 51, 234, 0.25), rgba(236, 72, 153, 0.25));
+            border: 1px solid var(--border);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            color: #F472B6;
+            text-transform: uppercase;
+        }
+
+        .private-notice {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11.5px;
+            color: var(--text-muted);
+            background: rgba(255, 255, 255, 0.03);
+            padding: 5px 12px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        /* Live Personalizer Bar */
+        .personalizer-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 18px 20px;
+            margin-bottom: 24px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+        }
+
+        .personalizer-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        .input-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.3fr;
+            gap: 14px;
+        }
+
+        @media (max-width: 640px) {
+            .input-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .field-label {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+
+        .field-input {
+            background: var(--bg);
+            border: 1px solid rgba(168, 85, 247, 0.25);
+            border-radius: 10px;
+            padding: 11px 14px;
+            font-size: 14px;
+            color: var(--text-primary);
+            outline: none;
+            transition: all 0.2s;
+        }
+
+        .field-input:focus {
+            border-color: #C084FC;
+            box-shadow: 0 0 0 3px rgba(192, 132, 252, 0.15);
+        }
+
+        .field-input::placeholder {
+            color: rgba(139, 124, 168, 0.5);
+        }
+
+        /* Market Tabs */
+        .market-tabs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 5px;
+            margin-bottom: 24px;
+            gap: 6px;
+        }
+
+        .market-tab {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--text-muted);
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .market-tab.active-myr {
+            background: rgba(59, 130, 246, 0.15);
+            color: #60A5FA;
+            border: 1px solid rgba(59, 130, 246, 0.35);
+        }
+
+        .market-tab.active-usd {
+            background: rgba(16, 185, 129, 0.15);
+            color: #34D399;
+            border: 1px solid rgba(16, 185, 129, 0.35);
+        }
+
+        /* Card Sections */
+        .card {
+            background: var(--surface-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 22px;
+            margin-bottom: 22px;
+            position: relative;
+            transition: border-color 0.2s;
+        }
+
+        .card:hover {
+            border-color: var(--border-hover);
+        }
+
+        .card-header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 14px;
+            flex-wrap: wrap;
+        }
+
+        .card-title-group h2 {
+            font-size: 17px;
+            font-weight: 800;
+            color: #FFFFFF;
+            letter-spacing: -0.01em;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .card-subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .badge-guarantee {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            background: var(--green-bg);
+            border: 1px solid var(--green-border);
+            color: #34D399;
+            font-size: 11.5px;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+
+        /* Message Box */
+        .message-preview {
+            background: #0F0A1C;
+            border: 1px solid rgba(168, 85, 247, 0.18);
+            border-radius: 12px;
+            padding: 16px 18px;
+            margin: 14px 0 16px 0;
+            font-size: 13.5px;
+            line-height: 1.6;
+            color: #E9D5FF;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: inherit;
+            position: relative;
+        }
+
+        .message-preview strong {
+            color: #FFFFFF;
+            font-weight: 700;
+        }
+
+        /* Action Buttons */
+        .actions-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 11px 18px;
+            border-radius: 10px;
+            font-size: 13.5px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s ease-out;
+            text-decoration: none;
+            border: none;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        .btn-copy-msg {
+            background: linear-gradient(135deg, #7E22CE 0%, #DB2777 100%);
+            color: #FFFFFF;
+            box-shadow: 0 4px 14px rgba(219, 39, 119, 0.25);
+            flex-grow: 1;
+        }
+
+        .btn-copy-msg:hover {
+            box-shadow: 0 6px 20px rgba(219, 39, 119, 0.4);
+            filter: brightness(1.08);
+        }
+
+        .btn-whatsapp {
+            background: #25D366;
+            color: #0A3818;
+            font-weight: 800;
+        }
+
+        .btn-whatsapp:hover {
+            background: #2ee672;
+        }
+
+        .btn-link-copy {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: var(--text-secondary);
+        }
+
+        .btn-link-copy:hover {
+            background: rgba(255, 255, 255, 0.09);
+            color: #FFFFFF;
+        }
+
+        .btn-test {
+            background: transparent;
+            color: var(--text-muted);
+            padding: 11px 14px;
+        }
+
+        .btn-test:hover {
+            color: var(--text-primary);
+        }
+
+        /* Quick Links Table */
+        .links-table-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 22px;
+            margin-top: 36px;
+        }
+
+        .table-title {
+            font-size: 16px;
+            font-weight: 800;
+            margin-bottom: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .table-wrap {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 13px;
+        }
+
+        th {
+            text-align: left;
+            padding: 10px 14px;
+            color: var(--text-muted);
+            font-weight: 600;
+            border-bottom: 1px solid var(--border);
+            font-size: 11.5px;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 14px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            vertical-align: middle;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .pkg-name {
+            font-weight: 700;
+            color: #FFFFFF;
+        }
+
+        .pkg-hours {
+            color: var(--text-muted);
+            font-size: 12px;
+        }
+
+        .pkg-price {
+            font-weight: 800;
+            color: #F472B6;
+        }
+
+        .url-text {
+            color: #A78BFA;
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 12px;
+        }
+
+        .url-text:hover {
+            text-decoration: underline;
+        }
+
+        .btn-mini-copy {
+            padding: 6px 12px;
+            font-size: 12px;
+            background: rgba(147, 51, 234, 0.15);
+            border: 1px solid rgba(147, 51, 234, 0.3);
+            color: #D8B4FE;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+
+        .btn-mini-copy:hover {
+            background: rgba(147, 51, 234, 0.3);
+            color: #FFFFFF;
+        }
+
+        /* Toast Notification */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: #10B981;
+            color: #064E3B;
+            font-size: 14px;
+            font-weight: 800;
+            padding: 12px 24px;
+            border-radius: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 1000;
+            pointer-events: none;
+        }
+
+        .toast.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+
+        /* Market Content Toggle */
+        .market-content {
+            display: none;
+        }
+
+        .market-content.active {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="brand-area">
+            <img src="/images/GradeMotion_Logo_Landscape.webp" alt="GradeMotion" class="brand-logo">
+            <span class="hub-tag">Closer Desk</span>
+        </div>
+        <div class="private-notice">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+            Internal & Unindexed Page (For Tutor Sheefa)
+        </div>
+    </header>
+
+    <!-- Personalizer Bar -->
+    <section class="personalizer-card">
+        <div class="personalizer-title">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+            Live Personalization (Auto-fills all templates below)
+        </div>
+        <div class="input-grid">
+            <div class="field-group">
+                <label class="field-label" for="inputName">Student / Parent Name</label>
+                <input type="text" id="inputName" class="field-input" placeholder="e.g. Sarah / Mrs. Wong" oninput="updateAllTemplates()">
+            </div>
+            <div class="field-group">
+                <label class="field-label" for="inputTopic">Focus / Weak Topic Identified</label>
+                <input type="text" id="inputTopic" class="field-input" placeholder="e.g. Differential Equations & Complex Numbers" oninput="updateAllTemplates()">
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Selector Tabs -->
+    <div class="market-tabs">
+        <button id="tabMYR" class="market-tab active-myr" onclick="switchMarket('MYR')">
+            🇲🇾 Malaysia Clients (RM)
+        </button>
+        <button id="tabUSD" class="market-tab" onclick="switchMarket('USD')">
+            🌐 International Clients (USD)
+        </button>
+    </div>
+
+    <!-- ==================== MALAYSIA (MYR) CONTENT ==================== -->
+    <div id="contentMYR" class="market-content active">
+        <!-- 1. Evaluation Session -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>
+                        <span>1. 2-Hour Evaluation Session</span>
+                    </h2>
+                    <div class="card-subtitle">Best for objection-killing & zero-commitment test drive | RM 380</div>
+                </div>
+                <div class="badge-guarantee">🛡️ 100% Rollover Upgrade Guarantee</div>
+            </div>
+
+            <div class="message-preview" id="msg-myr-trial"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-myr-trial')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-myr-trial')">
+                    WhatsApp
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/trial')">
+                    Copy Link Only
+                </button>
+                <a href="https://www.grademotion.com/pay/my/trial" target="_blank" class="btn btn-test">
+                    Preview ↗
+                </a>
+            </div>
+        </article>
+
+        <!-- 2. Full Sprints -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>2. Full Sprints (Topic Surgery & Exam Readiness)</h2>
+                    <div class="card-subtitle">For students ready to commit to targeted mark-scheme mastery</div>
+                </div>
+            </div>
+
+            <div class="message-preview" id="msg-myr-sprint"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-myr-sprint')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-myr-sprint')">
+                    WhatsApp
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/topic-surgery')">
+                    Copy 8-Hr Link
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/exam-readiness')">
+                    Copy 16-Hr Link
+                </button>
+            </div>
+        </article>
+
+        <!-- 3. Follow-up Nudge -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>3. Follow-Up / Nudge (24–48h After Diagnostic)</h2>
+                    <div class="card-subtitle">Gentle reminder if they haven't enrolled yet</div>
+                </div>
+            </div>
+
+            <div class="message-preview" id="msg-myr-followup"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-myr-followup')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-myr-followup')">
+                    WhatsApp
+                </button>
+            </div>
+        </article>
+    </div>
+
+    <!-- ==================== INTERNATIONAL (USD) CONTENT ==================== -->
+    <div id="contentUSD" class="market-content">
+        <!-- 1. Evaluation Session -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>
+                        <span>1. 2-Hour Evaluation Session</span>
+                    </h2>
+                    <div class="card-subtitle">Best for objection-killing & zero-commitment test drive | $210 USD</div>
+                </div>
+                <div class="badge-guarantee">🛡️ 100% Rollover Upgrade Guarantee</div>
+            </div>
+
+            <div class="message-preview" id="msg-usd-trial"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-usd-trial')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-usd-trial')">
+                    WhatsApp
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/trial')">
+                    Copy Link Only
+                </button>
+                <a href="https://www.grademotion.com/pay/usd/trial" target="_blank" class="btn btn-test">
+                    Preview ↗
+                </a>
+            </div>
+        </article>
+
+        <!-- 2. Full Sprints -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>2. Full Sprints (Topic Surgery & Exam Readiness)</h2>
+                    <div class="card-subtitle">For students ready to commit to targeted mark-scheme mastery</div>
+                </div>
+            </div>
+
+            <div class="message-preview" id="msg-usd-sprint"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-usd-sprint')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-usd-sprint')">
+                    WhatsApp
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/topic-surgery')">
+                    Copy 8-Hr Link
+                </button>
+                <button class="btn btn-link-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/exam-readiness')">
+                    Copy 16-Hr Link
+                </button>
+            </div>
+        </article>
+
+        <!-- 3. Follow-up Nudge -->
+        <article class="card">
+            <div class="card-header">
+                <div class="card-title-group">
+                    <h2>3. Follow-Up / Nudge (24–48h After Diagnostic)</h2>
+                    <div class="card-subtitle">Gentle reminder if they haven't enrolled yet</div>
+                </div>
+            </div>
+
+            <div class="message-preview" id="msg-usd-followup"></div>
+
+            <div class="actions-row">
+                <button class="btn btn-copy-msg" onclick="copyText('msg-usd-followup')">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    Copy WhatsApp Message
+                </button>
+                <button class="btn btn-whatsapp" onclick="sendWhatsApp('msg-usd-followup')">
+                    WhatsApp
+                </button>
+            </div>
+        </article>
+    </div>
+
+    <!-- Quick Links Directory Table -->
+    <section class="links-table-card">
+        <div class="table-title">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            Direct Payment Landing URLs (1-Click Copy)
+        </div>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Package</th>
+                        <th>Hours</th>
+                        <th>MYR Link (Local)</th>
+                        <th>USD Link (Int'l)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">Evaluation Session (Trial)</div>
+                            <div class="pkg-hours">100% Rollover Credit</div>
+                        </td>
+                        <td>2 Hours</td>
+                        <td>
+                            <div class="pkg-price">RM 380</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/trial')">Copy MYR</button>
+                        </td>
+                        <td>
+                            <div class="pkg-price">$210</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/trial')">Copy USD</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">Topic Surgery Sprint</div>
+                            <div class="pkg-hours">Targeted 1-2 Chapters</div>
+                        </td>
+                        <td>8 Hours</td>
+                        <td>
+                            <div class="pkg-price">RM 1,440</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/topic-surgery')">Copy MYR</button>
+                        </td>
+                        <td>
+                            <div class="pkg-price">$760</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/topic-surgery')">Copy USD</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">Exam Readiness Sprint</div>
+                            <div class="pkg-hours">Most Popular Comprehensive</div>
+                        </td>
+                        <td>16 Hours</td>
+                        <td>
+                            <div class="pkg-price">RM 2,560</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/exam-readiness')">Copy MYR</button>
+                        </td>
+                        <td>
+                            <div class="pkg-price">$1,360</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/exam-readiness')">Copy USD</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">Intensive Bootcamp</div>
+                            <div class="pkg-hours">Full Syllabus Overhaul</div>
+                        </td>
+                        <td>40 Hours</td>
+                        <td>
+                            <div class="pkg-price">RM 5,600</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/my/bootcamp')">Copy MYR</button>
+                        </td>
+                        <td>
+                            <div class="pkg-price">$2,980</div>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/pay/usd/bootcamp')">Copy USD</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+
+<!-- Copy Toast Notification -->
+<div id="toast" class="toast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toastText">Copied to clipboard!</span>
+</div>
+
+<script>
+    function getName() {
+        const val = document.getElementById('inputName').value.trim();
+        return val ? val : '[Name]';
+    }
+
+    function getTopic() {
+        const val = document.getElementById('inputTopic').value.trim();
+        return val ? val : '[Topic / Focus Area]';
+    }
+
+    function updateAllTemplates() {
+        const name = getName();
+        const topic = getTopic();
+
+        // 1. MYR Trial
+        document.getElementById('msg-myr-trial').innerText = 
+`Hi ${name}, thank you for joining the diagnostic session earlier! 
+
+Based on our assessment, targeting ${topic} with exam-specific methodology will make an immediate impact on your upcoming papers.
+
+If you'd like to experience Tutor Sheefa's teaching dynamic first with zero long-term commitment, we can start with a 2-Hour Evaluation Session (RM 380). 
+
+🛡️ 100% Rollover Upgrade Guarantee:
+If you decide to continue with an 8-Hour or 16-Hour sprint after this session, the entire RM 380 will be credited 100% towards your upgrade package.
+
+You can confirm your slot and proceed with enrolment here:
+👉 https://www.grademotion.com/pay/my/trial
+
+Once confirmed, we will lock in your lesson slot immediately!`;
+
+        // 2. MYR Sprint
+        document.getElementById('msg-myr-sprint').innerText = 
+`Hi ${name}, great speaking with you earlier! We’ve outlined the targeted roadmap for your A-Level Further Mathematics preparation to secure that A/A* grade.
+
+Here are the direct enrolment links for the sprint packages we discussed:
+
+👉 8-Hour Topic Surgery (RM 1,440):
+https://www.grademotion.com/pay/my/topic-surgery
+(Ideal for mastering 1–2 challenging chapters & exam techniques)
+
+👉 16-Hour Exam Readiness (RM 2,560):
+https://www.grademotion.com/pay/my/exam-readiness
+(Our most popular comprehensive sprint: deep past-paper drilling & timed mark-scheme mastery)
+
+Once completed, we will reserve your weekly schedule and send over your onboarding pack right away.`;
+
+        // 3. MYR Follow-up
+        document.getElementById('msg-myr-followup').innerText = 
+`Hi ${name}, just checking in! Tutor Sheefa's schedule for this week is filling up quickly. 
+
+If you'd like to get started with the 2-Hour Evaluation Session (RM 380) to test the waters first, you can secure a slot here:
+👉 https://www.grademotion.com/pay/my/trial
+
+Remember, the RM 380 rolls over 100% towards any full sprint if you decide to upgrade. Let me know if you have any questions!`;
+
+        // 4. USD Trial
+        document.getElementById('msg-usd-trial').innerText = 
+`Hi ${name}, thank you for joining the diagnostic session earlier! 
+
+Based on our assessment, targeting ${topic} with exam-specific methodology will make an immediate impact on your upcoming papers.
+
+If you'd like to experience Tutor Sheefa's teaching dynamic first with zero long-term commitment, we can start with a 2-Hour Evaluation Session ($210 USD). 
+
+🛡️ 100% Rollover Upgrade Guarantee:
+If you decide to continue with an 8-Hour or 16-Hour sprint after this session, the entire $210 will be credited 100% towards your upgrade package.
+
+You can confirm your slot and proceed with enrolment here:
+👉 https://www.grademotion.com/pay/usd/trial
+
+Once confirmed, we will lock in your lesson slot immediately!`;
+
+        // 5. USD Sprint
+        document.getElementById('msg-usd-sprint').innerText = 
+`Hi ${name}, great speaking with you earlier! We’ve outlined the targeted roadmap for your A-Level Further Mathematics preparation to secure that A/A* grade.
+
+Here are the direct enrolment links for the sprint packages we discussed:
+
+👉 8-Hour Topic Surgery ($760 USD):
+https://www.grademotion.com/pay/usd/topic-surgery
+(Ideal for mastering 1–2 challenging chapters & exam techniques)
+
+👉 16-Hour Exam Readiness ($1,360 USD):
+https://www.grademotion.com/pay/usd/exam-readiness
+(Our most popular comprehensive sprint: deep past-paper drilling & timed mark-scheme mastery)
+
+Once completed, we will reserve your weekly schedule and send over your onboarding pack right away.`;
+
+        // 6. USD Follow-up
+        document.getElementById('msg-usd-followup').innerText = 
+`Hi ${name}, just checking in! Tutor Sheefa's schedule for this week is filling up quickly. 
+
+If you'd like to get started with the 2-Hour Evaluation Session ($210 USD) to test the waters first, you can secure a slot here:
+👉 https://www.grademotion.com/pay/usd/trial
+
+Remember, the $210 rolls over 100% towards any full sprint if you decide to upgrade. Let me know if you have any questions!`;
+    }
+
+    function switchMarket(market) {
+        const tabMYR = document.getElementById('tabMYR');
+        const tabUSD = document.getElementById('tabUSD');
+        const contentMYR = document.getElementById('contentMYR');
+        const contentUSD = document.getElementById('contentUSD');
+
+        if (market === 'MYR') {
+            tabMYR.classList.add('active-myr');
+            tabUSD.classList.remove('active-usd');
+            contentMYR.classList.add('active');
+            contentUSD.classList.remove('active');
+        } else {
+            tabUSD.classList.add('active-usd');
+            tabMYR.classList.remove('active-myr');
+            contentUSD.classList.add('active');
+            contentMYR.classList.remove('active');
+        }
+    }
+
+    function showToast(text) {
+        const toast = document.getElementById('toast');
+        const toastText = document.getElementById('toastText');
+        toastText.innerText = text;
+        toast.classList.add('show');
+        setTimeout(() => {
+            toast.classList.remove('show');
+        }, 2200);
+    }
+
+    function copyText(elementId) {
+        const el = document.getElementById(elementId);
+        if (!el) return;
+        navigator.clipboard.writeText(el.innerText).then(() => {
+            showToast('Message copied to clipboard! 📋');
+        });
+    }
+
+    function copyDirect(text) {
+        navigator.clipboard.writeText(text).then(() => {
+            showToast('Link copied to clipboard! 🔗');
+        });
+    }
+
+    function sendWhatsApp(elementId) {
+        const el = document.getElementById(elementId);
+        if (!el) return;
+        const text = encodeURIComponent(el.innerText);
+        window.open(`https://wa.me/?text=${text}`, '_blank');
+    }
+
+    // Initialize templates on load
+    updateAllTemplates();
+</script>
+
+</body>
+</html>
