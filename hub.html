@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-    <title>Closer Hub | GradeMotion Internal</title>
+    <title>Closer Desk | Grade Motion Internal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <style>
         :root {
-            --bg: #0C0814;
-            --surface: #140E24;
-            --surface-elevated: #1D1533;
-            --surface-card: #18112C;
-            --border: rgba(168, 85, 247, 0.16);
-            --border-hover: rgba(236, 72, 153, 0.35);
-            --text-primary: #FAF5FF;
-            --text-secondary: #C4B5FD;
-            --text-muted: #8B7CA8;
-            --purple: #9333EA;
-            --pink: #EC4899;
+            --pastel-pink: rgba(255, 74, 149, 0.05);
+            --bg-light-purple-1: #FBF9FF;
+            --bg-light-purple-2: #F6F0FD;
+            --header-bg: rgba(246, 240, 253, 0.88);
+            --pink: #FF4A95;
+            --purple: #7B2CBF;
+            --dark-purple: #170A2C;
+            --line-subtle: rgba(123, 44, 191, 0.12);
+            --surface-white: #FFFFFF;
+            --text-muted: #5C4D75;
+            --card-shadow: 0 12px 35px rgba(123, 44, 191, 0.06);
+            --hover-shadow: 0 20px 45px rgba(123, 44, 191, 0.12);
+            --gradient-primary: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
             --green: #10B981;
-            --green-bg: rgba(16, 185, 129, 0.12);
+            --green-bg: rgba(16, 185, 129, 0.08);
             --green-border: rgba(16, 185, 129, 0.25);
-            --myr-accent: #3B82F6;
-            --usd-accent: #10B981;
         }
 
         * {
@@ -38,53 +42,65 @@
         }
 
         body {
-            background-color: var(--bg);
-            color: var(--text-primary);
-            min-height: 100vh;
-            padding: 24px 16px 80px 16px;
+            background-color: var(--bg-light-purple-1);
             background-image: 
-                radial-gradient(circle at 10% 10%, rgba(147, 51, 234, 0.08) 0%, transparent 40%),
-                radial-gradient(circle at 90% 90%, rgba(236, 72, 153, 0.08) 0%, transparent 40%);
+                radial-gradient(at 0% 0%, rgba(255, 74, 149, 0.04) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(123, 44, 191, 0.04) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(123, 44, 191, 0.03) 0px, transparent 50%);
             background-attachment: fixed;
+            color: var(--dark-purple);
+            min-height: 100vh;
+            padding-bottom: 80px;
+            -webkit-font-smoothing: antialiased;
         }
 
-        .container {
-            max-width: 860px;
+        /* Sticky Header matching index.html */
+        .desk-header-outer {
+            width: 100%;
+            background-color: var(--header-bg);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            border-bottom: 1px solid var(--line-subtle);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(123, 44, 191, 0.04);
+        }
+
+        .desk-header {
+            max-width: 1000px;
             margin: 0 auto;
-        }
-
-        /* Top Header */
-        .top-header {
+            padding: 14px 20px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             flex-wrap: wrap;
-            gap: 16px;
-            margin-bottom: 24px;
-            padding-bottom: 18px;
-            border-bottom: 1px solid var(--border);
+            gap: 12px;
         }
 
         .brand-area {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 14px;
         }
 
-        .brand-logo {
-            height: 32px;
-            width: auto;
+        .logo-img {
+            width: 160px;
+            height: 45px;
+            object-fit: contain;
+            background-color: transparent;
+            display: block;
         }
 
         .hub-tag {
-            background: linear-gradient(135deg, rgba(147, 51, 234, 0.25), rgba(236, 72, 153, 0.25));
-            border: 1px solid var(--border);
-            padding: 4px 10px;
+            background: var(--pastel-pink);
+            border: 1px solid var(--line-subtle);
+            padding: 5px 12px;
             border-radius: 20px;
             font-size: 11px;
-            font-weight: 700;
+            font-weight: 800;
             letter-spacing: 0.05em;
-            color: #F472B6;
+            color: var(--pink);
             text-transform: uppercase;
         }
 
@@ -92,40 +108,47 @@
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            font-size: 11.5px;
-            color: var(--text-muted);
-            background: rgba(255, 255, 255, 0.03);
-            padding: 5px 12px;
-            border-radius: 8px;
-            border: 1px solid rgba(255, 255, 255, 0.06);
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--purple);
+            background: rgba(123, 44, 191, 0.06);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid var(--line-subtle);
         }
 
-        /* Live Personalizer Bar */
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 32px 20px 0 20px;
+        }
+
+        /* Personalizer Bar */
         .personalizer-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 18px 20px;
+            background: var(--surface-white);
+            border: 1px solid var(--line-subtle);
+            border-radius: 18px;
+            padding: 22px 24px;
             margin-bottom: 24px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+            box-shadow: var(--card-shadow);
         }
 
         .personalizer-title {
-            font-size: 13px;
-            font-weight: 700;
-            color: var(--text-secondary);
-            margin-bottom: 12px;
+            font-size: 12.5px;
+            font-weight: 800;
+            color: var(--purple);
+            margin-bottom: 14px;
             display: flex;
             align-items: center;
             gap: 8px;
             text-transform: uppercase;
-            letter-spacing: 0.04em;
+            letter-spacing: 0.05em;
         }
 
         .input-grid {
             display: grid;
             grid-template-columns: 1fr 1.3fr;
-            gap: 14px;
+            gap: 16px;
         }
 
         @media (max-width: 640px) {
@@ -142,40 +165,42 @@
 
         .field-label {
             font-size: 12px;
-            font-weight: 600;
-            color: var(--text-muted);
+            font-weight: 700;
+            color: var(--dark-purple);
         }
 
         .field-input {
-            background: var(--bg);
-            border: 1px solid rgba(168, 85, 247, 0.25);
-            border-radius: 10px;
-            padding: 11px 14px;
+            background: var(--bg-light-purple-1);
+            border: 1px solid var(--line-subtle);
+            border-radius: 12px;
+            padding: 12px 16px;
             font-size: 14px;
-            color: var(--text-primary);
+            color: var(--dark-purple);
             outline: none;
             transition: all 0.2s;
         }
 
         .field-input:focus {
-            border-color: #C084FC;
-            box-shadow: 0 0 0 3px rgba(192, 132, 252, 0.15);
+            border-color: var(--purple);
+            box-shadow: 0 0 0 3px rgba(123, 44, 191, 0.12);
+            background: #FFFFFF;
         }
 
         .field-input::placeholder {
-            color: rgba(139, 124, 168, 0.5);
+            color: rgba(92, 77, 117, 0.5);
         }
 
         /* Market Tabs */
         .market-tabs {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            background: var(--surface);
-            border: 1px solid var(--border);
+            background: var(--surface-white);
+            border: 1px solid var(--line-subtle);
             border-radius: 14px;
-            padding: 5px;
+            padding: 6px;
             margin-bottom: 24px;
-            gap: 6px;
+            gap: 8px;
+            box-shadow: var(--card-shadow);
         }
 
         .market-tab {
@@ -183,7 +208,7 @@
             align-items: center;
             justify-content: center;
             gap: 8px;
-            padding: 12px 16px;
+            padding: 13px 18px;
             border-radius: 10px;
             font-size: 14px;
             font-weight: 700;
@@ -195,30 +220,31 @@
         }
 
         .market-tab.active-myr {
-            background: rgba(59, 130, 246, 0.15);
-            color: #60A5FA;
-            border: 1px solid rgba(59, 130, 246, 0.35);
+            background: rgba(59, 130, 246, 0.12);
+            color: #1D4ED8;
+            border: 1px solid rgba(59, 130, 246, 0.3);
         }
 
         .market-tab.active-usd {
-            background: rgba(16, 185, 129, 0.15);
-            color: #34D399;
-            border: 1px solid rgba(16, 185, 129, 0.35);
+            background: rgba(16, 185, 129, 0.12);
+            color: #047857;
+            border: 1px solid rgba(16, 185, 129, 0.3);
         }
 
         /* Card Sections */
         .card {
-            background: var(--surface-card);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 22px;
+            background: var(--surface-white);
+            border: 1px solid var(--line-subtle);
+            border-radius: 18px;
+            padding: 24px;
             margin-bottom: 22px;
             position: relative;
-            transition: border-color 0.2s;
+            box-shadow: var(--card-shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
         }
 
         .card:hover {
-            border-color: var(--border-hover);
+            box-shadow: var(--hover-shadow);
         }
 
         .card-header {
@@ -226,15 +252,15 @@
             align-items: flex-start;
             justify-content: space-between;
             gap: 12px;
-            margin-bottom: 14px;
+            margin-bottom: 16px;
             flex-wrap: wrap;
         }
 
         .card-title-group h2 {
-            font-size: 17px;
+            font-size: 18px;
             font-weight: 800;
-            color: #FFFFFF;
-            letter-spacing: -0.01em;
+            color: var(--dark-purple);
+            letter-spacing: -0.3px;
             margin-bottom: 4px;
             display: flex;
             align-items: center;
@@ -252,32 +278,27 @@
             gap: 5px;
             background: var(--green-bg);
             border: 1px solid var(--green-border);
-            color: #34D399;
+            color: #047857;
             font-size: 11.5px;
             font-weight: 700;
-            padding: 4px 10px;
+            padding: 5px 12px;
             border-radius: 20px;
         }
 
         /* Message Box */
         .message-preview {
-            background: #0F0A1C;
-            border: 1px solid rgba(168, 85, 247, 0.18);
+            background: var(--bg-light-purple-2);
+            border: 1px solid var(--line-subtle);
+            border-left: 4px solid var(--purple);
             border-radius: 12px;
-            padding: 16px 18px;
-            margin: 14px 0 16px 0;
-            font-size: 13.5px;
-            line-height: 1.6;
-            color: #E9D5FF;
+            padding: 18px 20px;
+            margin: 14px 0 18px 0;
+            font-size: 13.8px;
+            line-height: 1.65;
+            color: var(--dark-purple);
             white-space: pre-wrap;
             word-break: break-word;
             font-family: inherit;
-            position: relative;
-        }
-
-        .message-preview strong {
-            color: #FFFFFF;
-            font-weight: 700;
         }
 
         /* Action Buttons */
@@ -293,7 +314,7 @@
             align-items: center;
             justify-content: center;
             gap: 8px;
-            padding: 11px 18px;
+            padding: 11px 20px;
             border-radius: 10px;
             font-size: 13.5px;
             font-weight: 700;
@@ -308,36 +329,38 @@
         }
 
         .btn-copy-msg {
-            background: linear-gradient(135deg, #7E22CE 0%, #DB2777 100%);
+            background: var(--gradient-primary);
             color: #FFFFFF;
-            box-shadow: 0 4px 14px rgba(219, 39, 119, 0.25);
+            box-shadow: 0 4px 14px rgba(255, 74, 149, 0.25);
             flex-grow: 1;
         }
 
         .btn-copy-msg:hover {
-            box-shadow: 0 6px 20px rgba(219, 39, 119, 0.4);
-            filter: brightness(1.08);
+            box-shadow: 0 6px 20px rgba(255, 74, 149, 0.4);
+            filter: brightness(1.05);
         }
 
         .btn-whatsapp {
             background: #25D366;
-            color: #0A3818;
+            color: #FFFFFF;
             font-weight: 800;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
         }
 
         .btn-whatsapp:hover {
-            background: #2ee672;
+            background: #20BA5A;
         }
 
         .btn-link-copy {
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            color: var(--text-secondary);
+            background: var(--bg-light-purple-1);
+            border: 1px solid var(--line-subtle);
+            color: var(--dark-purple);
         }
 
         .btn-link-copy:hover {
-            background: rgba(255, 255, 255, 0.09);
-            color: #FFFFFF;
+            background: var(--bg-light-purple-2);
+            border-color: var(--purple);
+            color: var(--purple);
         }
 
         .btn-test {
@@ -347,16 +370,17 @@
         }
 
         .btn-test:hover {
-            color: var(--text-primary);
+            color: var(--purple);
         }
 
         /* Quick Links Table */
         .links-table-card {
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: 16px;
-            padding: 22px;
-            margin-top: 36px;
+            background: var(--surface-white);
+            border: 1px solid var(--line-subtle);
+            border-radius: 18px;
+            padding: 24px;
+            margin-top: 28px;
+            box-shadow: var(--card-shadow);
         }
 
         .table-title {
@@ -366,6 +390,7 @@
             display: flex;
             align-items: center;
             gap: 8px;
+            color: var(--dark-purple);
         }
 
         .table-wrap {
@@ -375,15 +400,15 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 13px;
+            font-size: 13.5px;
         }
 
         th {
             text-align: left;
-            padding: 10px 14px;
+            padding: 12px 14px;
             color: var(--text-muted);
-            font-weight: 600;
-            border-bottom: 1px solid var(--border);
+            font-weight: 700;
+            border-bottom: 1px solid var(--line-subtle);
             font-size: 11.5px;
             text-transform: uppercase;
             letter-spacing: 0.05em;
@@ -391,7 +416,7 @@
 
         td {
             padding: 14px;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            border-bottom: 1px solid var(--line-subtle);
             vertical-align: middle;
         }
 
@@ -401,7 +426,7 @@
 
         .pkg-name {
             font-weight: 700;
-            color: #FFFFFF;
+            color: var(--dark-purple);
         }
 
         .pkg-hours {
@@ -411,14 +436,14 @@
 
         .pkg-price {
             font-weight: 800;
-            color: #F472B6;
+            color: var(--purple);
         }
 
         .url-text {
-            color: #A78BFA;
+            color: var(--purple);
             text-decoration: none;
             font-family: monospace;
-            font-size: 12px;
+            font-size: 12.5px;
         }
 
         .url-text:hover {
@@ -426,19 +451,21 @@
         }
 
         .btn-mini-copy {
-            padding: 6px 12px;
+            padding: 6px 14px;
             font-size: 12px;
-            background: rgba(147, 51, 234, 0.15);
-            border: 1px solid rgba(147, 51, 234, 0.3);
-            color: #D8B4FE;
-            border-radius: 6px;
+            font-weight: 700;
+            background: var(--pastel-pink);
+            border: 1px solid var(--line-subtle);
+            color: var(--purple);
+            border-radius: 8px;
             cursor: pointer;
             transition: all 0.15s;
         }
 
         .btn-mini-copy:hover {
-            background: rgba(147, 51, 234, 0.3);
+            background: var(--purple);
             color: #FFFFFF;
+            border-color: var(--purple);
         }
 
         /* Toast Notification */
@@ -447,19 +474,19 @@
             bottom: 24px;
             left: 50%;
             transform: translateX(-50%) translateY(100px);
-            background: #10B981;
-            color: #064E3B;
+            background: var(--dark-purple);
+            color: #FFFFFF;
             font-size: 14px;
-            font-weight: 800;
+            font-weight: 700;
             padding: 12px 24px;
             border-radius: 30px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 12px 35px rgba(23, 10, 44, 0.3);
             display: flex;
             align-items: center;
             gap: 8px;
             opacity: 0;
             transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-            z-index: 1000;
+            z-index: 10000;
             pointer-events: none;
         }
 
@@ -468,7 +495,6 @@
             opacity: 1;
         }
 
-        /* Market Content Toggle */
         .market-content {
             display: none;
         }
@@ -480,19 +506,23 @@
 </head>
 <body>
 
-<div class="container">
-    <!-- Top Header -->
-    <header class="top-header">
-        <div class="brand-area">
-            <img src="/images/GradeMotion_Logo_Landscape.webp" alt="GradeMotion" class="brand-logo">
-            <span class="hub-tag">Closer Desk</span>
-        </div>
-        <div class="private-notice">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
-            Internal & Unindexed Page (For Tutor Sheefa)
+    <!-- Top Header matching index.html -->
+    <header class="desk-header-outer">
+        <div class="desk-header">
+            <div class="brand-area">
+                <a href="/" style="display: flex; align-items: center; text-decoration: none;">
+                    <img src="/images/GradeMotion_Logo_Landscape.webp" alt="Grade Motion Logo" class="logo-img">
+                </a>
+                <span class="hub-tag">Closer Desk</span>
+            </div>
+            <div class="private-notice">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                Private Portal (For Tutor Sheefa)
+            </div>
         </div>
     </header>
 
+<div class="container">
     <!-- Personalizer Bar -->
     <section class="personalizer-card">
         <div class="personalizer-title">
@@ -689,10 +719,73 @@
         </article>
     </div>
 
+    <!-- Calendar & Scheduling Hub -->
+    <section class="links-table-card" style="border-color: rgba(123, 44, 191, 0.25);">
+        <div class="table-title" style="justify-content: space-between; flex-wrap: wrap;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Calendar & Slot Booking Links (Cal.com)</span>
+            </div>
+            <a href="https://app.cal.com/bookings/upcoming" target="_blank" class="btn" style="padding: 7px 16px; font-size: 12px; text-decoration: none; border-radius: 8px; background: var(--dark-purple); color: white;">
+                Open Cal.com Dashboard ↗
+            </a>
+        </div>
+        <p style="font-size: 13.5px; color: var(--text-muted); margin-bottom: 16px; line-height: 1.5;">
+            Pelajar akan nampak slot mengikut waktu lokal mereka secara automatik. Apabila ditempah, slot akan di-lock serta-merta dan muncul dalam <strong>Google Calendar (Waktu Malaysia UTC+8)</strong> di telefon Tutor Sheefa.
+        </p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Session Type</th>
+                        <th>Duration</th>
+                        <th>Direct Scheduling Link</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">🩺 Diagnostic Assessment</div>
+                            <div class="pkg-hours">Consultation Awal & Penilaian Silibus</div>
+                        </td>
+                        <td><strong>1 Jam</strong> (60 Mins)</td>
+                        <td><a href="https://www.grademotion.com/schedule?type=diagnostic" target="_blank" class="url-text">grademotion.com/schedule?type=diagnostic</a></td>
+                        <td>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=diagnostic')">Copy Link</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">📚 1-on-1 Class Biasa</div>
+                            <div class="pkg-hours">Kelas Mingguan / Pakej Pelajar</div>
+                        </td>
+                        <td><strong>2 Jam</strong> (120 Mins)</td>
+                        <td><a href="https://www.grademotion.com/schedule?type=class" target="_blank" class="url-text">grademotion.com/schedule?type=class</a></td>
+                        <td>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=class')">Copy Link</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="pkg-name">🎯 Evaluation Session (Trial)</div>
+                            <div class="pkg-hours">Sesi Percubaan 2 Jam (Rollover Credit)</div>
+                        </td>
+                        <td><strong>2 Jam</strong> (120 Mins)</td>
+                        <td><a href="https://www.grademotion.com/schedule?type=evaluation" target="_blank" class="url-text">grademotion.com/schedule?type=evaluation</a></td>
+                        <td>
+                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=evaluation')">Copy Link</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
     <!-- Quick Links Directory Table -->
     <section class="links-table-card">
         <div class="table-title">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
             Direct Payment Landing URLs (1-Click Copy)
         </div>
         <div class="table-wrap">
@@ -768,73 +861,13 @@
                     </tr>
                 </tbody>
             </table>
-    <!-- Calendar & Scheduling Hub -->
-    <section class="links-table-card" style="margin-top: 24px; border-color: rgba(168, 85, 247, 0.3);">
-        <div class="table-title" style="justify-content: space-between; flex-wrap: wrap;">
-            <div style="display: flex; align-items: center; gap: 8px;">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#A78BFA" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                <span>Calendar & Slot Booking Links (Cal.com)</span>
-            </div>
-            <a href="https://app.cal.com/bookings/upcoming" target="_blank" class="btn" style="padding: 6px 14px; font-size: 12px; text-decoration: none; border-radius: 8px; background: #9333EA; color: white;">
-                Open Cal.com Dashboard ↗
-            </a>
-        </div>
-        <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 16px; line-height: 1.5;">
-            Pelajar akan nampak slot mengikut waktu lokal mereka secara automatik. Apabila ditempah, slot akan di-lock serta-merta dan muncul dalam <strong>Google Calendar (Waktu Malaysia UTC+8)</strong> di telefon Tutor Sheefa.
-        </p>
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Session Type</th>
-                        <th>Duration</th>
-                        <th>Direct Scheduling Link</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <div class="pkg-name">🩺 Diagnostic Assessment</div>
-                            <div class="pkg-hours">Consultation Awal & Penilaian Silibus</div>
-                        </td>
-                        <td><strong>1 Jam</strong> (60 Mins)</td>
-                        <td><a href="https://www.grademotion.com/schedule?type=diagnostic" target="_blank" class="url-text">grademotion.com/schedule?type=diagnostic</a></td>
-                        <td>
-                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=diagnostic')">Copy Link</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="pkg-name">📚 1-on-1 Class Biasa</div>
-                            <div class="pkg-hours">Kelas Mingguan / Pakej Pelajar</div>
-                        </td>
-                        <td><strong>2 Jam</strong> (120 Mins)</td>
-                        <td><a href="https://www.grademotion.com/schedule?type=class" target="_blank" class="url-text">grademotion.com/schedule?type=class</a></td>
-                        <td>
-                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=class')">Copy Link</button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <div class="pkg-name">🎯 Evaluation Session (Trial)</div>
-                            <div class="pkg-hours">Sesi Percubaan 2 Jam (Rollover Credit)</div>
-                        </td>
-                        <td><strong>2 Jam</strong> (120 Mins)</td>
-                        <td><a href="https://www.grademotion.com/schedule?type=evaluation" target="_blank" class="url-text">grademotion.com/schedule?type=evaluation</a></td>
-                        <td>
-                            <button class="btn-mini-copy" onclick="copyDirect('https://www.grademotion.com/schedule?type=evaluation')">Copy Link</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
     </section>
 </div>
 
 <!-- Copy Toast Notification -->
 <div id="toast" class="toast">
-    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
     <span id="toastText">Copied to clipboard!</span>
 </div>
 

@@ -3,23 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>Schedule 1-on-1 Session | Tutor Sheefa | GradeMotion</title>
+    <title>Schedule 1-on-1 Session | Tutor Sheefa | Grade Motion</title>
     <meta name="description" content="Select your preferred time slot for 1-on-1 Cambridge & Edexcel A-Level Further Mathematics tutoring with Tutor Sheefa. Real-time timezone adjustment.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <style>
         :root {
-            --dark-purple: #170A2C;
-            --purple: #7B2CBF;
+            --pastel-pink: rgba(255, 74, 149, 0.05);
+            --bg-light-purple-1: #FBF9FF;
+            --bg-light-purple-2: #F6F0FD;
+            --header-bg: rgba(246, 240, 253, 0.88);
             --pink: #FF4A95;
-            --bg: #FBF9FF;
-            --surface: #FFFFFF;
-            --line: rgba(123, 44, 191, 0.12);
+            --purple: #7B2CBF;
+            --dark-purple: #170A2C;
+            --line-subtle: rgba(123, 44, 191, 0.12);
+            --surface-white: #FFFFFF;
             --text-muted: #5C4D75;
             --card-shadow: 0 12px 35px rgba(123, 44, 191, 0.06);
             --hover-shadow: 0 20px 45px rgba(123, 44, 191, 0.12);
+            --gradient-primary: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
         }
 
         * {
@@ -31,10 +39,11 @@
         }
 
         body {
-            background-color: var(--bg);
+            background-color: var(--bg-light-purple-1);
             background-image: 
                 radial-gradient(at 0% 0%, rgba(255, 74, 149, 0.04) 0px, transparent 50%),
-                radial-gradient(at 100% 0%, rgba(123, 44, 191, 0.04) 0px, transparent 50%);
+                radial-gradient(at 100% 0%, rgba(123, 44, 191, 0.04) 0px, transparent 50%),
+                radial-gradient(at 50% 100%, rgba(123, 44, 191, 0.03) 0px, transparent 50%);
             background-attachment: fixed;
             color: var(--dark-purple);
             min-height: 100vh;
@@ -43,20 +52,21 @@
             -webkit-font-smoothing: antialiased;
         }
 
-        /* Sticky Header */
+        /* Header matching index.html */
         .sched-header-outer {
             width: 100%;
-            background: rgba(255, 255, 255, 0.92);
-            backdrop-filter: blur(16px);
-            -webkit-backdrop-filter: blur(16px);
-            border-bottom: 1px solid var(--line);
+            background-color: var(--header-bg);
+            backdrop-filter: blur(16px) saturate(180%);
+            -webkit-backdrop-filter: blur(16px) saturate(180%);
+            border-bottom: 1px solid var(--line-subtle);
             position: sticky;
             top: 0;
-            z-index: 100;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(123, 44, 191, 0.04);
         }
 
         .sched-header {
-            max-width: 1080px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 14px 20px;
             display: flex;
@@ -70,9 +80,11 @@
             text-decoration: none;
         }
 
-        .sched-logo img {
-            height: 38px;
-            width: auto;
+        .logo-img {
+            width: 160px;
+            height: 45px;
+            object-fit: contain;
+            background-color: transparent;
             display: block;
         }
 
@@ -84,52 +96,57 @@
             font-weight: 700;
             color: #2b7019;
             background: rgba(43, 112, 25, 0.08);
-            padding: 6px 14px;
-            border-radius: 20px;
+            padding: 7px 16px;
+            border-radius: 24px;
             border: 1px solid rgba(43, 112, 25, 0.2);
         }
 
         /* Main Container */
         .sched-main {
-            max-width: 1080px;
+            max-width: 1100px;
             margin: 0 auto;
-            padding: 36px 20px 80px 20px;
+            padding: 40px 20px 80px 20px;
             width: 100%;
             flex-grow: 1;
         }
 
         .sched-hero {
             text-align: center;
-            max-width: 680px;
-            margin: 0 auto 28px auto;
+            max-width: 720px;
+            margin: 0 auto 30px auto;
         }
 
         .sched-eyebrow {
             display: inline-flex;
             align-items: center;
             gap: 6px;
-            font-size: 11.5px;
+            font-size: 11px;
             font-weight: 800;
             text-transform: uppercase;
-            letter-spacing: 0.08em;
+            letter-spacing: 1.5px;
             color: var(--pink);
-            background: rgba(255, 74, 149, 0.08);
-            padding: 5px 12px;
+            background: var(--pastel-pink);
+            border: 1px solid var(--line-subtle);
+            padding: 6px 16px;
             border-radius: 20px;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
         }
 
         .sched-title {
-            font-size: 32px;
+            font-size: 36px;
             font-weight: 800;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.8px;
             line-height: 1.2;
             color: var(--dark-purple);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+        }
+
+        .sched-title span {
+            color: var(--purple);
         }
 
         .sched-subtitle {
-            font-size: 14.5px;
+            font-size: 15px;
             color: var(--text-muted);
             line-height: 1.6;
         }
@@ -139,71 +156,72 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
+            gap: 12px;
             margin-bottom: 24px;
             flex-wrap: wrap;
         }
 
         .tab-btn {
-            background: var(--surface);
-            border: 1.5px solid var(--line);
-            padding: 12px 20px;
-            border-radius: 12px;
-            font-size: 13.5px;
+            background: var(--surface-white);
+            border: 1.5px solid var(--line-subtle);
+            padding: 13px 24px;
+            border-radius: 14px;
+            font-size: 14px;
             font-weight: 700;
             color: var(--text-muted);
             cursor: pointer;
-            transition: all 0.2s ease;
+            transition: all 0.25s ease;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            box-shadow: 0 2px 8px rgba(123, 44, 191, 0.03);
+            box-shadow: 0 4px 12px rgba(123, 44, 191, 0.03);
         }
 
         .tab-btn:hover {
             border-color: var(--purple);
             color: var(--dark-purple);
             transform: translateY(-1px);
+            box-shadow: var(--card-shadow);
         }
 
         .tab-btn.active {
-            background: var(--purple);
+            background: var(--gradient-primary);
             color: #FFFFFF;
-            border-color: var(--purple);
-            box-shadow: 0 4px 14px rgba(123, 44, 191, 0.25);
+            border-color: transparent;
+            box-shadow: 0 6px 20px rgba(255, 74, 149, 0.25);
         }
 
         .tab-btn .tab-duration {
-            font-size: 11px;
-            opacity: 0.8;
+            font-size: 11.5px;
+            opacity: 0.85;
             font-weight: 600;
         }
 
         /* Calendar Card Frame */
         .calendar-card {
-            background: var(--surface);
-            border: 1px solid var(--line);
+            background: var(--surface-white);
+            border: 1px solid var(--line-subtle);
             border-radius: 20px;
             box-shadow: var(--card-shadow);
             position: relative;
         }
 
         .calendar-meta-bar {
-            background: rgba(123, 44, 191, 0.03);
-            border-bottom: 1px solid var(--line);
-            padding: 12px 20px;
+            background: rgba(246, 240, 253, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--line-subtle);
+            padding: 14px 22px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            font-size: 12.5px;
+            font-size: 13px;
             color: var(--text-muted);
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 12px;
             position: sticky;
-            top: 67px;
+            top: 73px;
             z-index: 10;
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
@@ -211,7 +229,7 @@
         .calendar-meta-left {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             font-weight: 600;
         }
 
@@ -220,23 +238,24 @@
         }
 
         .btn-reset-date {
-            background: rgba(123, 44, 191, 0.1);
-            border: 1px solid rgba(123, 44, 191, 0.25);
+            background: rgba(123, 44, 191, 0.08);
+            border: 1px solid rgba(123, 44, 191, 0.2);
             color: var(--purple);
-            font-size: 11.5px;
+            font-size: 12px;
             font-weight: 700;
-            padding: 5px 12px;
+            padding: 5px 14px;
             border-radius: 20px;
             cursor: pointer;
             transition: all 0.2s ease;
             display: inline-flex;
             align-items: center;
-            gap: 4px;
+            gap: 5px;
         }
 
         .btn-reset-date:hover {
             background: var(--purple);
             color: #FFFFFF;
+            border-color: var(--purple);
         }
 
         .calendar-embed-container {
@@ -250,7 +269,7 @@
         /* Guarantee Note Footer */
         .guarantee-note {
             text-align: center;
-            margin-top: 24px;
+            margin-top: 26px;
             font-size: 13px;
             color: var(--text-muted);
             display: flex;
@@ -271,10 +290,8 @@
                 width: 100%;
                 justify-content: center;
             }
-            .calendar-card {
-                min-height: 650px;
-            }
             .calendar-embed-container {
+                min-height: 650px;
                 height: 650px;
             }
         }
@@ -282,11 +299,11 @@
 </head>
 <body>
 
-    <!-- Header -->
+    <!-- Header matching index.html -->
     <header class="sched-header-outer">
         <div class="sched-header">
             <a href="/" class="sched-logo">
-                <img src="/images/GradeMotion_Logo_Landscape.webp" alt="GradeMotion">
+                <img src="/images/GradeMotion_Logo_Landscape.webp" alt="Grade Motion Logo" class="logo-img">
             </a>
             <div class="tz-badge" id="live-tz-badge">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
@@ -302,7 +319,7 @@
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 10"></polyline></svg>
                 1-on-1 Lesson Calendar
             </div>
-            <h1 class="sched-title">Reserve Your Slot with Tutor Sheefa</h1>
+            <h1 class="sched-title">Reserve Your Slot with <span>Tutor Sheefa</span></h1>
             <p class="sched-subtitle">
                 Select your session type below. Available time slots automatically adjust to your local timezone. Tutor Sheefa will receive your booking in Malaysia Time (UTC+8).
             </p>
@@ -341,7 +358,7 @@
 
         <div class="guarantee-note">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-            <span>All sessions are conducted 1-on-1 live with Tutor Sheefa. Time slots adjust automatically to your timezone.</span>
+            <span>All sessions are conducted 1-on-1 live with Tutor Sheefa. Time slots adjust automatically to your local timezone.</span>
         </div>
     </main>
 
@@ -398,8 +415,8 @@
 
         function loadSession(slug) {
             currentSession = slug;
-            const fullLink = EVENT_SLUGS[slug] || EVENT_SLUGS['evaluation'];
-            const sessionName = EVENT_NAMES[slug] || EVENT_NAMES['evaluation'];
+            const fullLink = EVENT_SLUGS[slug] || EVENT_SLUGS['class'];
+            const sessionName = EVENT_NAMES[slug] || EVENT_NAMES['class'];
 
             // Update UI tabs
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
