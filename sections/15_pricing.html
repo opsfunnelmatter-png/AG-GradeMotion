@@ -2,8 +2,8 @@
     <div class="pricing-section-container">
         
         <div class="pricing-section-title">
-            <h2>Transparent Pricing (MYR). <span class="gradient-highlight">No Hidden Fees.</span></h2>
-            <p class="pricing-subheading">Browse the plans below — we'll find your right fit together on the diagnostic call.</p>
+            <h2 id="pricing-title">Transparent Global Tuition Rates (USD). <span class="gradient-highlight">No Hidden Fees.</span></h2>
+            <p class="pricing-subheading" id="pricing-subheading">Select a high-intensity learning credit package below — we'll map your exact study roadmap during the diagnostic call.</p>
         </div>
 
 <style>
@@ -51,23 +51,72 @@
         box-sizing: border-box !important;
     }
 }
+
+/* Pricing action buttons */
+.btn-pricing-action {
+    width: 100% !important;
+    padding: 14px 18px !important;
+    border-radius: 12px !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    border: none !important;
+    margin-top: 18px !important;
+    box-sizing: border-box !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 6px !important;
+    background: #170A2C !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 14px rgba(23, 10, 44, 0.15) !important;
+}
+.btn-pricing-action:hover {
+    background: #7B2CBF !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 20px rgba(123, 44, 191, 0.25) !important;
+}
+.btn-pricing-action:active {
+    transform: scale(0.98) !important;
+}
+
+.price-card-item.featured-plan .btn-pricing-action {
+    background: #7B2CBF !important;
+    box-shadow: 0 6px 18px rgba(123, 44, 191, 0.25) !important;
+}
+.price-card-item.featured-plan .btn-pricing-action:hover {
+    background: #FF4A95 !important;
+    box-shadow: 0 8px 24px rgba(255, 74, 149, 0.35) !important;
+}
+
+.btn-pricing-action.btn-pink {
+    background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%) !important;
+    color: #ffffff !important;
+    box-shadow: 0 6px 20px rgba(255, 74, 149, 0.3) !important;
+}
+.btn-pricing-action.btn-pink:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 28px rgba(255, 74, 149, 0.45) !important;
+}
 </style>
 
         <div class="pricing-cards-grid-wrapper">
             <div class="pricing-cards-grid">
                 
-                <!-- Tier 1: Standard Plan -->
-                <div class="price-card-item reference-card">
+                <!-- Tier 1: Topic Surgery Sprint (8 Hours) -->
+                <div class="price-card-item reference-card" id="pricing-card-1">
                     <div class="price-card-header">
-                        <h3>Standard Plan</h3>
-                        <span class="price-card-duration">8 Hours Total</span>
+                        <h3 id="tier1-title">Topic Surgery Sprint</h3>
+                        <span class="price-card-duration" id="tier1-duration">8 Hours Credit</span>
                     </div>
                     <div class="price-value-container">
-                        <div class="main-amount-text">RM 180<span class="per-hr">/hr</span></div>
-                        <div class="hourly-rate-subtext">RM 1,440 total (8-hour package)</div>
+                        <div class="main-amount-text" id="tier1-amount">$95<span class="per-hr">/hr</span></div>
+                        <div class="hourly-rate-subtext" id="tier1-subtext">$760 total (8-hour package)</div>
                     </div>
-                    <div class="price-card-desc-box">
-                        <strong>Ideal for weekly stabilization.</strong> Structured focus on CIE 9231 & Edexcel IAL topical drills and clearing weak concepts.
+                    <div class="price-card-desc-box" id="tier1-desc">
+                        <strong>Ideal for targeted concept surgery.</strong> Rapid focus on CIE 9231 & Edexcel IAL weak areas, calculator speed tricks, and clearing exam bottlenecks.
                     </div>
                     <ul class="price-features-list">
                         <li><span class="check">✓</span> 8 Hours of 1-on-1 Sessions</li>
@@ -75,22 +124,25 @@
                         <li><span class="check">✓</span> Session Annotated PDF Notes</li>
                         <li><span class="check">✓</span> Priority WhatsApp Q&A Support</li>
                     </ul>
+                    <button type="button" class="btn-pricing-action btn-apply" data-package="standard" id="tier1-btn">
+                        Apply for Topic Surgery ($760) &rarr;
+                    </button>
                     <div class="price-card-footnote">Plan confirmed after diagnostic call</div>
                 </div>
 
-                <!-- Tier 2: Intensive Plan -->
-                <div class="price-card-item featured-plan reference-card">
-                    <span class="price-card-badge">Most Popular</span>
+                <!-- Tier 2: Exam Readiness Sprint (16 Hours) -->
+                <div class="price-card-item featured-plan reference-card" id="pricing-card-2">
+                    <span class="price-card-badge" id="tier2-badge">Most Popular</span>
                     <div class="price-card-header">
-                        <h3>Intensive Plan</h3>
-                        <span class="price-card-duration">16 Hours Total</span>
+                        <h3 id="tier2-title">Exam Readiness Sprint</h3>
+                        <span class="price-card-duration" id="tier2-duration">16 Hours Credit</span>
                     </div>
                     <div class="price-value-container">
-                        <div class="main-amount-text">RM 160<span class="per-hr">/hr</span></div>
-                        <div class="hourly-rate-subtext">RM 2,560 total (16-hour package)</div>
+                        <div class="main-amount-text" id="tier2-amount">$85<span class="per-hr">/hr</span></div>
+                        <div class="hourly-rate-subtext" id="tier2-subtext">$1,360 total (16-hour package)</div>
                     </div>
-                    <div class="price-card-desc-box">
-                        <strong>Ideal for twice-weekly support.</strong> Rapid syllabus coverage, exam preparation loops, and intensive revision.
+                    <div class="price-card-desc-box" id="tier2-desc">
+                        <strong>Ideal for complete component mastery.</strong> Comprehensive past-paper deep dives, timed question loops, and intensive mock simulations.
                     </div>
                     <ul class="price-features-list">
                         <li><span class="check">✓</span> 16 Hours of 1-on-1 Sessions</li>
@@ -98,34 +150,231 @@
                         <li><span class="check">✓</span> Full Timed Mock Simulations</li>
                         <li><span class="check">✓</span> Priority WhatsApp Q&A Support</li>
                     </ul>
+                    <button type="button" class="btn-pricing-action btn-apply" data-package="intensive" id="tier2-btn">
+                        Apply for Exam Readiness ($1,360) &rarr;
+                    </button>
                     <div class="price-card-footnote">Plan confirmed after diagnostic call</div>
                 </div>
 
-                <!-- Tier 3: Full Year Retainer -->
-                <div class="price-card-item featured-plan intensive-plan reference-card">
-                    <span class="price-card-badge badge-purple">Only 12 Full-Term Slots</span>
+                <!-- Tier 3: Intensive Fast-Track Bootcamp (40 Hours) -->
+                <div class="price-card-item featured-plan intensive-plan reference-card" id="pricing-card-3">
+                    <span class="price-card-badge badge-purple" id="tier3-badge">Limited Bootcamp Slots</span>
                     <div class="price-card-header">
-                        <h3>Full Term Plan</h3>
-                        <span class="price-card-duration">40 Hours Total</span>
+                        <h3 id="tier3-title">Intensive Bootcamp</h3>
+                        <span class="price-card-duration" id="tier3-duration">40 Hours Credit</span>
                     </div>
                     <div class="price-value-container">
-                        <div class="main-amount-text">RM 140<span class="per-hr">/hr</span></div>
-                        <div class="hourly-rate-subtext">RM 5,600 total (40-hour retainer)</div>
+                        <div class="main-amount-text" id="tier3-amount">$74.50<span class="per-hr">/hr</span></div>
+                        <div class="hourly-rate-subtext" id="tier3-subtext">$2,980 total (40-hour intensive bootcamp)</div>
                     </div>
-                    <div class="price-card-desc-box">
-                        <strong>Complete premium roadmap.</strong> Full academic year support, comprehensive mock exams, and continuous guidance.
+                    <div class="price-card-desc-box" id="tier3-desc">
+                        <strong>Complete syllabus overhaul & exam bootcamp.</strong> High-intensity daily/weekly sessions (up to 2 hrs/day, 5 days/wk) to rebuild grades from C/B to guaranteed A*.
                     </div>
                     <ul class="price-features-list">
                         <li><span class="check">✓</span> 40 Hours of 1-on-1 Sessions</li>
                         <li><span class="check">✓</span> 5+ Full Mock Exam Gradings</li>
-                        <li><span class="check">✓</span> Continuous Q&A Math Support (WhatsApp)</li>
-                        <li><span class="check">✓</span> Customized Revision Roadmaps</li>
+                        <li><span class="check">✓</span> Daily Direct Math Triage (WhatsApp)</li>
+                        <li><span class="check">✓</span> Personalized Exam Score Roadmap</li>
                     </ul>
+                    <button type="button" class="btn-pricing-action btn-pink btn-apply" data-package="bootcamp" id="tier3-btn">
+                        Apply for Intensive Bootcamp ($2,980) &rarr;
+                    </button>
                     <div class="price-card-footnote">Plan confirmed after diagnostic call</div>
                 </div>
 
             </div>
         </div>
 
+        <!-- Explanatory Credits Note -->
+        <div style="margin-top: 36px; text-align: center; max-width: 820px; margin-left: auto; margin-right: auto; padding: 18px 24px; background: rgba(123, 44, 191, 0.08); border: 1px solid rgba(123, 44, 191, 0.2); border-radius: 16px; font-size: 14px; color: #5C4D75; line-height: 1.6; box-sizing: border-box;">
+            <span style="font-size: 18px; margin-right: 6px;">💡</span>
+            <strong>How Hours Work:</strong> Sessions operate as flexible learning credits. Deploy them as an intensive daily bootcamp (up to 2 hrs/day, 5 days/week) or space them out across your exam preparation timeline. Credits are valid for 6 months.
+        </div>
+
+        <!-- Subtle discreet currency switch trigger -->
+        <div id="pricing-currency-note-wrap" style="text-align: center; margin-top: 18px; font-size: 12px; color: #8C7B9E;">
+            <span id="pricing-currency-note"></span>
+        </div>
+
     </div>
 </section>
+
+<!-- Pricing Geo-Detection & Dynamic Hydration Script -->
+<script>
+(function() {
+    const PRICING_CONFIG = {
+        USD: {
+            title: 'Transparent Global Tuition Rates (USD). <span class="gradient-highlight">No Hidden Fees.</span>',
+            subheading: 'Select a high-intensity learning credit package below — we\'ll map your exact study roadmap during the diagnostic call.',
+            tier1: {
+                title: 'Topic Surgery Sprint',
+                duration: '8 Hours Credit',
+                amount: '$95<span class="per-hr">/hr</span>',
+                subtext: '$760 total (8-hour package)',
+                desc: '<strong>Ideal for targeted concept surgery.</strong> Rapid focus on CIE 9231 & Edexcel IAL weak areas, calculator speed tricks, and clearing exam bottlenecks.',
+                btn: 'Apply for Topic Surgery ($760) &rarr;'
+            },
+            tier2: {
+                badge: 'Most Popular',
+                title: 'Exam Readiness Sprint',
+                duration: '16 Hours Credit',
+                amount: '$85<span class="per-hr">/hr</span>',
+                subtext: '$1,360 total (16-hour package)',
+                desc: '<strong>Ideal for complete component mastery.</strong> Comprehensive past-paper deep dives, timed question loops, and intensive mock simulations.',
+                btn: 'Apply for Exam Readiness ($1,360) &rarr;'
+            },
+            tier3: {
+                badge: 'Limited Bootcamp Slots',
+                title: 'Intensive Bootcamp',
+                duration: '40 Hours Credit',
+                amount: '$74.50<span class="per-hr">/hr</span>',
+                subtext: '$2,980 total (40-hour intensive bootcamp)',
+                desc: '<strong>Complete syllabus overhaul & exam bootcamp.</strong> High-intensity daily/weekly sessions (up to 2 hrs/day, 5 days/wk) to rebuild grades from C/B to guaranteed A*.',
+                btn: 'Apply for Intensive Bootcamp ($2,980) &rarr;'
+            },
+            toggleText: '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">Local Malaysian student? View domestic rates (MYR)</a>'
+        },
+        MYR: {
+            title: 'Transparent Pricing (MYR). <span class="gradient-highlight">No Hidden Fees.</span>',
+            subheading: 'Pilih pakej kredit bimbingan di bawah — pelan tindakan terperinci akan diselaraskan bersama semasa sesi diagnostic call.',
+            tier1: {
+                title: 'Standard Plan',
+                duration: '8 Jam Kredit',
+                amount: 'RM 180<span class="per-hr">/hr</span>',
+                subtext: 'RM 1,440 total (pakej 8 jam)',
+                desc: '<strong>Sesuai untuk pemantapan topik lemah.</strong> Fokus berstruktur pada soalan topikal CIE 9231 & Edexcel IAL serta menyelesaikan konsep yang tersangkut.',
+                btn: 'Daftar Standard Plan (RM 1,440) &rarr;'
+            },
+            tier2: {
+                badge: 'Pilihan Popular',
+                title: 'Intensive Plan',
+                duration: '16 Jam Kredit',
+                amount: 'RM 160<span class="per-hr">/hr</span>',
+                subtext: 'RM 2,560 total (pakej 16 jam)',
+                desc: '<strong>Sesuai untuk pecutan 2x seminggu.</strong> Liputan silibus pantas, simulasi soalan bertempoh masa, dan latih tubi intensif mock paper.',
+                btn: 'Daftar Intensive Plan (RM 2,560) &rarr;'
+            },
+            tier3: {
+                badge: 'Slot Terhad',
+                title: 'Intensive Bootcamp',
+                duration: '40 Jam Kredit',
+                amount: 'RM 140<span class="per-hr">/hr</span>',
+                subtext: 'RM 5,600 total (bootcamp intensif 40 jam)',
+                desc: '<strong>Overhaul lengkap silibus & pecutan gred A*.</strong> Bimbingan intensif harian (sehingga 2 jam sehari, 5 hari seminggu) untuk calon resit / sasaran A*.',
+                btn: 'Daftar Intensive Bootcamp (RM 5,600) &rarr;'
+            },
+            toggleText: '<a href="javascript:void(0)" id="switch-currency-btn" style="color: rgba(92, 77, 117, 0.7); font-size: 12px; text-decoration: underline;">International student? View global tuition rates (USD)</a>'
+        }
+    };
+
+    function detectUserCurrency() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryCurrency = urlParams.get('currency');
+        if (queryCurrency) {
+            const upper = queryCurrency.toUpperCase();
+            if (upper === 'USD' || upper === 'MYR') {
+                try { localStorage.setItem('gm_currency', upper); } catch(e) {}
+                return upper;
+            }
+        }
+
+        try {
+            const saved = localStorage.getItem('gm_currency');
+            if (saved === 'USD' || saved === 'MYR') return saved;
+        } catch(e) {}
+
+        try {
+            const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            if (tz === 'Asia/Kuala_Lumpur') {
+                return 'MYR';
+            }
+        } catch(e) {}
+
+        return 'USD';
+    }
+
+    function applyCurrency(currency) {
+        window.GradeMotionActiveCurrency = currency;
+        const cfg = PRICING_CONFIG[currency] || PRICING_CONFIG.USD;
+
+        const titleEl = document.getElementById('pricing-title');
+        const subEl = document.getElementById('pricing-subheading');
+        if (titleEl) titleEl.innerHTML = cfg.title;
+        if (subEl) subEl.innerHTML = cfg.subheading;
+
+        // Tier 1
+        const t1Title = document.getElementById('tier1-title');
+        const t1Dur = document.getElementById('tier1-duration');
+        const t1Amt = document.getElementById('tier1-amount');
+        const t1Sub = document.getElementById('tier1-subtext');
+        const t1Desc = document.getElementById('tier1-desc');
+        const t1Btn = document.getElementById('tier1-btn');
+        if (t1Title) t1Title.innerText = cfg.tier1.title;
+        if (t1Dur) t1Dur.innerText = cfg.tier1.duration;
+        if (t1Amt) t1Amt.innerHTML = cfg.tier1.amount;
+        if (t1Sub) t1Sub.innerText = cfg.tier1.subtext;
+        if (t1Desc) t1Desc.innerHTML = cfg.tier1.desc;
+        if (t1Btn) t1Btn.innerHTML = cfg.tier1.btn;
+
+        // Tier 2
+        const t2Badge = document.getElementById('tier2-badge');
+        const t2Title = document.getElementById('tier2-title');
+        const t2Dur = document.getElementById('tier2-duration');
+        const t2Amt = document.getElementById('tier2-amount');
+        const t2Sub = document.getElementById('tier2-subtext');
+        const t2Desc = document.getElementById('tier2-desc');
+        const t2Btn = document.getElementById('tier2-btn');
+        if (t2Badge) t2Badge.innerText = cfg.tier2.badge;
+        if (t2Title) t2Title.innerText = cfg.tier2.title;
+        if (t2Dur) t2Dur.innerText = cfg.tier2.duration;
+        if (t2Amt) t2Amt.innerHTML = cfg.tier2.amount;
+        if (t2Sub) t2Sub.innerText = cfg.tier2.subtext;
+        if (t2Desc) t2Desc.innerHTML = cfg.tier2.desc;
+        if (t2Btn) t2Btn.innerHTML = cfg.tier2.btn;
+
+        // Tier 3
+        const t3Badge = document.getElementById('tier3-badge');
+        const t3Title = document.getElementById('tier3-title');
+        const t3Dur = document.getElementById('tier3-duration');
+        const t3Amt = document.getElementById('tier3-amount');
+        const t3Sub = document.getElementById('tier3-subtext');
+        const t3Desc = document.getElementById('tier3-desc');
+        const t3Btn = document.getElementById('tier3-btn');
+        if (t3Badge) t3Badge.innerText = cfg.tier3.badge;
+        if (t3Title) t3Title.innerText = cfg.tier3.title;
+        if (t3Dur) t3Dur.innerText = cfg.tier3.duration;
+        if (t3Amt) t3Amt.innerHTML = cfg.tier3.amount;
+        if (t3Sub) t3Sub.innerText = cfg.tier3.subtext;
+        if (t3Desc) t3Desc.innerHTML = cfg.tier3.desc;
+        if (t3Btn) t3Btn.innerHTML = cfg.tier3.btn;
+
+        // Discreet toggle note
+        const noteEl = document.getElementById('pricing-currency-note');
+        if (noteEl) {
+            noteEl.innerHTML = cfg.toggleText;
+            const toggleBtn = document.getElementById('switch-currency-btn');
+            if (toggleBtn) {
+                toggleBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const newCurrency = (currency === 'USD') ? 'MYR' : 'USD';
+                    try { localStorage.setItem('gm_currency', newCurrency); } catch(err) {}
+                    applyCurrency(newCurrency);
+                });
+            }
+        }
+    }
+
+    function initPricing() {
+        const detected = detectUserCurrency();
+        applyCurrency(detected);
+    }
+
+    window.GradeMotionSetCurrency = applyCurrency;
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initPricing);
+    } else {
+        initPricing();
+    }
+})();
+</script>

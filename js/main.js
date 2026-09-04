@@ -252,18 +252,37 @@ document.addEventListener("DOMContentLoaded", () => {
         const submitBtnEl = modal.querySelector(".btn-submit-booking");
         const subjectEl = modal.querySelector('input[name="subject"]');
 
+        const curr = window.GradeMotionActiveCurrency || 'USD';
         if (packageType === "standard") {
-            if (titleEl) titleEl.innerText = "Apply for the Standard Plan";
-            if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Standard Plan ($640) &rarr;";
-            if (subjectEl) subjectEl.value = "New Further Math Standard Plan Application";
+            if (curr === 'MYR') {
+                if (titleEl) titleEl.innerText = "Apply for Standard Plan (8 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Standard Plan (RM 1,440) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Standard Plan (RM 1,440 MYR)";
+            } else {
+                if (titleEl) titleEl.innerText = "Apply for Topic Surgery Sprint (8 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Topic Surgery ($760) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Topic Surgery Sprint ($760 USD)";
+            }
         } else if (packageType === "intensive") {
-            if (titleEl) titleEl.innerText = "Apply for the Intensive Plan";
-            if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Plan ($1,120) &rarr;";
-            if (subjectEl) subjectEl.value = "New Further Math Intensive Plan Application";
-        } else if (packageType === "retainer") {
-            if (titleEl) titleEl.innerText = "Apply for the Full Term Retainer";
-            if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Full Term Retainer ($2,600) &rarr;";
-            if (subjectEl) subjectEl.value = "New Further Math Full Term Retainer Application";
+            if (curr === 'MYR') {
+                if (titleEl) titleEl.innerText = "Apply for Intensive Plan (16 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Plan (RM 2,560) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Intensive Plan (RM 2,560 MYR)";
+            } else {
+                if (titleEl) titleEl.innerText = "Apply for Exam Readiness Sprint (16 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Exam Readiness ($1,360) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Exam Readiness Sprint ($1,360 USD)";
+            }
+        } else if (packageType === "retainer" || packageType === "bootcamp") {
+            if (curr === 'MYR') {
+                if (titleEl) titleEl.innerText = "Apply for Intensive Bootcamp (40 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Bootcamp (RM 5,600) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Intensive Bootcamp (RM 5,600 MYR)";
+            } else {
+                if (titleEl) titleEl.innerText = "Apply for Intensive Fast-Track Bootcamp (40 Hours)";
+                if (submitBtnEl) submitBtnEl.innerHTML = "Apply for Intensive Bootcamp ($2,980) &rarr;";
+                if (subjectEl) subjectEl.value = "New Further Math Intensive Bootcamp ($2,980 USD)";
+            }
         } else {
             // Default to diagnostic
             if (titleEl) titleEl.innerText = "Book Your Free Diagnostic Session";
