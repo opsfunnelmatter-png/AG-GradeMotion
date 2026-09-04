@@ -313,24 +313,25 @@
     "city": "Kuala Lumpur & Malaysia",
     "country": "Malaysia",
     "flag": "🇲🇾",
-    "heroTitle": "Tutor Pakar A-Level Further Mathematics di Malaysia",
-    "heroSubtitle": "Bimbingan 1-on-1 Eksklusif Cambridge (CIE 9231) & Edexcel (9FM0) untuk Pelajar KTJ, GIS, Alice Smith & Epsom.",
-    "metaTitle": "A-Level Further Maths Tutor Malaysia | KTJ, GIS & Alice Smith Specialist | GradeMotion",
-    "metaDescription": "Pakar tuisyen peribadi 1-on-1 A-Level Further Mathematics di Malaysia. Khusus untuk pelajar Kolej Tuanku Ja'afar (KTJ), GIS, Alice Smith & Epsom College. Kadar kejayaan 80% A/A*.",
+    "heroTitle": "Premier A-Level Further Maths Tutor in Malaysia",
+    "heroSubtitle": "Elite 1-on-1 Cambridge (CIE 9231) & Edexcel (9FM0) Coaching for KTJ, GIS, Alice Smith, Epsom & KYUEM Students.",
+    "metaTitle": "A-Level Further Maths Tutor Malaysia | KTJ, GIS, Epsom & KYUEM Specialist | GradeMotion",
+    "metaDescription": "Specialist 1-on-1 A-Level Further Mathematics tutoring in Malaysia. Dedicated coaching for Kolej Tuanku Ja'afar (KTJ), GIS, Alice Smith, Epsom College & KYUEM students. 80% A/A* rate.",
     "currency": "MYR",
-    "timezoneName": "Waktu Malaysia (MYT, UTC+8)",
-    "timezoneBadge": "MYT (UTC+8) • Jadual Tempatan Fleksibel",
-    "timezoneDetails": "Waktu pembelajaran tempatan sepenuhnya di zon waktu Malaysia (UTC+8). Pilihan slot petang selepas sekolah dan hujung minggu yang fleksibel.",
+    "timezoneName": "Malaysia Time (MYT, UTC+8)",
+    "timezoneBadge": "MYT (UTC+8) • Flexible Local Timings",
+    "timezoneDetails": "Fully synchronized to Malaysia Time (UTC+8). Convenient after-school evening sessions and weekend slots tailored around boarding school schedules.",
     "schools": [
       "Kolej Tuanku Ja'afar (KTJ)",
       "Garden International School (GIS)",
       "The Alice Smith School",
       "Epsom College in Malaysia",
+      "Kolej Yayasan UEM (KYUEM)",
       "Marlborough College Malaysia",
       "Sunway College A-Level",
       "HELP Academy"
     ],
-    "curriculumFocus": "Penguasaan mendalam silibus Cambridge CIE 9231 dan Edexcel 9FM0. Penekanan khas pada teknik menjawab soalan mencabar dan skema pemarkahan pemeriksa untuk mencapai gred A*.",
+    "curriculumFocus": "Rigorous mastery of Cambridge International CIE 9231 and Edexcel 9FM0 Further Mathematics. Intensive focus on challenging Paper 1/Paper 2 problem-solving, proof methodology, and examiner mark-scheme conditioning.",
     "pricing": {
       "currencySymbol": "RM",
       "currencyCode": "MYR",
@@ -341,16 +342,16 @@
     },
     "faqs": [
       {
-        "q": "Kenapa pelajar KTJ, GIS, dan Alice Smith memilih Tutor Sheefa?",
-        "a": "Silibus Further Mathematics adalah antara subjek paling sukar di peringkat pra-universiti. Tutor Sheefa (42 mata IB) berpengalaman lebih 15 tahun membimbing pelajar sekolah antarabangsa di Malaysia menembusi universiti terkemuka dunia seperti Imperial, Cambridge, Oxford, dan LSE."
+        "q": "Why do KTJ, GIS, and KYUEM students choose Tutor Sheefa?",
+        "a": "A-Level Further Mathematics is recognized as one of the most demanding pre-university qualifications. With 15+ years of specialized coaching and an exceptional IB 42-point background, Tutor Sheefa mentors ambitious students across Malaysia's top international and boarding schools to secure top grades (A/A*) and admission to Imperial College London, Cambridge, Oxford, and LSE."
       },
       {
-        "q": "Apakah Jaminan Rollover 100% untuk Sesi Penilaian (Evaluation Session)?",
-        "a": "Ibu bapa dan pelajar boleh bermula dengan Sesi Penilaian 2-Jam (RM 380). Jika anda membuat keputusan untuk menaik taraf ke Pakej Sprint 8-Jam atau 16-Jam, keseluruhan yuran RM 380 akan ditolak 100% daripada invois pakej anda."
+        "q": "What is the 100% Rollover Upgrade Guarantee for the Evaluation Session?",
+        "a": "Families can begin with a targeted 2-Hour Evaluation Session (RM 380). If you decide to proceed with an 8-Hour or 16-Hour sprint package, the entire RM 380 fee is credited 100% towards your upgrade package invoice."
       },
       {
-        "q": "Bagaimanakah kaedah pembayaran untuk pelajar di Malaysia?",
-        "a": "Pembayaran diproses secara selamat melalui Stripe menggunakan kad kredit/debit tempatan (Visa & Mastercard) dengan pautan rasmi GradeMotion."
+        "q": "How are payments handled for Malaysian families?",
+        "a": "All payments are processed securely in Malaysian Ringgit (MYR) via Stripe Live using domestic credit or debit cards (Visa & Mastercard) through official GradeMotion checkout links."
       }
     ]
   }

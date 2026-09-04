@@ -70,6 +70,7 @@ function getHead(title, description, canonicalPath, schemaJson) {
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/favicon.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
     ${schemaJson ? `<script type="application/ld+json">\n${JSON.stringify(schemaJson, null, 2)}\n</script>` : ''}
@@ -184,7 +185,7 @@ function getHead(title, description, canonicalPath, schemaJson) {
 <header class="site-header">
     <div class="nav-inner">
         <a href="/" class="nav-logo" aria-label="GradeMotion Home">
-            <img src="/gm1.webp" alt="GradeMotion" width="108" height="45">
+            <img src="/gm1.webp" alt="GradeMotion" width="108" height="45" onerror="this.onerror=null;this.src='/gm1.png';">
         </a>
         <ul class="nav-links">
             <li><a href="/">Home</a></li>
