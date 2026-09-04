@@ -104,6 +104,11 @@ All student/parent communications are conducted in **100% polished English**, re
   - 2-Hour Evaluation Session ($210 USD / RM 380 MYR) created with 100% rollover guarantee.
   - Internal Unindexed Closer Desk Portal created at `/desk` (aliases `/sheefa`, `/hub`) with live personalization inputs and 1-click copy for Tutor Sheefa.
   - Vercel routes configured and deployed to production.
-- [ ] **Phase 4: Post-Payment Automation & Scheduling (Next Steps)**
-  - Automated Cal.com / Calendly schedule redirect upon Stripe successful payment (`thank-you.html`).
+- [x] **Phase 4: Cal.com Live Calendar & Dynamic Timezone Scheduling**
+  - Cal.com MCP configured in `~/.gemini/config/mcp_config.json`.
+  - Cal.com API v2 connected to `grademotion.edu@gmail.com` (`grademotion-education-e3u8yd`).
+  - Event types created: 2-Hour Evaluation (`evaluation`), Diagnostic (`diagnostic`), and Sprint Lesson (`sprint-lesson`).
+  - Dedicated scheduling portal deployed at `/schedule` and `/book` with browser-based automatic timezone detection for students and Malaysia Time (UTC+8) for Tutor Sheefa.
+  - 1-click booking links & dashboard button integrated into Closer Desk at `/desk`.
+- [ ] **Phase 5: Automated Post-Payment Workflows & Webhooks**
   - Automated welcome email / WhatsApp onboarding notification upon Stripe webhook receipt.
