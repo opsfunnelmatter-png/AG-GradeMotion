@@ -236,8 +236,8 @@ function getHead(title, description, canonicalPath, schemaJson) {
             <li><a href="/">Home</a></li>
             <li><a href="/solutions" class="${canonicalPath.startsWith('/solutions') ? 'active' : ''}">Past Paper Solutions</a></li>
             <li><a href="/topics" class="${canonicalPath.startsWith('/topics') ? 'active' : ''}">Topic Guides</a></li>
-            <li><a href="/schedule">1-on-1 Schedule</a></li>
-            <li><a href="/schedule?type=diagnostic" class="nav-btn">Free Diagnostic &rarr;</a></li>
+            <li><a href="/#pricing">Pricing</a></li>
+            <li><a href="/#cta" class="nav-btn">Free Diagnostic &rarr;</a></li>
         </ul>
     </div>
 </header>
@@ -270,10 +270,10 @@ function getFooter() {
         <div class="footer-col">
             <h5>Admissions & Tutoring</h5>
             <ul>
-                <li><a href="/schedule">Book 1-on-1 Lesson Slot</a></li>
-                <li><a href="/pay/usd/trial">2-Hour Evaluation Trial ($210 USD)</a></li>
-                <li><a href="/pay/my/trial">2-Hour Evaluation Trial (RM 380 MYR)</a></li>
-                <li><a href="https://www.youtube.com/@tutorsheefa" target="_blank" rel="noopener">YouTube: @tutorsheefa</a></li>
+                <li><a href="/#hero">The Grade Shift Method</a></li>
+                <li><a href="/#framework">4-Stage Exam Framework</a></li>
+                <li><a href="/#pricing">Sprint Pricing &amp; Plans</a></li>
+                <li><a href="/#cta">Book Free Diagnostic Session</a></li>
             </ul>
         </div>
     </div>
@@ -480,21 +480,21 @@ questions.forEach((q, idx) => {
                 <p class="tutor-desc">
                     10+ years of high-ticket coaching with an 80% A/A* track record for CIE 9231 &amp; Edexcel IAL students entering Imperial, Cambridge, Oxford, and UCL.
                 </p>
-                <a href="/schedule" class="nav-btn" style="display: block; width: 100%;">View Lesson Availability &rarr;</a>
+                <a href="/#cta" class="nav-btn" style="display: block; width: 100%;">Book Free Diagnostic &rarr;</a>
             </div>
 
             <!-- Direct CTA Box -->
             <div class="cta-box">
-                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Evaluation Session</div>
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Free Diagnostic Session</div>
                 <h3>Stuck on ${escapeHtml(topic.title.split(':')[0])}?</h3>
                 <p>
-                    Book a private 2-Hour Evaluation Session. We diagnose your exact syllabus gaps and install university-grade exam technique.
+                    Book a Free Diagnostic Session with Tutor Sheefa. We evaluate your current working, identify mark-scheme blindspots, and structure your roadmap to an A/A*.
                 </p>
-                <a href="/pay/usd/trial" class="btn-main">Enrol Trial ($210 USD) &rarr;</a>
+                <a href="/#cta" class="btn-main">Book Free Diagnostic Session &rarr;</a>
                 <div style="margin-top: 8px; text-align: center;">
-                    <a href="/pay/my/trial" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">Or Enrol in MYR (RM 380) &rarr;</a>
+                    <a href="/#pricing" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">Explore All Tutoring Plans &amp; Pricing &rarr;</a>
                 </div>
-                <div class="guarantee">&#128737;&#65039; 100% Rollover Credit Guarantee toward sprint upgrades</div>
+                <div class="guarantee">&#128737;&#65039; 100% Free 1-Hour Diagnostic &bull; Zero Obligation</div>
             </div>
 
             <!-- Evergreen Topic Link -->
@@ -669,19 +669,19 @@ topics.forEach(t => {
         <aside class="sidebar">
             <!-- Sprint Recommendation Box -->
             <div class="cta-box">
-                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Recommended Sprint</div>
-                <h3>${escapeHtml(t.recommendedPackage.name)}</h3>
+                <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.08em; color: #FFD1E6; font-weight: 700; margin-bottom: 6px;">Targeted Exam Coaching</div>
+                <h3>Master ${escapeHtml(t.title)}</h3>
                 <p>
                     Targeted 1-on-1 sprint with Tutor Sheefa. Eliminate weaknesses, master non-standard questions, and lock in your predicted A/A*.
                 </p>
                 <div style="font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 14px;">
                     $${t.recommendedPackage.usd} USD <span style="font-size: 13px; font-weight: 500; opacity: 0.8;">/ RM ${t.recommendedPackage.myr} MYR</span>
                 </div>
-                <a href="${t.recommendedPackage.urlUsd}" class="btn-main">Enrol in Sprint (USD) &rarr;</a>
+                <a href="/#cta" class="btn-main">Book Free Diagnostic Session &rarr;</a>
                 <div style="margin-top: 8px; text-align: center;">
-                    <a href="${t.recommendedPackage.urlMyr}" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">Enrol in MYR (RM ${t.recommendedPackage.myr}) &rarr;</a>
+                    <a href="/#pricing" style="color: rgba(255,255,255,0.9); font-size: 12px; text-decoration: underline;">View All Sprint Plans &amp; Pricing &rarr;</a>
                 </div>
-                <div class="guarantee">&#128737;&#65039; 100% Rollover Upgrade Guarantee eligible</div>
+                <div class="guarantee">&#128737;&#65039; 100% Free 1-Hour Diagnostic Session</div>
             </div>
 
             <!-- Other Topic Hubs -->

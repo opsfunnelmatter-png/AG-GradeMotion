@@ -346,7 +346,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Intercept clicks on all Diagnostic buttons and forms.gle links to open modal coherently
     document.body.addEventListener("click", (e) => {
         const target = e.target.closest(
-            'a[href*="forms.gle"], a[href*="diagnostic"], .btn-apply, .btn-cta-action, .btn-inline-cta, .btn-explore-lessons, .btn-pedagogy-apply, .btn-card-embedded-apply'
+            'a[href*="forms.gle"], a[href*="diagnostic"], a[href="#booking-modal"], .btn-apply, .btn-cta-action, .btn-inline-cta, .btn-explore-lessons, .btn-pedagogy-apply, .btn-card-embedded-apply'
         );
 
         if (target && modal) {
