@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Enrol in Exam Readiness Sprint | GradeMotion</title>
+    <meta name="description" content="Confirm your 1-on-1 A-Level Further Mathematics tutoring enrolment for Exam Readiness Sprint with Tutor Sheefa.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        :root {
+            --dark-purple: #170A2C;
+            --purple: #7B2CBF;
+            --pink: #FF4A95;
+            --bg: #FBF9FF;
+            --surface: #FFFFFF;
+            --line: rgba(123, 44, 191, 0.12);
+            --text-muted: #5C4D75;
+            --card-shadow: 0 12px 35px rgba(123, 44, 191, 0.06);
+            --hover-shadow: 0 20px 45px rgba(123, 44, 191, 0.12);
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Plus Jakarta Sans', -apple-system, sans-serif; }
+        body {
+            background-color: var(--bg);
+            background-image: radial-gradient(at 0% 0%, rgba(255, 74, 149, 0.04) 0px, transparent 50%),
+                              radial-gradient(at 100% 0%, rgba(123, 44, 191, 0.04) 0px, transparent 50%);
+            background-attachment: fixed;
+            color: var(--dark-purple);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
+        }
+        /* Top Navigation Header */
+        .pay-header-outer {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .pay-header {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 14px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .pay-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        .pay-logo img {
+            height: 38px;
+            width: auto;
+            display: block;
+        }
+        .pay-secure-badge {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #2b7019;
+            background: rgba(43, 112, 25, 0.08);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(43, 112, 25, 0.2);
+        }
+        /* Main Enrolment Container */
+        .pay-main {
+            max-width: 1120px;
+            margin: 0 auto;
+            padding: 36px 24px 80px 24px;
+            width: 100%;
+            flex-grow: 1;
+        }
+        .diagnostic-verified-banner {
+            background: linear-gradient(135deg, rgba(123, 44, 191, 0.06) 0%, rgba(255, 74, 149, 0.06) 100%);
+            border: 1px solid rgba(123, 44, 191, 0.2);
+            border-radius: 14px;
+            padding: 14px 20px;
+            margin-bottom: 28px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 13.5px;
+            color: var(--dark-purple);
+            line-height: 1.5;
+        }
+        .verified-icon {
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+        .pay-hero {
+            margin-bottom: 32px;
+        }
+        .pay-badge {
+            display: inline-block;
+            background: rgba(255, 74, 149, 0.1);
+            color: var(--pink);
+            font-size: 11px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+            border: 1px solid rgba(255, 74, 149, 0.2);
+        }
+        .pay-hero h1 {
+            font-size: 34px;
+            font-weight: 800;
+            letter-spacing: -0.8px;
+            line-height: 1.2;
+            color: var(--dark-purple);
+            margin-bottom: 10px;
+        }
+        .pay-hero p {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.6;
+            max-width: 700px;
+        }
+        /* Layout Grid */
+        .enrol-grid {
+            display: grid;
+            grid-template-columns: 1.3fr 0.9fr;
+            gap: 32px;
+            align-items: start;
+        }
+        @media (max-width: 860px) {
+            .enrol-grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+            }
+            .pay-hero h1 {
+                font-size: 26px;
+            }
+        }
+        /* Left Column: Deliverables Card */
+        .deliverables-card {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 34px;
+            box-shadow: var(--card-shadow);
+        }
+        .card-heading {
+            font-size: 17px;
+            font-weight: 800;
+            color: var(--dark-purple);
+            margin-bottom: 22px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .features-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+        .feature-item {
+            display: flex;
+            gap: 14px;
+            align-items: flex-start;
+        }
+        .feature-check {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: rgba(123, 44, 191, 0.1);
+            color: var(--purple);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 800;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+        .feature-text h4 {
+            font-size: 14.5px;
+            font-weight: 700;
+            color: var(--dark-purple);
+            margin-bottom: 2px;
+        }
+        .feature-text p {
+            font-size: 13px;
+            color: var(--text-muted);
+            line-height: 1.5;
+        }
+        /* Onboarding Next Steps Box */
+        .onboarding-box {
+            margin-top: 30px;
+            padding-top: 24px;
+            border-top: 1px dashed var(--line);
+        }
+        .onboarding-title {
+            font-size: 13px;
+            font-weight: 800;
+            color: var(--purple);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 14px;
+        }
+        .steps-mini-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .step-mini-row {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            font-size: 13px;
+            color: var(--dark-purple);
+            line-height: 1.4;
+        }
+        .step-mini-badge {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: var(--dark-purple);
+            color: #fff;
+            font-size: 11px;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        /* Right Column: Checkout Summary Card */
+        .checkout-box-sticky {
+            position: sticky;
+            top: 90px;
+        }
+        .checkout-card {
+            background: linear-gradient(135deg, #ffffff 0%, rgba(251, 249, 255, 0.95) 100%);
+            border: 2px solid var(--purple);
+            border-radius: 24px;
+            padding: 30px 26px;
+            box-shadow: 0 16px 40px rgba(123, 44, 191, 0.12);
+        }
+        /* Currency Switcher Tabs */
+        .currency-tabs {
+            display: flex;
+            background: rgba(123, 44, 191, 0.08);
+            border-radius: 12px;
+            padding: 4px;
+            margin-bottom: 22px;
+            gap: 4px;
+        }
+        .currency-tab {
+            flex: 1;
+            padding: 8px 12px;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--text-muted);
+            border: none;
+            background: transparent;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+        .currency-tab.active {
+            background: #ffffff;
+            color: var(--dark-purple);
+            box-shadow: 0 2px 8px rgba(23, 10, 44, 0.08);
+        }
+        .price-display-block {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--line);
+            margin-bottom: 20px;
+        }
+        .price-label-sub {
+            font-size: 11.5px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+        }
+        .price-main-val {
+            font-size: 38px;
+            font-weight: 800;
+            color: var(--dark-purple);
+            letter-spacing: -1px;
+            line-height: 1;
+            margin-bottom: 6px;
+        }
+        .price-hourly-note {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--purple);
+        }
+        .enrol-specs-table {
+            width: 100%;
+            margin-bottom: 22px;
+            font-size: 13px;
+        }
+        .enrol-specs-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 7px 0;
+            border-bottom: 1px dashed rgba(123, 44, 191, 0.08);
+        }
+        .specs-lbl { color: var(--text-muted); font-weight: 500; }
+        .specs-val { color: var(--dark-purple); font-weight: 700; text-align: right; }
+        /* CTA Button */
+        .btn-checkout-proceed {
+            width: 100%;
+            background: linear-gradient(135deg, #7B2CBF 0%, #FF4A95 100%);
+            color: #ffffff;
+            font-size: 14.5px;
+            font-weight: 800;
+            padding: 15px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            border: none;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(255, 74, 149, 0.35);
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+            text-align: center;
+        }
+        .btn-checkout-proceed:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 28px rgba(255, 74, 149, 0.45);
+        }
+        .btn-checkout-proceed:active {
+            transform: scale(0.98);
+        }
+        .trust-micro-strip {
+            margin-top: 16px;
+            text-align: center;
+            font-size: 11px;
+            color: var(--text-muted);
+            line-height: 1.5;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            align-items: center;
+        }
+        .pay-methods-icons {
+            display: flex;
+            gap: 6px;
+            font-size: 10px;
+            color: #8C7B9E;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+        /* Footer */
+        .pay-footer {
+            margin-top: auto;
+            border-top: 1px solid var(--line);
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: var(--text-muted);
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="pay-header-outer">
+        <div class="pay-header">
+            <a href="/" class="pay-logo" aria-label="GradeMotion Home">
+                <img src="/gm1.webp" alt="GradeMotion Logo">
+            </a>
+            <div class="pay-secure-badge">
+                <span>🔒</span> 256-Bit SSL Stripe Checkout
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pay-main">
+        
+        <!-- Diagnostic Verified Notification Banner -->
+        <div class="diagnostic-verified-banner">
+            <div class="verified-icon">🎯</div>
+            <div>
+                <strong>Post-Diagnostic Enrolment Invitation:</strong> Your diagnostic call evaluation has been reviewed. Confirm your learning credits below to lock in Tutor Sheefa's schedule before slots close.
+            </div>
+        </div>
+
+        <div class="pay-hero">
+            <span class="pay-badge">Most Popular • 16 Hours Credit</span>
+            <h1>Exam Readiness Sprint</h1>
+            <p>Comprehensive past-paper deep dives, timed question loops, full mock simulations, and precision mark-scheme calibration for Cambridge CIE 9231 and Edexcel IAL.</p>
+        </div>
+
+        <div class="enrol-grid">
+            
+            <!-- Left: Deliverables Breakdown -->
+            <div class="deliverables-card">
+                <h3 class="card-heading">📋 What is Included in Your 16 Hours Package:</h3>
+                <ul class="features-list">
+                    
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>16 Hours of 1-on-1 Sessions</h4>
+                            <p>Scheduled flexibly (e.g. 2x per week or intensive exam sprint blocks).</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>Comprehensive Syllabus Coverage</h4>
+                            <p>Full coverage of chosen components to lock in maximum raw exam marks.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>Full Timed Mock Simulations</h4>
+                            <p>Replicate real exam room pressure with strict examiner mark scheme grading.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>Session-Annotated PDF Notes</h4>
+                            <p>Step-by-step mathematical reasoning saved to your private Google Drive.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>Priority WhatsApp Math Triage</h4>
+                            <p>Direct daily access to Tutor Sheefa for fast solution walkthroughs.</p>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <div class="feature-check">✓</div>
+                        <div class="feature-text">
+                            <h4>6-Month Flexible Credit Validity</h4>
+                            <p>Deploy sessions as an intensive daily sprint or space them out weekly across your exam revision cycle.</p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- What happens next -->
+                <div class="onboarding-box">
+                    <h4 class="onboarding-title">🚀 What Happens After Payment?</h4>
+                    <div class="steps-mini-stack">
+                        <div class="step-mini-row">
+                            <div class="step-mini-badge">1</div>
+                            <div>Instant tax invoice and payment receipt sent to your email via Stripe.</div>
+                        </div>
+                        <div class="step-mini-row">
+                            <div class="step-mini-badge">2</div>
+                            <div>Tutor Sheefa messages you directly on WhatsApp within 2–4 hours to finalize your weekly class times.</div>
+                        </div>
+                        <div class="step-mini-row">
+                            <div class="step-mini-badge">3</div>
+                            <div>Personal Google Drive folder shared with you containing syllabus topical roadmaps & lesson notes.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Investment & Stripe Checkout Action Card -->
+            <div class="checkout-box-sticky">
+                <div class="checkout-card">
+                    
+                    <!-- Currency Switcher Tabs -->
+                    <div class="currency-tabs">
+                        <button type="button" class="currency-tab" id="tab-usd" onclick="switchPayCurrency('USD')">Global (USD)</button>
+                        <button type="button" class="currency-tab" id="tab-myr" onclick="switchPayCurrency('MYR')">Malaysia (MYR)</button>
+                    </div>
+
+                    <!-- Price Display -->
+                    <div class="price-display-block">
+                        <div class="price-label-sub">Total Package Investment</div>
+                        <div class="price-main-val" id="price-val">$1,360</div>
+                        <div class="price-hourly-note" id="price-rate">$85/hr (16 Hours Learning Credit)</div>
+                    </div>
+
+                    <!-- Enrolment Details -->
+                    <div class="enrol-specs-table">
+                        <div class="enrol-specs-row">
+                            <span class="specs-lbl">Tutoring Mode</span>
+                            <span class="specs-val">1-on-1 Online Live</span>
+                        </div>
+                        <div class="enrol-specs-row">
+                            <span class="specs-lbl">Exam Boards</span>
+                            <span class="specs-val">CIE 9231 &bull; Edexcel IAL</span>
+                        </div>
+                        <div class="enrol-specs-row">
+                            <span class="specs-lbl">Credit Hours</span>
+                            <span class="specs-val">16 Hours Flexible</span>
+                        </div>
+                        <div class="enrol-specs-row">
+                            <span class="specs-lbl">Billing Type</span>
+                            <span class="specs-val">One-Time (No Subscriptions)</span>
+                        </div>
+                    </div>
+
+                    <!-- Primary Action Button -->
+                    <a href="https://buy.stripe.com/4gMeV59nM23cg4CadZ4ZG0r" id="btn-stripe-link" class="btn-checkout-proceed" target="_blank">
+                        Proceed to Stripe Checkout &rarr;
+                    </a>
+
+                    <!-- Security Strip -->
+                    <div class="trust-micro-strip">
+                        <span>🔒 100% Encrypted & Protected by Stripe</span>
+                        <div class="pay-methods-icons">
+                            <span>Visa</span> &bull;
+                            <span>Mastercard</span> &bull;
+                            <span>Apple Pay</span> &bull;
+                            <span>Google Pay</span> &bull;
+                            <span>GrabPay / FPX</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="pay-footer">
+        <p>&copy; 2026 GradeMotion &bull; A-Level Further Mathematics Specialist Tuition</p>
+    </footer>
+
+    <!-- Currency Detection & Switching Script -->
+    <script>
+    (function() {
+        const PRICING = {
+            USD: {
+                total: '$1,360',
+                rate: '$85/hr (16 Hours Learning Credit)',
+                link: 'https://buy.stripe.com/4gMeV59nM23cg4CadZ4ZG0r',
+                btnText: 'Proceed to Stripe Checkout ($1,360) &rarr;'
+            },
+            MYR: {
+                total: 'RM 2,560',
+                rate: 'RM 160/hr (16 Hours Learning Credit)',
+                link: 'https://buy.stripe.com/8x2bIT6bA4bk3hQeuf4ZG0s',
+                btnText: 'Proceed to Stripe Checkout (RM 2,560) &rarr;'
+            }
+        };
+
+        function getInitialCurrency() {
+            const params = new URLSearchParams(window.location.search);
+            const q = params.get('currency');
+            if (q && (q.toUpperCase() === 'MYR' || q.toUpperCase() === 'USD')) {
+                return q.toUpperCase();
+            }
+            try {
+                const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                if (tz === 'Asia/Kuala_Lumpur') return 'MYR';
+            } catch(e) {}
+            return 'USD';
+        }
+
+        function setCurrency(curr) {
+            const data = PRICING[curr] || PRICING.USD;
+            document.getElementById('price-val').innerText = data.total;
+            document.getElementById('price-rate').innerText = data.rate;
+            
+            const btn = document.getElementById('btn-stripe-link');
+            btn.href = data.link;
+            btn.innerHTML = data.btnText;
+
+            const tabUsd = document.getElementById('tab-usd');
+            const tabMyr = document.getElementById('tab-myr');
+            if (curr === 'MYR') {
+                tabMyr.classList.add('active');
+                tabUsd.classList.remove('active');
+            } else {
+                tabUsd.classList.add('active');
+                tabMyr.classList.remove('active');
+            }
+        }
+
+        window.switchPayCurrency = function(curr) {
+            setCurrency(curr);
+        };
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const initCurr = getInitialCurrency();
+            setCurrency(initCurr);
+        });
+    })();
+    </script>
+</body>
+</html>

@@ -6,6 +6,14 @@
   "outputDirectory": ".",
   "routes": [
     { "src": "/thank-you", "dest": "/thank-you.html" },
+    { "src": "/pay/topic-surgery", "dest": "/pay/topic-surgery.html" },
+    { "src": "/pay/exam-readiness", "dest": "/pay/exam-readiness.html" },
+    { "src": "/pay/intensive-bootcamp", "dest": "/pay/intensive-bootcamp.html" },
+    { "src": "/pay/bootcamp", "dest": "/pay/bootcamp.html" },
+    { "src": "/enrol/topic-surgery", "dest": "/pay/topic-surgery.html" },
+    { "src": "/enrol/exam-readiness", "dest": "/pay/exam-readiness.html" },
+    { "src": "/enrol/intensive-bootcamp", "dest": "/pay/intensive-bootcamp.html" },
+    { "src": "/enrol/bootcamp", "dest": "/pay/bootcamp.html" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
