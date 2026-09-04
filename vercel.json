@@ -6,6 +6,8 @@
   "outputDirectory": ".",
   "routes": [
     { "src": "/thank-you", "dest": "/thank-you.html" },
+    { "src": "/schedule", "dest": "/schedule.html" },
+    { "src": "/book", "dest": "/schedule.html" },
     { "src": "/desk", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },
     { "src": "/sheefa", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },
     { "src": "/hub", "dest": "/desk.html", "headers": { "X-Robots-Tag": "noindex, nofollow" } },

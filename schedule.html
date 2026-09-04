@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Schedule 1-on-1 Session | Tutor Sheefa | GradeMotion</title>
+    <meta name="description" content="Select your preferred time slot for 1-on-1 Cambridge & Edexcel A-Level Further Mathematics tutoring with Tutor Sheefa. Real-time timezone adjustment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style>
+        :root {
+            --dark-purple: #170A2C;
+            --purple: #7B2CBF;
+            --pink: #FF4A95;
+            --bg: #FBF9FF;
+            --surface: #FFFFFF;
+            --line: rgba(123, 44, 191, 0.12);
+            --text-muted: #5C4D75;
+            --card-shadow: 0 12px 35px rgba(123, 44, 191, 0.06);
+            --hover-shadow: 0 20px 45px rgba(123, 44, 191, 0.12);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            background-color: var(--bg);
+            background-image: 
+                radial-gradient(at 0% 0%, rgba(255, 74, 149, 0.04) 0px, transparent 50%),
+                radial-gradient(at 100% 0%, rgba(123, 44, 191, 0.04) 0px, transparent 50%);
+            background-attachment: fixed;
+            color: var(--dark-purple);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Sticky Header */
+        .sched-header-outer {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid var(--line);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .sched-header {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 14px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .sched-logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .sched-logo img {
+            height: 38px;
+            width: auto;
+            display: block;
+        }
+
+        .tz-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            font-weight: 700;
+            color: #2b7019;
+            background: rgba(43, 112, 25, 0.08);
+            padding: 6px 14px;
+            border-radius: 20px;
+            border: 1px solid rgba(43, 112, 25, 0.2);
+        }
+
+        /* Main Container */
+        .sched-main {
+            max-width: 1080px;
+            margin: 0 auto;
+            padding: 36px 20px 80px 20px;
+            width: 100%;
+            flex-grow: 1;
+        }
+
+        .sched-hero {
+            text-align: center;
+            max-width: 680px;
+            margin: 0 auto 28px auto;
+        }
+
+        .sched-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 11.5px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--pink);
+            background: rgba(255, 74, 149, 0.08);
+            padding: 5px 12px;
+            border-radius: 20px;
+            margin-bottom: 12px;
+        }
+
+        .sched-title {
+            font-size: 32px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: var(--dark-purple);
+            margin-bottom: 10px;
+        }
+
+        .sched-subtitle {
+            font-size: 14.5px;
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+
+        /* Session Type Tabs */
+        .session-tabs-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: var(--surface);
+            border: 1.5px solid var(--line);
+            padding: 12px 20px;
+            border-radius: 12px;
+            font-size: 13.5px;
+            font-weight: 700;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 2px 8px rgba(123, 44, 191, 0.03);
+        }
+
+        .tab-btn:hover {
+            border-color: var(--purple);
+            color: var(--dark-purple);
+            transform: translateY(-1px);
+        }
+
+        .tab-btn.active {
+            background: var(--purple);
+            color: #FFFFFF;
+            border-color: var(--purple);
+            box-shadow: 0 4px 14px rgba(123, 44, 191, 0.25);
+        }
+
+        .tab-btn .tab-duration {
+            font-size: 11px;
+            opacity: 0.8;
+            font-weight: 600;
+        }
+
+        /* Calendar Card Frame */
+        .calendar-card {
+            background: var(--surface);
+            border: 1px solid var(--line);
+            border-radius: 20px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            min-height: 700px;
+            position: relative;
+        }
+
+        .calendar-meta-bar {
+            background: rgba(123, 44, 191, 0.03);
+            border-bottom: 1px solid var(--line);
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 12.5px;
+            color: var(--text-muted);
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .calendar-meta-left {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+
+        .calendar-meta-left strong {
+            color: var(--dark-purple);
+        }
+
+        .calendar-embed-container {
+            width: 100%;
+            height: 700px;
+            overflow: hidden;
+        }
+
+        /* Guarantee Note Footer */
+        .guarantee-note {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 13px;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        @media (max-width: 640px) {
+            .sched-title {
+                font-size: 26px;
+            }
+            .session-tabs-wrap {
+                flex-direction: column;
+                width: 100%;
+            }
+            .tab-btn {
+                width: 100%;
+                justify-content: center;
+            }
+            .calendar-card {
+                min-height: 650px;
+            }
+            .calendar-embed-container {
+                height: 650px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="sched-header-outer">
+        <div class="sched-header">
+            <a href="/" class="sched-logo">
+                <img src="/images/GradeMotion_Logo_Landscape.webp" alt="GradeMotion">
+            </a>
+            <div class="tz-badge" id="live-tz-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span id="tz-text">Detecting your timezone...</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="sched-main">
+        <section class="sched-hero">
+            <div class="sched-eyebrow">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 10"></polyline></svg>
+                1-on-1 Lesson Calendar
+            </div>
+            <h1 class="sched-title">Reserve Your Slot with Tutor Sheefa</h1>
+            <p class="sched-subtitle">
+                Select your session type below. Available time slots automatically adjust to your local timezone. Tutor Sheefa will receive your booking in Malaysia Time (UTC+8).
+            </p>
+        </section>
+
+        <!-- Session Tabs -->
+        <nav class="session-tabs-wrap" aria-label="Session Type">
+            <button id="btn-eval" class="tab-btn active" onclick="loadSession('evaluation')">
+                <span>🎯 2-Hour Evaluation Session</span>
+                <span class="tab-duration">(120 Mins)</span>
+            </button>
+            <button id="btn-diag" class="tab-btn" onclick="loadSession('diagnostic')">
+                <span>🩺 Diagnostic Assessment</span>
+                <span class="tab-duration">(30 Mins)</span>
+            </button>
+            <button id="btn-sprint" class="tab-btn" onclick="loadSession('sprint-lesson')">
+                <span>⚡ Sprint Tutoring Lesson</span>
+                <span class="tab-duration">(60 Mins)</span>
+            </button>
+        </nav>
+
+        <!-- Calendar Card -->
+        <div class="calendar-card">
+            <div class="calendar-meta-bar">
+                <div class="calendar-meta-left">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#7B2CBF" stroke-width="2.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    <span>Active Session: <strong id="active-session-name">2-Hour Evaluation Session</strong></span>
+                </div>
+                <div>
+                    🛡️ Confirmed slots are locked instantly & synced to Google Calendar
+                </div>
+            </div>
+
+            <!-- Cal.com Inline Embed -->
+            <div class="calendar-embed-container" id="cal-booking-mount"></div>
+        </div>
+
+        <div class="guarantee-note">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            <span>Evaluation sessions include our 100% Rollover Upgrade Guarantee toward any full sprint package.</span>
+        </div>
+    </main>
+
+    <!-- Cal Embed Script -->
+    <script type="text/javascript">
+        // Detect and display user's local timezone
+        try {
+            const userTz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            document.getElementById('tz-text').innerText = userTz.replace('_', ' ') + ' (Auto-adjusted)';
+        } catch(e) {
+            document.getElementById('tz-text').innerText = 'Local Time Auto-adjusted';
+        }
+
+        // Cal.com Embed snippet
+        (function (C, A, L) { 
+            let p = function (a, ar) { a.q.push(ar); }; 
+            let d = C.document; 
+            C.Cal = C.Cal || function () { 
+                let cal = C.Cal; 
+                let ar = arguments; 
+                if (!cal.loaded) { 
+                    cal.ns = {}; 
+                    cal.q = cal.q || []; 
+                    d.head.appendChild(d.createElement("script")).src = A; 
+                    cal.loaded = true; 
+                } 
+                if (ar[0] === L) { 
+                    const api = function () { p(api, arguments); }; 
+                    const namespace = ar[1]; 
+                    api.q = api.q || []; 
+                    if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return; 
+                } 
+                p(cal, ar); 
+            }; 
+        })(window, "https://app.cal.com/embed/embed.js", "init");
+
+        Cal("init", {origin:"https://cal.com"});
+
+        const EVENT_SLUGS = {
+            'evaluation': 'grademotion-education-e3u8yd/evaluation',
+            'diagnostic': 'grademotion-education-e3u8yd/diagnostic',
+            'sprint-lesson': 'grademotion-education-e3u8yd/sprint-lesson',
+            'sprint': 'grademotion-education-e3u8yd/sprint-lesson'
+        };
+
+        const EVENT_NAMES = {
+            'evaluation': '2-Hour Evaluation Session (120 Mins)',
+            'diagnostic': 'Diagnostic Assessment Session (30 Mins)',
+            'sprint-lesson': 'Sprint Tutoring Lesson (60 Mins)',
+            'sprint': 'Sprint Tutoring Lesson (60 Mins)'
+        };
+
+        let currentSession = 'evaluation';
+
+        function loadSession(slug) {
+            currentSession = slug;
+            const fullLink = EVENT_SLUGS[slug] || EVENT_SLUGS['evaluation'];
+            const sessionName = EVENT_NAMES[slug] || EVENT_NAMES['evaluation'];
+
+            // Update UI tabs
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            if (slug === 'evaluation') document.getElementById('btn-eval').classList.add('active');
+            else if (slug === 'diagnostic') document.getElementById('btn-diag').classList.add('active');
+            else document.getElementById('btn-sprint').classList.add('active');
+
+            document.getElementById('active-session-name').innerText = sessionName;
+
+            // Re-mount Cal iframe
+            const mount = document.getElementById('cal-booking-mount');
+            mount.innerHTML = '';
+
+            Cal("inline", {
+                elementOrSelector: "#cal-booking-mount",
+                calLink: fullLink,
+                layout: "month_view"
+            });
+
+            Cal("ui", {
+                theme: "light",
+                styles: {
+                    branding: { brandColor: "#7B2CBF" }
+                },
+                hideEventTypeDetails: false,
+                layout: "month_view"
+            });
+        }
+
+        // Check URL query param (e.g. ?type=diagnostic or ?type=evaluation)
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const typeParam = params.get('type') || params.get('session');
+            if (typeParam && EVENT_SLUGS[typeParam.toLowerCase()]) {
+                loadSession(typeParam.toLowerCase());
+            } else {
+                loadSession('evaluation');
+            }
+        });
+    </script>
+</body>
+</html>
