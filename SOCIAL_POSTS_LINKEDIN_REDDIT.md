@@ -1,41 +1,22 @@
-﻿# Ready-to-Copy Social Media Posts Library
-**GradeMotion & Tutor Sheefa Social Content Engine**  
-*Last Updated: 05 September 2026*
+# Social Media Posts Library (Reddit & LinkedIn)
 
-This guide contains copy-and-paste ready posts designed specifically for **Reddit** (\/6thForm\, \/ALevel\) and **LinkedIn**. Every post is crafted with high intellectual taste, zero cliché AI fluff, and maximum academic authority to drive high-intent students and parents to GradeMotion.
+Gunakan senarai di bawah untuk terus copy & paste ke Reddit dan LinkedIn.
+Struktur sangat ringkas: Copy tajuk (jika Reddit) dan teks di dalam kotak **Post Body**.
 
----
+============================================================
+# BAHAGIAN 1: REDDIT (r/6thForm & r/ALevel)
+============================================================
 
-## 📑 Quick Navigation
-1. [Reddit Strategy & Guidelines](#-reddit-strategy--guidelines)
-2. [Reddit Post 1: The 4 Examiner Traps in Edexcel May 2025 CP1](#reddit-post-1-the-4-examiner-traps-in-edexcel-cp1-may-2025)
-3. [Reddit Post 2: How to Solve Sheaf of Planes vs Triangular Prism in 3D Vectors](#reddit-post-2-how-to-solve-sheaf-of-planes-vs-triangular-prism-in-3d-vectors)
-4. [Reddit Post 3: From Grade C/D to A* in Further Maths](#reddit-post-3-from-grade-cd-to-a-in-further-maths-what-actually-changes)
-5. [Reddit Post 4: Polar Coordinates Tangents (dr/dθ Trap)](#reddit-post-4-polar-coordinates-tangents-why-drdθ--0-loses-you-all-marks)
-6. [LinkedIn Strategy & Guidelines](#-linkedin-strategy--guidelines)
-7. [LinkedIn Post 1: The Further Mathematics Paradox](#linkedin-post-1-the-further-mathematics-paradox)
-8. [LinkedIn Post 2: The 4-Step Grade Shift Framework](#linkedin-post-2-the-4-step-grade-shift-framework-for-a-results)
-9. [LinkedIn Post 3: Oxbridge, Imperial & The Precision Gap](#linkedin-post-3-oxbridge-imperial--the-mark-scheme-precision-gap)
-10. [LinkedIn Post 4: Why Past Paper Grinding Fails](#linkedin-post-4-why-past-paper-grinding-fails-for-high-ticket-stem-degrees)
+────────────────────────────────────────────────────────────
+## Reddit Post 1: The 4 Examiner Traps in Edexcel CP1 May 2025
 
----
+**Subreddit:** r/6thForm / r/ALevel
 
-# 🔴 Part 1: Reddit Posts (r/6thForm & r/ALevel)
+**Title:**
+Breakdown of the 4 most brutal examiner traps in the May 2025 Edexcel Further Maths CP1 paper (and how to avoid them)
 
-### 💡 Reddit Strategy & Posting Guidelines
-- **Subreddits**: \/6thForm\, \/ALevel\, \/alevels\, \/cie\.
-- **Tone**: Peer-to-peer, deeply academic, generous, no corporate sales jargon. Lead with pure mathematical value, then drop the GradeMotion solutions link as an open-source reference.
-- **Timing**: Post between 4:00 PM – 8:00 PM UK Time (after school across UK, Middle East, and Asia).
-- **Engagement**: Reply to every comment with genuine mathematical help to push the post to Hot.
-
----
-
-### Reddit Post 1: The 4 Examiner Traps in Edexcel CP1 May 2025
-
-**Title**: Breakdown of the 4 most brutal examiner traps in the May 2025 Edexcel Further Maths CP1 paper (and how to avoid them)
-
-**Body (Copy & Paste)**:
-`	ext
+**Post Body:**
+```
 Having walked through all 22 questions of the May 2025 Edexcel Core Pure papers with my students, there is a recurring pattern where students lose 10–15 marks not because they do not understand the concepts, but because of tiny mark scheme traps that examiners deliberately plant.
 
 Here are the 4 biggest traps from May 2025 CP1 that caught out over half of applicants:
@@ -59,16 +40,18 @@ I have written up the complete step-by-step LaTeX derivations for all 22 questio
 👉 https://www.grademotion.com/solutions
 
 Hope this saves someone a grade boundary in their next mock! What question gave you guys the most trouble in CP1?
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## Reddit Post 2: Sheaf of Planes vs Triangular Prism in 3D Vectors
 
-### Reddit Post 2: How to Solve Sheaf of Planes vs Triangular Prism in 3D Vectors
+**Subreddit:** r/6thForm / r/ALevel
 
-**Title**: 3D Vectors & Matrices Guide: Sheaf of Planes vs Triangular Prism (How to guarantee full marks on 3 Planes questions)
+**Title:**
+3D Vectors & Matrices Guide: Sheaf of Planes vs Triangular Prism (How to guarantee full marks on 3 Planes questions)
 
-**Body (Copy & Paste)**:
-`	ext
+**Post Body:**
+```
 Question 5 on May 2025 CP2 was a classic 3-Planes system that always divides students between 2/7 marks and 7/7 marks. Here is the foolproof mental model for classifying systems of 3 planes in Further Maths (Edexcel CP2 & Cambridge CIE 9231 Paper 1):
 
 Step 1: Calculate the Determinant of Coefficients (det A)
@@ -83,38 +66,40 @@ Use Gaussian Elimination (row reduction) on the augmented matrix [A | b]:
 - If you arrive at a row of the form [0  0  0 | k] where k ≠ 0: The equations are INCONSISTENT. There is no common intersection. The planes form a Triangular Prism.
 
 ⚠️ Common lost mark:
-Examiners will specifically ask you to interpret your result geometrically. If you just write consistent or no solutions without stating sheaf of planes or triangular prism, you lose the final A1 mark.
+Examiners will specifically ask you to 'interpret your result geometrically'. If you just write 'consistent' or 'no solutions' without stating 'sheaf of planes' or 'triangular prism', you lose the final A1 mark.
 
 If you want the full step-by-step working for the May 2025 CP2 Question 5 problem:
 👉 https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q5-simultaneous-equations-planes-sheaf
 
 Happy to answer any vector or matrix questions in the comments!
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## Reddit Post 3: From Grade C/D to A* in Further Maths
 
-### Reddit Post 3: From Grade C/D to A* in Further Maths (What Actually Changes)
+**Subreddit:** r/6thForm / r/ALevel
 
-**Title**: Mentoring Further Maths students for 15+ years: Here is why smart students get stuck at C/D grades and the 3 shifts to get to an A*
+**Title:**
+Mentoring Further Maths students for 15+ years: Here is why smart students get stuck at C/D grades and the 3 shifts to get to an A*
 
-**Body (Copy & Paste)**:
-`	ext
+**Post Body:**
+```
 Every September and January, I see the exact same pattern:
 A student who got a Grade 9 or high 8 in GCSE Maths gets their first Further Maths mock paper back, and they are staring at a Grade D or C.
 
-The immediate reaction is panic: Maybe I am just not cut out for Further Maths.
+The immediate reaction is panic: 'Maybe I am just not cut out for Further Maths.'
 
 That is almost never true. The reason students hit a wall in A-Level Further Maths (Edexcel 9FM0 or Cambridge 9231) is that standard A-Level Maths rewards memorising procedure, but Further Maths tests mathematical maturity.
 
 Here are the 3 concrete shifts that take students from C/D to a solid A*:
 
-1. Stop Doing Topical Worksheets After Learning Theory
+1. Stop Doing 'Topical Worksheets' After Learning Theory
 If you learn Second Order ODEs and immediately do 20 second-order ODE questions in a row, your brain never practices pattern recognition. In the actual exam, the question does not announce itself. You must train your eye to recognise whether a problem requires an auxiliary equation, an integrating factor, or Cauchy-Euler substitution without being told.
 
 2. Mark Scheme Reverse-Engineering
 In Further Maths, method marks (M marks) are heavily tied to specific algebraic milestones. For instance, in Proof by Mathematical Induction for matrices:
-- Stating True for n = 1 without showing the LHS = RHS calculation loses the first B1.
-- Not stating the final inductive conclusion (If true for n=k then true for n=k+1, since true for n=1, true for all n in Z+ by induction) loses the final A1 mark, even if your algebraic step is 100% correct. That is 2 marks thrown away on pure phrasing.
+- Stating 'True for n = 1' without showing the LHS = RHS calculation loses the first B1.
+- Not stating the final inductive conclusion ('If true for n=k then true for n=k+1, since true for n=1, true for all n in Z+ by induction') loses the final A1 mark, even if your algebraic step is 100% correct. That is 2 marks thrown away on pure phrasing.
 
 3. The Error Log Protocol
 Do not just re-read the model answer when you get something wrong. Categorise every lost mark into:
@@ -127,16 +112,18 @@ I have put together our full syllabus breakdown and topic guides across Matrices
 👉 https://www.grademotion.com/topics
 
 Feel free to drop any questions below if you are struggling with a specific module right now.
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## Reddit Post 4: Polar Coordinates Tangents (dr/dθ Trap)
 
-### Reddit Post 4: Polar Coordinates Tangents (Why dr/dθ = 0 Loses You All Marks)
+**Subreddit:** r/6thForm / r/ALevel
 
-**Title**: PSA for Further Maths: Setting dr/dθ = 0 does NOT give you tangents parallel to the initial line
+**Title:**
+PSA for Further Maths: Setting dr/dθ = 0 does NOT give you tangents parallel to the initial line
 
-**Body (Copy & Paste)**:
-`	ext
+**Post Body:**
+```
 A quick reminder for anyone doing Polar Coordinates in Core Pure 2:
 
 One of the single most common mistakes in Question 7 of the May 2025 CP2 paper was students confusing tangents parallel or perpendicular to the initial line.
@@ -163,28 +150,25 @@ You can check out the full step-by-step solution for the CP2 Question 7 Polar Co
 👉 https://www.grademotion.com/solutions/edexcel-cp2-may-2025-q7a-polar-coordinates-vertical-tangents
 
 Good luck with revision!
-`
+```
 
----
+============================================================
+# BAHAGIAN 2: LINKEDIN (High-Ticket Positioning)
+============================================================
 
-# 🔵 Part 2: LinkedIn Posts (Professional & High-Ticket Positioning)
+────────────────────────────────────────────────────────────
+## LinkedIn Post 1: The Further Mathematics Paradox
 
-### 💡 LinkedIn Strategy & Posting Guidelines
-- **Target Audience**: Parents of students in elite British & International schools (Dubai, Singapore, London, Hong Kong, Malaysia), international school educators, university admissions consultants.
-- **Tone**: Authoritative, elite, intellectual, outcome-driven. Highlight Tutor Sheefa's IB 42 points background and 80% A/A* track record.
-- **Timing**: Tuesday to Thursday, 8:00 AM – 10:00 AM local time or 1:00 PM – 3:00 PM.
+**Platform:** LinkedIn
+**Target Audience:** Parents of International School Students & STEM Aspirants
 
----
-
-### LinkedIn Post 1: The Further Mathematics Paradox
-
-**Copy & Paste Text**:
-`	ext
+**Post Body:**
+```
 The Further Mathematics Paradox: Why students with Grade 9s in GCSE suddenly find themselves scoring 45% in Sixth Form.
 
 Every year, parents of bright students in top British and international schools contact us with the same concern:
 
-My son got straight 9s in GCSE Mathematics and Additional Maths. But three months into A-Level Further Mathematics, his predicted grade is a C.
+'My son got straight 9s in GCSE Mathematics and Additional Maths. But three months into A-Level Further Mathematics, his predicted grade is a C.'
 
 What happened? Did the student lose their ability? Not at all.
 
@@ -208,14 +192,16 @@ For parents seeking a comprehensive assessment of their student’s syllabus rea
 👉 https://www.grademotion.com/#cta
 
 #FurtherMathematics #ALevels #EducationConsulting #OxbridgeAdmissions #ImperialCollege #STEMEducation #TutorSheefa #GradeMotion
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## LinkedIn Post 2: The 4-Step Grade Shift Framework for A* Results
 
-### LinkedIn Post 2: The 4-Step Grade Shift Framework for A* Results
+**Platform:** LinkedIn
+**Target Audience:** Parents, STEM Students & Educational Advisors
 
-**Copy & Paste Text**:
-`	ext
+**Post Body:**
+```
 How we move A-Level Further Mathematics students from Grade C to Grade A* in 16 to 40 hours of targeted tuition.
 
 Most tutoring fails because it operates as passive homework help. A student brings a problem they could not solve, the tutor solves it on an iPad, the student nods, and two weeks later the same mistake happens in the mock exam.
@@ -240,14 +226,16 @@ Explore our methodology and diagnostic framework:
 👉 https://www.grademotion.com
 
 #FurtherMaths #CambridgeInternational #Edexcel #AcademicExcellence #PrivateTutoring #MathematicsEducation
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## LinkedIn Post 3: Oxbridge, Imperial & The Mark Scheme Precision Gap
 
-### LinkedIn Post 3: Oxbridge, Imperial & The Mark Scheme Precision Gap
+**Platform:** LinkedIn
+**Target Audience:** University Applicants & Sixth Form Parents
 
-**Copy & Paste Text**:
-`	ext
+**Post Body:**
+```
 If your child is aiming for Mathematics, Computer Science, or Engineering at Cambridge, Oxford, Imperial, or Warwick:
 
 An A in standard A-Level Mathematics is no longer a differentiator. It is the baseline expectation.
@@ -269,15 +257,17 @@ Tutor Sheefa has compiled a complete, open-access library dissecting all 22 ques
 High-stakes exams require clinical preparation, not guesswork.
 
 #UniversityAdmissions #Oxbridge #ImperialCollege #Engineering #ComputerScience #FurtherMaths #Alevels
-`
+```
 
----
+────────────────────────────────────────────────────────────
+## LinkedIn Post 4: Why Past Paper Grinding Fails for High-Ticket STEM Degrees
 
-### LinkedIn Post 4: Why Past Paper Grinding Fails for High-Ticket STEM Degrees
+**Platform:** LinkedIn
+**Target Audience:** Parents of Sixth Form Students
 
-**Copy & Paste Text**:
-`	ext
-My child has completed every past paper from 2018 to 2024, but their grades are not moving past a B.
+**Post Body:**
+```
+'My child has completed every past paper from 2018 to 2024, but their grades are not moving past a B.'
 
 This is the most common frustration we hear from parents in London, Dubai, and Singapore.
 
@@ -285,7 +275,7 @@ Here is the counterintuitive truth: Doing more past papers without structured er
 
 When students grind papers back-to-back:
 1. They solve the question using brute-force algebra rather than elegant structural thinking.
-2. When they get stuck, they glance at the mark scheme, think Ah, I knew that, and move on.
+2. When they get stuck, they glance at the mark scheme, think 'Ah, I knew that', and move on.
 3. In the actual exam hall, without the mark scheme next to them, the cognitive illusion shatters.
 
 To break into the top 10% of Further Mathematics candidates worldwide:
@@ -299,4 +289,4 @@ Discover how our private diagnostic evaluation works:
 👉 https://www.grademotion.com
 
 #STEM #EducationStrategy #FurtherMaths #EdexcelFurtherMaths #CIE9231 #GradeMotion
-`
+```
