@@ -132,3 +132,12 @@ All student/parent communications are conducted in **100% polished English**, re
   - **Funnel & Copywriting Alignment**: Synchronized all CTA buttons across all pSEO & GEO pages to strictly route visitors back to the core Sales Page (`/#cta` and `/#pricing`) to ensure prospects absorb Tutor Sheefa's high-converting copywriting before booking via the interactive Diagnostic Modal form.
 - [ ] **Phase 6: Automated Post-Payment Workflows & Webhooks**
   - Automated welcome email / WhatsApp onboarding notification upon Stripe webhook receipt.
+- [x] **Phase 7: Cloud Automations & GitHub Actions Sentinel**
+  - **24/7 Site & Link Health Sentinel (`.github/workflows/sentinel-health.yml`)**:
+    - Automated daily probe testing 46 critical revenue & traffic endpoints every morning at 08:00 AM MYT (00:00 UTC).
+    - Probes core pages (Home, `/schedule`, `/book`, `/desk`, `/thank-you`), 8 branded checkout landing pages (`/pay/usd/*`, `/pay/my/*`), 8 direct live Stripe buy links, and pSEO master/geo/topic/solution hubs.
+    - Automated instant Telegram emergency alert if any link fails (status != 200..399 or timeout > 10s), plus clean green heartbeat summary if all pass.
+  - **Daily Business & Schedule Digest (`.github/workflows/daily-digest.yml`)**:
+    - Automated morning briefing sent to Tutor Sheefa at 08:30 AM MYT (00:30 UTC).
+    - Fetches today's live 1-on-1 tutoring sessions and recent bookings from Cal.com API v2.
+    - Computes 24h Stripe revenue (USD & MYR) and overall infrastructure status.

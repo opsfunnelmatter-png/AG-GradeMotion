@@ -1,0 +1,29 @@
+﻿name: 24/7 Site & Link Health Sentinel
+
+on:
+  schedule:
+    # Runs everyday at 00:00 UTC (08:00 AM Malaysia Time)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual run anytime from GitHub UI
+
+jobs:
+  health-check:
+    name: Probe Site & Revenue Links
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run GradeMotion Sentinel Probe
+        run: node scripts/sentinel-health-check.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || '8603480467:AAHBWm3x3Ah2gsAxCztUWYslSSO-Vt8haGk' }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || '56529712' }}
+          SITE_URL: "https://www.grademotion.com"

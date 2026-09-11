@@ -1,0 +1,30 @@
+﻿name: Daily Business & Schedule Digest
+
+on:
+  schedule:
+    # Runs everyday at 00:30 UTC (08:30 AM Malaysia Time)
+    - cron: '30 0 * * *'
+  workflow_dispatch: # Allows manual run anytime from GitHub UI
+
+jobs:
+  daily-briefing:
+    name: Compile & Send Morning Briefing
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate Daily Briefing
+        run: node scripts/daily-digest.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN || '8603480467:AAHBWm3x3Ah2gsAxCztUWYslSSO-Vt8haGk' }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID || '56529712' }}
+          CAL_API_KEY: ${{ secrets.CAL_API_KEY || 'cal_live_d133ca0d12cc5c877df80b02d46b3793' }}
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
